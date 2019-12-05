@@ -28,11 +28,14 @@ def generate_commands(args):
             command += ' -s {}'.format(firmware['source_code'])
         if args.quick:
             command += ' -q'
+        if args.working_directory:
+            command += ' -wd {}'.format(args.working_directory)
         print(command)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('-wd', '--working_directory', help='assign the working directory for getting metadata, by default /tmp or %%TEMP%%')
     parser.add_argument('-dbt', '--database_type', choices=['text', 'firmadyne'], default='text', type=str)
     parser.add_argument('-l', '--limit', type=int, default=0, help='limit the amount of firmware to test')
     parser.add_argument('-u', '--uuid', type=str, nargs='+', help='assign a or several firmware to tested')

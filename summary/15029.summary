@@ -1,0 +1,10 @@
+15029	download from	http://archive.openwrt.org/backfire/10.03/ixp4xx/openwrt-nslu2-squashfs-16mb.bin
+15029	homepage is	http://archive.openwrt.org/backfire/10.03/ixp4xx
+15029	together with	['15008']
+15029	build at	share/10.03-61f777e3448c585164904dc93a7fdb32
+15029	source code	share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/build_dir/linux-ixp4xx_generic/linux-2.6.32.10
+15029	vmlinux.elf	share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/build_dir/linux-ixp4xx_generic/linux-2.6.32.10/vmlinux
+15029	with symbols	share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/build_dir/linux-ixp4xx_generic/vmlinux.elf-debug-info
+15029	and .config	share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/build_dir/linux-ixp4xx_generic/linux-2.6.32.10/.config
+15029	and makeout.txt	
+15029	firmware	share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/bin/ixp4xx/openwrt-nslu2-squashfs-16mb.bin

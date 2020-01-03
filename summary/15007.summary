@@ -1,0 +1,10 @@
+15007	download from	http://archive.openwrt.org/backfire/10.03/orion/openwrt-wrt350nv2-squashfs-recovery.bin
+15007	homepage is	http://archive.openwrt.org/backfire/10.03/orion
+15007	together with	[]
+15007	build at	share/10.03-0432e31f4e2b38424921fa78247f6b27
+15007	source code	share/10.03-0432e31f4e2b38424921fa78247f6b27/./backfire_10.03/build_dir/linux-orion_generic/linux-2.6.32.10-pure
+15007	vmlinux.elf	share/10.03-0432e31f4e2b38424921fa78247f6b27/./backfire_10.03/build_dir/linux-orion_generic/linux-2.6.32.10-pure/vmlinux
+15007	with symbols	share/10.03-0432e31f4e2b38424921fa78247f6b27/./backfire_10.03/build_dir/linux-orion_generic/vmlinux.elf-debug-info
+15007	and .config	share/10.03-0432e31f4e2b38424921fa78247f6b27/./backfire_10.03/build_dir/linux-orion_generic/linux-2.6.32.10-pure/.config
+15007	and makeout.txt	share/10.03-0432e31f4e2b38424921fa78247f6b27/./backfire_10.03/build_dir/linux-orion_generic/linux-2.6.32.10/makeout.txt
+15007	firmware	share/10.03-0432e31f4e2b38424921fa78247f6b27/./backfire_10.03/bin/orion/openwrt-wrt350nv2-squashfs-recovery.bin

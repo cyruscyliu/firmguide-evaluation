@@ -13,13 +13,12 @@ SRCODE = '/mnt/salamander/srcode'
 
 
 def generate_commands(args):
+    summary_commands = []
     if args.database_type == 'text':
         db = DatabaseText('firmware.text')
     else:
         db = DatabaseFirmadyne('firmware.firmadyne')
     for firmware in db.get_firmware():
-
-        # fix path to firmware blob /mnt/salamander/firmware
         firmware['path'] = os.path.join(FIRMWARE_BINARY, os.path.basename(firmware['path']))
         paths = [firmware['path'], ]
         # precise control
@@ -34,12 +33,20 @@ def generate_commands(args):
         srcode_summary = os.path.join('summary', '{}.summary'.format(firmware['uuid']))
         if os.path.exists(srcode_summary):
             with open(srcode_summary) as f:
-                for line in f:
-                    uuid, label, value = line.split('\t')
-                    if label == 'source code':
-                        command += ' -s {}'.format(os.path.join(SRCODE, value.strip()))
-                    if label == 'firmware':
-                        paths.append(os.path.join(SRCODE, value.strip()))
+                # only 1 line
+                things = f.readline().strip().split(',')
+                if len(things) == 10:
+                    srcode_value = things[5]
+                    command += ' -s {}'.format(os.path.join(SRCODE, srcode_value.strip()))
+                elif len(things) == 11:
+                    srcode_value = things[5]
+                    command += ' -s {}'.format(os.path.join(SRCODE, srcode_value.strip()))
+                    firmware_value = things[10]
+                    paths.append(os.path.join(SRCODE, firmware_value.strip()))
+                else:
+                    pass
+        else:
+            summary_commands.append('./search -s {}'.format(firmware['uuid']))
         if args.quick:
             command += ' -q'
         if args.working_directory:
@@ -48,6 +55,9 @@ def generate_commands(args):
         for path in paths:
             cmd = command + ' -f {}'.format(path)
             print(cmd)
+    print('# run to get summary')
+    for summary_command in summary_commands:
+        print('#', summary_command)
 
 
 if __name__ == '__main__':

@@ -3,7 +3,8 @@
 ./salamander.py -u 14550 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/b3cbb52908ed1dfc421762527323a9a0f1bb3f8b.bin
 ./salamander.py -u 14814 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/8d234beede9f25edbe9945a096732a21c6d9ef1d.bin
 ./salamander.py -u 14759 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/fbb3cc5f3c1ef9f742f4d61d886d5a5aef0744a5.bin
-./salamander.py -u 14567 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/dd4add8349889acec23d471d15e174b4878f36cb.bin
+./salamander.py -u 14567 -a mips -e b -b openwrt -s /mnt/salamander/srcode/share/15.05-cc3a47a374475253f93a08eea6eaadce/./chaos_calmer-15.05/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.18.20 -q -wd ../salamander-build -f /mnt/salamander/firmwware/dd4add8349889acec23d471d15e174b4878f36cb.bin
+./salamander.py -u 14567 -a mips -e b -b openwrt -s /mnt/salamander/srcode/share/15.05-cc3a47a374475253f93a08eea6eaadce/./chaos_calmer-15.05/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_generic/linux-3.18.20 -q -wd ../salamander-build -f /mnt/salamander/srcode/share/15.05-cc3a47a374475253f93a08eea6eaadce/./chaos_calmer-15.05/bin/ar71xx/openwrt-15.05-ar71xx-generic-ap135-020-squashfs-sysupgrade.bin
 ./salamander.py -u 14806 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/7b06e718bc26425be2eb718407d5a98e282fc72f.bin
 ./salamander.py -u 14545 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/66c0373598f9b3f5bf1350934b872dcb24c10077.bin
 ./salamander.py -u 14744 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/1641d697e598ceb9b76b7fe0a1dc34c81202342b.bin
@@ -23,7 +24,8 @@
 ./salamander.py -u 14421 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/d1f46fdf32a392dd4c145e1881d75eb4c96cfb35.bin
 ./salamander.py -u 14402 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/2881cd90b244dfc246938dd7b282b6854cee212f.bin
 ./salamander.py -u 14365 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/455cdd7f84c0f48ad929c3e345abc23205b0bc95.bin
-./salamander.py -u 14235 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/09504287ac27e5d20e21d85a8548d7b2c48ad5d2.trx
+./salamander.py -u 14235 -a mips -e l -b openwrt -s /mnt/salamander/srcode/share/15.05-c771ee4bc428900c59114713e76e54f6/./chaos_calmer-15.05/build_dir/target-mipsel_74kc+dsp2_uClibc-0.9.33.2/linux-brcm47xx_mips74k/linux-3.18.20 -q -wd ../salamander-build -f /mnt/salamander/firmwware/09504287ac27e5d20e21d85a8548d7b2c48ad5d2.trx
+./salamander.py -u 14235 -a mips -e l -b openwrt -s /mnt/salamander/srcode/share/15.05-c771ee4bc428900c59114713e76e54f6/./chaos_calmer-15.05/build_dir/target-mipsel_74kc+dsp2_uClibc-0.9.33.2/linux-brcm47xx_mips74k/linux-3.18.20 -q -wd ../salamander-build -f /mnt/salamander/srcode/share/15.05-c771ee4bc428900c59114713e76e54f6/./chaos_calmer-15.05/build_dir/target-mipsel_74kc+dsp2_uClibc-0.9.33.2/linux-brcm47xx_mips74k/tmp/openwrt-15.05-brcm47xx-mips74k-asus-rt-n10u-squashfs.trx
 ./salamander.py -u 14963 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/a6160210200f53ffb78e7c74a26343dfdfe714a3.bin
 ./salamander.py -u 13979 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/7807b1e9e1365c26f4f3c940795d9c48ef9df264.bin
 ./salamander.py -u 14383 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/5386527e78b66f8aabdc0428766d66049ed0fe2c.bin
@@ -41,7 +43,8 @@
 ./salamander.py -u 14009 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/b3fa4568651ae93b24d3fb88ab69237ae5802000.bin
 ./salamander.py -u 14515 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/189111d599744b9a9a6f30fb082d9cbe757e9c4b.bin
 ./salamander.py -u 14971 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/da0e39bc107c0bbbbef7021da53223838c66901a.bin
-./salamander.py -u 13882 -a arm -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/2b38a390ba53209a1fa4c6aed8489c14774db4c9.bin
+./salamander.py -u 13882 -a arm -e l -b openwrt -s /mnt/salamander/srcode/share/15.05-bfae3162fb949c343763ad9ea7ab3fe0/./chaos_calmer-15.05/build_dir/target-arm_mpcore_uClibc-0.9.33.2_eabi/linux-oxnas/linux-3.18.20 -q -wd ../salamander-build -f /mnt/salamander/firmwware/2b38a390ba53209a1fa4c6aed8489c14774db4c9.bin
+./salamander.py -u 13882 -a arm -e l -b openwrt -s /mnt/salamander/srcode/share/15.05-bfae3162fb949c343763ad9ea7ab3fe0/./chaos_calmer-15.05/build_dir/target-arm_mpcore_uClibc-0.9.33.2_eabi/linux-oxnas/linux-3.18.20 -q -wd ../salamander-build -f /mnt/salamander/srcode/share/15.05-bfae3162fb949c343763ad9ea7ab3fe0/./chaos_calmer-15.05/bin/oxnas/openwrt-15.05-oxnas-kd20-u-boot-initramfs.bin
 ./salamander.py -u 13901 -a arm -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin
 ./salamander.py -u 7699 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/98f9c2c43e54e7dd3f00d0ca872f5e0c7263681e.bin
 ./salamander.py -u 7622 -a mips -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/d6a564e47c44e9edec927dc64caf3a9fb4efb41f.bin
@@ -68,7 +71,8 @@
 ./salamander.py -u 7977 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/b2ede9ffb29c7ed0ded9cd300e357a634e507861.bin
 ./salamander.py -u 7972 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/9351c0b161e47340055f8f881517e09f0a804cfe.bin
 ./salamander.py -u 7276 -a arm -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/988a648617eab1121cc9893296dac74a06611561.bin
-./salamander.py -u 15029 -a arm -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/ced4b5097d1c619c62ddeab05018cdd096336daf.bin
+./salamander.py -u 15029 -a arm -e b -b openwrt -s /mnt/salamander/srcode/share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/build_dir/linux-ixp4xx_generic/linux-2.6.32.10 -q -wd ../salamander-build -f /mnt/salamander/firmwware/ced4b5097d1c619c62ddeab05018cdd096336daf.bin
+./salamander.py -u 15029 -a arm -e b -b openwrt -s /mnt/salamander/srcode/share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/build_dir/linux-ixp4xx_generic/linux-2.6.32.10 -q -wd ../salamander-build -f /mnt/salamander/srcode/share/10.03-61f777e3448c585164904dc93a7fdb32/./backfire_10.03/bin/ixp4xx/openwrt-nslu2-squashfs-16mb.bin
 ./salamander.py -u 15008 -a arm -e b -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/af63eccf0fd2df658f09ba57cfe2f3edc7b59136.bin
 ./salamander.py -u 15392 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/8a58b69588baf863d0a47a4c6f532230657cc282.bin
 ./salamander.py -u 15390 -a mips -e l -b openwrt -q -wd ../salamander-build -f /mnt/salamander/firmwware/ed3f82dd6c37654bb6357a93af4bd7566178d411.bin

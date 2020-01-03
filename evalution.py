@@ -35,11 +35,11 @@ def generate_commands(args):
         if os.path.exists(srcode_summary):
             with open(srcode_summary) as f:
                 for line in f:
-                    uuid, label, value = line.strip().split('\t')
+                    uuid, label, value = line.split('\t')
                     if label == 'source code':
-                        command += ' -s {}'.format(os.path.join(SRCODE, value))
+                        command += ' -s {}'.format(os.path.join(SRCODE, value.strip()))
                     if label == 'firmware':
-                        paths.append(os.path.join(SRCODE, value))
+                        paths.append(os.path.join(SRCODE, value.strip()))
         if args.quick:
             command += ' -q'
         if args.working_directory:

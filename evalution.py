@@ -8,8 +8,8 @@ import argparse
 
 from firmware import DatabaseText, DatabaseFirmadyne
 
-FIRMWARE_BINARY = '/mnt/salamander/firmwware'
-SRCODE = '/mnt/salamander/srcode'
+FIRMWARE_BINARY = '/root/firmware'
+SRCODE = '/root/openwrt-build-docker'
 
 
 def generate_commands(args):
@@ -35,18 +35,18 @@ def generate_commands(args):
             with open(srcode_summary) as f:
                 # only 1 line
                 things = f.readline().strip().split(',')
-                if len(things) == 10:
-                    srcode_value = things[5]
+                srcode_value = things[6]
+                if len(srcode_value):
                     command += ' -s {}'.format(os.path.join(SRCODE, srcode_value.strip()))
-                elif len(things) == 11:
-                    srcode_value = things[5]
-                    command += ' -s {}'.format(os.path.join(SRCODE, srcode_value.strip()))
-                    firmware_value = things[10]
+                makeout_value = things[9]
+                if len(makeout_value):
+                    command += ' -mkout {}'.format(os.path.join(SRCODE, makeout_value))
+                gcc_value = things[10]
+                if len(gcc_value):
+                    command += ' -gcc {}'.format(os.path.join(SRCODE, gcc_value))
+                firmware_value = things[11]
+                if len(firmware_value):
                     paths.append(os.path.join(SRCODE, firmware_value.strip()))
-                else:
-                    pass
-        else:
-            summary_commands.append('./search -s {}'.format(firmware['uuid']))
         if args.quick:
             command += ' -q'
         if args.working_directory:
@@ -55,9 +55,6 @@ def generate_commands(args):
         for path in paths:
             cmd = command + ' -f {}'.format(path)
             print(cmd)
-    print('# run to get summary')
-    for summary_command in summary_commands:
-        print('#', summary_command)
 
 
 if __name__ == '__main__':

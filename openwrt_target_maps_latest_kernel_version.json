@@ -167,6 +167,20 @@
 		"arch": "mips",
         "endian": "l"
 	},
+	"lantiq_falcon": {
+		"target": "lantiq",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"lantiq_danube": {
+		"target": "lantiq",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "mips",
+        "endian": "l"
+	},
 	"omap": {
 		"target": "mach-omap2",
 		"revision": "15.05",
@@ -238,6 +252,13 @@
         "endian": "b"
 	},
 	"ixp4xx_generic": {
+		"target": "mach-ixp4xx",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "arm",
+        "endian": "b"
+	},
+	"ixp4xx_harddisk": {
 		"target": "mach-ixp4xx",
 		"revision": "10.03",
 		"kernel_version": "2.6.32",
@@ -350,6 +371,13 @@
         "endian": "l"
 	},
 	"atheros": {
+		"target": "ar231x",
+		"revision": "10.03",
+		"kernel_version": "2.6.30",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"atheros-2.6": {
 		"target": "ar231x",
 		"revision": "10.03",
 		"kernel_version": "2.6.30",

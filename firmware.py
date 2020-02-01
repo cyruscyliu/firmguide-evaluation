@@ -10,6 +10,7 @@ class DatabaseInterface(object):
         self.count = 1
         self.header = None
         self.items = None  # for current line
+        self.kernel_extracted = kwargs.pop('kernel_extracted', True)
 
     @abc.abstractmethod
     def parse_pre(self, line, **kwargs):
@@ -36,7 +37,7 @@ class DatabaseFirmadyne(DatabaseInterface):
             self.header = items
             return
         kernel_extracted = items[self.header.index('kernel_extracted')]
-        if kernel_extracted != 't':
+        if self.kernel_extracted and kernel_extracted != 't':
             return
         path = items[self.header.index('filename')].replace('openwrt', 'firmware')
         uuid = items[self.header.index('id')]
@@ -57,7 +58,7 @@ class DatabaseFirmadyne(DatabaseInterface):
         url = items[self.header.index('url')]
         self.items = {
             'uuid': uuid, 'path': path, 'brand': brand, 'arch': arch,
-            'endian': endian, 'description': description, 'url': url
+            'endian': endian, 'description': description, 'url': url, 'kernel_extracted': kernel_extracted == 't'
         }
         return self.items
 

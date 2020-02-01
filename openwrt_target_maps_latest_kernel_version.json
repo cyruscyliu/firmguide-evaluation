@@ -1,0 +1,450 @@
+{
+	"mvebu": {
+		"target": "mach-mvebu",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"tegra": {
+		"target": "mach-tegra",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"brcm47xx": {
+		"target": "bcm47xx",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"brcm47xx-2.6": {
+		"target": "bcm47xx",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"brcm63xx": {
+		"target": "bcm63xx",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"samsung": {
+		"target": "mach-s5pv210",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ath79": {
+		"target": "ath79",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"ramips": {
+		"target": "ralink",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"sunxi": {
+		"target": "mach-sunxi",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"malta": {
+		"target": "mti-malta",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"rb532": {
+		"target": "rb532",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"rb532-2.6": {
+		"target": "rb532",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"pistachio": {
+		"target": "pistachio",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"mediatek": {
+		"target": "mach-mediatek",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"brcm2708": {
+		"target": "mach-bcm2708",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"at91": {
+		"target": "mach-at91",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"bcm53xx": {
+		"target": "mach-bcm",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"layerscape": {
+		"target": "mach-imx",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"zynq": {
+		"target": "mach-zynq",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"imx6": {
+		"target": "mach-imx",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ar71xx": {
+		"target": "ar71xx",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"gemini": {
+		"target": "mach-gemini",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"octeon": {
+		"target": "cavium-octeon",
+		"revision": "10.03",
+		"kernel_version": "2.6.30",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"lantiq": {
+		"target": "lantiq",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"omap": {
+		"target": "mach-omap2",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ipq806x": {
+		"target": "mach-qcom",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"kirkwood": {
+		"target": "mach-kirkwood",
+		"revision": "10.03",
+		"kernel_version": "2.6.30",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"cns3xxx": {
+		"target": "mach-cns3xxx",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"oxnas": {
+		"target": "mach-oxnas",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ipq40xx": {
+		"target": "mach-qcom",
+		"revision": "19.07.0",
+		"kernel_version": "4.14",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ath25": {
+		"target": "ath25",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"mxs": {
+		"target": "mach-mxs",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"orion": {
+		"target": "mach-orion5x",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ixp4xx": {
+		"target": "mach-ixp4xx",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "arm",
+        "endian": "b"
+	},
+	"ixp4xx_generic": {
+		"target": "mach-ixp4xx",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "arm",
+        "endian": "b"
+	},
+	"ar7": {
+		"target": "ar7",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"mcs814x": {
+		"target": "mach-mcs814x",
+		"revision": "17.01.3",
+		"kernel_version": "3.18",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"omap24xx": {
+		"target": "mach-omap2",
+		"revision": "12.09",
+		"kernel_version": "3.3.8",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"adm5120": {
+		"target": "adm5120",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"adm5120_router_be": {
+		"target": "adm5120",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "b"
+	},
+	"adm5120_router_le": {
+		"target": "adm5120",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"adm5120_mips": {
+		"target": "adm5120",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "b"
+	},
+	"adm5120_mipsel": {
+		"target": "adm5120",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"xburst": {
+		"target": "jz4740",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"au1000": {
+		"target": "alchemy",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"au1000-2.6": {
+		"target": "alchemy",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"adm8668": {
+		"target": "adm8668",
+		"revision": "17.01.3",
+		"kernel_version": "3.18",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"netlogic": {
+		"target": "netlogic",
+		"revision": "15.05",
+		"kernel_version": "3.18",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"realview": {
+		"target": "mach-realview",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"cns21xx": {
+		"target": "mach-cns21xx",
+		"revision": "14.07",
+		"kernel_version": "3.10.49",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"atheros": {
+		"target": "ar231x",
+		"revision": "10.03",
+		"kernel_version": "2.6.30",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"goldfish": {
+		"target": "mach-goldfish",
+		"revision": "12.09",
+		"kernel_version": "2.6.30",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"s3c24xx": {
+		"target": "mach-s3c2410",
+		"revision": "12.09",
+		"kernel_version": "2.6.30",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"cobalt": {
+		"target": "cobalt",
+		"revision": "10.03",
+		"kernel_version": "2.6.32",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"imx21": {
+		"target": "mach-imx",
+		"revision": "12.09",
+		"kernel_version": "2.6.37",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"pxa": {
+		"target": "mach-pxa",
+		"revision": "12.09",
+		"kernel_version": "3.3.8",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"amazon": {
+		"target": "amazon",
+		"revision": "12.09",
+		"kernel_version": "3.3.8",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"omap4": {
+		"target": "mach-omap2",
+		"revision": "12.09",
+		"kernel_version": "3.3.8",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"iop32x": {
+		"target": "mach-iop32x",
+		"revision": "12.09",
+		"kernel_version": "3.3.8",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"sibyte": {
+		"target": "sibyte",
+		"revision": "12.09",
+		"kernel_version": "3.3.8",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"omap35xx": {
+		"target": "mach-omap2",
+		"revision": "12.09",
+		"kernel_version": "2.6.32",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ep93xx": {
+		"target": "mach-ep93xx",
+		"revision": "12.09",
+		"kernel_version": "3.3.8",
+		"arch": "arm",
+        "endian": "l"
+	},
+	"ifxmips": {
+		"target": "ifxmips",
+		"revision": "10.03",
+		"kernel_version": "2.6.30",
+		"arch": "mips",
+        "endian": "l"
+	},
+	"brcm-2.4": {
+		"target": "bcm947xx",
+		"revision": "10.03",
+		"kernel_version": "2.4",
+		"arch": "mips",
+        "endian": "l"
+	}
+}

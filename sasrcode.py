@@ -75,7 +75,7 @@ def generate_commands(args):
                     command += ' -mkout {}'.format(os.path.join(SRCODE, makeout_value))
                 gcc_value = things[10]
                 if len(gcc_value):
-                    command += ' -gcc {}'.format(os.path.join(SRCODE, gcc_value))
+                    command += ' -gcc {}'.format(os.path.join(SRCODE, gcc_value[:-3]))
         else:
             continue
 

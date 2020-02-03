@@ -76,6 +76,11 @@ def generate_commands(args):
                 gcc_value = things[10]
                 if len(gcc_value):
                     command += ' -gcc {}'.format(os.path.join(SRCODE, gcc_value[:-3]))
+                binary_value = things[11]
+                if len(binary_value):
+                    command += ' -f {}'.format(os.path.join(SRCODE, binary_value))
+                else:
+                    continue
         else:
             continue
 

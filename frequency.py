@@ -11,6 +11,7 @@ output: propertion: propertion of the target in the database
 output: kernel_extracted: propertion of kernel extracted firmware
 """
 import os
+import sys
 import json
 
 from firmware import DatabaseText, DatabaseFirmadyne
@@ -32,7 +33,7 @@ def parse_openwrt_url(url):
 
     return revision, target, subtarget
 
-def frequency():
+def frequency(argv):
     summary_commands = []
     db = DatabaseFirmadyne('firmware.firmadyne.19000', kernel_extracted=False)
 
@@ -76,11 +77,14 @@ def frequency():
         except KeyError:
             table.add_row([k, count, 'unknown', 'unknown', p, kernel_extracted])
 
+    if len(argv) == 2 and argv[1] == '-j':
+        print(table.get_json_string(sortby='count', reversesort=True))
+        return
     print(table.get_string(sortby='count', reversesort=True))
     print('cannot recognize these urls')
     for url in malurls:
         print(url)
 
 if __name__ == "__main__":
-    frequency()
+    frequency(sys.argv)
 

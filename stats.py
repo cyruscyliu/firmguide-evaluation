@@ -56,7 +56,6 @@ def stats(argv):
     ])
 
     if len(argv) == 2 and argv[1] == '-j':
-        print(dir(pt))
         print(pt.get_json_string())
     else:
         print(pt)

@@ -54,7 +54,7 @@ def generate_commands(args):
             endian = endianm
         # assert endian == endianm, '{} != {} in {}'.format(endian, endianm, url)
 
-        command = './slsrc.py -u {}'.format(board)
+        command = './src.py -u {}'.format(board)
         command += ' -a {} -e {} -b {}'.format(arch, endian, firmware['brand'])
 
         srcode_summary = os.path.join('summary', '{}.summary'.format(firmware['uuid']))

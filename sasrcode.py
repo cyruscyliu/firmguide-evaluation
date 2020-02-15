@@ -13,7 +13,7 @@ import argparse
 from firmware import DatabaseText, DatabaseFirmadyne
 from frequency import parse_openwrt_url
 
-SRCODE = '/root/openwrt-build-docker'
+SRCODE = '/mnt/iscsi/openwrt-build-docker'
 
 all_distinct_srcode = []
 mapping = json.load(open('openwrt_target_maps_latest_kernel_version.json'))

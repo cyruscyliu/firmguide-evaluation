@@ -15,7 +15,6 @@ from frequency import parse_openwrt_url
 mapping = json.load(open('openwrt_target_maps_latest_kernel_version.json'))
 
 FIRMWARE_BINARY = '/root/images'
-SALAMANDER = '/root/esv'
 
 
 def generate_commands(args):
@@ -59,18 +58,14 @@ def generate_commands(args):
                 comment = True
 
         if comment:
-            command = '# cd {} && ./bin.py -f {} -u {} -a {} -e {} -b {}'.format(
-                SALAMANDER, firmware['path'], firmware['uuid'],
-                arch, endian, firmware['brand'])
+            command = '# ./bin.py -f {} -u {} -a {} -e {} -b {}'.format(firmware['path'],
+                firmware['uuid'], arch, endian, firmware['brand'])
         else:
-            command = 'cd {} && ./bin.py -f {} -u {} -a {} -e {} -b {}'.format(
-                SALAMANDER, firmware['path'], firmware['uuid'],
-                arch, endian, firmware['brand'])
+            command = './bin.py -f {} -u {} -a {} -e {} -b {}'.format(firmware['path'],
+                firmware['uuid'], arch, endian, firmware['brand'])
 
         if 'url' in firmware:
             command += ' -l {}'.format(firmware['url'])
-
-        command += ' && cd ~-'
         print(command)
 
 

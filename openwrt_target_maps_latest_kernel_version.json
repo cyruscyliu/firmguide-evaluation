@@ -140,7 +140,7 @@
         "endian": "l"
 	},
 	"ar71xx": {
-		"target": "ar71xx",
+		"target": "ath79",
 		"revision": "10.03",
 		"kernel_version": "2.6.32",
 		"arch": "mips",

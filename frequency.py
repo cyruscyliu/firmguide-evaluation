@@ -1,6 +1,6 @@
 #!/usr/bin/python
 """
-target/board summary on firmware.firmdyne.19000
+target/board summary on firmware.firmdyne.xxxxx
 
 input: firmadyne.firmware database
 output: target: openwrt target
@@ -17,6 +17,8 @@ import json
 from firmware import DatabaseText, DatabaseFirmadyne
 from prettytable import PrettyTable
 
+
+INPUT = 'firmware.firmadyne.81200'
 
 def parse_openwrt_url(url):
     homepage = os.path.dirname(url)
@@ -35,10 +37,9 @@ def parse_openwrt_url(url):
 
 def frequency(argv):
     summary_commands = []
-    db = DatabaseFirmadyne('firmware.firmadyne.19000', kernel_extracted=False)
+    db = DatabaseFirmadyne(INPUT, kernel_extracted=False, brand='openwrt')
 
     mapping = json.load(open('openwrt_target_maps_latest_kernel_version.json'))
-    # summary[target] = {'count':0, 'kernel_extracted':0}
     summary = {}
 
     malurls = []
@@ -66,7 +67,7 @@ def frequency(argv):
         kernel_extracted_sum += v['kernel_extracted']
 
     table = PrettyTable()
-    table.title = 'target/board summary on firmware.firmadyne.19000'
+    table.title = 'target/board summary on {}'.format(INPUT)
     table.field_names = ['target', 'count', 'arch', 'board', 'propertion', 'kernel_extracted']
     for k, v in summary.items():
         count = v['count']

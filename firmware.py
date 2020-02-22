@@ -10,7 +10,8 @@ class DatabaseInterface(object):
         self.count = 1
         self.header = None
         self.items = None  # for current line
-        self.kernel_extracted = kwargs.pop('kernel_extracted', True)
+        self.kernel_extracted = kwargs.pop('kernel_extracted', False)
+        self.brand = kwargs.pop('brand', None)
 
     @abc.abstractmethod
     def parse_pre(self, line, **kwargs):
@@ -39,21 +40,19 @@ class DatabaseFirmadyne(DatabaseInterface):
         kernel_extracted = items[self.header.index('kernel_extracted')]
         if self.kernel_extracted and kernel_extracted != 't':
             return
-        path = items[self.header.index('filename')].replace('openwrt', 'firmware')
+        path = items[self.header.index('filename')]
         uuid = items[self.header.index('id')]
         brand = items[self.header.index('brand')]
+        if self.brand is not None and brand != self.brand:
+            return
         if not len(items[self.header.index('arch')]):
             arch = None
             endian = None
         else:
             arch = items[self.header.index('arch')][:-2]
             endian = items[self.header.index('arch')][-1:]
-        # kernel_version: hard to use
+        # kernel_version: hardly useful
         # kernel_version = items[self.header.index('kernel_version')]
-        # if kernel_version:
-        #     kernel_version = re.search(r'Linux kernel version (\d+\.\d+\.\d+)', kernel_version)
-        # if kernel_version:
-        #     kernel_version = kernel_version.groups()[0]
         description = items[self.header.index('description')]
         url = items[self.header.index('url')]
         self.items = {
@@ -84,3 +83,4 @@ class DatabaseText(DatabaseInterface):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.dbtype = 'text'
+

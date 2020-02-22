@@ -19,11 +19,10 @@ all_distinct_srcode = []
 mapping = json.load(open('openwrt_target_maps_latest_kernel_version.json'))
 
 def generate_commands(args):
-    summary_commands = []
     if args.database_type == 'text':
         db = DatabaseText('firmware.text')
     else:
-        db = DatabaseFirmadyne('firmware.firmadyne')
+        db = DatabaseFirmadyne('firmware.firmadyne.81200', brand='openwrt')
 
     for firmware in db.get_firmware():
         # precise control
@@ -66,8 +65,10 @@ def generate_commands(args):
                 if len(srcode_value):
                     command += ' -s {}'.format(os.path.join(SRCODE, srcode_value.strip()))
                     if srcode_value in all_distinct_srcode:
-                        continue
-                    all_distinct_srcode.append(srcode_value)
+                        pass
+                    # if srcode_value in all_distinct_srcode:
+                    #     continue
+                    # all_distinct_srcode.append(srcode_value)
                 else:
                     continue
                 makeout_value = things[9]

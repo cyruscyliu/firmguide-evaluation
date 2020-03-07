@@ -27,7 +27,7 @@ def parse_openwrt_url(url):
     revision = items[4]
     target = items[5]
     subtarget = None
-    if len(items) >= 8:
+    if len(items) >= 7:
         subtarget = items[6]
 
     if target in ['targets']:

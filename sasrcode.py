@@ -35,7 +35,7 @@ def generate_commands(args):
         if 'url' not in firmware:
             continue
         url = firmware['url']
-        _, target, _ = parse_openwrt_url(url)
+        _, target, subtarget = parse_openwrt_url(url)
         if target in mapping:
             board = mapping[target]['target']
             archm = mapping[target]['arch']
@@ -53,8 +53,9 @@ def generate_commands(args):
             endian = endianm
         # assert endian == endianm, '{} != {} in {}'.format(endian, endianm, url)
 
-        command = './src.py -u {}'.format(board)
-        command += ' -a {} -e {} -b {}'.format(arch, endian, firmware['brand'])
+        command = './salamander create -u {}'.format(board)
+        command += ' -a {} -e {} -b {} -t {} -st {}'.format(
+            arch, endian, firmware['brand'], target ,subtarget)
 
         srcode_summary = os.path.join('summary', '{}.summary'.format(firmware['uuid']))
         if os.path.exists(srcode_summary):
@@ -65,23 +66,22 @@ def generate_commands(args):
                 if len(srcode_value):
                     command += ' -s {}'.format(os.path.join(SRCODE, srcode_value.strip()))
                     if srcode_value in all_distinct_srcode:
-                        pass
-                    # if srcode_value in all_distinct_srcode:
-                    #     continue
-                    # all_distinct_srcode.append(srcode_value)
+                        continue
+                    all_distinct_srcode.append(srcode_value)
                 else:
                     continue
                 makeout_value = things[9]
                 if len(makeout_value):
-                    command += ' -mkout {}'.format(os.path.join(SRCODE, makeout_value))
+                    command += ' -m {}'.format(os.path.join(SRCODE, makeout_value))
                 gcc_value = things[10]
                 if len(gcc_value):
-                    command += ' -gcc {}'.format(os.path.join(SRCODE, gcc_value[:-3]))
+                    command += ' -cc {}'.format(os.path.join(SRCODE, gcc_value[:-3]))
                 binary_value = things[11]
-                if len(binary_value):
-                    command += ' -f {}'.format(os.path.join(SRCODE, binary_value))
-                else:
-                    continue
+                # if len(binary_value):
+                #     command += ' -f {}'.format(os.path.join(SRCODE, binary_value))
+                # else:
+                #     print('# {} binary not found {}'.format(srcode_summary, url))
+                #     continue
         else:
             continue
 
@@ -90,7 +90,7 @@ def generate_commands(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('-dbt', '--database_type', choices=['text', 'firmadyne'], default='text', type=str)
+    parser.add_argument('-dbt', '--database_type', choices=['text', 'firmadyne'], default='firmadyne', type=str)
     parser.add_argument('-l', '--limit', type=int, default=0, help='limit the amount of firmware to test')
     parser.add_argument('-u', '--uuid', type=str, nargs='+', help='assign a or several firmware to tested')
     args = parser.parse_args()

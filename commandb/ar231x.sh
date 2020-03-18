@@ -1,57 +1,57 @@
-./bin.py -f /root/images/140c6b40d701ccc14a06c34614c9434d9569602c.bin -u 13648 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt2-jffs2-64k.bin
-./bin.py -f /root/images/1892d8fb60eab88569a618bb5608dadf40e07e1e.bin -u 7485 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-jffs2-128k.bin
-./bin.py -f /root/images/e3fe11bc41c2155d813e85b315fb6eefd0a489f0.bin -u 7483 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-jffs2-64k.bin
-./bin.py -f /root/images/19cb7b4c42206df2d63d54d0a6268aeb7538ef89.bin -u 11649 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-jffs2-64k.bin
-./bin.py -f /root/images/e7eec8ca58476b4046f4943dc1c0746be313a655.bin -u 11653 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-jffs2-128k.bin
-./bin.py -f /root/images/71ea9cbe385872d84f963c0d1ba1e0b27b9c609a.elf -u 13761 -a mips -e l -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-vmlinux.elf
-./bin.py -f /root/images/e5ca1f54928d290c188e96c454fe598d3f8715c4.elf -u 13653 -a mips -e l -b openwrt -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-vmlinux.elf
-./bin.py -f /root/images/32aa5ddbb3359bc7f1fbf7044dcb9727be4f6d24.bin -u 13647 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt5-jffs2-128k.bin
-./bin.py -f /root/images/402eaff9f84c05c7ccddf50f479a8981f75ec1a7.bin -u 13649 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt5-jffs2-64k.bin
-./bin.py -f /root/images/6043f23f30a88216eefb20961814ca68085be3b7.bin -u 13645 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt2-jffs2-128k.bin
-./bin.py -f /root/images/fdc4da5c41d668f07e5b328d9c384dff53b93f1e.bin -u 13755 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin
-./bin.py -f /root/images/240620c7241334361013187a3e3c6fad91ab79be.bin -u 13753 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-jffs2-64k.bin
-./bin.py -f /root/images/f5bbe8c44b996c93c31db68b4d68b57a3ce0da6c.bin -u 13756 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-squashfs.bin
-./bin.py -f /root/images/bb1e98f3e4240d320fa6cef91e1d4eda6e976ddf.bin -u 13754 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-jffs2-128k.bin
-./bin.py -f /root/images/f2dd60739a96bb569bf97285debdcdd213aef29e.bin -u 13764 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt5-jffs2-64k.bin
-./bin.py -f /root/images/1ae93023158c05a9226e95e09ba83101b3581bce.bin -u 7493 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt5-squashfs.bin
-./bin.py -f /root/images/624415e59f114ea9731033fe6ab4a4b42cd40187.bin -u 8146 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt5-squashfs.bin
-./bin.py -f /root/images/2cc91799e2fd76104bdb151eabd7d38ca3420ff4.bin -u 11656 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt5-jffs2-128k.bin
-./bin.py -f /root/images/7670c8c60bf4f15c379221230016b71600de153b.bin -u 11659 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt5-jffs2-64k.bin
-./bin.py -f /root/images/e34f0509631cedf96d0ecdb4a18671e4c00df600.bin -u 13759 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt5-jffs2-128k.bin
-./bin.py -f /root/images/c26ceca893fc53e56a9665a8c939975dacaccaa5.bin -u 15277 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin
-./bin.py -f /root/images/090ffbbda79f902e213cd2d27ce0d561f42d1914.bin -u 13644 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt5-squashfs.bin
-./bin.py -f /root/images/5e5b94c435060367f7bc8287fbe634d353085091.bin -u 13752 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin
-./bin.py -f /root/images/4f519e15c7da3899a86249a817d0a819f0d51e4b.bin -u 15270 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-np25g-squashfs.bin
-./bin.py -f /root/images/e6d8a056f14bae8ad46267875196552a92c68f60.bin -u 15275 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin
-./bin.py -f /root/images/0d1e26489666e86015bec0bb6675613528c49168.bin -u 7486 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin
-./bin.py -f /root/images/160a4054022cd5b17aa1ed220d2b4a5aaf7e0def.bin -u 7481 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-pico2-squashfs.bin
-./bin.py -f /root/images/30179f999bd2ae9eadc5fa18336926c76405733e.bin -u 7487 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-squashfs.bin
-./bin.py -f /root/images/58ba1ae689ebfbbcce7628a92fd364398bd7237a.bin -u 7489 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt5-jffs2-128k.bin
-./bin.py -f /root/images/686ae84ba80da1129a8eda5fa1e9d75818929407.bin -u 7495 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt5-jffs2-64k.bin
-./bin.py -f /root/images/e6922ea682e908c7b8a69442fb167f7dce78d946.bin -u 8144 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin
-./bin.py -f /root/images/1b1c70bf3ef017425246602b8f8ff36ae4aca201.bin -u 8141 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin
-./bin.py -f /root/images/7def79f89b7c6003b7e90ae166c6022475faa41c.bin -u 11655 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt5-squashfs.bin
-./bin.py -f /root/images/4d71354c63ceccaba667a857261e16d0fe0bb0e4.bin -u 11646 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin
-./bin.py -f /root/images/6882c3b77711a13a3bbef38d41ba63aa46d7cf46.elf -u 11658 -a mips -e l -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-vmlinux.elf
-./bin.py -f /root/images/1a281713d5e6c426063ba9ba8320357149108ec4.bin -u 8990 -a mips -e b -b openwrt -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-ubnt5-squashfs.bin
-./bin.py -f /root/images/5b7a1b33ec8e4dc2b913078be9df4920c967560d.bin -u 13643 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt2-squashfs.bin
-./bin.py -f /root/images/9134197f2a7c5e00cc0b50cce43837ef5b7c86cf.bin -u 13758 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin
-./bin.py -f /root/images/8ae2ae8d4c0d9afe4602c0ac32250a4f5e751d71.bin -u 13760 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt5-squashfs.bin
-./bin.py -f /root/images/6471bb45d4656cbd1934ab9e6e630b4ed5f1e533.bin -u 15282 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-wpe53g-squashfs.bin
-./bin.py -f /root/images/b2c5623265f167f3e43c4bf5d6bfa34396c11dc8.bin -u 15276 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin
-./bin.py -f /root/images/d4f7cdefbe5b8709952ca93cae0e99980ce480dd.bin -u 15274 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-squashfs.bin
-./bin.py -f /root/images/77985dab006ba4e5a384c59f15d1a909d89cd3f7.bin -u 15271 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt5-squashfs.bin
-./bin.py -f /root/images/859c914b0dcde4dd220a3d28814ea943ef08ac30.elf -u 15273 -a mips -e l -b openwrt -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-vmlinux.elf
-./bin.py -f /root/images/86c98b421551c5da0005affb487385ebbf667066.bin -u 7488 -a mips -e b -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin
-./bin.py -f /root/images/fe068b9fd76df1ca1ad7a174f3f07b44321b0202.elf -u 7491 -a mips -e l -b openwrt -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-vmlinux.elf
-./bin.py -f /root/images/cf03ca7b65fc9cb73a1e3f5b23d29a15053b0b6c.elf -u 8989 -a mips -e l -b openwrt -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-vmlinux.elf
-./bin.py -f /root/images/6d0ce0e79f23ead7fb72bf32cb9cca0cb64820c9.bin -u 8145 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin
-./bin.py -f /root/images/1578e9965193ea5b7714b7420c75bfd15e95eb64.bin -u 8143 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-np25g-squashfs.bin
-./bin.py -f /root/images/aefdcb4cc24d534900303c94a2ddc6fb66e6e29b.bin -u 8142 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-squashfs.bin
-./bin.py -f /root/images/d22d68992751e246b61d255e8ddf7fe67b4dd1fc.bin -u 8148 -a mips -e b -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-wpe53g-squashfs.bin
-./bin.py -f /root/images/da233b775cf0b8b3c979f1f57bc412aa8187b18c.elf -u 8147 -a mips -e l -b openwrt -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-vmlinux.elf
-./bin.py -f /root/images/0dc7e1cc25026a1f0e78bbb339db338ba557aa10.bin -u 11645 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-squashfs.bin
-./bin.py -f /root/images/71fcb7fad2d9dc473cd8bbe199882c38672b5119.bin -u 11648 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin
-./bin.py -f /root/images/af70f147125386ed7b67196ddcfc7603bd020d2c.bin -u 11647 -a mips -e b -b openwrt -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin
-./bin.py -f /root/images/eaec229610ec1ecc284a570b8db5deb296fb4809.bin -u 8986 -a mips -e b -b openwrt -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-ubnt2-pico2-squashfs.bin
-./bin.py -f /root/images/d62ae346fd9d084388ae0f484ba143165a31b8b8.bin -u 8988 -a mips -e b -b openwrt -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-ubnt2-squashfs.bin
+cd /root/esv && ./salamander boot -f /root/images/140c6b40d701ccc14a06c34614c9434d9569602c.bin -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/1892d8fb60eab88569a618bb5608dadf40e07e1e.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/e3fe11bc41c2155d813e85b315fb6eefd0a489f0.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/19cb7b4c42206df2d63d54d0a6268aeb7538ef89.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/e7eec8ca58476b4046f4943dc1c0746be313a655.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/71ea9cbe385872d84f963c0d1ba1e0b27b9c609a.elf -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-vmlinux.elf -nc
+cd /root/esv && ./salamander boot -f /root/images/e5ca1f54928d290c188e96c454fe598d3f8715c4.elf -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-vmlinux.elf -nc
+cd /root/esv && ./salamander boot -f /root/images/32aa5ddbb3359bc7f1fbf7044dcb9727be4f6d24.bin -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt5-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/402eaff9f84c05c7ccddf50f479a8981f75ec1a7.bin -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt5-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/6043f23f30a88216eefb20961814ca68085be3b7.bin -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/fdc4da5c41d668f07e5b328d9c384dff53b93f1e.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/240620c7241334361013187a3e3c6fad91ab79be.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/f5bbe8c44b996c93c31db68b4d68b57a3ce0da6c.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/bb1e98f3e4240d320fa6cef91e1d4eda6e976ddf.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/f2dd60739a96bb569bf97285debdcdd213aef29e.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt5-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/1ae93023158c05a9226e95e09ba83101b3581bce.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt5-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/624415e59f114ea9731033fe6ab4a4b42cd40187.bin -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt5-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/2cc91799e2fd76104bdb151eabd7d38ca3420ff4.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt5-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/7670c8c60bf4f15c379221230016b71600de153b.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt5-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/e34f0509631cedf96d0ecdb4a18671e4c00df600.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt5-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/c26ceca893fc53e56a9665a8c939975dacaccaa5.bin -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/090ffbbda79f902e213cd2d27ce0d561f42d1914.bin -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt5-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/5e5b94c435060367f7bc8287fbe634d353085091.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/4f519e15c7da3899a86249a817d0a819f0d51e4b.bin -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-np25g-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/e6d8a056f14bae8ad46267875196552a92c68f60.bin -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/0d1e26489666e86015bec0bb6675613528c49168.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/160a4054022cd5b17aa1ed220d2b4a5aaf7e0def.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-pico2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/30179f999bd2ae9eadc5fa18336926c76405733e.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/58ba1ae689ebfbbcce7628a92fd364398bd7237a.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt5-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/686ae84ba80da1129a8eda5fa1e9d75818929407.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt5-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/e6922ea682e908c7b8a69442fb167f7dce78d946.bin -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/1b1c70bf3ef017425246602b8f8ff36ae4aca201.bin -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/7def79f89b7c6003b7e90ae166c6022475faa41c.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt5-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/4d71354c63ceccaba667a857261e16d0fe0bb0e4.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/6882c3b77711a13a3bbef38d41ba63aa46d7cf46.elf -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-vmlinux.elf -nc
+cd /root/esv && ./salamander boot -f /root/images/1a281713d5e6c426063ba9ba8320357149108ec4.bin -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-ubnt5-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/5b7a1b33ec8e4dc2b913078be9df4920c967560d.bin -l http://archive.openwrt.org/kamikaze/8.09/atheros/openwrt-atheros-ubnt2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/9134197f2a7c5e00cc0b50cce43837ef5b7c86cf.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/8ae2ae8d4c0d9afe4602c0ac32250a4f5e751d71.bin -l http://archive.openwrt.org/kamikaze/8.09.1/atheros/openwrt-atheros-ubnt5-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/6471bb45d4656cbd1934ab9e6e630b4ed5f1e533.bin -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-wpe53g-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/b2c5623265f167f3e43c4bf5d6bfa34396c11dc8.bin -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-pico2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/d4f7cdefbe5b8709952ca93cae0e99980ce480dd.bin -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/77985dab006ba4e5a384c59f15d1a909d89cd3f7.bin -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-ubnt5-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/859c914b0dcde4dd220a3d28814ea943ef08ac30.elf -l http://archive.openwrt.org/backfire/10.03/atheros/openwrt-atheros-vmlinux.elf -nc
+cd /root/esv && ./salamander boot -f /root/images/86c98b421551c5da0005affb487385ebbf667066.bin -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/fe068b9fd76df1ca1ad7a174f3f07b44321b0202.elf -l http://archive.openwrt.org/attitude_adjustment/12.09/atheros/generic/openwrt-atheros-vmlinux.elf -nc
+cd /root/esv && ./salamander boot -f /root/images/cf03ca7b65fc9cb73a1e3f5b23d29a15053b0b6c.elf -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-vmlinux.elf -nc
+cd /root/esv && ./salamander boot -f /root/images/6d0ce0e79f23ead7fb72bf32cb9cca0cb64820c9.bin -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/1578e9965193ea5b7714b7420c75bfd15e95eb64.bin -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-np25g-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/aefdcb4cc24d534900303c94a2ddc6fb66e6e29b.bin -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-ubnt2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/d22d68992751e246b61d255e8ddf7fe67b4dd1fc.bin -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-wpe53g-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/da233b775cf0b8b3c979f1f57bc412aa8187b18c.elf -l http://archive.openwrt.org/backfire/10.03.1/atheros/openwrt-atheros-vmlinux.elf -nc
+cd /root/esv && ./salamander boot -f /root/images/0dc7e1cc25026a1f0e78bbb339db338ba557aa10.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/71fcb7fad2d9dc473cd8bbe199882c38672b5119.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-pico2-jffs2-64k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/af70f147125386ed7b67196ddcfc7603bd020d2c.bin -l http://archive.openwrt.org/kamikaze/8.09.2/atheros/openwrt-atheros-ubnt2-pico2-jffs2-128k.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/eaec229610ec1ecc284a570b8db5deb296fb4809.bin -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-ubnt2-pico2-squashfs.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/d62ae346fd9d084388ae0f484ba143165a31b8b8.bin -l http://archive.openwrt.org/barrier_breaker/14.07/atheros/generic/openwrt-atheros-ubnt2-squashfs.bin -nc

@@ -1,57 +1,55 @@
 #!/usr/bin/python
 import os
 import sys
-import json
+import yaml
 from prettytable import PrettyTable
 
 
 WORKING_DIR = '/root/build'
 
-pt = PrettyTable(['uuid', 'unpacked', 'profiled', 'user_level'])
+pt = PrettyTable(['uuid', 'unpacked', 'user_level'])
 
 rows = {}
-summary = {'unpacked': 0, 'profiled': 0, 'user_level': 0}
+summary = {}
 
 def stats(argv):
-    for log in os.listdir('log'):
-        if not log.endswith('log'):
-            continue
-        uuid = log.split('.')[0]
-
+    for uuid in os.listdir(WORKING_DIR):
         rows[uuid] = {}
+        summary[uuid] = {'unpacked': 0, 'profiled': 0, 'user_level': 0}
 
-        log_path = os.path.join('log', log)
+        p = os.path.join(WORKING_DIR, uuid)
+        if os.path.isfile(p):
+            continue
+        for profile in os.listdir(p):
+            if profile == 'profile.yaml':
+                continue
+            if not profile.endswith('profile.yaml'):
+                continue
+            fn = profile.split('.profile.yaml')[0]
+            rows[uuid][fn] = {}
+            pp = os.path.join(p, '{}.stats.yaml'.format(fn))
+            if not os.path.exists(pp):
+                rows[uuid][fn]['unpacked'] = False
+                rows[uuid][fn]['user_level'] = False
+                print(pp)
+                continue
 
-        # 1. whether or not this firmware can be unpacked
-        unpacked = False
-        profiled = False
-        successful = False
-
-        with open(log_path) as f:
-            for line in f:
-                if line.find('migrate from') != -1:
-                    unpacked = True
-                    board = line.strip().split(' - ')[6].strip().split()[2].split('/')[2]
-                    profiled = board
-                if line.find('have entered the user level') != -1:
-                    successful = True
-        rows[uuid]['unpacked'] = unpacked
-        rows[uuid]['profiled'] = profiled
-        rows[uuid]['user_level'] = successful
-        if unpacked:
-            summary['unpacked'] += 1
-        if profiled:
-            summary['profiled'] += 1
-        if successful:
-            summary['user_level'] += 1
-            # pt.add_row([uuid, rows[uuid]['unpacked'], rows[uuid]['profiled'], rows[uuid]['user_level']])
-    # summary
-    pt.add_row([
-        'sum',
-        '{:.2f}% ({}/{})'.format(summary['unpacked']/len(rows)*100, summary['unpacked'], len(rows)),
-        '{:.2f}% ({}/{})'.format(summary['profiled']/len(rows)*100, summary['profiled'], len(rows)),
-        '{:.2f}% ({}/{})'.format(summary['user_level']/len(rows)*100, summary['user_level'], len(rows)),
-    ])
+            rows[uuid][fn]['unpacked'] = True
+            summary[uuid]['unpacked'] += 1
+            stats = yaml.safe_load(open(pp))
+            if stats['runtime']['user_mode']:
+                rows[uuid][fn]['user_level'] = True
+                summary[uuid]['user_level'] += 1
+            else:
+                rows[uuid][fn]['user_level'] = False
+        if len(rows[uuid]) == 0:
+            continue
+        # summary
+        pt.add_row([
+            uuid,
+            '{:.2f}% ({}/{})'.format(summary[uuid]['unpacked']/len(rows[uuid])*100, summary[uuid]['unpacked'], len(rows[uuid])),
+            '{:.2f}% ({}/{})'.format(summary[uuid]['user_level']/len(rows[uuid])*100, summary[uuid]['user_level'], len(rows[uuid])),
+        ])
 
     if len(argv) == 2 and argv[1] == '-j':
         print(pt.get_json_string())

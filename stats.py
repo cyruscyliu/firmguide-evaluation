@@ -12,6 +12,7 @@ pt = PrettyTable(['uuid', 'unpacked', 'has_kernel', 'user_level'])
 rows = {}
 summary = {}
 
+
 def stats(argv):
     for uuid in os.listdir(WORKING_DIR):
         if uuid in ['qemu-4.0.0', 'binwalk-2.1.1']:

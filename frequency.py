@@ -18,7 +18,7 @@ from firmware import DatabaseText, DatabaseFirmadyne
 from prettytable import PrettyTable
 
 
-INPUT = 'firmware.firmadyne.81200'
+INPUT = 'firmware.firmadyne.91600'
 
 def parse_openwrt_url(url):
     homepage = os.path.dirname(url)

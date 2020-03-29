@@ -17,6 +17,8 @@ def stats(argv):
     for uuid in os.listdir(WORKING_DIR):
         if uuid in ['qemu-4.0.0', 'binwalk-2.1.1']:
             continue
+        if uuid.startswith('buildroot'):
+            continue
         commands_not_user_level = []
         commands_user_level = []
         commands_no_kernel = []

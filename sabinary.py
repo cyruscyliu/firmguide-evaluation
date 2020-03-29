@@ -22,7 +22,7 @@ def generate_commands(args):
     if args.database_type == 'text':
         db = DatabaseText('firmware.text')
     else:
-        db = DatabaseFirmadyne('firmware.firmadyne.81200', brand='openwrt')
+        db = DatabaseFirmadyne('firmware.firmadyne.91600', brand='openwrt')
 
     for firmware in db.get_firmware():
         firmware['path'] = os.path.join(FIRMWARE_BINARY, os.path.basename(firmware['path']))

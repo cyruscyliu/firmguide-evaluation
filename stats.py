@@ -23,7 +23,7 @@ def stats(argv):
         commands_user_level = []
         commands_no_kernel = []
         rows[uuid] = {}
-        summary[uuid] = {'unpacked': 0, 'profiled': 0, 'user_level': 0, 'has_kernel': 0}
+        summary[uuid] = {'unpacked': 0, 'user_level': 0, 'has_kernel': 0}
 
         path_to_uuid = os.path.join(WORKING_DIR, uuid)
         if os.path.isfile(path_to_uuid):
@@ -35,6 +35,10 @@ def stats(argv):
             if not profile.endswith('profile.yaml'):
                 continue
             fn = profile.split('.profile.yaml')[0]
+            try:
+                int(fn[:-4], 16)
+            except ValueError:
+                continue
 
             path_to_profile = os.path.join(path_to_uuid, profile)
 
@@ -52,20 +56,23 @@ def stats(argv):
             summary[uuid]['unpacked'] += 1
 
             stats = yaml.safe_load(open(path_to_stats))
-            if stats['runtime'] is False:
+            if stats['components']['path_to_kernel'] is False:
                 rows[uuid][fn]['has_kernel'] = False
                 rows[uuid][fn]['user_level'] = False
                 commands_no_kernel.extend(os.popen('grep {} commandb.sh'.format(fn)).readlines())
+                continue
+
+            rows[uuid][fn]['has_kernel'] = True
+            summary[uuid]['has_kernel'] += 1
+
+            if isinstance(stats['runtime'], dict) and stats['runtime']['user_mode']:
+                rows[uuid][fn]['user_level'] = True
+                summary[uuid]['user_level'] += 1
+                commands_user_level.extend(os.popen('grep {} commandb.sh'.format(fn)).readlines())
             else:
-                rows[uuid][fn]['has_kernel'] = True
-                summary[uuid]['has_kernel'] += 1
-                if stats['runtime']['user_mode']:
-                    rows[uuid][fn]['user_level'] = True
-                    summary[uuid]['user_level'] += 1
-                    commands_user_level.extend(os.popen('grep {} commandb.sh'.format(fn)).readlines())
-                else:
-                    rows[uuid][fn]['user_level'] = False
-                    commands_not_user_level.extend(os.popen('grep {} commandb.sh'.format(fn)).readlines())
+                rows[uuid][fn]['user_level'] = False
+                commands_not_user_level.extend(os.popen('grep {} commandb.sh'.format(fn)).readlines())
+
         with open('commandb/{}.no_kernel'.format(uuid), 'w') as f:
             f.write(''.join(commands_no_kernel))
         with open('commandb/{}.not_user_level'.format(uuid), 'w') as f:

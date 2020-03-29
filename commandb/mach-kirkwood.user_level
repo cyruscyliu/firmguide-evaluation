@@ -1,1 +1,0 @@
-cd /root/esv && ./salamander boot -f /root/images/04c5744a76c820b7b20f3466fa5ec298e16f0a0a.bin -l http://archive.openwrt.org/snapshots/trunk/kirkwood/generic/openwrt-kirkwood-goflexnet-squashfs-factory.bin -nc

@@ -11,7 +11,7 @@ from firmware import DatabaseText, DatabaseFirmadyne
 
 
 FIRMWARE_BINARY = '/root/images'
-FIRMWARE_REMOTE = '/mnt/nas/original_image'
+FIRMWARE_REMOTE = '/mnt/firm/original_image'
 REMOTE = '-i id_rsa cloud@192.168.1.218'
 
 

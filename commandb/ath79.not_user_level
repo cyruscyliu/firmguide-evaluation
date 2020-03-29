@@ -1,0 +1,4 @@
+cd /root/esv && ./salamander boot -f /root/images/7b9e6cfa0d575d05a29630d7c7b203dd9dadefaf.bin -l http://archive.openwrt.org/releases/19.07.0/targets/ath79/generic/openwrt-19.07.0-ath79-generic-tplink_archer-c5-v1-squashfs-factory.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/2c6ce38907b4b40ff008e716c09483526b0eed70.bin -l http://archive.openwrt.org/releases/19.07.0/targets/ath79/generic/openwrt-19.07.0-ath79-generic-tplink_re350k-v1-squashfs-sysupgrade.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/0956abb25d9b88811172254d024e7dac4420dcef.bin -l http://archive.openwrt.org/releases/19.07.0/targets/ath79/generic/openwrt-19.07.0-ath79-generic-librerouter_librerouter-v1-initramfs-kernel.bin -nc
+cd /root/esv && ./salamander boot -f /root/images/cf1e631665b1e501b6f605896b04d78563bdd375.bin -l http://archive.openwrt.org/releases/19.07.0/targets/ath79/generic/openwrt-19.07.0-ath79-generic-tplink_archer-c7-v2-initramfs-kernel.bin -nc

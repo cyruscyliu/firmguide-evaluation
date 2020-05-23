@@ -19,9 +19,10 @@ def stats(argv):
             continue
         if uuid.startswith('buildroot'):
             continue
+        commands_not_unpacked = []
+        commands_no_kernel = []
         commands_not_user_level = []
         commands_user_level = []
-        commands_no_kernel = []
         rows[uuid] = {}
         summary[uuid] = {'unpacked': 0, 'user_level': 0, 'has_kernel': 0}
 
@@ -49,6 +50,7 @@ def stats(argv):
                 rows[uuid][fn]['has_kernel'] = False
                 rows[uuid][fn]['user_level'] = False
                 profile_json = yaml.safe_load(open(path_to_profile))
+                commands_not_unpacked.extend(os.popen('grep {} commandb.sh'.format(fn)).readlines())
                 print(fn, '\n    ', profile_json['brand']['url'])
                 continue
 
@@ -77,6 +79,8 @@ def stats(argv):
             f.write(''.join(commands_no_kernel))
         with open('commandb/{}.not_user_level'.format(uuid), 'w') as f:
             f.write(''.join(commands_not_user_level))
+        with open('commandb/{}.not_unpacked'.format(uuid), 'w') as f:
+            f.write(''.join(commands_not_unpacked))
         with open('commandb/{}.user_level'.format(uuid), 'w') as f:
             f.write(''.join(commands_user_level))
         if len(rows[uuid]) == 0:
@@ -84,9 +88,18 @@ def stats(argv):
         # summary
         pt.add_row([
             uuid,
-            '{:.2f}% ({}/{})'.format(summary[uuid]['unpacked']/len(rows[uuid])*100, summary[uuid]['unpacked'], len(rows[uuid])),
-            '{:.2f}% ({}/{})'.format(summary[uuid]['has_kernel']/len(rows[uuid])*100, summary[uuid]['has_kernel'], len(rows[uuid])),
-            '{:.2f}% ({}/{})'.format(summary[uuid]['user_level']/len(rows[uuid])*100, summary[uuid]['user_level'], len(rows[uuid])),
+            '{:.2f}% ({}/{})'.format(
+                summary[uuid]['unpacked']/len(rows[uuid])*100,
+                summary[uuid]['unpacked'],
+                len(rows[uuid])),
+            '{:.2f}% ({}/{})'.format(
+                summary[uuid]['has_kernel']/summary[uuid]['unpacked']*100,
+                summary[uuid]['has_kernel'],
+                summary[uuid]['unpacked']),
+            '{:.2f}% ({}/{})'.format(
+                summary[uuid]['user_level']/summary[uuid]['has_kernel']*100,
+                summary[uuid]['user_level'],
+                summary[uuid]['has_kernel']),
         ])
 
     if len(argv) == 2 and argv[1] == '-j':

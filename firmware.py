@@ -34,6 +34,8 @@ class DatabaseInterface(object):
 class DatabaseFirmadyne(DatabaseInterface):
     def parse_pre(self, line, **kwargs):
         items = line.split(',')
+        if len(items) != 11:
+            return
         if self.header is None:
             self.header = items
             return
@@ -51,12 +53,11 @@ class DatabaseFirmadyne(DatabaseInterface):
         else:
             arch = items[self.header.index('arch')][:-2]
             endian = items[self.header.index('arch')][-1:]
-        # kernel_version: hardly useful
-        # kernel_version = items[self.header.index('kernel_version')]
+        kernel_version = items[self.header.index('kernel_version')]
         description = items[self.header.index('description')]
         url = items[self.header.index('url')]
         self.items = {
-            'uuid': uuid, 'path': path, 'brand': brand, 'arch': arch,
+            'uuid': uuid, 'path': path, 'brand': brand, 'arch': arch, 'kernel_version': kernel_version,
             'endian': endian, 'description': description, 'url': url, 'kernel_extracted': kernel_extracted == 't'
         }
         return self.items

@@ -1,0 +1,347 @@
+openwrt,37748,108,479,16323,0,68,20878
+synology,5588,16,1158,0,1685,73,2672
+netgear,5208,14,925,1619,85,83,2496
+tp-link,3339,9,170,812,0,2,2355
+d-link,1780,5,134,476,5,5,1160
+asus,1226,3,259,611,0,0,356
+zyxel,1034,2,96,359,0,0,579
+others,862,2,27,36,0,0,799
+ubiquiti,760,2,186,425,0,0,149
+mellanox,746,2,0,0,1,0,745
+tomato,702,2,118,577,0,0,7
+grandstream,625,1,0,0,0,0,625
+tenda,592,1,93,206,0,0,293
+gargoyle,540,1,5,473,2,0,60
+samsung,523,1,29,0,0,0,494
+trendnet,475,1,85,201,1,0,188
+panasonic,382,1,6,0,0,1,375
+nikon,372,1,0,0,0,0,372
+xerox,317,0,1,0,2,0,314
+canon,316,0,0,0,0,0,316
+sony,316,0,0,0,0,0,316
+mercury,291,0,0,21,0,0,270
+mikrotik,272,0,3,14,3,3,249
+fujifilm,249,0,0,0,0,0,249
+netcore,238,0,0,33,0,0,205
+linksys,233,0,61,58,0,0,114
+belkin,227,0,9,95,1,0,122
+qnap,221,0,0,0,0,0,221
+amazon,210,0,0,0,0,0,210
+engenius,204,0,0,167,0,0,37
+foscam,203,0,6,0,0,0,197
+other,200,0,20,3,0,0,177
+dahua,186,0,65,0,0,0,121
+philips,182,0,5,0,0,0,177
+microsoft,182,0,0,0,0,0,182
+onkyo,139,0,0,0,0,0,139
+vivotek,133,0,78,0,0,0,55
+buffalo,121,0,1,30,0,0,90
+axis,120,0,3,7,0,0,110
+planet,115,0,12,54,0,0,49
+360,113,0,0,98,0,0,15
+phicomm,111,0,0,89,0,0,22
+creative,105,0,0,0,0,0,105
+chdk,100,0,0,0,0,0,100
+yamaha,100,0,0,0,0,0,100
+ricoh,99,0,0,0,0,0,99
+pioneer,94,0,5,0,0,0,89
+ewon,89,0,0,0,0,0,89
+pelco,88,0,27,0,0,0,61
+hikvision,81,0,0,0,0,0,81
+cisco,80,0,14,19,0,0,47
+lexmark,78,0,0,0,0,0,78
+msi,78,0,4,0,0,0,74
+peplink,77,0,0,0,0,0,77
+google,77,0,0,0,0,0,77
+blackmagic design,74,0,0,0,0,0,74
+totolink,71,0,1,25,0,0,45
+broadsoft,68,0,0,0,0,0,68
+motu,62,0,0,0,0,0,62
+leica,57,0,0,0,0,0,57
+seagate,57,0,0,0,0,0,57
+kramer,56,0,0,0,0,0,56
+metz,52,0,0,0,0,0,52
+spypoint,52,0,0,0,0,0,52
+apple,51,0,0,0,0,0,51
+casio,48,0,0,0,0,0,48
+aten,45,0,0,0,0,0,45
+nec,45,0,0,0,0,0,45
+gopro,44,0,0,0,0,0,44
+tsst,43,0,0,0,0,0,43
+lg,42,0,0,0,0,0,42
+aastra,41,0,0,0,0,0,41
+e-boda,39,0,0,0,0,0,39
+edimax,37,0,0,22,0,0,15
+zoom,36,0,0,0,0,0,36
+iview,34,0,2,0,0,0,32
+huawei,32,0,17,5,0,0,10
+hasselblad,32,0,0,0,0,0,32
+hp,31,0,0,0,0,0,31
+amped wireless,31,0,0,0,0,0,31
+flanders scientific,31,0,0,0,0,0,31
+dovado,30,0,0,0,0,0,30
+vicovation,30,0,0,0,0,0,30
+teradek,30,0,11,0,0,0,19
+tenvis,30,0,4,12,0,0,14
+eizo,29,0,0,0,0,0,29
+sandisk,29,0,0,0,0,0,29
+aztech,28,0,0,26,0,0,2
+blackvue,27,0,0,0,0,0,27
+conceptronic,26,0,3,14,0,0,9
+arturia,26,0,0,0,0,0,26
+lede,26,0,2,6,0,4,14
+routertech,26,0,0,24,0,0,2
+moxa,25,0,0,0,0,0,25
+dell,25,0,0,0,0,0,25
+prestigio,25,0,0,0,0,0,25
+toshiba,24,0,0,0,0,0,24
+smc,24,0,0,2,0,0,22
+tomato raf,24,0,0,0,0,0,24
+plds,23,0,0,0,0,0,23
+steinberg,23,0,0,0,0,0,23
+wincor nixdorf,23,0,0,0,0,0,23
+bushnell,22,0,0,0,0,0,22
+vortex,22,0,21,0,0,0,1
+airlive,22,0,0,14,4,0,4
+transition networks,22,0,0,0,0,0,22
+oleg,22,0,0,22,0,0,0
+netis,22,0,0,15,0,0,7
+epson,21,0,0,0,0,0,21
+lake shore cryotronics,21,0,0,0,0,0,21
+avaya,21,0,0,0,0,0,21
+diy-thermocam,21,0,0,0,0,0,21
+lt security,20,0,0,0,0,0,20
+point grey,20,0,0,0,0,0,20
+roland,19,0,0,0,0,0,19
+cowon,19,0,6,0,0,0,13
+stealth cam,19,0,0,0,0,0,19
+magic lantern,19,0,0,0,0,0,19
+seiki,18,0,0,0,0,0,18
+centurylink,18,0,0,15,0,0,3
+pioneer dj,18,0,0,0,0,0,18
+logitech,18,0,0,0,0,0,18
+intel,18,0,0,0,0,0,18
+broadband-hamnet,18,0,0,18,0,0,0
+kodak,18,0,0,0,0,0,18
+billion,18,0,0,6,0,0,12
+stardot,17,0,0,0,0,0,17
+tomato usb,17,0,0,0,0,0,17
+commotion,17,0,0,15,0,0,2
+expert sleepers,17,0,0,0,0,0,17
+lite-on,16,0,0,0,0,0,16
+nvidia,16,0,0,0,0,0,16
+lukas,16,0,0,0,0,0,16
+moultrie,16,0,0,0,0,0,16
+ligowave,16,0,0,8,0,0,8
+smart devices,16,0,0,0,0,0,16
+plextor,16,0,0,0,0,0,16
+onset,15,0,0,0,0,0,15
+oppo,15,0,3,0,0,0,12
+teac,15,0,0,0,0,0,15
+thermo fisher,14,0,0,0,0,0,14
+sharp,14,0,0,0,0,0,14
+insys,14,0,13,0,0,0,1
+fender,14,0,0,0,0,0,14
+sound devices,14,0,0,0,0,0,14
+hyperwrt,13,0,0,13,0,0,0
+parrot,13,0,0,0,0,0,13
+reloop,13,0,0,0,0,0,13
+intellinet,13,0,0,12,0,0,1
+swann,13,0,6,0,0,0,7
+arris,13,0,9,4,0,0,0
+icom,13,0,0,0,0,0,13
+yeastar,13,0,0,0,0,0,13
+movistar,12,0,0,3,0,0,9
+lenovo,12,0,0,0,0,0,12
+aredn,12,0,0,11,0,0,1
+asrock,12,0,0,0,0,0,12
+att,12,0,0,0,0,0,12
+ultra magicard,12,0,0,0,0,0,12
+winytechnology,12,0,1,0,0,0,11
+emerson,11,0,0,0,0,7,4
+western digital,11,0,0,0,0,0,11
+dji,11,0,0,0,0,0,11
+px4,11,0,0,0,0,0,11
+mobotix,11,0,0,0,0,0,11
+sohoware,10,0,0,0,4,1,5
+archos,10,0,0,0,0,0,10
+vtech,10,0,0,0,0,0,10
+securifi,10,0,1,4,0,0,5
+tarifa,10,0,0,10,0,0,0
+other soundcards,10,0,0,0,0,0,10
+weigl works,10,0,0,0,0,0,10
+geniatech,10,0,0,0,0,0,10
+gigabyte,10,0,0,0,0,0,10
+sitecom,9,0,0,0,0,0,9
+brother,9,0,0,0,0,0,9
+wolfvision,9,0,0,0,0,0,9
+silicon power,9,0,0,0,0,0,9
+walkera,9,0,0,0,0,0,9
+xiaoyi,9,0,0,0,0,0,9
+thecus,9,0,0,0,0,0,9
+mvix,9,0,0,0,0,0,9
+strymon,9,0,0,0,0,0,9
+tc electronic,9,0,0,0,0,0,9
+zte,9,0,1,0,0,0,8
+optiarc,9,0,0,0,0,0,9
+teledyne lecroy,8,0,0,0,0,0,8
+polycom,8,0,0,0,0,1,7
+thinkware,8,0,0,0,0,0,8
+jvc,8,0,0,0,0,0,8
+blacksys,8,0,0,0,0,0,8
+hisilicon,8,0,0,0,0,0,8
+olympus,7,0,0,0,0,0,7
+victron energy,7,0,0,0,0,0,7
+digicom,7,0,0,2,0,0,5
+abicom,7,0,0,7,0,0,0
+nuuo,7,0,0,0,0,0,7
+prusa,7,0,0,0,0,0,7
+pyle ip,7,0,0,0,0,0,7
+xiro,7,0,0,0,0,0,7
+snom,7,0,0,2,0,0,5
+pentax,7,0,0,0,0,0,7
+hackhd,6,0,0,0,0,0,6
+tacx,6,0,0,0,0,0,6
+kilpatrick audio,6,0,0,0,0,0,6
+yealink,6,0,0,0,0,0,6
+lsi,6,0,0,0,0,0,6
+kt&c,6,0,0,0,0,0,6
+other network cards,6,0,0,0,0,0,6
+sierra wireless,6,0,0,0,0,0,6
+rexing,6,0,0,0,0,0,6
+yuneec,6,0,0,0,0,0,6
+nxp,6,0,0,0,0,0,6
+trinamic,6,0,0,0,0,0,6
+contour,6,0,0,0,0,0,6
+dlink,5,0,0,0,0,0,5
+biamp,5,0,0,0,0,0,5
+numark,5,0,0,0,0,0,5
+realtek,5,0,0,1,0,0,4
+allen & heath,5,0,0,0,0,0,5
+wificloudnet,5,0,0,5,0,0,0
+lilin,5,0,4,0,0,0,1
+focusrite,5,0,0,0,0,0,5
+openboox,5,0,0,0,0,0,5
+cuddeback,5,0,0,0,0,0,5
+icarus reader,5,0,0,0,0,0,5
+via,5,0,0,0,0,0,5
+teledyne dalsa,4,0,0,0,0,0,4
+provision-isr,4,0,0,0,0,0,4
+libratone,4,0,0,0,0,0,4
+ossw,4,0,0,0,0,0,4
+psiber,4,0,0,0,0,0,4
+national instruments,4,0,0,0,0,0,4
+serioux,4,0,0,0,0,0,4
+timex,4,0,0,0,0,0,4
+renesas,4,0,0,0,0,0,4
+airlink101,4,0,0,1,0,0,3
+trekstor,4,0,0,0,0,0,4
+futaba,4,0,0,0,0,0,4
+digium,4,0,0,0,0,0,4
+veex,4,0,3,0,0,0,1
+testo,4,0,0,0,0,0,4
+ucam247,4,0,0,0,0,0,4
+magnavox,4,0,0,0,0,0,4
+silhouette,4,0,0,0,0,0,4
+acer,4,0,0,0,0,0,4
+keysight,4,0,0,0,0,0,4
+tandberg data,4,0,0,0,0,0,4
+marvell,4,0,0,0,0,0,4
+sk hynix,3,0,0,0,0,0,3
+broadcom,3,0,0,0,0,0,3
+thalmic labs,3,0,0,0,0,0,3
+server technology,3,0,0,0,0,0,3
+alesis,3,0,0,0,0,0,3
+amcrest,3,0,0,0,0,0,3
+zalman,3,0,0,0,0,0,3
+synthino,3,0,0,0,0,0,3
+goclever,3,0,0,0,0,0,3
+hama,3,0,0,0,0,0,3
+lorex,3,0,0,0,0,0,3
+shure,3,0,0,0,0,0,3
+zxtech,3,0,3,0,0,0,0
+open wireless,3,0,0,0,0,0,3
+pctv systems,3,0,0,0,0,0,3
+devolo,3,0,0,1,0,0,2
+via labs,3,0,0,0,0,0,3
+smart tech,3,0,0,0,0,0,3
+lgmod,2,0,0,0,0,0,2
+cortelco,2,0,0,0,0,0,2
+level one,2,0,0,0,0,0,2
+bragi,2,0,0,0,0,0,2
+autel robotics,2,0,0,0,0,0,2
+ewrt,2,0,0,2,0,0,0
+arecont vision,2,0,0,0,0,0,2
+infocus,2,0,0,0,0,0,2
+vantec,2,0,0,0,0,0,2
+bosch security,2,0,0,0,0,0,2
+other modem drivers,2,0,0,0,0,0,2
+nexxt,2,0,0,0,0,0,2
+ericsson,2,0,0,0,0,0,2
+hitachi,2,0,0,0,0,0,2
+revolabs,2,0,1,0,0,0,1
+dspace,2,0,0,0,1,0,1
+barnes & noble,2,0,0,0,0,0,2
+arducopter,2,0,0,0,0,0,2
+cradlepoint,2,0,0,0,0,0,2
+amd,2,0,0,0,0,0,2
+turris omnia,2,0,0,0,0,0,2
+tascam,2,0,0,0,0,0,2
+vex robotics,2,0,0,0,0,0,2
+iwill,2,0,0,0,0,0,2
+qpad,1,0,0,0,0,0,1
+sanoxy,1,0,0,1,0,0,0
+ati,1,0,0,0,0,0,1
+cloud media,1,0,0,0,0,0,1
+runcore,1,0,0,0,0,0,1
+iomega,1,0,0,0,0,0,1
+aim tech,1,0,0,0,0,0,1
+turtle beach,1,0,0,0,0,0,1
+rohde & schwarz,1,0,0,0,0,0,1
+air live,1,0,0,0,0,0,1
+opentx,1,0,0,0,0,0,1
+transcend,1,0,0,0,0,0,1
+gigaset,1,0,0,0,0,0,1
+avigilon,1,0,0,0,0,0,1
+iconbit,1,0,0,0,0,0,1
+asmedia,1,0,0,0,0,0,1
+airties,1,0,0,0,0,0,1
+cyberdrive,1,0,0,0,0,0,1
+viewsonic,1,0,0,0,0,0,1
+terratec,1,0,0,0,0,0,1
+draytek,1,0,0,0,0,0,1
+esi,1,0,0,0,0,0,1
+tallygenicom,1,0,0,0,0,0,1
+konica minolta,1,0,0,0,0,0,1
+geovision,1,0,1,0,0,0,0
+caldigit,1,0,0,0,0,0,1
+sonix,1,0,0,0,0,0,1
+snapav,1,0,0,0,0,0,1
+mapower,1,0,0,0,0,0,1
+surecom,1,0,0,0,0,0,1
+unex,1,0,0,0,0,0,1
+hamlet,1,0,0,0,0,0,1
+vizio,1,0,0,0,0,0,1
+viprinet,1,0,0,0,0,0,1
+nokia,1,0,0,0,0,0,1
+klang,1,0,0,0,0,0,1
+pqi,1,0,1,0,0,0,0
+aopen,1,0,0,0,0,0,1
+m-audio,1,0,0,0,0,0,1
+roccat,1,0,0,0,0,0,1
+dynex,1,0,0,0,0,0,1
+microstrain,1,0,0,0,0,0,1
+cyrus audio,1,0,0,0,0,0,1
+bmorn,1,0,0,0,0,0,1
+artec,1,0,0,0,0,0,1
+anysee,1,0,0,0,0,0,1
+metabones,1,0,0,0,0,0,1
+wismec,1,0,0,0,0,0,1
+genius,1,0,0,0,0,0,1
+razer,1,0,0,0,0,0,1
+genesys,1,0,0,0,0,0,1
+alfa network,1,0,0,0,0,0,1
+polaroid,1,0,0,0,0,0,1
+motorola,1,0,0,0,0,0,1
+trust,1,0,0,0,0,0,1
+emprex,1,0,0,0,0,0,1

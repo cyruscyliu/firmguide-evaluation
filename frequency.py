@@ -1,24 +1,15 @@
 #!/usr/bin/python
-"""
-target/board summary on firmware.firmdyne.xxxxx
-
-input: firmadyne.firmware database
-output: target: openwrt target
-output: count: count of the target in the database
-output: arch: arch of the target
-outout: board: kernel board r.s.t the target
-output: propertion: propertion of the target in the database
-output: kernel_extracted: propertion of kernel extracted firmware
-"""
 import os
 import sys
 import json
+import argparse
 
-from firmware import DatabaseText, DatabaseFirmadyne
+from firmware import DatabaseFirmadyne
 from prettytable import PrettyTable
 
 
-INPUT = 'firmware.firmadyne.91600'
+INPUT = 'firmware.firmadyne'
+
 
 def parse_openwrt_url(url):
     homepage = os.path.dirname(url)
@@ -37,11 +28,11 @@ def parse_openwrt_url(url):
 
     return revision, target, subtarget
 
-def frequency(argv):
-    summary_commands = []
+
+def frequency(args):
     db = DatabaseFirmadyne(INPUT, kernel_extracted=False, brand='openwrt')
 
-    mapping = json.load(open('openwrt_target_maps_latest_kernel_version.json'))
+    mapping = json.load(open('target-board-properties.json'))
     summary = {}
 
     malurls = []
@@ -53,41 +44,59 @@ def frequency(argv):
             malurls.append(url)
             continue
 
-        if target in summary:
-            summary[target]['count'] += 1
-        else:
-            summary[target] = {'count':1, 'kernel_extracted':0}
-        if firmware['kernel_extracted']:
-            summary[target]['kernel_extracted'] += 1
+        if target not in summary:
+            summary[target] = {'count': 0, 'subtarget': {}}
+        summary[target]['count'] += 1
 
-    firmware_sum = 0
-    for k, v in summary.items():
-        firmware_sum += v['count']
+        if subtarget is None:
+            subtarget = 'generic'
 
-    kernel_extracted_sum = 0
+        if subtarget not in summary[target]['subtarget']:
+            summary[target]['subtarget'][subtarget] = {'count': 0}
+        summary[target]['subtarget'][subtarget]['count'] += 1
+
+    sum2 = 0
     for k, v in summary.items():
-        kernel_extracted_sum += v['kernel_extracted']
+        sum2 += v['count']
 
     table = PrettyTable()
     table.title = 'target/board summary on {}'.format(INPUT)
-    table.field_names = ['target', 'count', 'arch', 'board', 'propertion', 'kernel_extracted']
-    for k, v in summary.items():
-        count = v['count']
-        p =  '{:.4f}% ({}/{})'.format(count/firmware_sum, count, firmware_sum)
-        kernel_extracted =  '{:.4f}% ({}/{})'.format(v['kernel_extracted']/kernel_extracted_sum, v['kernel_extracted'], kernel_extracted_sum)
-        try:
-            table.add_row([k, count, mapping[k]['arch'], mapping[k]['target'], p, kernel_extracted])
-        except KeyError:
-            table.add_row([k, count, 'unknown', 'unknown', p, kernel_extracted])
+    table.field_names = [
+        'target', 'subtarget',
+        'arch', 'board', 'dt', 'smp', 'uart', 'nvram',
+        'count', 'portion', 'sum', 'subportion', 'subsum']
+    for target, v in summary.items():
+        sum1 = v['count']
+        for subtarget, sv in v['subtarget'].items():
+            try:
+                c = sv['count']
+                p1 = '{:.4f}%'.format(c * 100 / sum1)
+                p2 = '{:.4f}%'.format(c * 100 / sum2)
+                table.add_row([
+                    target, subtarget,
+                    mapping[target]['arch'], mapping[target]['board'], mapping[target]['board'], 'unkunk', 'unk', 'unk',
+                    c, p2, sum2, p1, sum1])
+            except KeyError:
+                table.add_row([
+                    target, subtarget,
+                    'unk', 'unk', 'unk', 'unk', 'unk', 'unk',
+                    c, p2, sum2, p1, sum1])
 
-    if len(argv) == 2 and argv[1] == '-j':
+    if args.json:
         print(table.get_json_string(sortby='count', reversesort=True))
-        return
-    print(table.get_string(sortby='count', reversesort=True))
-    print('cannot recognize these urls')
-    for url in malurls:
-        print(url)
+    elif args.csv:
+        print(table.get_csv_string(sortby='count', reversesort=True))
+    else:
+        print(table.get_string(sortby='count', reversesort=True))
+        print('cannot recognize these urls')
+        for url in malurls:
+            print(url)
+
 
 if __name__ == "__main__":
-    frequency(sys.argv)
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('-j', '--json', help='Generate JSON data.', action='store_true', default=False)
+    parser.add_argument('-c', '--csv', help='Generate CSV data.', action='store_true', default=False)
 
+    args = parser.parse_args()
+    frequency(args)

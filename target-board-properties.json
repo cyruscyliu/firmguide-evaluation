@@ -1,0 +1,498 @@
+{
+    "adm5120": {
+        "arch": "mips",
+        "board": "adm5120",
+        "dt": false,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "rb1xx",
+            "router_be",
+            "router_le"
+        ],
+        "version": "3.18"
+    },
+    "adm8668": {
+        "arch": "mips",
+        "board": "adm8668",
+        "dt": false,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "3.18"
+    },
+    "ar7": {
+        "arch": "mips",
+        "board": "ar7",
+        "dt": false,
+        "revision": "openwrt-18.06.7",
+        "subtarget": [
+            "ac49x",
+            "generic"
+        ],
+        "version": "4.9"
+    },
+    "ar71xx": {
+        "arch": "mips",
+        "board": "ath79",
+        "dt": false,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic",
+            "mikrotik",
+            "nand",
+            "tiny"
+        ],
+        "version": "4.14"
+    },
+    "at91": {
+        "arch": "arm",
+        "board": "mach-at91",
+        "dt": true,
+        "revision": "openwrt-18.06.7",
+        "subtarget": [
+            "legacy",
+            "sam9x",
+            "sama5",
+            "sama5d2",
+            "sama5d3",
+            "sama5d4"
+        ],
+        "version": "4.9"
+    },
+    "ath25": {
+        "arch": "mips",
+        "board": "ath25",
+        "dt": false,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "ath79": {
+        "arch": "mips",
+        "board": "ath79",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic",
+            "nand",
+            "tiny"
+        ],
+        "version": "4.14"
+    },
+    "atheros": {
+        "arch": "mips",
+        "board": "ar231x",
+        "dt": false,
+        "revision": "archive-14.07",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "3.10.49"
+    },
+    "au1000": {
+        "arch": "mips",
+        "board": "alchemy",
+        "dt": false,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "au1500",
+            "au1550"
+        ],
+        "version": "3.18"
+    },
+    "bcm53xx": {
+        "arch": "arm",
+        "board": "mach-bcm",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "brcm2708": {
+        "arch": "arm",
+        "board": "mach-bcm2708",
+        "dt": false,
+        "revision": "archive-14.07",
+        "subtarget": [
+            "bcm2708",
+            "bcm2709",
+            "bcm2710",
+            "generic"
+        ],
+        "version": "3.10.49"
+    },
+    "brcm47xx": {
+        "arch": "mips",
+        "board": "bcm47xx",
+        "dt": false,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic",
+            "legacy",
+            "mips74k"
+        ],
+        "version": "4.14"
+    },
+    "brcm63xx": {
+        "arch": "mips",
+        "board": "bcm63xx",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic",
+            "smp"
+        ],
+        "version": "4.14"
+    },
+    "cns21xx": {
+        "arch": "arm",
+        "board": "mach-cns21xx",
+        "dt": false,
+        "revision": "archive-14.07",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "3.10.49"
+    },
+    "cns3xxx": {
+        "arch": "arm",
+        "board": "mach-cns3xxx",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "cobalt": {
+        "arch": "mips",
+        "board": "cobalt",
+        "dt": false,
+        "revision": "archive-12.09",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "3.3.8"
+    },
+    "gemini": {
+        "arch": "arm",
+        "board": "mach-gemini",
+        "dt": false,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "generic",
+            "raidsonic",
+            "wiligear"
+        ],
+        "version": "4.4"
+    },
+    "imx6": {
+        "arch": "arm",
+        "board": "mach-imx",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "ipq40xx": {
+        "arch": "arm",
+        "board": "mach-qcom",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "ipq806x": {
+        "arch": "arm",
+        "board": "mach-qcom",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "ixp4xx": {
+        "arch": "arm",
+        "board": "mach-ixp4xx",
+        "dt": false,
+        "revision": "openwrt-18.06.7",
+        "subtarget": [
+            "generic",
+            "harddisk"
+        ],
+        "version": "4.9"
+    },
+    "kirkwood": {
+        "arch": "arm",
+        "board": "mach-mvebu",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "lantiq": {
+        "arch": "mips",
+        "board": "lantiq",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "ase",
+            "falcon",
+            "xrx200",
+            "xway",
+            "xway_legacy"
+        ],
+        "version": "4.14"
+    },
+    "layerscape": {
+        "arch": "arm",
+        "board": "mach-imx",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "32b",
+            "64b",
+            "armv7",
+            "armv8_32b",
+            "armv8_64b"
+        ],
+        "version": "4.14"
+    },
+    "malta": {
+        "arch": "mips",
+        "board": "mti-malta",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "be",
+            "be64",
+            "le",
+            "le64"
+        ],
+        "version": "4.14"
+    },
+    "mcs814x": {
+        "arch": "arm",
+        "board": "mach-mcs814x",
+        "dt": true,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "3.18"
+    },
+    "mediatek": {
+        "arch": "arm",
+        "board": "mach-mediatek",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic",
+            "mt7622",
+            "mt7623"
+        ],
+        "version": "4.14"
+    },
+    "mvebu": {
+        "arch": "arm",
+        "board": "mach-mvebu",
+        "dt": true,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "cortexa53",
+            "cortexa72",
+            "cortexa9",
+            "generic"
+        ],
+        "version": "4.4"
+    },
+    "mxs": {
+        "arch": "arm",
+        "board": "mach-mxs",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "netlogic": {
+        "arch": "mips",
+        "board": "netlogic",
+        "dt": true,
+        "revision": "archive-15.05.1",
+        "subtarget": [
+            "xlp",
+            "xlr"
+        ],
+        "version": "3.18"
+    },
+    "octeon": {
+        "arch": "mips",
+        "board": "cavium-octeon",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "omap": {
+        "arch": "arm",
+        "board": "mach-omap2",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "omap24xx": {
+        "arch": "arm",
+        "board": "mach-omap2",
+        "dt": true,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.1"
+    },
+    "orion": {
+        "arch": "arm",
+        "board": "mach-orion5x",
+        "dt": true,
+        "revision": "openwrt-18.06.7",
+        "subtarget": [
+            "generic",
+            "harddisk"
+        ],
+        "version": "4.9"
+    },
+    "oxnas": {
+        "arch": "arm",
+        "board": "mach-oxnas",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic",
+            "ox810se",
+            "ox820"
+        ],
+        "version": "4.14"
+    },
+    "pistachio": {
+        "arch": "mips",
+        "board": "pistachio",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "ramips": {
+        "arch": "mips",
+        "board": "ralink",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "mt7620",
+            "mt7621",
+            "mt7628",
+            "mt7688",
+            "mt76x8",
+            "rt288x",
+            "rt305x",
+            "rt3883"
+        ],
+        "version": "4.14"
+    },
+    "rb532": {
+        "arch": "mips",
+        "board": "rb532",
+        "dt": false,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "realview": {
+        "arch": "arm",
+        "board": "mach-realview",
+        "dt": false,
+        "revision": "archive-15.05.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "3.18"
+    },
+    "samsung": {
+        "arch": "arm",
+        "board": "mach-s5pv210",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "s5pv210"
+        ],
+        "version": "4.14"
+    },
+    "sunxi": {
+        "arch": "arm",
+        "board": "mach-sunxi",
+        "dt": true,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "cortexa53",
+            "cortexa7",
+            "cortexa8",
+            "generic"
+        ],
+        "version": "4.4"
+    },
+    "tegra": {
+        "arch": "arm",
+        "board": "mach-tegra",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    },
+    "xburst": {
+        "arch": "mips",
+        "board": "jz4740",
+        "dt": false,
+        "revision": "openwrt-17.01.7",
+        "subtarget": [
+            "id800wt",
+            "n516",
+            "n526",
+            "qi_lb60"
+        ],
+        "version": "3.18"
+    },
+    "zynq": {
+        "arch": "arm",
+        "board": "mach-zynq",
+        "dt": true,
+        "revision": "openwrt-19.07.1",
+        "subtarget": [
+            "generic"
+        ],
+        "version": "4.14"
+    }
+}

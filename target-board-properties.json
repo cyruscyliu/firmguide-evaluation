@@ -3,6 +3,7 @@
         "arch": "mips",
         "board": "adm5120",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "rb1xx",
@@ -15,6 +16,7 @@
         "arch": "mips",
         "board": "adm8668",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "generic"
@@ -25,6 +27,7 @@
         "arch": "mips",
         "board": "ar7",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-18.06.7",
         "subtarget": [
             "ac49x",
@@ -36,6 +39,7 @@
         "arch": "mips",
         "board": "ath79",
         "dt": false,
+        "endian": "b",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic",
@@ -49,6 +53,7 @@
         "arch": "arm",
         "board": "mach-at91",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-18.06.7",
         "subtarget": [
             "legacy",
@@ -64,6 +69,7 @@
         "arch": "mips",
         "board": "ath25",
         "dt": false,
+        "endian": "b",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -74,6 +80,7 @@
         "arch": "mips",
         "board": "ath79",
         "dt": true,
+        "endian": "b",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic",
@@ -86,6 +93,7 @@
         "arch": "mips",
         "board": "ar231x",
         "dt": false,
+        "endian": "b",
         "revision": "archive-14.07",
         "subtarget": [
             "generic"
@@ -96,6 +104,7 @@
         "arch": "mips",
         "board": "alchemy",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "au1500",
@@ -107,6 +116,7 @@
         "arch": "arm",
         "board": "mach-bcm",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -117,6 +127,7 @@
         "arch": "arm",
         "board": "mach-bcm2708",
         "dt": false,
+        "endian": "l",
         "revision": "archive-14.07",
         "subtarget": [
             "bcm2708",
@@ -130,6 +141,7 @@
         "arch": "mips",
         "board": "bcm47xx",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic",
@@ -142,6 +154,7 @@
         "arch": "mips",
         "board": "bcm63xx",
         "dt": true,
+        "endian": "b",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic",
@@ -153,6 +166,7 @@
         "arch": "arm",
         "board": "mach-cns21xx",
         "dt": false,
+        "endian": "l",
         "revision": "archive-14.07",
         "subtarget": [
             "generic"
@@ -163,6 +177,7 @@
         "arch": "arm",
         "board": "mach-cns3xxx",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -173,6 +188,7 @@
         "arch": "mips",
         "board": "cobalt",
         "dt": false,
+        "endian": "l",
         "revision": "archive-12.09",
         "subtarget": [
             "generic"
@@ -183,6 +199,7 @@
         "arch": "arm",
         "board": "mach-gemini",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "generic",
@@ -195,6 +212,7 @@
         "arch": "arm",
         "board": "mach-imx",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -205,6 +223,7 @@
         "arch": "arm",
         "board": "mach-qcom",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -215,6 +234,7 @@
         "arch": "arm",
         "board": "mach-qcom",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -225,6 +245,7 @@
         "arch": "arm",
         "board": "mach-ixp4xx",
         "dt": false,
+        "endian": "b",
         "revision": "openwrt-18.06.7",
         "subtarget": [
             "generic",
@@ -236,6 +257,7 @@
         "arch": "arm",
         "board": "mach-mvebu",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -246,6 +268,7 @@
         "arch": "mips",
         "board": "lantiq",
         "dt": true,
+        "endian": "b",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "ase",
@@ -260,6 +283,7 @@
         "arch": "arm",
         "board": "mach-imx",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "32b",
@@ -274,6 +298,7 @@
         "arch": "mips",
         "board": "mti-malta",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "be",
@@ -287,6 +312,7 @@
         "arch": "arm",
         "board": "mach-mcs814x",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "generic"
@@ -297,6 +323,7 @@
         "arch": "arm",
         "board": "mach-mediatek",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic",
@@ -309,6 +336,7 @@
         "arch": "arm",
         "board": "mach-mvebu",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "cortexa53",
@@ -322,6 +350,7 @@
         "arch": "arm",
         "board": "mach-mxs",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -332,6 +361,7 @@
         "arch": "mips",
         "board": "netlogic",
         "dt": true,
+        "endian": "b",
         "revision": "archive-15.05.1",
         "subtarget": [
             "xlp",
@@ -343,6 +373,7 @@
         "arch": "mips",
         "board": "cavium-octeon",
         "dt": true,
+        "endian": "b",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -353,6 +384,7 @@
         "arch": "arm",
         "board": "mach-omap2",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -363,6 +395,7 @@
         "arch": "arm",
         "board": "mach-omap2",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "generic"
@@ -373,6 +406,7 @@
         "arch": "arm",
         "board": "mach-orion5x",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-18.06.7",
         "subtarget": [
             "generic",
@@ -384,6 +418,7 @@
         "arch": "arm",
         "board": "mach-oxnas",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic",
@@ -396,6 +431,7 @@
         "arch": "mips",
         "board": "pistachio",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -406,6 +442,7 @@
         "arch": "mips",
         "board": "ralink",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "mt7620",
@@ -423,6 +460,7 @@
         "arch": "mips",
         "board": "rb532",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -433,6 +471,7 @@
         "arch": "arm",
         "board": "mach-realview",
         "dt": false,
+        "endian": "l",
         "revision": "archive-15.05.1",
         "subtarget": [
             "generic"
@@ -443,6 +482,7 @@
         "arch": "arm",
         "board": "mach-s5pv210",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "s5pv210"
@@ -453,6 +493,7 @@
         "arch": "arm",
         "board": "mach-sunxi",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "cortexa53",
@@ -466,6 +507,7 @@
         "arch": "arm",
         "board": "mach-tegra",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"
@@ -476,6 +518,7 @@
         "arch": "mips",
         "board": "jz4740",
         "dt": false,
+        "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
             "id800wt",
@@ -489,6 +532,7 @@
         "arch": "arm",
         "board": "mach-zynq",
         "dt": true,
+        "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
             "generic"

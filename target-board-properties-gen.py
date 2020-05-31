@@ -18,6 +18,7 @@ with open('insights/supp_range_subtarget') as f:
         target = items[1 + 0].strip()
         subtarget = items[1 + 1].strip()
         arch = items[1 + 5].strip()
+        endian = 'l' if items[1 + 6].strip() == 'little' else 'b'
         board = items[1 + 7].split()[-1].strip()
         dt = True if items[1 + 8].strip() == 'Has DT' else False
         revision = items[1 + 3].strip()
@@ -29,6 +30,7 @@ with open('insights/supp_range_subtarget') as f:
         target_board_properties[target]['subtarget'].append(subtarget)
         target_board_properties[target]['board'] = board
         target_board_properties[target]['arch'] = arch
+        target_board_properties[target]['endian'] = endian
         target_board_properties[target]['dt'] = dt
         target_board_properties[target]['revision'] = revision
         target_board_properties[target]['version'] = version

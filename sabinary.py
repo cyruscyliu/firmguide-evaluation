@@ -1,10 +1,4 @@
 #!/usr/bin/python
-
-"""
-slbin commands generator
-input: firmware.text/firmadyne
-output: slbin commands
-"""
 import os
 import json
 import argparse
@@ -12,7 +6,7 @@ import argparse
 from firmware import DatabaseText, DatabaseFirmadyne
 from frequency import parse_openwrt_url
 
-mapping = json.load(open('openwrt_target_maps_latest_kernel_version.json'))
+mapping = json.load(open('target-board-properties.json'))
 
 FIRMWARE_BINARY = '/root/images'
 SALAMANDER = '/root/esv-release'
@@ -22,10 +16,11 @@ def generate_commands(args):
     if args.database_type == 'text':
         db = DatabaseText('firmware.text')
     else:
-        db = DatabaseFirmadyne('firmware.firmadyne.91600', brand='openwrt')
+        db = DatabaseFirmadyne('firmware.firmadyne', brand='openwrt')
 
     for firmware in db.get_firmware():
-        firmware['path'] = os.path.join(FIRMWARE_BINARY, os.path.basename(firmware['path']))
+        firmware['path'] = \
+            os.path.join(FIRMWARE_BINARY, os.path.basename(firmware['path']))
 
         # precise control
         if args.uuid is not None and firmware['uuid'] not in args.uuid:
@@ -58,9 +53,11 @@ def generate_commands(args):
                 comment = True
 
         if comment:
-            command = '# cd {} && ./salamander upload -f {}'.format(SALAMANDER, firmware['path'])
+            command = '# cd {} && ./salamander upload -f {}'.format(
+                SALAMANDER, firmware['path'])
         else:
-            command = 'cd {} && ./salamander upload -f {}'.format(SALAMANDER, firmware['path'])
+            command = 'cd {} && ./salamander upload -f {}'.format(
+                SALAMANDER, firmware['path'])
 
         if 'url' in firmware:
             command += ' -l {}'.format(firmware['url'])

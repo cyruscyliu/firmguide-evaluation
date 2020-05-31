@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import os
-import sys
 import json
 import argparse
 
@@ -74,7 +73,7 @@ def frequency(args):
                 p2 = '{:.4f}%'.format(c * 100 / sum2)
                 table.add_row([
                     target, subtarget,
-                    mapping[target]['arch'], mapping[target]['board'], mapping[target]['board'], 'unkunk', 'unk', 'unk',
+                    mapping[target]['arch'], mapping[target]['board'], mapping[target]['dt'], 'unk', 'unk', 'unk',
                     c, p2, sum2, p1, sum1])
             except KeyError:
                 table.add_row([

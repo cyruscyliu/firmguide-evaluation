@@ -1,0 +1,2521 @@
+0001 lpc4350-hitex-eval.dtb
+0002 owl-s500-guitar-bb-rev-b.dtb
+0003 imx6q-apalis-ixora.dtb
+0004 sun8i-a33-et-q8-v1.6.dtb
+0005 imx6q-phytec-mira-rdk-nand.dtb
+0006 sun5i-a13-olinuxino-micro.dtb
+0007 imx51-eukrea-mbimxsd51-baseboard.dtb
+0008 tegra20-plutux.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+0009 armada-8040-clearfog-gt-8k.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0010 kirkwood-openblocks_a7.dtb
+0011 rk3188-radxarock.dtb
+0012 imx6qp-nitrogen6_max.dtb
+0013 bcm911360_entphn.dtb
+0014 imx6q-wandboard.dtb
+0015 orion5x-linkstation-lswtgl.dtb
+0016 imx6dl-riotboard.dtb
+0017 imx6q-tx6q-1110.dtb
+0018 stm32f429-disco.dtb
+0019 omap3-evm-37xx.dtb
+0020 kirkwood-ts219-6281.dtb
+0021 omap4-var-dvk-om44.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0022 kirkwood-linksys-viper.dtb
+0023 meson8b-ec100.dtb
+0024 imx6q-ts7970.dtb
+0025 at91-sama5d27_som1_ek.dtb
+0026 imx6q-sabrelite.dtb
+0027 bcm953012er.dtb
+0028 ecx-2000.dtb
+0029 lpc3250-phy3250.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+0030 artpec6-devboard.dtb
+0031 imx6sl-warp.dtb
+0032 sun8i-h3-orangepi-pc.dtb
+0033 imx7d-mba7.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx7d-gpio', 'fsl,imx35-gpio']
+0034 qcom-apq8064-ifc6410.dtb
+0035 omap3-overo-palo35.dtb
+0036 mt7623n-bananapi-bpi-r2.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt7623-sysirq', 'mediatek,mt6577-sysirq']
+0037 am437x-idk-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0038 omap3-cm-t3530.dtb
+0039 ar9331_omega.dtb
+0040 meson-gxbb-wetek-play2.dtb
+0041 sun5i-r8-chip.dtb
+0042 vf610-zii-dev-rev-c.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0043 bcm958625hr.dtb
+0044 rk3288-popmetal.dtb
+0045 r8a77980-condor.dtb
+0046 rk3288-veyron-pinky.dtb
+0047 omap3-beagle-xm-ab.dtb
+0048 exynos5433-tm2.dtb
+0049 bcm2835-rpi-a.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2835-armctrl-ic']
+0050 exynos5433-tm2e.dtb
+0051 fsl-lx2160a-qds.dtb
+0052 pxa910-dkb.dtb
+0053 vf610-zii-scu4-aib.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0054 qi_lb60.dtb
+0055 imx6dl-aristainetos_7.dtb
+0056 sama5d35ek.dtb
+0057 exynos4210-trats.dtb
+0058 imx6dl-rex-basic.dtb
+0059 imx53-voipac-bsb.dtb
+0060 imx6q-rex-pro.dtb
+0061 imx6dl-tx6u-801x.dtb
+0062 at91sam9260ek.dtb
+0063 sun5i-a10s-wobo-i5.dtb
+0064 hi3670-hikey970.dtb
+0065 imx7s-mba7.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx7d-gpio', 'fsl,imx35-gpio']
+0066 bcm47189-luxul-xap-810.dtb
+0067 at91-sama5d4_xplained.dtb
+0068 armada-385-turris-omnia.dtb
+0069 sun8i-a23-ippo-q8h-v5.dtb
+0070 hi3660-hikey960.dtb
+0071 imx6q-gw551x.dtb
+0072 owl-s500-sparky.dtb
+0073 kirkwood-t5325.dtb
+0074 imx6q-hummingboard2-emmc-som-v15.dtb
+0075 imx6ull-14x14-evk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0076 imx7d-sdb-sht11.dtb
+0077 thunder2-99xx.dtb
+0078 arm-realview-pb11mp.dtb
+0079 meson6-atv1200.dtb
+0080 rk3288-fennec.dtb
+0081 vexpress-v2p-ca9.dtb
+0082 imx27-phytec-phycore-rdk.dtb
+0083 aspeed-bmc-inspur-on5263m5.dtb
+0084 kirkwood-b3.dtb
+0085 r8a7794-alt.dtb
+0086 am57xx-beagle-x15.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0087 armada-370-dlink-dns327l.dtb
+0088 dra76-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0089 dove-cubox-es.dtb
+0090 zynqmp-zc1275-revA.dtb
+0091 tegra20-colibri-eval-v3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+0092 bcm4708-netgear-r6250.dtb
+0093 tegra20-paz00.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+0094 r8a7796-salvator-x.dtb
+0095 sun4i-a10-dserve-dsrv9703c.dtb
+0096 am57xx-beagle-x15-revc.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0097 r8a7796-m3ulcb-kf.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['renesas,gpio-r8a7796', 'renesas,rcar-gen3-gpio']
+0098 versatile-ab-ib2.dtb
+0099 r8a7779-marzen.dtb
+0100 armada-370-mirabox.dtb
+0101 bcm47094-luxul-xap-1610.dtb
+0102 meson-gxbb-wetek-hub.dtb
+0103 omap4-sdp-es23plus.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0104 imx51-zii-scu2-mezz.dtb
+0105 imx6dl-ts7970.dtb
+0106 sun4i-a10-pov-protab2-ips9.dtb
+0107 rk3288-veyron-jaq.dtb
+0108 am335x-wega-rdk.dtb
+0109 mps2-an385.dtb
+0110 imx25-eukrea-mbimxsd25-baseboard-cmo-qvga.dtb
+0111 usb_a9g20_lpw.dtb
+0112 aspeed-bmc-facebook-yamp.dtb
+0113 imx6dl-yapp4-ursa.dtb
+0114 imx6sx-sdb-reva.dtb
+0115 amd-overdrive-rev-b1.dtb
+0116 qcom-ipq4019-ap.dk07.1-c2.dtb
+0117 hi3798cv200-poplar.dtb
+0118 imx6qp-tx6qp-8137.dtb
+0119 animeo_ip.dtb
+0120 am57xx-beagle-x15-revb1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0121 bcm2837-rpi-3-b.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-armctrl-ic']
+0122 mt2701-evb.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt2701-cirq', 'mediatek,mtk-cirq']
+0123 kirkwood-dockstar.dtb
+0124 am335x-sbc-t335.dtb
+0125 sun8i-r16-nintendo-nes-classic.dtb
+0126 imx6dl-tx6u-8033.dtb
+0127 exynos3250-rinato.dtb
+0128 bcm4708-buffalo-wzr-1750dhp.dtb
+0129 kirkwood-lsxhl.dtb
+0130 spear320-evb.dtb
+0131 imx53-ard.dtb
+0132 bcm97358svmb.dtb
+0133 zynqmp-zc1751-xm019-dc5.dtb
+0134 vt8500-bv07.dtb
+0135 gemini-wbd222.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+0136 imx6q-b450v3.dtb
+0137 kirkwood-ns2lite.dtb
+0138 vf610-zii-spb4.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0139 pic32mzda_sk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['microchip,pic32mzda-evic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['microchip,pic32mzda-evic']
+0140 imx6sx-sdb-sai.dtb
+0141 kirkwood-ds212.dtb
+0142 vf610-zii-ssmb-spu3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0143 r8a7743-iwg20d-q7.dtb
+0144 bcm47094-luxul-xwr-3150-v1.dtb
+0145 imx6dl-cubox-i.dtb
+0146 bcm4708-linksys-ea6300-v1.dtb
+0147 apq8096-db820c.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['qcom,msm8996-gic-v3', 'arm,gic-v3']
+0148 meson-gxbb-p200.dtb
+0149 imx23-xfi3.dtb
+0150 kirkwood-db-88f6282.dtb
+0151 stm32mp157a-dk1.dtb
+0152 vocore2.dtb
+0153 r7s72100-genmai.dtb
+0154 r7s72100-gr-peach.dtb
+0155 armada-398-db.dtb
+0156 sun6i-a31-i7.dtb
+0157 imx6q-tx6q-1036.dtb
+0158 mt8127-moose.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt8127-sysirq', 'mediatek,mt6577-sysirq']
+0159 imx6dl-cubox-i-emmc-som-v15.dtb
+0160 meson-gxl-s905x-nexbox-a95x.dtb
+0161 rk3288-phycore-rdk.dtb
+0162 armada-7040-db.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0163 r8a7745-iwg22d-sodimm-dbhd-ca.dtb
+0164 stih410-b2120.dtb
+0165 kirkwood-rs409.dtb
+0166 meson-g12a-sei510.dtb
+0167 sun8i-a33-ippo-q8h-v1.2.dtb
+0168 armada-370-netgear-rn102.dtb
+0169 sun4i-a10-hyundai-a7hd.dtb
+0170 r8a73a4-ape6evm.dtb
+0171 imx6dl-savageboard.dtb
+0172 omap3-igep0030.dtb
+0173 at91-sam9_l9260.dtb
+0174 bcm96368mvwg.dtb
+0175 omap3-beagle-xm.dtb
+0176 armada-xp-db-xc3-24g4xg.dtb
+0177 sama5d36ek.dtb
+0178 bcm958300k.dtb
+0179 omap3-sbc-t3517.dtb
+0180 rk3399-hugsun-x99.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+0181 zynq-parallella.dtb
+0182 armada-8040-mcbin-singleshot.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0183 arm-realview-eb-11mp-ctrevb.dtb
+0184 am335x-bonegreen-wireless.dtb
+0185 imx6sx-sabreauto.dtb
+0186 arm-realview-eb-11mp.dtb
+0187 imx6q-gw52xx.dtb
+0188 bcm6362-neufbox6-sercomm.dtb
+0189 sun8i-h3-orangepi-one.dtb
+0190 imx6dl-gw552x.dtb
+0191 am335x-osd3358-sm-red.dtb
+0192 am3517_mt_ventoux.dtb
+0193 amd-overdrive-rev-b0.dtb
+0194 dm8148-evm.dtb
+0195 kirkwood-km_kirkwood.dtb
+0196 bcm47094-luxul-xbr-4500.dtb
+0197 r8a7745-sk-rzg1e.dtb
+0198 exynos5422-odroidxu3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0199 ste-snowball.dtb
+0200 imx53-smd.dtb
+0201 socfpga_arria10_socdk_sdmmc.dtb
+0202 zynq-zc770-xm013.dtb
+0203 kirkwood-nsa310a.dtb
+0204 socfpga_cyclone5_sockit.dtb
+0205 imx6dl-tx6s-8035.dtb
+0206 armada-370-synology-ds213j.dtb
+0207 rk3399-puma-haikou.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+0208 r8a7743-iwg20d-q7-dbcm-ca.dtb
+0209 dm8168-evm.dtb
+0210 imx28-cfa10036.dtb
+0211 orion5x-kuroboxpro.dtb
+0212 rk3288-rock2-square.dtb
+0213 armada-xp-matrix.dtb
+0214 rk3288-tinker.dtb
+0215 imx6q-hummingboard-som-v15.dtb
+0216 imx6dl-gw5904.dtb
+0217 aspeed-bmc-opp-vesnin.dtb
+0218 qcom-msm8960-cdp.dtb
+0219 stm32h743i-disco.dtb
+0220 imx51-zii-rdu1.dtb
+0221 armada-385-linksys-caiman.dtb
+0222 logicpd-som-lv-35xx-devkit.dtb
+0223 mt6797-evb.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0224 sun6i-a31s-primo81.dtb
+0225 meson-gxbb-vega-s95-meta.dtb
+0226 sun5i-a13-licheepi-one.dtb
+0227 am335x-chiliboard.dtb
+0228 imx6dl-emcon-avari.dtb
+0229 qcs404-evb-4000.dtb
+0230 alpine-db.dtb
+0231 imx6q-sabreauto.dtb
+0232 armada-390-db.dtb
+0233 zynq-zybo-z7.dtb
+0234 imx6dl-gw54xx.dtb
+0235 mps2-an399.dtb
+0236 armada-8040-db.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0237 apm-mustang.dtb
+0238 imx25-eukrea-mbimxsd25-baseboard-dvi-svga.dtb
+0239 rk3288-veyron-speedy.dtb
+0240 orion5x-lacie-ethernet-disk-mini-v2.dtb
+0241 picoxcell-pc7302-pc3x3.dtb
+0242 meson-gxbb-odroidc2.dtb
+0243 omap4-panda-a4.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0244 imx6ul-geam.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0245 sama5d33ek.dtb
+0246 am572x-idk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0247 logicpd-torpedo-35xx-devkit.dtb
+0248 dove-cubox.dtb
+0249 imx7d-pico-pi.dtb
+0250 imx6sx-softing-vining-2000.dtb
+0251 imx6dl-tx6u-811x.dtb
+0252 kirkwood-laplug.dtb
+0253 imx6q-cubox-i-som-v15.dtb
+0254 at91sam9n12ek.dtb
+0255 vf610-twr.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0256 socfpga_cyclone5_chameleon96.dtb
+0257 imx28-duckbill-2-spi.dtb
+0258 stih410-b2260.dtb
+0259 uniphier-ld4-ref.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+0260 bcm958525xmc.dtb
+0261 imx6dl-aristainetos_4.dtb
+0262 omap3-pandora-600mhz.dtb
+0263 dra71-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0264 imx6dl-gw51xx.dtb
+0265 bcm47081-tplink-archer-c5-v2.dtb
+0266 sun8i-h2-plus-orangepi-zero.dtb
+0267 integratorap.dtb
+0268 bcm2835-rpi-a-plus.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2835-armctrl-ic']
+0269 zynq-zc770-xm011.dtb
+0270 kirkwood-ib62x0.dtb
+0271 armada-8080-db.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0272 imx6q-hummingboard-emmc-som-v15.dtb
+0273 imx6ul-ccimx6ulsbcexpress.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0274 bcm2837-rpi-3-b-plus.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-armctrl-ic']
+0275 sama5d34ek.dtb
+0276 imx53-usbarmory.dtb
+0277 exynos5420-peach-pit.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0278 at91-cosino_mega2560.dtb
+0279 kirkwood-ds109.dtb
+0280 r8a774c0-cat874.dtb
+0281 omap3-n950.dtb
+0282 sun8i-r16-bananapi-m2m.dtb
+0283 imx6q-gw51xx.dtb
+0284 sc9836-openphone.dtb
+0285 am335x-guardian.dtb
+0286 intel-ixp42x-linksys-nslu2.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['intel,ixp42x-interrupt']
+0287 imx23-stmp378x_devb.dtb
+0288 fsl-ls2080a-simu.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0289 rk3368-r88.dtb
+0290 mt6755-evb.dtb
+0291 imx6sx-udoo-neo-full.dtb
+0292 keystone-k2g-evm.dtb
+0293 at91-kizbox2.dtb
+0294 meson-gxl-s905d-p230.dtb
+0295 am574x-idk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0296 meson-gxl-s905w-p281.dtb
+0297 imx6dl-sabresd.dtb
+0298 spear310-evb.dtb
+0299 zynq-zc702.dtb
+0300 mt8135-evbp1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt8135-sysirq', 'mediatek,mt6577-sysirq']
+0301 omap3-overo-tobi.dtb
+0302 arm-realview-eb.dtb
+0303 rk3399-rock960.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+0304 qcom-ipq4019-ap.dk04.1-c3.dtb
+0305 tegra20-medcom-wide.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+0306 tegra20-harmony.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+0307 meson8b-mxq.dtb
+0308 zynqmp-zc1751-xm018-dc4.dtb
+0309 uniphier-pro4-ref.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+0310 sun4i-a10-inet9f-rev03.dtb
+0311 keystone-k2hk-evm.dtb
+0312 sun5i-a13-inet-98v-rev2.dtb
+0313 imx53-cx9020.dtb
+0314 xlp_fvp.dtb
+0315 sun8i-a33-q8-tablet.dtb
+0316 msm8998-mtp.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0317 zynq-zc770-xm010.dtb
+0318 exynos5422-odroidxu3-lite.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0319 rk3288-vyasa.dtb
+0320 rk3368-orion-r68-meta.dtb
+0321 at91rm9200ek.dtb
+0322 rk3228-evb.dtb
+0323 bcm47094-netgear-r8500.dtb
+0324 da850-lcdk.dtb
+0325 omap3-devkit8000-lcd70.dtb
+0326 bcm958522er.dtb
+0327 imx31-lite.dtb
+0328 omap4-sdp.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0329 sun8i-h3-nanopi-m1-plus.dtb
+0330 kirkwood-ds210.dtb
+0331 kirkwood-nas2big.dtb
+0332 zynqmp-zcu104-revA.dtb
+0333 rk3399-evb.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+0334 imx25-eukrea-mbimxsd25-baseboard.dtb
+0335 tegra210-p2571.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+0336 am335x-lxm.dtb
+0337 spear320-hmi.dtb
+0338 bcm97360svmb.dtb
+0339 imx6dl-icore.dtb
+0340 gemini-sl93512r.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+0341 armada-388-db.dtb
+0342 omap2420-h4.dtb
+0343 exynos5250-snow.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0344 bcm963138dvt.dtb
+0345 vf610-zii-cfu1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0346 r8a77965-m3nulcb.dtb
+0347 meson-g12b-odroid-n2.dtb
+0348 am335x-cm-t335.dtb
+0349 r8a7744-iwg20d-q7.dtb
+0350 zx296718-pcbox.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0351 ox810se-wd-mbwe.dtb
+0352 sun8i-h3-orangepi-pc-plus.dtb
+0353 kirkwood-netgear_readynas_nv+_v2.dtb
+0354 sun4i-a10-chuwi-v7-cw0825.dtb
+0355 omap3-igep0020-rev-f.dtb
+0356 spear1340-evb.dtb
+0357 imx6q-icore-mipi.dtb
+0358 at91sam9g15ek.dtb
+0359 rk3368-geekbox.dtb
+0360 hip06-d03.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+0361 dove-d3plug.dtb
+0362 foundation-v8-gicv3-psci.dtb
+0363 am335x-phycore-rdk.dtb
+0364 armada-370-rd.dtb
+0365 imx6sx-nitrogen6sx.dtb
+0366 imx8qxp-mek.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0367 r8a77980-v3hsk.dtb
+0368 imx25-karo-tx25.dtb
+0369 bcm93384wvg_viper.dtb
+0370 zynq-zc770-xm012.dtb
+0371 tegra114-tn7.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+0372 imx51-babbage.dtb
+0373 at91-sama5d4_ma5d4evk.dtb
+0374 bcm63268-comtrend-vr-3032u.dtb
+0375 ubnt_e100.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+0376 pxa300-raumfeld-connector.dtb
+0377 at91-ariag25.dtb
+0378 bcm4709-netgear-r7000.dtb
+0379 bcm4709-tplink-archer-c9-v1.dtb
+0380 omap3-overo-palo43.dtb
+0381 kirkwood-ds209.dtb
+0382 atlas6-evb.dtb
+0383 stm32746g-eval.dtb
+0384 mt7623n-rfb-emmc.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt7623-sysirq', 'mediatek,mt6577-sysirq']
+0385 rv1108-elgin-r1.dtb
+0386 omap2430-sdp.dtb
+0387 sun6i-a31-colombus.dtb
+0388 nspire-cx.dtb
+0389 octeon_3xxx.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+0390 qcom-msm8660-surf.dtb
+0391 armada-xp-openblocks-ax3-4.dtb
+0392 armada-xp-netgear-rn2120.dtb
+0393 kirkwood-net5big.dtb
+0394 kirkwood-ns2.dtb
+0395 sun6i-a31s-cs908.dtb
+0396 imx6q-gk802.dtb
+0397 r8a774a1-hihope-rzg2m.dtb
+0398 lpc3250-ea3250.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nxp,lpc3220-mic']
+0399 sun8i-h3-mapleboard-mp130.dtb
+0400 berlin2cd-google-chromecast.dtb
+>>>> ERROR <<<< bugs in find_mmio_by_path
+0401 qcom-apq8084-ifc6540.dtb
+0402 vexpress-v2p-ca15_a7.dtb
+0403 imx28-cfa10057.dtb
+0404 kirkwood-openrd-ultimate.dtb
+0405 armada-385-linksys-shelby.dtb
+0406 kirkwood-openrd-base.dtb
+0407 kirkwood-ts419-6281.dtb
+0408 fvp-base-revc.dtb
+0409 sun8i-h2-plus-libretech-all-h3-cc.dtb
+0410 imx6dl-mamoj.dtb
+0411 sun8i-h3-nanopi-neo-air.dtb
+0412 kirkwood-openrd-client.dtb
+0413 imx6q-b850v3.dtb
+0414 sun5i-a13-empire-electronix-d709.dtb
+0415 tegra124-nyan-blaze.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+0416 versatile-pb.dtb
+0417 imx6ull-colibri-wifi-eval-v3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0418 apm-merlin.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550']
+0419 armada-388-helios4.dtb
+0420 imx6dl-gw560x.dtb
+0421 zynq-microzed.dtb
+0422 am571x-idk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0423 omap4-var-stk-om44.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0424 highbank.dtb
+0425 nuvoton-npcm750-evb.dtb
+0426 bcm2835-rpi-zero-w.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2835-armctrl-ic']
+0427 imx6ul-opos6uldev.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0428 kirkwood-ds411slim.dtb
+0429 at91-wb45n.dtb
+0430 sun8i-h3-orangepi-zero-plus2.dtb
+0431 pxa168-aspenite.dtb
+0432 at91-sama5d2_xplained.dtb
+0433 kirkwood-is2.dtb
+0434 imx6q-sbc6x.dtb
+0435 imx27-phytec-phycard-s-rdk.dtb
+0436 bcm958305k.dtb
+0437 imx6dl-udoo.dtb
+0438 am335x-boneblack-wireless.dtb
+0439 kirkwood-topkick.dtb
+0440 s3c6410-smdk6410.dtb
+0441 pxa300-raumfeld-controller.dtb
+0442 fsl-ls2088a-rdb.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0443 imx6q-b650v3.dtb
+0444 sun8i-h2-plus-bananapi-m2-zero.dtb
+0445 imx6dl-tx6dl-comtft.dtb
+0446 zynqmp-zc1232-revA.dtb
+0447 foundation-v8-psci.dtb
+0448 imx6dl-yapp4-draco.dtb
+0449 hip04-d01.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['hisilicon,hip04-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['hisilicon,hip04-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['hisilicon,hip04-intc']
+0450 sun8i-h3-orangepi-2.dtb
+0451 armada-388-gp.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,armada-370-gpio', 'marvell,orion-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,armada-370-gpio', 'marvell,orion-gpio']
+0452 arm-realview-pb1176.dtb
+0453 imx6q-cubox-i-emmc-som-v15.dtb
+0454 omap3-beagle.dtb
+0455 armada-395-gp.dtb
+0456 kirkwood-rd88f6192.dtb
+0457 kirkwood-mv88f6281gtw-ge.dtb
+0458 ste-u300.dtb
+0459 meson-gxm-khadas-vim2.dtb
+0460 imx28-ts4600.dtb
+0461 meson-g12a-x96-max.dtb
+0462 kirkwood-ds411j.dtb
+0463 imx51-ts4800.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx51-gpio', 'fsl,imx35-gpio']
+0464 keystone-k2g-ice.dtb
+0465 bcm47081-buffalo-wzr-900dhp.dtb
+0466 sun5i-a13-q8-tablet.dtb
+0467 ste-nomadik-s8815.dtb
+0468 rk3288-firefly-reload.dtb
+0469 milbeaut-m10v-evb.dtb
+0470 imx28-cfa10055.dtb
+0471 cx92755_equinox.dtb
+0472 exynos5260-xyref5260.dtb
+0473 exynos5800-peach-pi.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0474 sun8i-h3-bananapi-m2-plus-v1.2.dtb
+0475 ocelot_pcb123.dtb
+0476 malta.dtb
+0477 sun8i-h3-libretech-all-h3-cc.dtb
+0478 am335x-pocketbeagle.dtb
+0479 rk3188-bqedison2qc.dtb
+0480 bcm47081-luxul-xwr-1200.dtb
+0481 lpc4337-ciaa.dtb
+0482 imx6q-tx6q-1020.dtb
+0483 tegra124-apalis-v1.2-eval.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+0484 dlink_dsr-500n.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+0485 am335x-evm.dtb
+0486 imx51-apf51dev.dtb
+0487 imx6q-apalis-eval.dtb
+0488 juno-r2.dtb
+0489 imx7s-colibri-eval-v3.dtb
+0490 msm8996-mtp.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['qcom,msm8996-gic-v3', 'arm,gic-v3']
+0491 am335x-pepper.dtb
+0492 imx51-apf51.dtb
+0493 imx6dl-hummingboard-emmc-som-v15.dtb
+0494 rk3229-evb.dtb
+0495 thunder-88xx.dtb
+0496 rk3288-tinker-s.dtb
+0497 orion5x-lswsgl.dtb
+0498 rk3066a-mk808.dtb
+0499 imx6qp-zii-rdu2.dtb
+0500 rk3399-ficus.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+0501 exynos4412-odroidx.dtb
+0502 am57xx-sbc-am57x.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0503 easy50712.dtb
+0504 imx6q-dmo-edmqmx6.dtb
+0505 rtd1295-probox2-ava.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+0506 imx6q-dms-ba16.dtb
+0507 imx7s-warp.dtb
+0508 bcm4709-netgear-r8000.dtb
+0509 aspeed-bmc-opp-swift.dtb
+0510 r8a7795-es1-h3ulcb.dtb
+0511 imx6dl-hummingboard2-som-v15.dtb
+0512 r8a7795-h3ulcb-kf.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['renesas,gpio-r8a7795', 'renesas,rcar-gen3-gpio']
+0513 at91-wb50n.dtb
+0514 bcm2835-rpi-b-plus.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2835-armctrl-ic']
+0515 imx6q-wandboard-revb1.dtb
+0516 imx6dl-gw551x.dtb
+0517 bcm93384wvg.dtb
+0518 rk3288-veyron-jerry.dtb
+0519 mt6592-evb.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt6592-sysirq', 'mediatek,mt6577-sysirq']
+0520 zx296718-evb.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0521 imx6q-gw5400-a.dtb
+0522 am3517-craneboard.dtb
+0523 qcom-msm8974-lge-nexus5-hammerhead.dtb
+0524 stm32429i-eval.dtb
+0525 berlin4ct-dmp.dtb
+0526 sun6i-a31-mele-a1000g-quad.dtb
+0527 imx6q-gw54xx.dtb
+0528 spear300-evb.dtb
+0529 omega2p.dtb
+0530 ar9331_dragino_ms14.dtb
+0531 keystone-k2l-evm.dtb
+0532 omap4-duovero-parlor.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0533 sun4i-a10-gemei-g9.dtb
+0534 bcm4708-linksys-ea6500-v2.dtb
+0535 sun8i-h3-orangepi-lite.dtb
+0536 imx6ul-ccimx6ulsbcpro.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0537 sun5i-a13-utoo-p66.dtb
+0538 exynos4412-itop-elite.dtb
+0539 armada-xp-db-dxbc2.dtb
+0540 fsl-ls1028a-qds.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0541 vf610-zii-ssmb-dtu.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0542 am335x-baltos-ir3220.dtb
+0543 rk3288-miqi.dtb
+0544 qcom-apq8064-sony-xperia-yuga.dtb
+0545 bcm28155-ap.dtb
+0546 uniphier-pxs2-gentil.dtb
+0547 am335x-bonegreen.dtb
+0548 socfpga_stratix10_socdk.dtb
+0549 bcm2837-rpi-3-a-plus.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-armctrl-ic']
+0550 vf610-zii-dev-rev-b.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0551 imx6dl-ts4900.dtb
+0552 rk3288-veyron-brain.dtb
+0553 at91-foxg20.dtb
+0554 imx6dl-gw5903.dtb
+0555 at91sam9rlek.dtb
+0556 px30-evb.dtb
+0557 mt6797-x20-dev.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0558 mt6580-evbp1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt6580-sysirq', 'mediatek,mt6577-sysirq']
+0559 integratorcp.dtb
+0560 mpa1600.dtb
+0561 vf610m4-colibri.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0562 exynos3250-monk.dtb
+0563 r8a7795-es1-h3ulcb-kf.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['renesas,gpio-r8a7795', 'renesas,rcar-gen3-gpio']
+0564 omap3430-sdp.dtb
+0565 imx7d-sdb.dtb
+0566 stih407-b2120.dtb
+0567 arm-realview-eb-11mp-bbrevd-ctrevb.dtb
+0568 socfpga_arria10_socdk_nand.dtb
+0569 hip07-d05.dtb
+0570 imx6dl-aristainetos2_7.dtb
+0571 imx6q-icore.dtb
+0572 rda8810pl-orangepi-2g-iot.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['rda,8810pl-intc']
+0573 bcm958623hr.dtb
+0574 imx6dl-yapp4-hydra.dtb
+0575 am335x-nano.dtb
+0576 imx6ulz-14x14-evk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0577 kirkwood-ds411.dtb
+0578 omap3-igep0030-rev-g.dtb
+0579 imx6dl-icore-mipi.dtb
+0580 imx6dl-dfi-fs700-m60.dtb
+0581 meson-gxm-nexbox-a1.dtb
+0582 imx23-olinuxino.dtb
+0583 aspeed-bmc-opp-romulus.dtb
+0584 kirkwood-ts219-6282.dtb
+0585 xlp_gvp.dtb
+0586 suniv-f1c100s-licheepi-nano.dtb
+0587 fsl-ls1046a-qds.dtb
+0588 at91-kizbox.dtb
+0589 r8a7796-m3ulcb.dtb
+0590 at91sam9x25ek.dtb
+0591 imx6dl-sabreauto.dtb
+0592 orion5x-linkstation-lschl.dtb
+0593 imx6q-gw552x.dtb
+0594 r8a7791-porter.dtb
+0595 usb_a9263.dtb
+0596 imx28-tx28.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx28-gpio', 'fsl,mxs-gpio']
+0597 zynqmp-zc1751-xm017-dc3.dtb
+0598 am437x-sbc-t43.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0599 uniphier-pro4-sanji.dtb
+0600 s5pv210-smdkc110.dtb
+0601 lg1312-ref.dtb
+0602 imx6dl-gw553x.dtb
+0603 r8a77470-iwg23s-sbc.dtb
+0604 tegra210-smaug.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+0605 at91sam9263ek.dtb
+0606 am3517-evm.dtb
+0607 bcm97425svmb.dtb
+0608 tegra20-tec.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+0609 gemini-nas4220b.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+0610 bcm94709.dtb
+0611 imx6q-gw553x.dtb
+0612 bcm47189-tenda-ac9.dtb
+0613 aspeed-bmc-facebook-tiogapass.dtb
+0614 rtsm_ve-aemv8a.dtb
+0615 imx53-qsb.dtb
+0616 omap3-overo-gallop43.dtb
+0617 at91sam9g35ek.dtb
+0618 imx6dl-hummingboard2.dtb
+0619 berlin2-sony-nsz-gs7.dtb
+0620 sun8i-h3-beelink-x2.dtb
+0621 imx6dl-apf6dev.dtb
+0622 imx6q-icore-rqs.dtb
+0623 gcw0.dtb
+0624 tegra30-apalis-eval.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+0625 imx6q-phytec-mira-rdk-emmc.dtb
+0626 bcm4709-asus-rt-ac87u.dtb
+0627 foundation-v8.dtb
+0628 tegra194-p2972-0000.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra194-pmc']
+0629 imx50-evk.dtb
+0630 ar9331_tl_mr3020.dtb
+0631 armada-xp-linksys-mamba.dtb
+0632 imx6dl-tx6s-8034.dtb
+0633 imx27-eukrea-mbimxsd27-baseboard.dtb
+0634 socfpga_cyclone5_socrates.dtb
+0635 am335x-sl50.dtb
+0636 sun6i-a31s-sinovoip-bpi-m2.dtb
+0637 imx7d-cl-som-imx7.dtb
+0638 bcm958742k.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0639 bcm4708-netgear-r6300-v2.dtb
+0640 fsl-lx2160a-rdb.dtb
+0641 imx1-apf9328.dtb
+0642 omap3-cm-t3517.dtb
+0643 bcm958742t.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0644 am335x-base0033.dtb
+0645 imx6sx-udoo-neo-extended.dtb
+0646 dm8148-t410.dtb
+0647 imx53-tx53-x13x.dtb
+0648 bcm4708-smartrg-sr400ac.dtb
+0649 imx28-cfa10056.dtb
+0650 at91sam9261ek.dtb
+0651 omap3-overo-tobiduo.dtb
+0652 bcm958802a802x.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0653 sun8i-a33-sinlinx-sina33.dtb
+0654 sun5i-a10s-olinuxino-micro.dtb
+0655 omap3-gta04a4.dtb
+0656 r8a7745-iwg22d-sodimm.dtb
+0657 bcm2835-rpi-b-rev2.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2835-armctrl-ic']
+0658 meson-gxbb-nexbox-a95x.dtb
+0659 r8a7743-sk-rzg1m.dtb
+0660 sun8i-t3-cqa3t-bv3.dtb
+0661 kirkwood-ds212j.dtb
+0662 sun5i-a10s-auxtek-t003.dtb
+0663 zynq-zturn.dtb
+0664 imx6q-hummingboard2-som-v15.dtb
+0665 rk3288-firefly.dtb
+0666 berlin2cd-valve-steamlink.dtb
+0667 dra72-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0668 omap3-pandora-1ghz.dtb
+0669 imx28-duckbill-2-485.dtb
+0670 imx6q-nitrogen6_max.dtb
+0671 am335x-regor-rdk.dtb
+0672 imx6q-sabresd.dtb
+0673 exynos3250-artik5-eval.dtb
+0674 armada-370-netgear-rn104.dtb
+0675 meson-gxm-vega-s96.dtb
+0676 bcm4709-linksys-ea9200.dtb
+0677 ste-hrefprev60-tvk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['stericsson,db8500-gpio', 'st,nomadik-gpio']
+0678 imx28-duckbill.dtb
+0679 zynqmp-zcu102-rev1.0.dtb
+0680 bcm958625k.dtb
+0681 meson-gxm-q201.dtb
+0682 at91-gatwick.dtb
+0683 omap3-overo-storm-chestnut43.dtb
+0684 tegra114-roth.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+0685 kirkwood-ns2mini.dtb
+0686 qcom-msm8974-sony-xperia-castor.dtb
+0687 imx6q-arm2.dtb
+0688 da850-evm.dtb
+0689 sun4i-a10-inet1.dtb
+0690 ste-hrefv60plus-stuib.dtb
+0691 sun4i-a10-pcduino.dtb
+0692 sead3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mti,gic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mti,gic']
+0693 rk3288-firefly-beta.dtb
+0694 vf610-cosmic.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0695 imx28-apx4devkit.dtb
+0696 sun8i-a33-olinuxino.dtb
+0697 imx6q-novena.dtb
+0698 at91sam9m10g45ek.dtb
+0699 imx51-digi-connectcore-jsk.dtb
+0700 orion5x-maxtor-shared-storage-2.dtb
+0701 sun4i-a10-inet97fv2.dtb
+0702 sun5i-a13-olinuxino.dtb
+0703 rk3328-rock64.dtb
+0704 lpc4357-ea4357-devkit.dtb
+0705 spear600-evb.dtb
+0706 omap3-evm.dtb
+0707 keystone-k2e-evm.dtb
+0708 imx6q-apalis-ixora-v1.1.dtb
+0709 armada-385-linksys-cobra.dtb
+0710 bcm947189acdbmr.dtb
+0711 hip05-d02.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0712 imx8mq-zii-ultra-zest.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0713 omap2420-n810-wimax.dtb
+0714 fsl-ls1012a-oxalis.dtb
+0715 efm32gg-dk3750.dtb
+0716 kirkwood-netgear_readynas_duo_v2.dtb
+0717 fsl-ls1012a-rdb.dtb
+0718 imx51-zii-scu3-esb.dtb
+0719 tegra210-p3450-0000.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+0720 kirkwood-nsa320.dtb
+0721 ns2-xmc.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0722 bcm21664-garnet.dtb
+0723 exynos4412-smdk4412.dtb
+0724 armada-xp-synology-ds414.dtb
+0725 sun8i-r40-bananapi-m2-ultra.dtb
+0726 sun8i-r16-parrot.dtb
+0727 rk3036-kylin.dtb
+0728 bcm47081-luxul-xap-1410.dtb
+0729 sun4i-a10-a1000.dtb
+0730 orion5x-rd88f5182-nas.dtb
+0731 xlp_rvp.dtb
+0732 omap4-panda.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+0733 exynos5422-odroidhc1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0734 bm1880-sophon-edge.dtb
+0735 imx6qp-wandboard-revd1.dtb
+0736 imx6dl-gw53xx.dtb
+0737 sun4i-a10-jesurun-q5.dtb
+0738 sun8i-h3-nanopi-neo.dtb
+0739 bcm2835-rpi-b.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2835-armctrl-ic']
+0740 qcom-apq8064-cm-qs600.dtb
+0741 armada-3720-uDPU.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0742 imx6dl-colibri-eval-v3.dtb
+0743 nspire-tp.dtb
+0744 aspeed-bmc-opp-palmetto.dtb
+0745 sun8i-h3-rervision-dvk.dtb
+0746 rtd1295-mele-v9.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+0747 kirkwood-ns2max.dtb
+0748 imx6ul-tx6ul-mainboard.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0749 r8a7740-armadillo800eva.dtb
+0750 hi6220-hikey.dtb
+0751 aspeed-bmc-arm-centriq2400-rep.dtb
+0752 bcm47081-buffalo-wzr-600dhp2.dtb
+0753 nspire-clp.dtb
+0754 sun8i-a23-q8-tablet.dtb
+0755 rk3368-px5-evb.dtb
+0756 qcom-ipq4019-ap.dk04.1-c1.dtb
+0757 imx27-pdk.dtb
+0758 socfpga_agilex_socdk.dtb
+0759 gemini-wbd111.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+0760 kirkwood-km_fixedeth.dtb
+0761 imx6qp-phytec-mira-rdk-nand.dtb
+0762 meson-axg-s400.dtb
+0763 qcom-ipq8064-ap148.dtb
+0764 kirkwood-d2net.dtb
+0765 tegra30-colibri-eval-v3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+0766 usb_a9260.dtb
+0767 octeon_68xx.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-6880-ciu2']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-6880-ciu2']
+0768 wm8850-w70v2.dtb
+0769 s700-cubieboard7.dtb
+0770 tegra210-p2371-2180.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+0771 r8a7795-es1-salvator-x.dtb
+0772 uniphier-sld8-ref.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+0773 imx6ul-isiot-nand.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0774 sama5d36ek_cmp.dtb
+0775 omap3-overo-storm-alto35.dtb
+0776 at91-qil_a9260.dtb
+0777 r8a774c0-ek874.dtb
+0778 rk3036-evb.dtb
+0779 sun8i-h3-bananapi-m2-plus.dtb
+0780 imx6sl-evk.dtb
+0781 imx25-pdk.dtb
+0782 socfpga_vt.dtb
+0783 socfpga_arria5_socdk.dtb
+0784 armada-385-synology-ds116.dtb
+0785 wm8650-mid.dtb
+0786 picoxcell-pc7302-pc3x2.dtb
+0787 exynos4412-tiny4412.dtb
+0788 alpine-v2-evp.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0789 imx6q-wandboard-revd1.dtb
+0790 sun4i-a10-cubieboard.dtb
+0791 kirkwood-ds112.dtb
+0792 sun5i-a10s-r7-tv-dongle.dtb
+0793 zynq-zed.dtb
+0794 dove-sbc-a510.dtb
+0795 aspeed-bmc-arm-stardragon4800-rep2.dtb
+0796 aspeed-bmc-lenovo-hr630.dtb
+0797 r8a77970-v3msk.dtb
+0798 imx6ul-liteboard.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0799 exynos5250-smdk5250.dtb
+0800 kirkwood-goflexnet.dtb
+0801 ocelot_pcb120.dtb
+0802 qcom-ipq4019-ap.dk07.1-c1.dtb
+0803 imx6q-gw560x.dtb
+0804 sun4i-a10-marsboard.dtb
+0805 imx6q-emcon-avari.dtb
+0806 rk3399-roc-pc.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+0807 sun8i-a33-inet-d978-rev2.dtb
+0808 imx6dl-hummingboard.dtb
+0809 mt7622-rfb1.dtb
+0810 imx53-m53menlo.dtb
+0811 armada-3720-db.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0812 kirkwood-dns320.dtb
+0813 meson-gxl-s805x-libretech-ac.dtb
+0814 dra72-evm-revc.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0815 kirkwood-iconnect.dtb
+0816 kirkwood-linkstation-lswxl.dtb
+0817 r7s9210-rza2mevb.dtb
+0818 imx6qp-sabresd.dtb
+0819 bcm47094-luxul-abr-4500.dtb
+0820 kirkwood-dreamplug.dtb
+0821 versatile-ab.dtb
+0822 ar9132_tl_wr1043nd_v1.dtb
+0823 r8a7795-salvator-xs.dtb
+0824 qcom-apq8060-dragonboard.dtb
+0825 tegra124-nyan-big.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+0826 lg1313-ref.dtb
+0827 bcm97435svmb.dtb
+0828 orion5x-linkstation-lsgl.dtb
+0829 imx6dl-wandboard-revb1.dtb
+0830 kirkwood-pogoplug-series-4.dtb
+0831 rv1108-evb.dtb
+0832 at91-nattis-2-natte-2.dtb
+0833 sun5i-gr8-evb.dtb
+0834 imx53-m53evk.dtb
+0835 meson-gxl-s905x-khadas-vim.dtb
+0836 armada-xp-db.dtb
+0837 omap3-sniper.dtb
+0838 imx23-evk.dtb
+0839 omap3-lilly-dbb056.dtb
+0840 rk3288-veyron-minnie.dtb
+0841 wm8505-ref.dtb
+0842 imx53-mba53.dtb
+0843 sun8i-a23-gt90h-v4.dtb
+0844 tegra186-p2771-0000.dtb
+0845 kirkwood-rd88f6281-a.dtb
+0846 r8a77965-salvator-x.dtb
+0847 bcm97125cbmb.dtb
+0848 s3c2416-smdk2416.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,s3c2416-irq']
+0849 bcm47189-luxul-xap-1440.dtb
+0850 mt8173-evb.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt8173-sysirq', 'mediatek,mt6577-sysirq']
+0851 qcom-msm8974-fairphone-fp2.dtb
+0852 imx6q-marsboard.dtb
+0853 socfpga_cyclone5_socdk.dtb
+0854 exynos5250-snow-rev5.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0855 imx6sx-sdb.dtb
+0856 bcm4708-luxul-xap-1510.dtb
+0857 sun8i-a23-inet86dz.dtb
+0858 r8a7790-lager.dtb
+0859 amd-overdrive.dtb
+0860 s5pv210-smdkv210.dtb
+0861 omap3-gta04a5.dtb
+0862 imx53-ppd.dtb
+0863 vexpress-v2p-ca15-tc1.dtb
+0864 fsl-ls2080a-rdb.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0865 tegra124-apalis-eval.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+0866 owl-s500-cubieboard6.dtb
+0867 armada-xp-axpwifiap.dtb
+0868 kirkwood-rs212.dtb
+0869 dra62x-j5eco-evm.dtb
+0870 imx28-sps1.dtb
+0871 exynos4210-origen.dtb
+0872 sun4i-a10-itead-iteaduino-plus.dtb
+0873 zynqmp-zc1751-xm016-dc2.dtb
+0874 omap3-cm-t3730.dtb
+0875 tegra20-colibri-iris.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+0876 imx6q-var-dt6customboard.dtb
+0877 armada-370-seagate-personal-cloud-2bay.dtb
+0878 imx6q-logicpd.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6q-gpio', 'fsl,imx35-gpio']
+0879 imx6q-dfi-fs700-m60.dtb
+0880 imx27-apf27dev.dtb
+0881 vexpress-v2p-ca5s.dtb
+0882 aks-cdu.dtb
+0883 gemini-rut1xx.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+0884 r8a7795-h3ulcb.dtb
+0885 imx6q-cubox-i.dtb
+0886 rk3399-rock-pi-4.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+0887 rk3288-evb-rk808.dtb
+0888 imx6dl-phytec-pbab01.dtb
+0889 exynos5410-odroidxu.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0890 gemini-dlink-dir-685.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cortina,gemini-gpio', 'faraday,ftgpio010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+0891 kirkwood-dns325.dtb
+0892 hip01-ca9x2.dtb
+0893 imx6q-h100.dtb
+0894 qcom-ipq4019-ap.dk01.1-c1.dtb
+0895 stm32f746-disco.dtb
+0896 omap3-ldp.dtb
+0897 stm32f469-disco.dtb
+0898 usb_a9g20.dtb
+0899 dove-d2plug.dtb
+0900 imx6ul-phytec-phyboard-segin-full.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0901 r8a7795-salvator-x.dtb
+0902 sdm845-db845c.dtb
+0903 imx53-qsrb.dtb
+0904 moxart-uc7112lx.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['moxa,moxart-ic', 'faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['moxa,moxart-ic', 'faraday,ftintc010']
+0905 ls1021a-moxa-uc-8410a.dtb
+0906 am335x-pdu001.dtb
+0907 fsl-ls1043a-rdb.dtb
+0908 imx6q-nitrogen6_som2.dtb
+0909 vexpress-v2f-1xv7-ca53x2.dtb
+0910 bcm958525er.dtb
+0911 imx6q-zii-rdu2.dtb
+0912 imx8mm-evk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+0913 rk3368-evb-act8846.dtb
+0914 spear1310-evb.dtb
+0915 tegra132-norrin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+0916 sun5i-gr8-chip-pro.dtb
+0917 exynos4412-origen.dtb
+0918 omap2420-n800.dtb
+0919 imx6dl-wandboard-revd1.dtb
+0920 aspeed-bmc-facebook-cmm.dtb
+0921 meson-gxbb-nanopi-k2.dtb
+0922 omap2420-n810.dtb
+0923 xlp_svp.dtb
+0924 meson8-minix-neo-x8.dtb
+0925 sun8i-h3-orangepi-plus.dtb
+0926 at91-sama5d4ek.dtb
+0927 mt2712-evb.dtb
+0928 axm5516-amarillo.dtb
+0929 exynos4210-universal_c210.dtb
+0930 meson-gxl-s905x-p212.dtb
+0931 arm-realview-pbx-a9.dtb
+0932 omap3-gta04a5one.dtb
+0933 bcm97362svmb.dtb
+0934 kirkwood-ds409slim.dtb
+0935 exynos7-espresso.dtb
+0936 tegra210-p2371-0000.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+0937 zynq-zc706.dtb
+0938 tegra30-beaver.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+0939 sun4i-a10-mk802ii.dtb
+0940 r8a7794-silk.dtb
+0941 kirkwood-ds409.dtb
+0942 juno.dtb
+0943 ls1021a-tsn.dtb
+0944 sun6i-a31-hummingbird.dtb
+0945 zynqmp-zc1751-xm015-dc1.dtb
+0946 imx6ul-14x14-evk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+0947 am335x-shc.dtb
+0948 bcm2835-rpi-zero.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2835-armctrl-ic']
+0949 imx23-sansa.dtb
+0950 kirkwood-guruplug-server-plus.dtb
+0951 tegra30-cardhu-a02.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+0952 imx25-eukrea-mbimxsd25-baseboard-dvi-vga.dtb
+0953 imx6q-phytec-pbab01.dtb
+0954 fsl-ls1012a-frdm.dtb
+0955 meson-gxl-s805x-p241.dtb
+0956 imx7d-colibri-emmc-eval-v3.dtb
+0957 sun5i-a13-hsg-h702.dtb
+0958 meson-gxbb-p201.dtb
+0959 qcs404-evb-1000.dtb
+0960 bcm7445-bcm97445svmb.dtb
+0961 tegra210-p2894-0050-a08.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra210-ictlr']
+0962 bcm47094-luxul-xwr-3100.dtb
+0963 boston.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0964 pxa300-raumfeld-speaker-m.dtb
+0965 orion5x-lacie-d2-network.dtb
+0966 rda8810pl-orangepi-i96.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['rda,8810pl-intc']
+0967 imx6q-tx6q-1010-comtft.dtb
+0968 am335x-evmsk.dtb
+0969 armada-8040-mcbin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0970 socfpga_cyclone5_de0_nano_soc.dtb
+0971 dra7-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+0972 meson-gxm-rbox-pro.dtb
+0973 am335x-bone.dtb
+0974 zx296702-ad1.dtb
+0975 zynqmp-zcu111-revA.dtb
+0976 imx28-cfa10037.dtb
+0977 bcm47094-phicomm-k3.dtb
+0978 imx6dl-icore-rqs.dtb
+0979 qcom-mdm9615-wp8548-mangoh-green.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['semtech,sx1509q']
+0980 vf500-colibri-eval-v3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+0981 at91-vinco.dtb
+0982 am3874-iceboard.dtb
+0983 ste-hrefprev60-stuib.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['stericsson,db8500-gpio', 'st,nomadik-gpio']
+0984 hi3519-demb.dtb
+0985 bcm958622hr.dtb
+0986 rk3188-px3-evb.dtb
+0987 xlp_evp.dtb
+0988 imx6qp-nitrogen6_som2.dtb
+0989 exynos5422-odroidxu4.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+0990 alphascale-asm9260-devkit.dtb
+0991 at91-sama5d2_ptc_ek.dtb
+0992 omap5-igep0050.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+0993 omap3-overo-storm-palo43.dtb
+0994 imx6dl-sabrelite.dtb
+0995 imx50-kobo-aura.dtb
+0996 kirkwood-sheevaplug.dtb
+0997 msm8916-mtp.dtb
+0998 arm-realview-pba8.dtb
+0999 am437x-gp-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+1000 atlas7-evb.dtb
+1001 rt2880_eval.dtb
+1002 rk3288-r89.dtb
+1003 bcm3368-netgear-cvg834g.dtb
+1004 r8a77965-m3nulcb-kf.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['renesas,gpio-r8a77965', 'renesas,rcar-gen3-gpio']
+1005 imx7d-zii-rpu2.dtb
+1006 imx28-evk.dtb
+1007 armada-xp-lenovo-ix4-300d.dtb
+1008 pxa300-raumfeld-speaker-s.dtb
+1009 rk3399-rockpro64.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+1010 kirkwood-linkstation-lsqvl.dtb
+1011 husky.dtb
+1012 imx6qp-sabreauto.dtb
+1013 bcm97420c.dtb
+1014 qcom-msm8974-sony-xperia-amami.dtb
+1015 exynos5250-spring.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+1016 ar9331_dpt_module.dtb
+1017 s5pv210-aquila.dtb
+1018 intel-ixp43x-gateworks-gw2358.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['intel,ixp43x-interrupt']
+1019 bcm988312hr.dtb
+1020 imx6q-evi.dtb
+1021 imx8mq-zii-ultra-rmb3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+1022 sun6i-a31s-sina31s.dtb
+1023 rk3288-veyron-mickey.dtb
+1024 kirkwood-iomega_ix2_200.dtb
+1025 sun8i-a33-ga10h-v1.1.dtb
+1026 armada-370-db.dtb
+1027 exynos4412-odroidu3.dtb
+1028 zynqmp-zc1254-revA.dtb
+1029 imx35-eukrea-mbimxsd35-baseboard.dtb
+1030 stm32mp157c-ed1.dtb
+1031 qcom-msm8974-samsung-klte.dtb
+1032 imx7d-sbc-imx7.dtb
+1033 socfpga_cyclone5_mcvevk.dtb
+1034 exynos4210-smdkv310.dtb
+1035 kirkwood-net2big.dtb
+1036 dlink_dsr-1000n.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+1037 fsl-ls1012a-qds.dtb
+1038 aspeed-ast2500-evb.dtb
+1039 imx6ul-tx6ul-0010.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+1040 omap3-n9.dtb
+1041 imx6q-pistachio.dtb
+1042 imx28-apf28.dtb
+1043 zynqmp-zcu102-revA.dtb
+1044 evk-pro3.dtb
+1045 kirkwood-ds110jv10.dtb
+1046 bcm47094-linksys-panamera.dtb
+1047 rt3883_eval.dtb
+1048 meson-gxl-s905x-hwacom-amazetv.dtb
+1049 imx7ulp-evk.dtb
+1050 armada-388-clearfog.dtb
+1051 tegra20-trimslice.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+1052 s900-bubblegum-96.dtb
+1053 hi3620-hi4511.dtb
+1054 qcom-apq8064-asus-nexus7-flo.dtb
+1055 imx28-duckbill-2.dtb
+1056 ethernut5.dtb
+1057 fsl-ls1028a-rdb.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+1058 omap3-n900.dtb
+1059 imx6q-udoo.dtb
+1060 sun4i-a10-mk802.dtb
+1061 meson-gxbb-vega-s95-pro.dtb
+1062 sun6i-a31s-inet-q972.dtb
+1063 emev2-kzm9d.dtb
+1064 da850-enbw-cmc.dtb
+1065 stm32h743i-eval.dtb
+1066 omap4-panda-es.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+1067 zynqmp-zcu100-revC.dtb
+1068 mt6795-evb.dtb
+1069 am335x-boneblack.dtb
+1070 armada-370-seagate-nas-2bay.dtb
+1071 sun4i-a10-hackberry.dtb
+1072 bcm6358-neufbox4-sercomm.dtb
+1073 stm32f769-disco.dtb
+1074 imx28-eukrea-mbmx283lc.dtb
+1075 imx6q-nitrogen6x.dtb
+1076 socfpga_arria10_socdk_qspi.dtb
+1077 bcm4708-asus-rt-ac56u.dtb
+1078 fsl-ls1043a-qds.dtb
+1079 tegra20-seaboard.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+1080 omap3-overo-storm-summit.dtb
+1081 sun8i-a23-ippo-q8h-v1.2.dtb
+1082 sun6i-a31-m9.dtb
+1083 omap3-overo-storm-tobi.dtb
+1084 imx6q-mccmon6.dtb
+1085 ns2-svk.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1086 logicpd-torpedo-37xx-devkit.dtb
+1087 sp9860g-1h10.dtb
+1088 zynq-cc108.dtb
+1089 imx6dl-nit6xlite.dtb
+1090 r8a7796-salvator-xs.dtb
+1091 r8a7790-stout.dtb
+1092 omap3-overo-summit.dtb
+1093 fsl-ls2080a-qds.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+1094 sun6i-a31s-colorfly-e708-q1.dtb
+1095 at91-sama5d3_xplained.dtb
+1096 omap5-cm-t54.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+1097 omap3-overo-alto35.dtb
+1098 arm-realview-eb-a9mp-bbrevd.dtb
+1099 arm-realview-eb-bbrevd.dtb
+1100 sama5d31ek.dtb
+1101 pxa300-raumfeld-speaker-l.dtb
+1102 omap3-ha.dtb
+1103 sdm845-mtp.dtb
+1104 sun8i-h3-nanopi-m1.dtb
+1105 sun9i-a80-optimus.dtb
+1106 rt3052_eval.dtb
+1107 imx27-apf27.dtb
+1108 omap3-devkit8000-lcd43.dtb
+1109 imx6q-tx6q-1010.dtb
+1110 gemini-sq201.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1111 kirkwood-pogo_e02.dtb
+1112 meson8b-odroidc1.dtb
+1113 kirkwood-nsa310.dtb
+1114 imx6ul-tx6ul-0011.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+1115 r8a77970-eagle.dtb
+1116 imx28-duckbill-2-enocean.dtb
+1117 kirkwood-mplcec4.dtb
+1118 juno-r1.dtb
+1119 sun5i-a10s-mk802.dtb
+1120 imx28-eukrea-mbmx287lc.dtb
+1121 s5pv210-goni.dtb
+1122 am335x-sancloud-bbe.dtb
+1123 imx53-tx53-x03x.dtb
+1124 logicpd-som-lv-37xx-devkit.dtb
+1125 am335x-baltos-ir2110.dtb
+1126 169445.dtb
+1127 bcm97346dbsmb.dtb
+1128 k3-am654-base-board.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,sci-intr']
+1129 at91sam9g25ek.dtb
+1130 imx6q-tbs2910.dtb
+1131 imx7d-pico-hobbit.dtb
+1132 aspeed-bmc-quanta-q71l.dtb
+1133 kirkwood-rd88f6281-z0.dtb
+1134 omap4-kc1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+1135 am437x-cm-t43.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+1136 kirkwood-sheevaplug-esata.dtb
+1137 mt8183-evb.dtb
+1138 imx6q-tx6q-1020-comtft.dtb
+1139 meson-gxl-s905w-tx3-mini.dtb
+1140 sun8i-v40-bananapi-m2-berry.dtb
+1141 vf610-colibri-eval-v3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+1142 imx35-pdk.dtb
+1143 armada-388-clearfog-base.dtb
+1144 omap3-sbc-t3530.dtb
+1145 bcm4709-buffalo-wxr-1900dhp.dtb
+1146 aspeed-bmc-opp-zaius.dtb
+1147 tegra114-dalmore.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra114-ictlr', 'nvidia,tegra30-ictlr']
+1148 imx6q-cm-fx6.dtb
+1149 rk3066a-rayeager.dtb
+1150 imx6q-gw5904.dtb
+1151 ox820-cloudengines-pogoplug-series-3.dtb
+1152 bcm94708.dtb
+1153 imx6dl-eckelmann-ci4x10.dtb
+1154 at91sam9g20ek_2mmc.dtb
+1155 imx6q-gw53xx.dtb
+1156 at91-tse850-3.dtb
+1157 r9a06g032-rzn1d400-db.dtb
+1158 bcm53340-ubnt-unifi-switch8.dtb
+1159 am335x-moxa-uc-2101.dtb
+1160 sun4i-a10-olinuxino-lime.dtb
+1161 tango4-vantage-1172.dtb
+1162 vf610-bk4.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+1163 aspeed-bmc-inspur-fp5280g2.dtb
+1164 imx6dl-nitrogen6x.dtb
+1165 da850-lego-ev3.dtb
+1166 imx6dl-aristainetos2_4.dtb
+1167 lpc4357-myd-lpc4357.dtb
+1168 meson-gxl-s905d-p231.dtb
+1169 tny_a9263.dtb
+1170 exynos5420-smdk5420.dtb
+1171 omap4-droid4-xt894.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+1172 mt6589-aquaris5.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mediatek,mt6589-sysirq', 'mediatek,mt6577-sysirq']
+1173 arm-realview-eb-a9mp.dtb
+1174 tegra124-venice2.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+1175 am335x-moxa-uc-8100-me-t.dtb
+1176 rk3288-evb-act8846.dtb
+1177 arm-realview-eb-11mp-bbrevd.dtb
+1178 omap3-zoom3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+1179 sun4i-a10-mini-xplus.dtb
+1180 imx28-cfa10058.dtb
+1181 at91-ariettag25.dtb
+1182 ep7211-edb7211.dtb
+1183 exynos5250-arndale.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+1184 socfpga_cyclone5_sodia.dtb
+1185 sun8i-a23-polaroid-mid2809pxe04.dtb
+1186 sun8i-a23-polaroid-mid2407pxe03.dtb
+1187 aspeed-bmc-portwell-neptune.dtb
+1188 imx6q-hummingboard.dtb
+1189 armada-375-db.dtb
+1190 kirkwood-cloudbox.dtb
+1191 exynos5420-arndale-octa.dtb
+1192 am57xx-cl-som-am57x.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,irq-crossbar']
+1193 dove-dove-db.dtb
+1194 ste-hrefv60plus-tvk.dtb
+1195 bcm911360k.dtb
+1196 r8a7778-bockw.dtb
+1197 kirkwood-ts419-6282.dtb
+1198 tegra20-ventana.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra20-ictlr']
+1199 r7s72100-rskrza1.dtb
+1200 imx6q-hummingboard2.dtb
+1201 imx8mq-librem5-devkit.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+1202 imx6dl-gw52xx.dtb
+1203 bcm47081-asus-rt-n18u.dtb
+1204 sun8i-v3s-licheepi-zero-dock.dtb
+1205 at91-dvk_som60.dtb
+1206 kirkwood-rs411.dtb
+1207 omap3-ha-lcd.dtb
+1208 omap3-thunder.dtb
+1209 omap3-gta04a3.dtb
+1210 mmp2-brownstone.dtb
+1211 meson-gxm-q200.dtb
+1212 rk3399-firefly.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+1213 rk3399-sapphire-excavator.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+1214 am335x-boneblue.dtb
+1215 stih418-b2199.dtb
+1216 at91-kizboxmini.dtb
+1217 exynos5410-smdk5410.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['samsung,exynos4210-combiner']
+1218 prima2-evb.dtb
+1219 msm8994-angler-rev-101.dtb
+1220 zynqmp-zcu106-revA.dtb
+1221 qcom-apq8074-dragonboard.dtb
+1222 meson-gxl-s905x-libretech-cc.dtb
+1223 kirkwood-linkstation-lswsxl.dtb
+1224 aspeed-bmc-opp-lanyang.dtb
+1225 meson-g12a-u200.dtb
+1226 at91sam9x35ek.dtb
+1227 xenvm-4.2.dtb
+1228 imx6q-icore-ofcap12.dtb
+1229 rk3328-evb.dtb
+1230 imx28-m28evk.dtb
+1231 aspeed-bmc-microsoft-olympus.dtb
+1232 imx1-ads.dtb
+1233 tegra30-cardhu-a04.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+1234 mt7620a_eval.dtb
+1235 r8a7744-iwg20d-q7-dbcm-ca.dtb
+1236 zynqmp-zcu102-revB.dtb
+1237 armada-370-seagate-nas-4bay.dtb
+1238 imx8mq-evk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+1239 rk3066a-bqcurie2.dtb
+1240 imx28-cfa10049.dtb
+1241 fsl-ls1088a-rdb.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+1242 fsl-ls1012a-frwy.dtb
+1243 omap3-igep0020.dtb
+1244 gemini-dlink-dns-313.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1245 orion5x-netgear-wnr854t.dtb
+1246 r8a7792-wheat.dtb
+1247 qcom-apq8084-mtp.dtb
+1248 tegra124-jetson-tk1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra124-ictlr', 'nvidia,tegra30-ictlr']
+1249 r8a7791-koelsch.dtb
+1250 imx28-m28cu3.dtb
+1251 sun6i-a31-app4-evb1.dtb
+1252 omap3-overo-storm-tobiduo.dtb
+1253 sun5i-a10s-auxtek-t004.dtb
+1254 msm8992-bullhead-rev-101.dtb
+1255 imx6dl-hummingboard2-emmc-som-v15.dtb
+1256 imx6qp-tx6qp-8037.dtb
+1257 imx6q-gw5903.dtb
+1258 aspeed-bmc-opp-witherspoon.dtb
+1259 omap3-overo-storm-palo35.dtb
+1260 meson8m2-mxiii-plus.dtb
+1261 r8a774a1-hihope-rzg2m-ex.dtb
+1262 sh73a0-kzm9g.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['renesas,intc-irqpin-sh73a0', 'renesas,intc-irqpin']
+1263 imx6dl-wandboard.dtb
+1264 nexys4ddr.dtb
+1265 armada-385-db-88f6820-amc.dtb
+1266 sun4i-a10-pcduino2.dtb
+1267 rtd1295-zidoo-x9s.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+1268 fsl-ls2088a-qds.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+1269 imx6q-apf6dev.dtb
+1270 vf610m4-cosmic.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,vf610-mscm-ir']
+1271 bcm953012k.dtb
+1272 r8a77995-draak.dtb
+1273 r8a7792-blanche.dtb
+1274 rk3328-roc-cc.dtb
+1275 imx6q-ts4900.dtb
+1276 stm32mp157a-avenger96.dtb
+1277 imx6q-dhcom-pdk2.dtb
+1278 am437x-sk-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+1279 imx6q-icore-ofcap10.dtb
+1280 rk3066a-marsboard.dtb
+1281 ci20.dtb
+1282 ls1021a-twr.dtb
+1283 kirkwood-linkstation-lswvl.dtb
+1284 bcm4708-luxul-xwc-1000.dtb
+1285 s3c6410-mini6410.dtb
+1286 r8a77965-salvator-xs.dtb
+1287 rk3399-orangepi.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+1288 kirkwood-blackarmor-nas220.dtb
+1289 armada-388-clearfog-pro.dtb
+1290 am335x-baltos-ir5221.dtb
+1291 aspeed-bmc-intel-s2600wf.dtb
+1292 fsl-ls1046a-rdb.dtb
+1293 hisi-x5hd2-dkb.dtb
+1294 omap3-overo-storm-gallop43.dtb
+1295 ste-nomadik-nhk15.dtb
+1296 omap5-uevm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+1297 am335x-icev2.dtb
+1298 bcm2836-rpi-2-b.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-l1-intc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['brcm,bcm2836-armctrl-ic']
+1299 ls1021a-qds.dtb
+1300 sun6i-a31s-yones-toptech-bs1078-v2.dtb
+1301 armada-xp-gp.dtb
+1302 fsl-ls1088a-qds.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+1303 uniphier-ld6b-ref.dtb
+>>>> ERROR <<<< 'NoneType' object has no attribute 'data'
+1304 imx28-apf28dev.dtb
+1305 armada-385-linksys-rango.dtb
+1306 imx7d-meerkat96.dtb
+1307 rk3399-sapphire.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
+1308 imx7d-nitrogen7.dtb
+1309 sun5i-a13-empire-electronix-m712.dtb
+1310 imx6ull-colibri-eval-v3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+1311 imx6q-utilite-pro.dtb
+1312 berlin4ct-stb.dtb
+1313 sun4i-a10-ba10-tvbox.dtb
+1314 tegra30-apalis-v1.1-eval.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['nvidia,tegra30-ictlr']
+1315 imx6dl-phytec-mira-rdk-nand.dtb
+1316 ipq8074-hk01.dtb
+1317 socfpga_cyclone5_vining_fpga.dtb
+1318 pistachio_marduk.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1319 tny_a9260.dtb
+1320 armada-388-rd.dtb
+1321 uniphier-pro4-ace.dtb
+1322 imx6dl-cubox-i-som-v15.dtb
+1323 exynos4412-odroidx2.dtb
+1324 sun9i-a80-cubieboard4.dtb
+1325 bcm47094-dlink-dir-885l.dtb
+1326 foundation-v8-gicv3.dtb
+1327 kirkwood-db-88f6281.dtb
+1328 kirkwood-linkstation-lsvl.dtb
+1329 qcom-msm8974-sony-xperia-honami.dtb
+1330 imx6dl-hummingboard-som-v15.dtb
+1331 sun5i-a13-difrnce-dit4350.dtb
+1332 omap3-devkit8000.dtb
+1333 kirkwood-nsa325.dtb
+1334 kirkwood-lschlv2.dtb
+1335 berlin2q-marvell-dmp.dtb
+1336 omap3-sbc-t3730.dtb
+1337 imx7d-colibri-eval-v3.dtb
+1338 armada-370-seagate-personal-cloud.dtb
+1339 am43x-epos-evm.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap4-wugen-mpu']
+1340 zynq-zybo.dtb
+1341 sun8i-h2-plus-orangepi-r1.dtb
+1342 sun8i-h3-orangepi-plus2e.dtb
+1343 bcm953012hr.dtb
+1344 pm9g45.dtb
+1345 pxa300-raumfeld-speaker-one.dtb
+1346 armada-385-db-ap.dtb
+1347 wm8750-apc8750.dtb
+1348 omap3-overo-chestnut43.dtb
+1349 imx6sx-udoo-neo-basic.dtb
+1350 omap5-sbc-t54.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap5-wugen-mpu', 'ti,omap4-wugen-mpu']
+1351 sun8i-a23-evb.dtb
+1352 r8a7793-gose.dtb
+1353 s5pv210-torbreck.dtb
+1354 apq8016-sbc.dtb
+1355 kirkwood-ds111.dtb
+1356 kirkwood-openblocks_a6.dtb
+1357 tny_a9g20.dtb
+1358 r8a77990-ebisu.dtb
+1359 bcm23550-sparrow.dtb
+1360 bcm9ejtagprb.dtb
+1361 at91sam9g20ek.dtb
+1362 imx6sll-evk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6sll-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6sll-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6sll-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6sll-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6sll-gpc', 'fsl,imx6q-gpc']
+1363 meson-gxbb-vega-s95-telos.dtb
+1364 mt7622-bananapi-bpi-r64.dtb
+1365 imx6q-savageboard.dtb
+1366 imx6ul-isiot-emmc.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,imx6ul-gpc', 'fsl,imx6q-gpc']
+1367 armada-3720-espressobin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
+1368 imx31-bug.dtb
+1369 sun8i-v3s-licheepi-zero.dtb
+1370 kirkwood-dir665.dtb
+1371 uniphier-pxs2-vodka.dtb
+1372 bcm4708-asus-rt-ac68u.dtb
+save as hardware-statistics.txt

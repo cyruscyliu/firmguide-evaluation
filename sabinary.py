@@ -9,7 +9,7 @@ from frequency import parse_openwrt_url
 mapping = json.load(open('target-board-properties.json'))
 
 FIRMWARE_BINARY = '/root/images'
-SALAMANDER = '/root/esv-release'
+SALAMANDER = '~/esv'
 
 
 def generate_commands(args):

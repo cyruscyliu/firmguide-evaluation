@@ -1,0 +1,15 @@
+ramips:
+    rt305x:
+        hash: 2529f54b83692eebb2a9a9db2ef50ae6
+ath79:
+    generic:
+        hash: 89494294f998e62c0784f215d25eae64
+kirkwood:
+    generic:
+        hash: 1eb17956454ba2925775bced266ee1a9
+bcm53xx:
+    generic:
+        hash: 653f4efe62bbf5e0a329dac4a57de2b5
+oxnas:
+    generic:
+        hash: bfae3162fb949c343763ad9ea7ab3fe0

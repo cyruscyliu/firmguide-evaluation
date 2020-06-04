@@ -1,4 +1,4 @@
-ns16550a,504
-snps,dw-apb-uart,1044
-ns16550,90
-ns8250,4
+snps,dw-apb-uart,914
+ns16550a,1161
+ns16550,154
+ns8250,2

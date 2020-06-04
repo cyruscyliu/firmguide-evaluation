@@ -3,10 +3,40 @@ import os
 import yaml
 import datetime
 import argparse
+
 from prettytable import PrettyTable
+from offline import find_kernel_version2
 
 
 BUILD = '/root/build-latest'
+
+
+def find_arch(target_dir, image_list):
+    for k, v in image_list.items():
+        profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
+        image_list[k]['arch'] = profile['basics']['architecture'] + 'e' + profile['basic']['endian']
+
+
+def find_size(target_dir, image_list):
+    for k, v in image_list.items():
+        profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
+        image_list[k]['size'] = os.path.getsize(profile['components']['path_to_raw'])
+
+
+def find_version(target_dir, image_list):
+    for k, v in image_list.items():
+        profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
+        version = None
+        if 'path_to_kernel' in profile['components']:
+            path_to_kernel = profile['components']['path_to_kernel']
+            version = find_kernel_version2(path_to_kernel)
+        image_list[k]['version'] = version
+
+
+def find_type(target_dir, image_list):
+    for k, v in image_list.items():
+        profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
+        image_list[k]['type'] = profile['components']['type']
 
 
 def find_format(target_dir, image_list):
@@ -194,6 +224,10 @@ def online(argv):
             line = [target, subtarget, unpack_format, unpack_kernel_extracted,
                     match, prepare, boot_rootfs, boot_user_space, boot_shell, '{:.2f}'.format(time)]
             table.add_row(line)
+            find_size(target_dir, image_list)
+            find_type(target_dir, image_list)
+            find_version(target_dir, image_list)
+            find_arch(target_dir, image_list)
             yaml.safe_dump(image_list, open('commandb/{}_{}.yaml'.format(target, subtarget), 'w'))
 
     if args.json:

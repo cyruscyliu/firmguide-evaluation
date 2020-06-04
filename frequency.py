@@ -92,7 +92,7 @@ def frequency(args):
             print(url)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-j', '--json', help='Generate JSON data.', action='store_true', default=False)
     parser.add_argument('-c', '--csv', help='Generate CSV data.', action='store_true', default=False)

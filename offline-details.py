@@ -76,7 +76,7 @@ def offline(args):
 
     table = PrettyTable()
     table.field_names = [
-        'target', 'subtarget', 'RV', 'KV', 'CRM', 'SMM', 'MRM(IV)', 'LoC', 'SUCC']
+        'TARGET', 'SUBTARGET', 'RV', 'KV', 'CRM', 'SMM', 'MRM(IV)', 'LoC', 'SUCC']
 
     for target, v in results.items():
         for subtarget, vv in v.items():

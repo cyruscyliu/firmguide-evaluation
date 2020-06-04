@@ -6,7 +6,7 @@ from elftools.elf.elffile import ELFFile
 from frequency import parse_openwrt_url
 
 OBD = '/mnt/iscsi/openwrt-build-docker'
-BUILD = '~/build'
+BUILD = '~/build-latest'
 
 
 def find_arch_and_endian(path_to_vmlinux):

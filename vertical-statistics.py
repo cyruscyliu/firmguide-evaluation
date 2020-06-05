@@ -12,8 +12,8 @@ from slcore.dt_parsers.timer import find_flatten_timer_in_fdt
 
 # we only check all subtargets in 19.07.1 and ramips rt305x from 14.07
 verticals = [
-    'openwrt-dtb-only/archive/14.07/ramips/rt305x',
-    'openwrt-dtb-only/archive/15.05/ramips/rt305x',
+    'openwrt-dtb-only/archive/14.07/targets/ramips/rt305x',
+    'openwrt-dtb-only/archive/15.05/targets/ramips/rt305x',
     'openwrt-dtb-only/release/17.01.1/targets/ramips/rt305x',
     'openwrt-dtb-only/release/17.01.0/targets/ramips/rt305x',
     'openwrt-dtb-only/release/17.01.2/targets/ramips/rt305x',

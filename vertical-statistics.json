@@ -1,6 +1,6 @@
 {
-    "14.07": {
-        "rt305x": [
+    "rt305x": {
+        "14.07": [
             {
                 "cpus": [
                     [
@@ -2314,10 +2314,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "15.05": {
-        "rt305x": [
+        ],
+        "15.05": [
             {
                 "cpus": [
                     [
@@ -4990,10 +4988,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "17.01.0": {
-        "rt305x": [
+        ],
+        "17.01.0": [
             {
                 "cpus": [
                     [
@@ -8112,10 +8108,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "17.01.1": {
-        "rt305x": [
+        ],
+        "17.01.1": [
             {
                 "cpus": [
                     [
@@ -11234,10 +11228,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "17.01.2": {
-        "rt305x": [
+        ],
+        "17.01.2": [
             {
                 "cpus": [
                     [
@@ -14356,3157 +14348,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "17.01.3": {
-        "rt305x": [
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3352-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3352-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3352-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3352-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3352-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3352-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3352-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3352-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3352-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,mt7620a-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3352-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3352-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3352-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt5350-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt5350-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt5350-systick",
-                        "ralink,cevt-systick"
-                    ],
-                    [
-                        "ralink,rt5350-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            },
-            {
-                "cpus": [
-                    [
-                        "mips,mips24KEc"
-                    ]
-                ],
-                "intcs": [
-                    [
-                        "mti,cpu-interrupt-controller"
-                    ],
-                    [
-                        "ralink,rt3050-intc",
-                        "ralink,rt2880-intc"
-                    ]
-                ],
-                "serials": [
-                    [
-                        "ralink,rt3050-uart",
-                        "ralink,rt2880-uart",
-                        "ns16550a"
-                    ]
-                ],
-                "timers": [
-                    [
-                        "ralink,rt3050-timer",
-                        "ralink,rt2880-timer"
-                    ]
-                ]
-            }
-        ]
-    },
-    "17.01.4": {
-        "rt305x": [
+        ],
+        "17.01.3": [
             {
                 "cpus": [
                     [
@@ -20650,10 +17493,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "17.01.5": {
-        "rt305x": [
+        ],
+        "17.01.4": [
             {
                 "cpus": [
                     [
@@ -23797,10 +20638,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "17.01.6": {
-        "rt305x": [
+        ],
+        "17.01.5": [
             {
                 "cpus": [
                     [
@@ -26944,10 +23783,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "17.01.7": {
-        "rt305x": [
+        ],
+        "17.01.6": [
             {
                 "cpus": [
                     [
@@ -30091,10 +26928,3153 @@
                     ]
                 ]
             }
-        ]
-    },
-    "18.06.0": {
-        "rt305x": [
+        ],
+        "17.01.7": [
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3352-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3352-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3352-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3352-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3352-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3352-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3352-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3352-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3352-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,mt7620a-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3352-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3352-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3352-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt5350-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt5350-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt5350-systick",
+                        "ralink,cevt-systick"
+                    ],
+                    [
+                        "ralink,rt5350-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            },
+            {
+                "cpus": [
+                    [
+                        "mips,mips24KEc"
+                    ]
+                ],
+                "intcs": [
+                    [
+                        "mti,cpu-interrupt-controller"
+                    ],
+                    [
+                        "ralink,rt3050-intc",
+                        "ralink,rt2880-intc"
+                    ]
+                ],
+                "serials": [
+                    [
+                        "ralink,rt3050-uart",
+                        "ralink,rt2880-uart",
+                        "ns16550a"
+                    ]
+                ],
+                "timers": [
+                    [
+                        "ralink,rt3050-timer",
+                        "ralink,rt2880-timer"
+                    ]
+                ]
+            }
+        ],
+        "18.06.0": [
             {
                 "cpus": [
                     [
@@ -33296,10 +33276,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "18.06.1": {
-        "rt305x": [
+        ],
+        "18.06.1": [
             {
                 "cpus": [
                     [
@@ -36501,10 +36479,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "18.06.3": {
-        "rt305x": [
+        ],
+        "18.06.3": [
             {
                 "cpus": [
                     [
@@ -39706,10 +39682,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "18.06.4": {
-        "rt305x": [
+        ],
+        "18.06.4": [
             {
                 "cpus": [
                     [
@@ -42911,10 +42885,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "18.06.5": {
-        "rt305x": [
+        ],
+        "18.06.5": [
             {
                 "cpus": [
                     [
@@ -46116,10 +46088,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "18.06.6": {
-        "rt305x": [
+        ],
+        "18.06.6": [
             {
                 "cpus": [
                     [
@@ -49321,10 +49291,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "18.06.7": {
-        "rt305x": [
+        ],
+        "18.06.7": [
             {
                 "cpus": [
                     [
@@ -52526,10 +52494,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "19.07.0": {
-        "rt305x": [
+        ],
+        "19.07.0": [
             {
                 "cpus": [
                     [
@@ -55735,10 +55701,8 @@
                     ]
                 ]
             }
-        ]
-    },
-    "19.07.1": {
-        "rt305x": [
+        ],
+        "19.07.1": [
             {
                 "cpus": [
                     [

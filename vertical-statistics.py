@@ -43,12 +43,12 @@ def pol(args):
         for root, dirs, files in os.walk(vertical):
             for dtb in files:
                 print('{:04}'.format(n), dtb)
+                subtarget = 'rt305x'
+                if subtarget not in c_all:
+                    c_all[subtarget] = {}
                 version = root.split('/')[2]
-                if version not in c_all:
-                    c_all[version] = {}
-                subtarget = root.split('/')[5]
-                if subtarget not in c_all[version]:
-                    c_all[version][subtarget] = []
+                if version not in c_all[subtarget]:
+                    c_all[subtarget][version] = []
 
                 try:
                     dts = load_dtb(os.path.join(root, dtb))
@@ -82,7 +82,7 @@ def pol(args):
                 for s in serials:
                     if s['compatible'] not in a['serials']:
                         a['serials'].append(s['compatible'])
-                c_all[version][subtarget].append(a)
+                c_all[subtarget][version].append(a)
                 n += 1
 
     with open('vertical-statistics.json', 'w') as f:

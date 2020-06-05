@@ -63,6 +63,7 @@ def generate_commands(args):
             command += ' -l {}'.format(firmware['url'])
         command += ' -nc'
         # command += ' -to 120'
+        command += ' -del'
         print(command)
 
 

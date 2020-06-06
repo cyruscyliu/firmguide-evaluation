@@ -14,7 +14,7 @@ size = {}
 
 
 def check_arch(target, subtarget):
-    image_list = yaml.safe_load('commandb/{}_{}.yaml'.format(target, subtarget))
+    image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
         if v['arch'] not in arch:
             arch[v['arch']] = 1
@@ -23,27 +23,27 @@ def check_arch(target, subtarget):
 
 
 def check_version(target, subtarget):
-    image_list = yaml.safe_load('commandb/{}_{}.yaml'.format(target, subtarget))
+    image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
-        if v['version'] not in arch:
+        if v['version'] not in version:
             version[v['version']] = 1
         else:
             version[v['version']] += 1
 
 
 def check_ftype(target, subtarget):
-    image_list = yaml.safe_load('commandb/{}_{}.yaml'.format(target, subtarget))
+    image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
-        if v['type'] not in arch:
+        if v['type'] not in ftype:
             ftype[v['type']] = 1
         else:
             ftype[v['type']] += 1
 
 
 def check_size(target, subtarget):
-    image_list = yaml.safe_load('commandb/{}_{}.yaml'.format(target, subtarget))
+    image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
-        if v['size'] not in arch:
+        if v['size'] not in size:
             size[v['size']] = 1
         else:
             size[v['size']] += 1
@@ -63,36 +63,36 @@ def online_robustness(argv):
     table_arch = PrettyTable()
     table_arch.field_names = ['ARCH&ENDIAN', 'COUNT']
     for k, v in arch.items():
-        table_arch.add_line([k, v])
+        table_arch.add_row([k, v])
     with open('online-robustness.arch.csv', 'w') as f:
-        f.writeline(table_arch.get_csv_string())
+        f.write(table_arch.get_csv_string())
     print('save as online-robustness.arch.csv')
 
     # #### TYPE
     table_type = PrettyTable()
     table_type.field_names = ['TYPE', 'COUNT']
     for k, v in ftype.items():
-        table_type.add_line([k, v])
+        table_type.add_row([k, v])
     with open('online-robustness.type.csv', 'w') as f:
-        f.writeline(table_type.get_csv_string())
+        f.write(table_type.get_csv_string())
     print('save as online-robustness.type.csv')
 
     # #### SIZE
     table_size = PrettyTable()
     table_size.field_names = ['SIZE', 'COUNT']
     for k, v in size.items():
-        table_size.add_line([k, v])
+        table_size.add_row([k, v])
     with open('online-robustness.size.csv', 'w') as f:
-        f.writeline(table_size.get_csv_string())
+        f.write(table_size.get_csv_string())
     print('save as online-robustness.size.csv')
 
     # #### VERSION
     table_version = PrettyTable()
     table_version.field_names = ['VERSION', 'COUNT']
     for k, v in version.items():
-        table_version.add_line([k, v])
+        table_version.add_row([k, v])
     with open('online-robustness.version.csv', 'w') as f:
-        f.writeline(table_version.get_csv_string())
+        f.write(table_version.get_csv_string())
     print('save as online-robustness.version.csv')
 
 

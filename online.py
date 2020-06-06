@@ -14,7 +14,7 @@ BUILD = '/root/build-latest'
 def find_arch(target_dir, image_list):
     for k, v in image_list.items():
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
-        image_list[k]['arch'] = profile['basics']['architecture'] + 'e' + profile['basic']['endian']
+        image_list[k]['arch'] = profile['basics']['architecture'] + 'e' + profile['basics']['endian']
 
 
 def find_size(target_dir, image_list):
@@ -24,6 +24,7 @@ def find_size(target_dir, image_list):
 
 
 def find_version(target_dir, image_list):
+    print('>>>>>>>> FIND KERNEL VERSION ...')
     for k, v in image_list.items():
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         version = None
@@ -210,6 +211,10 @@ def online(argv):
 
     for target, v in results.items():
         for subtarget, vv in v.items():
+            if argv.select is not None:
+                if '{}/{}'.format(target, subtarget) != argv.select:
+                    continue
+            print('>>>> HANDLE {}/{}'.format(target, subtarget))
             target_dir = os.path.join(BUILD, vv['hash'])
             image_list = gen_image_list(target, subtarget, target_dir)
             unpack_format = find_format(target_dir, image_list)
@@ -242,6 +247,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-j', '--json', help='Generate JSON data.', action='store_true', default=False)
     parser.add_argument('-c', '--csv', help='Generate CSV data.', action='store_true', default=False)
+    parser.add_argument('-s', '--select', help='Assign a particular target/subtarget, such as oxnas/generic.')
 
     args = parser.parse_args()
     online(args)

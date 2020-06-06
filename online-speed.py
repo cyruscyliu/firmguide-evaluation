@@ -40,6 +40,9 @@ def online_speed(argv):
 
     for target, v in results.items():
         for subtarget, vv in v.items():
+            if argv.select is not None:
+                if '{}/{}'.format(target, subtarget) != argv.select:
+                    continue
             target_dir = os.path.join(BUILD, vv['hash'])
             image_list = gen_image_list(target, subtarget, target_dir)
             start, end = find_start_and_end(target_dir, image_list)
@@ -58,6 +61,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-j', '--json', help='Generate JSON data.', action='store_true', default=False)
     parser.add_argument('-c', '--csv', help='Generate CSV data.', action='store_true', default=False)
+    parser.add_argument('-s', '--select', help='Assign a particular target/subtarget, such as oxnas/generic.')
 
     args = parser.parse_args()
     online_speed(args)

@@ -32,7 +32,6 @@ def find_openwrt_revision(target_dir, signature):
 
 def find_kernel_version2(path_to_kernel):
     if path_to_kernel is None:
-        print('kernel is None in', target_dir)
         return None
     candidates = get_candidates(path_to_kernel)
     strings = get_all_strings(candidates)

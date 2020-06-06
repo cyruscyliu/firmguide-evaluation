@@ -45,8 +45,13 @@ class DatabaseFirmadyne(DatabaseInterface):
         path = items[self.header.index('filename')]
         uuid = items[self.header.index('id')]
         brand = items[self.header.index('brand')]
-        if self.brand is not None and brand != self.brand:
-            return
+        if self.brand is not None:
+            if self.brand.startswith('!'):
+                if brand == self.brand[1:]:
+                    return
+            else:
+                if brand != self.brand:
+                    return
         if not len(items[self.header.index('arch')]):
             arch = None
             endian = None

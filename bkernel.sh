@@ -72,12 +72,52 @@ test_dhrystone()
     dyrystone 1000000
 }
 
-test_tinybenchmark()
+test_memspeed()
 {
-    tinybenchmark
+    # RAMspeed (GENERIC) v2.6.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+    #
+    # 1Gb per pass mode
+    #
+    # INTEGER   Copy:      25.00 MB/s
+    # INTEGER   Scale:     25.00 MB/s
+    # INTEGER   Add:       18.75 MB/s
+    # INTEGER   Triad:     18.75 MB/s
+    # ---
+    # INTEGER   AVERAGE:   21.88 MB/s
+    ramspeed -b 3 -g 1
+    # RAMspeed (GENERIC) v2.6.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+    #
+    # 1Gb per pass mode
+    #
+    # FL-POINT  Copy:      16.67 MB/s
+    # FL-POINT  Scale:     1.67 MB/s
+    # FL-POINT  Add:       3.13 MB/s
+    # FL-POINT  Triad:     1.44 MB/s
+    # ---
+    # FL-POINT  AVERAGE:   5.73 MB/s
+    ramspeed -b 6 -g 1
 }
 
 
-
+test_interrupt()
+{
+    #             CPU0
+    #    2:   21776655       GIC  29 Edge      twd
+    #    6:      37581       GIC  55 Level     serial
+    # IPI0:          0  CPU wakeup interrupts
+    # IPI1:          0  Timer broadcast interrupts
+    # IPI2:          0  Rescheduling interrupts
+    # IPI3:          0  Function call interrupts
+    # IPI4:          0  Single function call interrupts
+    # IPI5:          0  CPU stop interrupts
+    # IPI6:          0  IRQ work interrupts
+    # IPI7:          0  completion interrupts
+    #  Err:          0
+    for i in `seq 10`
+    do
+        cat /proc/interrupts
+        sleep 1
+    done
+}
 
 test_all

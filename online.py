@@ -111,20 +111,26 @@ def find_prepare(target_dir, image_list):
 
 
 def find_rootfs(target_dir, image_list):
-    c = 0
+    c, c1 = 0, 0
     for k, v in image_list.items():
         log = os.path.join(target_dir, v['log'])
         status = 0
+        reason = None
         with open(log) as f:
             for line in f:
                 if line.find('Unpacking initramfs') != -1:
                     status += 1
+                elif line.find('Unable to mount root fs on unknown-block(0,0)') != -1:
+                    reason = 'flag_unset'
         if status == 1:
             c += 1
             image_list[k]['rootfs'] = True
         else:
+            if reason is not None:
+                image_list[k]['failed_rootfs'] = reason
+                c1 += 1
             image_list[k]['rootfs'] = False
-    return c
+    return c, c1
 
 
 def find_user_space(target_dir, image_list):
@@ -222,12 +228,13 @@ def online(argv):
                 find_kernel_extracted(target_dir, image_list)
             match = find_match(target_dir, image_list)
             prepare = find_prepare(target_dir, image_list)
-            boot_rootfs = find_rootfs(target_dir, image_list)
+            boot_rootfs, failed_rootfs = find_rootfs(target_dir, image_list)
             boot_user_space = find_user_space(target_dir, image_list)
             boot_shell = find_shell(target_dir, image_list)
             time = find_time(target_dir, image_list)
             line = [target, subtarget, unpack_format, unpack_kernel_extracted,
-                    match, prepare, boot_rootfs, boot_user_space, boot_shell, '{:.2f}'.format(time)]
+                    match, prepare, '{}({})'.format(boot_rootfs, failed_rootfs),
+                    boot_user_space, boot_shell, '{:.2f}'.format(time)]
             table.add_row(line)
             find_size(target_dir, image_list)
             find_type(target_dir, image_list)

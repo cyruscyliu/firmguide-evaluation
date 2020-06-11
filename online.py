@@ -122,6 +122,8 @@ def find_rootfs(target_dir, image_list):
                     status += 1
                 elif line.find('Unable to mount root fs on unknown-block(0,0)') != -1:
                     reason = 'flag_unset'
+                elif line.find('CPU clock: 0.000 MHz') != -1:
+                    reason = 'zero_rate'
         if status == 1:
             c += 1
             image_list[k]['rootfs'] = True

@@ -19119,7 +19119,7 @@ bc5cae1afb9465e8c4bbbbdb9b48a3ff33bb032b.bin: {arch: mipsel, format: true, kerne
   shell: true, size: 3408044, time: 719.2089998722076, trace: bc5cae1afb9465e8c4bbbbdb9b48a3ff33bb032b.bin.trace,
   type: 2, user_space: true, version: 4.4.92}
 bc5d25dd879b5e05cb1b62fb14336fcc5cd92afa.bin: {arch: mipsel, format: true, kernel_extracted: true,
-  log: bc5d25dd879b5e05cb1b62fb14336fcc5cd92afa.bin.log, match: true, prepare: false,
+  log: bc5d25dd879b5e05cb1b62fb14336fcc5cd92afa.bin.log, match: true, prepare: true,
   profile: bc5d25dd879b5e05cb1b62fb14336fcc5cd92afa.bin.profile.yaml, rootfs: false,
   shell: false, size: 3211772, trace: bc5d25dd879b5e05cb1b62fb14336fcc5cd92afa.bin.trace,
   type: 2, user_space: false, version: 4.4.140}

@@ -1,0 +1,2 @@
+cd /root/esv-latest && ./salamander upload -f /root/images/45ae4295700f29189e90f13f86f6a2321055a86c.bin -l http://archive.openwrt.org/snapshots/trunk/kirkwood/generic/openwrt-kirkwood-linksys-viper-squashfs-factory.bin -nc -del
+cd /root/esv-latest && ./salamander upload -f /root/images/5e840b52176ab531be06e4649f7b1e94627d2459.bin -l http://archive.openwrt.org/snapshots/trunk/kirkwood/generic/openwrt-kirkwood-linksys-audi-squashfs-factory.bin -nc -del

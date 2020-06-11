@@ -36,6 +36,8 @@ def failedcasegen(summaryp, shell=False):
             continue
         if 'failed_rootfs' in v:
             continue
+        if 'failed_shell' in v:
+            continue
         command = search_command(commands, k)
         if command is None:
             print('>>>> ERRROR <<<< there is no command for {}'.format(k))

@@ -146,22 +146,29 @@ def find_user_space(target_dir, image_list):
 
 
 def find_shell(target_dir, image_list):
-    c = 0
+    c, c1 = 0, 0
     for k, v in image_list.items():
         log = os.path.join(target_dir, v['log'])
         status = 0
+        reason = None
         with open(log) as f:
             for line in f:
                 if line.find('Starting syslogd') != -1:
                     status += 1
                 if line.find('Welcome to Buildroot') != -1:
                     status += 1
+                if line.find('Unhandled fault: page domain fault (0x81b) at 0x00000200') != -1:
+                    status = 0
+                    reason = 'orion_nand_bug'
         if status > 0:
             c += 1
             image_list[k]['shell'] = True
         else:
+            if reason is not None:
+                image_list[k]['failed_shell'] = reason
+                c1 += 1
             image_list[k]['shell'] = False
-    return c
+    return c, c1
 
 
 def find_time(target_dir, image_list):
@@ -230,11 +237,12 @@ def online(argv):
             prepare = find_prepare(target_dir, image_list)
             boot_rootfs, failed_rootfs = find_rootfs(target_dir, image_list)
             boot_user_space = find_user_space(target_dir, image_list)
-            boot_shell = find_shell(target_dir, image_list)
+            boot_shell, failed_shell = find_shell(target_dir, image_list)
             time = find_time(target_dir, image_list)
             line = [target, subtarget, unpack_format, unpack_kernel_extracted,
                     match, prepare, '{}({})'.format(boot_rootfs, failed_rootfs),
-                    boot_user_space, boot_shell, '{:.2f}'.format(time)]
+                    boot_user_space, '{}({})'.format(boot_shell, failed_shell),
+                    '{:.2f}'.format(time)]
             table.add_row(line)
             find_size(target_dir, image_list)
             find_type(target_dir, image_list)

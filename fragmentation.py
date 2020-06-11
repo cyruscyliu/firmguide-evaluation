@@ -38,5 +38,3 @@ if __name__ == '__main__':
         print(fragmentation(args.dtb))
     elif args.path:
         print(f_for_all(os.path.realpath(args.path)))
-
-

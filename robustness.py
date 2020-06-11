@@ -16,6 +16,8 @@ size = {}
 def check_arch(target, subtarget):
     image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
+        if not v['user_space']:
+            continue
         if v['arch'] not in arch:
             arch[v['arch']] = 1
         else:
@@ -25,6 +27,8 @@ def check_arch(target, subtarget):
 def check_version(target, subtarget):
     image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
+        if not v['user_space']:
+            continue
         if v['version'] not in version:
             version[v['version']] = 1
         else:
@@ -34,6 +38,8 @@ def check_version(target, subtarget):
 def check_ftype(target, subtarget):
     image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
+        if not v['user_space']:
+            continue
         if v['type'] not in ftype:
             ftype[v['type']] = 1
         else:
@@ -43,6 +49,8 @@ def check_ftype(target, subtarget):
 def check_size(target, subtarget):
     image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
+        if not v['user_space']:
+            continue
         if v['size'] not in size:
             size[v['size']] = 1
         else:

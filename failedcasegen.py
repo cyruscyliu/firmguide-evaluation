@@ -29,8 +29,14 @@ def failedcasegen(summaryp, shell=False):
             continue
         if not v['match']:
             continue
+        if not v['prepare']:
+            continue
+        if not v['rootfs']:
+            continue
         indicator = 'user_space'
         if shell:
+            if v[indicator]:
+                continue
             indicator = 'shell'
         if v[indicator]:
             continue

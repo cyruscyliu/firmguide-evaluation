@@ -11,7 +11,7 @@ from firmware import DatabaseText, DatabaseFirmadyne
 
 
 FIRMWARE_BINARY = '/root/images'
-FIRMWARE_REMOTE = '/mnt/firm/original_image'
+FIRMWARE_REMOTE = '/mnt/nas/original_image'
 REMOTE = '-i id_rsa cloud@192.168.1.218'
 
 
@@ -19,7 +19,7 @@ def generate_commands(args):
     if args.database_type == 'text':
         db = DatabaseText('firmware.text')
     else:
-        db = DatabaseFirmadyne('firmware.firmadyne.91600', brand='tp-link')
+        db = DatabaseFirmadyne('firmware.firmadyne', brand='netgear')
 
     for firmware in db.get_firmware():
         from_path = os.path.join(FIRMWARE_REMOTE, firmware['path'])

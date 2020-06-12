@@ -15,7 +15,13 @@ def generate_commands(args):
     if args.database_type == 'text':
         db = DatabaseText('firmware.text')
     else:
-        db = DatabaseFirmadyne('firmware.firmadyne', brand='!openwrt')
+        if args.database_path:
+            if args.brand:
+                db = DatabaseFirmadyne(args.database_path, brand=args.brand)
+            else:
+                db = DatabaseFirmadyne(args.database_path, brand='!openwrt')
+        else:
+            db = DatabaseFirmadyne('firmware.firmadyne', brand='!openwrt')
 
     for firmware in db.get_firmware():
         firmware['path'] = \
@@ -41,8 +47,10 @@ def generate_commands(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-dbt', '--database_type', choices=['text', 'firmadyne'], default='text', type=str)
+    parser.add_argument('-p', '--database_path', help='database path')
     parser.add_argument('-l', '--limit', type=int, default=0, help='limit the amount of firmware to test')
     parser.add_argument('-u', '--uuid', type=str, nargs='+', help='assign a or several firmware to tested')
     parser.add_argument('-q', '--quick', action='store_true', default=False, help='disable tracing and diagnosis')
+    parser.add_argument('-b', '--brand', choices=['!openwrt', 'netgear'], help='brand')
     args = parser.parse_args()
     generate_commands(args)

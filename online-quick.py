@@ -43,7 +43,6 @@ def online(argv):
                     boot_user_space, '{}({})'.format(boot_shell, failed_shell),
                     '{:.2f}'.format(time)]
             table.add_row(line)
-            yaml.safe_dump(image_list, open('commandb/{}_{}.yaml'.format(target, subtarget), 'w'))
 
     if args.json:
         print(table.get_json_string())

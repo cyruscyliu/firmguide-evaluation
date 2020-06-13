@@ -35,7 +35,7 @@ def failedcasegen(summaryp, shell=False):
             continue
         indicator = 'user_space'
         if shell:
-            if v[indicator]:
+            if not v[indicator]:
                 continue
             indicator = 'shell'
         if v[indicator]:

@@ -30,7 +30,10 @@ def find_version(target_dir, image_list):
         version = None
         if 'path_to_kernel' in profile['components']:
             path_to_kernel = profile['components']['path_to_kernel']
-            version = find_kernel_version2(path_to_kernel)
+            try:
+                version = find_kernel_version2(path_to_kernel)
+            except FileNotFoundError:
+                pass
         image_list[k]['version'] = version
 
 
@@ -81,7 +84,7 @@ def find_match(target_dir, image_list):
                     status = -1
                 if line.find('002 cannot find the compatible') != -1:
                     status = -1
-                if line.find('003 canno find any machine id') != -1:
+                if line.find('003 cannot find any machine id') != -1:
                     status = -1
         if status == 0:
             c += 1
@@ -162,6 +165,9 @@ def find_shell(target_dir, image_list):
                 if line.find('Unhandled fault: page domain fault (0x81b) at 0x00000200') != -1:
                     status = 0
                     reason = 'orion_nand_bug'
+                if line.find('platform pinctrl: function \'uartlite\' not supported') != -1:
+                    status = 0
+                    reason = 'serial_failure'
         if status > 0:
             c += 1
             image_list[k]['shell'] = True

@@ -6,6 +6,12 @@ from prettytable import PrettyTable
 from pol import compare
 
 
+def get_subtarget(statistics):
+    for target, v1 in statistics.items():
+        for subtarget, v2 in v1.items():
+            yield '{}/{}'.format(target, subtarget), v2
+
+
 def anti_pol(args):
     with open(args.file) as f:
         statistics = json.load(f)
@@ -13,16 +19,15 @@ def anti_pol(args):
     table = PrettyTable()
     table.field_names = ['K1', 'K2', 'GROUP', 'CPUD', 'INTCD', 'TIMERD', 'SERIALD', 'SUMD']
 
-    for k1, v1 in statistics.items():
-        for k2_1, v2_1 in v1.items():
-            for k2_2, v2_2 in v1.items():
-                if k2_1 == k2_2:
-                    continue
-                for g1, inst1 in enumerate(v2_1):
-                    for g2, inst2 in enumerate(v2_2):
-                        d1, d2, d3, d4 = compare(inst1, inst2)
-                        table.add_row([k1, k2_1, '{}-{}-{}-{}'.format(k2_1, k2_2, g1, g2),
-                                    d1, d2, d3, d4, d1 + d2 + d3 + d4])
+    for subtarget_1, v1 in get_subtarget(statistics):
+        for subtarget_2, v2 in get_subtarget(statistics):
+            if subtarget_1 == subtarget_2:
+                continue
+            for g1, inst1 in enumerate(v1):
+                for g2, inst2 in enumerate(v2):
+                    d1, d2, d3, d4 = compare(inst1, inst2)
+                    table.add_row([subtarget_1, subtarget_2, '{}-{}-{}-{}'.format(subtarget_1, subtarget_2, g1, g2),
+                                d1, d2, d3, d4, d1 + d2 + d3 + d4])
 
     if args.json:
         print(table.get_json_string())

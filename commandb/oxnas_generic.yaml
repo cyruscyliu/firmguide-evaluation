@@ -181,7 +181,7 @@
 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin: {arch: armel, format: true, kernel_extracted: true,
   log: 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin.log, match: true, prepare: true,
   profile: 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin.profile.yaml, rootfs: true,
-  shell: false, size: 3670016, time: 4250.986999750137, trace: 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin.trace,
+  shell: true, size: 3670016, time: 4250.986999750137, trace: 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin.trace,
   type: 3, user_space: true, version: 3.18.20}
 456194f9caadab6e21fbd236b03765102c2b2d53.bin: {arch: armel, format: true, kernel_extracted: true,
   log: 456194f9caadab6e21fbd236b03765102c2b2d53.bin.log, match: true, prepare: true,

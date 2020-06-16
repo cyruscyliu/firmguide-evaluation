@@ -91,6 +91,8 @@ def find_match(target_dir, image_list):
             image_list[k]['match'] = True
         else:
             image_list[k]['match'] = False
+            if image_list[k]['kernel_extracted']:
+                image_list[k]['match'] = True
     return c
 
 
@@ -171,6 +173,8 @@ def find_shell(target_dir, image_list):
         if status > 0:
             c += 1
             image_list[k]['shell'] = True
+            if not image_list[k]['user_space']:
+                print(k)
         else:
             if reason is not None:
                 image_list[k]['failed_shell'] = reason

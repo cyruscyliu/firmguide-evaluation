@@ -1,107 +1,57 @@
 #!/usr/bin/python
+import os
 import yaml
 import argparse
-from prettytable import PrettyTable
+
+from slcore.dt_parsers.common import load_dtb
+from slcore.dt_parsers.compatible import find_compatible_in_fdt
 
 
 BUILD = '/root/build-latest'
 
 
-arch = {}
-version = {}
-ftype = {}
-size = {}
+summary = {}
 
 
-def check_arch(target, subtarget):
+def check_version(target, subtarget, target_dir):
     image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
         if not v['user_space']:
             continue
-        if v['arch'] not in arch:
-            arch[v['arch']] = 1
-        else:
-            arch[v['arch']] += 1
+        summary['{}/{}'.format(target, subtarget)]['version'].append(v['version'])
 
+    summary['{}/{}'.format(target, subtarget)]['version'] = \
+            list(set(summary['{}/{}'.format(target, subtarget)]['version']))
 
-def check_version(target, subtarget):
+def check_compatible(target, subtarget, target_dir):
     image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
     for k, v in image_list.items():
         if not v['user_space']:
             continue
-        if v['version'] not in version:
-            version[v['version']] = 1
-        else:
-            version[v['version']] += 1
-
-
-def check_ftype(target, subtarget):
-    image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
-    for k, v in image_list.items():
-        if not v['user_space']:
+        profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
+        path_to_dtb = profile['components']['path_to_dtb']
+        if not os.path.exists(path_to_dtb):
             continue
-        if v['type'] not in ftype:
-            ftype[v['type']] = 1
-        else:
-            ftype[v['type']] += 1
+        dts = load_dtb(path_to_dtb)
+        compatible = find_compatible_in_fdt(dts)
+        summary['{}/{}'.format(target, subtarget)]['machines'].extend(compatible)
 
-
-def check_size(target, subtarget):
-    image_list = yaml.safe_load(open('commandb/{}_{}.yaml'.format(target, subtarget)))
-    for k, v in image_list.items():
-        if not v['user_space']:
-            continue
-        if v['size'] not in size:
-            size[v['size']] = 1
-        else:
-            size[v['size']] += 1
-
+    summary['{}/{}'.format(target, subtarget)]['machines'] = \
+            list(set(summary['{}/{}'.format(target, subtarget)]['machines']))
+        
 
 def online_robustness(argv):
     results = yaml.safe_load(open('subtarget-hashtable.yaml'))
 
     for target, v in results.items():
         for subtarget, vv in v.items():
-            check_arch(target, subtarget)
-            check_version(target, subtarget)
-            check_ftype(target, subtarget)
-            check_size(target, subtarget)
+            target_dir = os.path.join(BUILD, vv['hash'])
+            summary['{}/{}'.format(target, subtarget)] = {'version': [], 'machines': []}
+            check_version(target, subtarget, target_dir)
+            check_compatible(target, subtarget, target_dir)
+    for k, v in summary.items():
+        print('{}@{}@{}'.format(k, v['version'], v['machines']))
 
-    # #### ARCH&ENDIAN
-    table_arch = PrettyTable()
-    table_arch.field_names = ['ARCH&ENDIAN', 'COUNT']
-    for k, v in arch.items():
-        table_arch.add_row([k, v])
-    with open('online-robustness.arch.csv', 'w') as f:
-        f.write(table_arch.get_csv_string())
-    print('save as online-robustness.arch.csv')
-
-    # #### TYPE
-    table_type = PrettyTable()
-    table_type.field_names = ['TYPE', 'COUNT']
-    for k, v in ftype.items():
-        table_type.add_row([k, v])
-    with open('online-robustness.type.csv', 'w') as f:
-        f.write(table_type.get_csv_string())
-    print('save as online-robustness.type.csv')
-
-    # #### SIZE
-    table_size = PrettyTable()
-    table_size.field_names = ['SIZE', 'COUNT']
-    for k, v in size.items():
-        table_size.add_row([k, v])
-    with open('online-robustness.size.csv', 'w') as f:
-        f.write(table_size.get_csv_string())
-    print('save as online-robustness.size.csv')
-
-    # #### VERSION
-    table_version = PrettyTable()
-    table_version.field_names = ['VERSION', 'COUNT']
-    for k, v in version.items():
-        table_version.add_row([k, v])
-    with open('online-robustness.version.csv', 'w') as f:
-        f.write(table_version.get_csv_string())
-    print('save as online-robustness.version.csv')
 
 
 if __name__ == '__main__':

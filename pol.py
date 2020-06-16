@@ -34,12 +34,12 @@ def pol(args):
     table = PrettyTable()
     table.field_names = ['K1', 'K2', 'GROUP', 'CPUD', 'INTCD', 'TIMERD', 'SERIALD', 'SUMD']
 
-    for k1, v1 in statistics.items():
-        for k2, v2 in v1.items():
+    for target, v1 in statistics.items():
+        for subtarget, v2 in v1.items():
             for g1, inst1 in enumerate(v2):
                 for g2, inst2 in enumerate(v2):
                     d1, d2, d3, d4 = compare(inst1, inst2)
-                    table.add_row([k1, k2, '{}-{}'.format(g1, g2),
+                    table.add_row([target, subtarget, '{}-{}'.format(g1, g2),
                                    d1, d2, d3, d4, d1 + d2 + d3 + d4])
 
     if args.json:

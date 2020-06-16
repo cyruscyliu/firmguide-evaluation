@@ -1,1571 +1,1978 @@
-0001 lpc4350-hitex-eval.dtb
-0002 owl-s500-guitar-bb-rev-b.dtb
-0002 imx6q-apalis-ixora.dtb
-0002 sun8i-a33-et-q8-v1.6.dtb
-0003 imx6q-phytec-mira-rdk-nand.dtb
-0003 sun5i-a13-olinuxino-micro.dtb
-0004 imx51-eukrea-mbimxsd51-baseboard.dtb
-0004 tegra20-plutux.dtb
-0004 armada-8040-clearfog-gt-8k.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0005 kirkwood-openblocks_a7.dtb
-0006 rk3188-radxarock.dtb
-0007 imx6qp-nitrogen6_max.dtb
-0007 bcm911360_entphn.dtb
-0008 imx6q-wandboard.dtb
-0008 orion5x-linkstation-lswtgl.dtb
-0009 imx6dl-riotboard.dtb
-0009 imx6q-tx6q-1110.dtb
-0009 stm32f429-disco.dtb
-0009 omap3-evm-37xx.dtb
-0009 kirkwood-ts219-6281.dtb
-0010 omap4-var-dvk-om44.dtb
-0010 kirkwood-linksys-viper.dtb
-0011 meson8b-ec100.dtb
-0011 imx6q-ts7970.dtb
-0011 at91-sama5d27_som1_ek.dtb
-0011 imx6q-sabrelite.dtb
-0011 bcm953012er.dtb
-0012 ecx-2000.dtb
-0012 lpc3250-phy3250.dtb
-0012 artpec6-devboard.dtb
-0012 imx6sl-warp.dtb
-0012 sun8i-h3-orangepi-pc.dtb
-0013 imx7d-mba7.dtb
-0013 qcom-apq8064-ifc6410.dtb
-0013 omap3-overo-palo35.dtb
-0013 mt7623n-bananapi-bpi-r2.dtb
-0013 am437x-idk-evm.dtb
-0013 omap3-cm-t3530.dtb
-0013 ar9331_omega.dtb
-0013 meson-gxbb-wetek-play2.dtb
-0013 sun5i-r8-chip.dtb
-0014 vf610-zii-dev-rev-c.dtb
-0014 bcm958625hr.dtb
-0015 rk3288-popmetal.dtb
-0016 r8a77980-condor.dtb
-0016 rk3288-veyron-pinky.dtb
-0017 omap3-beagle-xm-ab.dtb
-0017 exynos5433-tm2.dtb
-0017 bcm2835-rpi-a.dtb
-0017 exynos5433-tm2e.dtb
-0017 fsl-lx2160a-qds.dtb
-0017 pxa910-dkb.dtb
-0017 vf610-zii-scu4-aib.dtb
-0017 qi_lb60.dtb
-0017 imx6dl-aristainetos_7.dtb
-0017 sama5d35ek.dtb
-0017 exynos4210-trats.dtb
-0017 imx6dl-rex-basic.dtb
-0017 imx53-voipac-bsb.dtb
-0017 imx6q-rex-pro.dtb
-0017 imx6dl-tx6u-801x.dtb
-0017 at91sam9260ek.dtb
-0017 sun5i-a10s-wobo-i5.dtb
-0018 hi3670-hikey970.dtb
-0018 imx7s-mba7.dtb
-0018 bcm47189-luxul-xap-810.dtb
-0019 at91-sama5d4_xplained.dtb
-0019 armada-385-turris-omnia.dtb
-0019 sun8i-a23-ippo-q8h-v5.dtb
-0020 hi3660-hikey960.dtb
-0020 imx6q-gw551x.dtb
-0020 owl-s500-sparky.dtb
-0020 kirkwood-t5325.dtb
-0021 imx6q-hummingboard2-emmc-som-v15.dtb
-0021 imx6ull-14x14-evk.dtb
-0021 imx7d-sdb-sht11.dtb
-0021 thunder2-99xx.dtb
-0021 arm-realview-pb11mp.dtb
-0021 meson6-atv1200.dtb
-0021 rk3288-fennec.dtb
-0022 vexpress-v2p-ca9.dtb
-0022 imx27-phytec-phycore-rdk.dtb
-0022 aspeed-bmc-inspur-on5263m5.dtb
-0023 kirkwood-b3.dtb
-0024 r8a7794-alt.dtb
-0024 am57xx-beagle-x15.dtb
-0024 armada-370-dlink-dns327l.dtb
-0025 dra76-evm.dtb
-0025 dove-cubox-es.dtb
-0026 zynqmp-zc1275-revA.dtb
-0026 tegra20-colibri-eval-v3.dtb
-0026 bcm4708-netgear-r6250.dtb
-0027 tegra20-paz00.dtb
-0027 r8a7796-salvator-x.dtb
-0027 sun4i-a10-dserve-dsrv9703c.dtb
-0028 am57xx-beagle-x15-revc.dtb
-0028 r8a7796-m3ulcb-kf.dtb
-0028 versatile-ab-ib2.dtb
-0028 r8a7779-marzen.dtb
-0028 armada-370-mirabox.dtb
-0029 bcm47094-luxul-xap-1610.dtb
-0030 meson-gxbb-wetek-hub.dtb
-0030 omap4-sdp-es23plus.dtb
-0030 imx51-zii-scu2-mezz.dtb
-0030 imx6dl-ts7970.dtb
-0030 sun4i-a10-pov-protab2-ips9.dtb
-0031 rk3288-veyron-jaq.dtb
-0032 am335x-wega-rdk.dtb
-0032 mps2-an385.dtb
-0032 imx25-eukrea-mbimxsd25-baseboard-cmo-qvga.dtb
-0032 usb_a9g20_lpw.dtb
-0032 aspeed-bmc-facebook-yamp.dtb
-0033 imx6dl-yapp4-ursa.dtb
-0033 imx6sx-sdb-reva.dtb
-0033 amd-overdrive-rev-b1.dtb
-0033 qcom-ipq4019-ap.dk07.1-c2.dtb
-0033 hi3798cv200-poplar.dtb
-0033 imx6qp-tx6qp-8137.dtb
-0033 animeo_ip.dtb
-0033 am57xx-beagle-x15-revb1.dtb
-0033 bcm2837-rpi-3-b.dtb
-0033 mt2701-evb.dtb
-0033 kirkwood-dockstar.dtb
-0034 am335x-sbc-t335.dtb
-0034 sun8i-r16-nintendo-nes-classic.dtb
-0035 imx6dl-tx6u-8033.dtb
-0035 exynos3250-rinato.dtb
-0035 bcm4708-buffalo-wzr-1750dhp.dtb
-0036 kirkwood-lsxhl.dtb
-0037 spear320-evb.dtb
-0037 imx53-ard.dtb
-0037 bcm97358svmb.dtb
-0038 zynqmp-zc1751-xm019-dc5.dtb
-0038 vt8500-bv07.dtb
-0038 gemini-wbd222.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0039 imx6q-b450v3.dtb
-0039 kirkwood-ns2lite.dtb
-0040 vf610-zii-spb4.dtb
-0040 pic32mzda_sk.dtb
-0040 imx6sx-sdb-sai.dtb
-0040 kirkwood-ds212.dtb
-0041 vf610-zii-ssmb-spu3.dtb
-0041 r8a7743-iwg20d-q7.dtb
-0041 bcm47094-luxul-xwr-3150-v1.dtb
-0042 imx6dl-cubox-i.dtb
-0042 bcm4708-linksys-ea6300-v1.dtb
-0043 apq8096-db820c.dtb
-0043 meson-gxbb-p200.dtb
-0043 imx23-xfi3.dtb
-0043 kirkwood-db-88f6282.dtb
-0044 stm32mp157a-dk1.dtb
-0044 vocore2.dtb
-0045 r7s72100-genmai.dtb
-0045 r7s72100-gr-peach.dtb
-0045 armada-398-db.dtb
-0046 sun6i-a31-i7.dtb
-0047 imx6q-tx6q-1036.dtb
-0047 mt8127-moose.dtb
-0047 imx6dl-cubox-i-emmc-som-v15.dtb
-0047 meson-gxl-s905x-nexbox-a95x.dtb
-0047 rk3288-phycore-rdk.dtb
-0048 armada-7040-db.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0049 r8a7745-iwg22d-sodimm-dbhd-ca.dtb
-0049 stih410-b2120.dtb
-0049 kirkwood-rs409.dtb
-0050 meson-g12a-sei510.dtb
-0050 sun8i-a33-ippo-q8h-v1.2.dtb
-0051 armada-370-netgear-rn102.dtb
-0052 sun4i-a10-hyundai-a7hd.dtb
-0053 r8a73a4-ape6evm.dtb
-0053 imx6dl-savageboard.dtb
-0053 omap3-igep0030.dtb
-0053 at91-sam9_l9260.dtb
-0053 bcm96368mvwg.dtb
-0053 omap3-beagle-xm.dtb
-0053 armada-xp-db-xc3-24g4xg.dtb
-0053 sama5d36ek.dtb
-0053 bcm958300k.dtb
-0054 omap3-sbc-t3517.dtb
-0054 rk3399-hugsun-x99.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0055 zynq-parallella.dtb
-0055 armada-8040-mcbin-singleshot.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0056 arm-realview-eb-11mp-ctrevb.dtb
-0056 am335x-bonegreen-wireless.dtb
-0056 imx6sx-sabreauto.dtb
-0056 arm-realview-eb-11mp.dtb
-0056 imx6q-gw52xx.dtb
-0056 bcm6362-neufbox6-sercomm.dtb
-0056 sun8i-h3-orangepi-one.dtb
-0057 imx6dl-gw552x.dtb
-0057 am335x-osd3358-sm-red.dtb
-0057 am3517_mt_ventoux.dtb
-0057 amd-overdrive-rev-b0.dtb
-0057 dm8148-evm.dtb
-0057 kirkwood-km_kirkwood.dtb
-0058 bcm47094-luxul-xbr-4500.dtb
-0059 r8a7745-sk-rzg1e.dtb
-0059 exynos5422-odroidxu3.dtb
-0059 ste-snowball.dtb
-0059 imx53-smd.dtb
-0059 socfpga_arria10_socdk_sdmmc.dtb
-0060 zynq-zc770-xm013.dtb
-0060 kirkwood-nsa310a.dtb
-0061 socfpga_cyclone5_sockit.dtb
-0062 imx6dl-tx6s-8035.dtb
-0062 armada-370-synology-ds213j.dtb
-0063 rk3399-puma-haikou.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0064 r8a7743-iwg20d-q7-dbcm-ca.dtb
-0064 dm8168-evm.dtb
-0064 imx28-cfa10036.dtb
-0064 orion5x-kuroboxpro.dtb
-0065 rk3288-rock2-square.dtb
-0066 armada-xp-matrix.dtb
-0067 rk3288-tinker.dtb
-0068 imx6q-hummingboard-som-v15.dtb
-0068 imx6dl-gw5904.dtb
-0068 aspeed-bmc-opp-vesnin.dtb
-0069 qcom-msm8960-cdp.dtb
-0069 stm32h743i-disco.dtb
-0069 imx51-zii-rdu1.dtb
-0069 armada-385-linksys-caiman.dtb
-0069 logicpd-som-lv-35xx-devkit.dtb
-0069 mt6797-evb.dtb
-0069 sun6i-a31s-primo81.dtb
-0070 meson-gxbb-vega-s95-meta.dtb
-0070 sun5i-a13-licheepi-one.dtb
-0071 am335x-chiliboard.dtb
-0071 imx6dl-emcon-avari.dtb
-0071 qcs404-evb-4000.dtb
-0071 alpine-db.dtb
-0072 imx6q-sabreauto.dtb
-0072 armada-390-db.dtb
-0073 zynq-zybo-z7.dtb
-0073 imx6dl-gw54xx.dtb
-0073 mps2-an399.dtb
-0073 armada-8040-db.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0074 apm-mustang.dtb
-0075 imx25-eukrea-mbimxsd25-baseboard-dvi-svga.dtb
-0075 rk3288-veyron-speedy.dtb
-0076 orion5x-lacie-ethernet-disk-mini-v2.dtb
-0077 picoxcell-pc7302-pc3x3.dtb
-0078 meson-gxbb-odroidc2.dtb
-0078 omap4-panda-a4.dtb
-0078 imx6ul-geam.dtb
-0078 sama5d33ek.dtb
-0078 am572x-idk.dtb
-0078 logicpd-torpedo-35xx-devkit.dtb
-0078 dove-cubox.dtb
-0079 imx7d-pico-pi.dtb
-0079 imx6sx-softing-vining-2000.dtb
-0079 imx6dl-tx6u-811x.dtb
-0079 kirkwood-laplug.dtb
-0080 imx6q-cubox-i-som-v15.dtb
-0080 at91sam9n12ek.dtb
-0080 vf610-twr.dtb
-0080 socfpga_cyclone5_chameleon96.dtb
-0081 imx28-duckbill-2-spi.dtb
-0081 stih410-b2260.dtb
-0081 uniphier-ld4-ref.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0082 bcm958525xmc.dtb
-0083 imx6dl-aristainetos_4.dtb
-0083 omap3-pandora-600mhz.dtb
-0083 dra71-evm.dtb
-0083 imx6dl-gw51xx.dtb
-0083 bcm47081-tplink-archer-c5-v2.dtb
-0084 sun8i-h2-plus-orangepi-zero.dtb
-0085 integratorap.dtb
-0085 bcm2835-rpi-a-plus.dtb
-0085 zynq-zc770-xm011.dtb
-0085 kirkwood-ib62x0.dtb
-0086 armada-8080-db.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0087 imx6q-hummingboard-emmc-som-v15.dtb
-0087 imx6ul-ccimx6ulsbcexpress.dtb
-0087 bcm2837-rpi-3-b-plus.dtb
-0087 sama5d34ek.dtb
-0087 imx53-usbarmory.dtb
-0087 exynos5420-peach-pit.dtb
-0087 at91-cosino_mega2560.dtb
-0087 kirkwood-ds109.dtb
-0088 r8a774c0-cat874.dtb
-0088 omap3-n950.dtb
-0088 sun8i-r16-bananapi-m2m.dtb
-0089 imx6q-gw51xx.dtb
-0089 sc9836-openphone.dtb
-0089 am335x-guardian.dtb
-0089 intel-ixp42x-linksys-nslu2.dtb
-0089 imx23-stmp378x_devb.dtb
-0089 fsl-ls2080a-simu.dtb
+0001 image-nsim_700.dtb
+0002 nsim_700.dtb
+0003 axs101.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['snps,dw-apb-gpio-port']
+0004 imx28-cfa10055.dtb
+0005 imx28-cfa10056.dtb
+0006 imx28-apf28.dtb
+0007 imx28-cfa10037.dtb
+0008 imx28-sps1.dtb
+0009 imx28-cfa10036.dtb
+0010 imx28-tx28.dtb
+0011 imx23-olinuxino.dtb
+0012 imx28-evk.dtb
+0013 imx28-duckbill-2-enocean.dtb
+0014 imx28-m28cu3.dtb
+0015 imx28-apx4devkit.dtb
+0016 imx23-xfi3.dtb
+0017 imx23-stmp378x_devb.dtb
+0018 imx23-sansa.dtb
+0019 imx28-apf28dev.dtb
+0020 imx28-m28evk.dtb
+0021 imx28-duckbill-2-485.dtb
+0022 imx28-duckbill-2-spi.dtb
+0023 imx28-duckbill.dtb
+0024 imx23-evk.dtb
+0025 imx28-cfa10057.dtb
+0026 imx28-eukrea-mbmx283lc.dtb
+0027 imx28-duckbill-2.dtb
+0028 imx28-cfa10058.dtb
+0029 imx28-eukrea-mbmx287lc.dtb
+0030 imx28-cfa10049.dtb
+0031 image-ox820-akitio-mycloud.dtb
+0032 image-ox820-mitrastar-stg-212.dtb
+0033 image-ox820-cloudengines-pogoplug-series-3.dtb
+0034 image-ox820-cloudengines-pogoplugpro.dtb
+0035 image-ox820-shuttle-kd20.dtb
+0036 ox810se-wd-mbwe.dtb
+0037 ox820-cloudengines-pogoplug-series-3.dtb
+0038 malta.dtb
+0039 image-nsim_hs_idu.dtb
+0040 axs103_idu.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['snps,dw-apb-gpio-port']
+0041 hsdk.dtb
+0042 nsim_700.dtb
+0043 nsim_hs_idu.dtb
+0044 image-bcm2708-rpi-0-w.dtb
+0045 image-bcm2708-rpi-b.dtb
+0046 image-bcm2708-rpi-cm.dtb
+0047 image-bcm2708-rpi-b-plus.dtb
+0048 bcm2710-rpi-cm3.dtb
+0049 bcm2710-rpi-3-b-plus.dtb
+0050 bcm2835-rpi-b-plus.dtb
+0051 bcm2708-rpi-0-w.dtb
+0052 bcm2835-rpi-zero-w.dtb
+0053 bcm2710-rpi-3-b.dtb
+0054 bcm2835-rpi-a.dtb
+0055 bcm2709-rpi-2-b.dtb
+0056 bcm2708-rpi-b-plus.dtb
+0057 bcm2835-rpi-b-rev2.dtb
+0058 bcm2836-rpi-2-b.dtb
+0059 bcm2835-rpi-b.dtb
+0060 bcm2835-rpi-zero.dtb
+0061 bcm2708-rpi-cm.dtb
+0062 bcm2708-rpi-b.dtb
+0063 bcm2837-rpi-3-b.dtb
+0064 bcm2835-rpi-a-plus.dtb
+0065 image-bcm2710-rpi-3-b-plus.dtb
+0066 image-bcm2710-rpi-3-b.dtb
+0067 bcm2710-rpi-cm3.dtb
+0068 bcm2710-rpi-3-b-plus.dtb
+0069 bcm2710-rpi-3-b.dtb
+0070 bcm2837-rpi-3-b.dtb
+0071 image-bcm2709-rpi-2-b.dtb
+0072 image-bcm2710-rpi-3-b-plus.dtb
+0073 image-bcm2710-rpi-cm3.dtb
+0074 image-bcm2710-rpi-3-b.dtb
+0075 bcm2710-rpi-cm3.dtb
+0076 bcm2710-rpi-3-b-plus.dtb
+0077 bcm2835-rpi-b-plus.dtb
+0078 bcm2708-rpi-0-w.dtb
+0079 bcm2835-rpi-zero-w.dtb
+0080 bcm2710-rpi-3-b.dtb
+0081 bcm2835-rpi-a.dtb
+0082 bcm2709-rpi-2-b.dtb
+0083 bcm2708-rpi-b-plus.dtb
+0084 bcm2835-rpi-b-rev2.dtb
+0085 bcm2836-rpi-2-b.dtb
+0086 bcm2835-rpi-b.dtb
+0087 bcm2835-rpi-zero.dtb
+0088 bcm2708-rpi-cm.dtb
+0089 bcm2708-rpi-b.dtb
+0090 bcm2837-rpi-3-b.dtb
+0091 bcm2835-rpi-a-plus.dtb
+0092 image-ARV4519PW.dtb
+0093 image-H201L.dtb
+0094 image-ARV7518PW.dtb
+0095 image-BTHOMEHUBV2B.dtb
+0096 image-ARV752DPW22.dtb
+0097 image-ACMP252.dtb
+0098 image-GIGASX76X.dtb
+0099 image-FRITZ7312.dtb
+0100 image-DGN3500B.dtb
+0101 image-ARV7510PW22.dtb
+0102 image-ARV752DPW.dtb
+0103 image-WBMR.dtb
+0104 image-BTHOMEHUBV3A.dtb
+0105 image-ARV7506PW11.dtb
+0106 image-P2601HNFX.dtb
+0107 image-EASY50712.dtb
+0108 image-ARV7519PW.dtb
+0109 image-DGN3500.dtb
+0110 image-ARV8539PW22.dtb
+0111 image-ARV4510PW.dtb
+0112 image-FRITZ7320.dtb
+0113 image-ALL0333CJ.dtb
+0114 image-DGN1000B.dtb
+0115 image-ARV7519RW22.dtb
+0116 image-FRITZ7362SL.dtb
+0117 image-VR200v.dtb
+0118 image-EASY80920NOR.dtb
+0119 image-ASL56026.dtb
+0120 image-P2812HNUF1.dtb
+0121 image-DM200.dtb
+0122 image-EASY80920NAND.dtb
+0123 image-VGV7510KW22BRN.dtb
+0124 image-FRITZ7360SL.dtb
+0125 image-WBMR300.dtb
+0126 image-TDW8980.dtb
+0127 image-VR200.dtb
+0128 image-FRITZ7412.dtb
+0129 image-P2812HNUF3.dtb
+0130 image-VGV7519NOR.dtb
+0131 image-VG3503J.dtb
+0132 image-FRITZ3370-REV2-HYNIX.dtb
+0133 image-FRITZ3370-REV2-MICRON.dtb
+0134 image-VGV7510KW22NOR.dtb
+0135 image-TDW8970.dtb
+0136 image-BTHOMEHUBV5A.dtb
+0137 image-VGV7519BRN.dtb
+0138 image-EASY98035SYNCE.dtb
+0139 image-EASY88388.dtb
+0140 image-EASY98020.dtb
+0141 image-EASY88444.dtb
+0142 image-FALCON-MDU.dtb
+0143 image-EASY98000SFLASH.dtb
+0144 image-EASY98035SYNCE1588.dtb
+0145 image-EASY98000NAND.dtb
+0146 image-EASY98000NOR.dtb
+0147 image-FALCON-SFP.dtb
+0148 image-EASY98021.dtb
+0149 image-EASY98020V18.dtb
+0150 image-ARV452CQW.dtb
+0151 image-ARV4525PW.dtb
+0152 image-ARV4520PW.dtb
+0153 image-ARV4518PWR01A.dtb
+0154 image-ARV4518PWR01.dtb
+0155 image-TQ210.dtb
+0156 s5pv210-goni.dtb
+0157 s5pv210-smdkc110.dtb
+0158 s5pv210-smdkv210.dtb
+0159 s5pv210-torbreck.dtb
+0160 s5pv210-aquila.dtb
+0161 image-am335x-evm.dtb
+0162 image-omap4-panda.dtb
+0163 image-am335x-boneblack.dtb
+0164 image-omap3-beagle.dtb
+0165 omap3-igep0020-rev-f.dtb
+0166 omap3-igep0030-rev-g.dtb
+0167 am437x-sbc-t43.dtb
+0168 am335x-nano.dtb
+0169 omap3-overo-storm-summit.dtb
+0170 omap3-n9.dtb
+0171 omap3-pandora-1ghz.dtb
+0172 am3517-craneboard.dtb
+0173 am43x-epos-evm.dtb
+0174 omap3-lilly-dbb056.dtb
+0175 omap3-overo-storm-tobi.dtb
+0176 omap3-thunder.dtb
+0177 omap3-devkit8000-lcd70.dtb
+0178 omap3-gta04a3.dtb
+0179 am335x-evm.dtb
+0180 am335x-cm-t335.dtb
+0181 am437x-idk-evm.dtb
+0182 omap3-evm.dtb
+0183 omap4-panda-es.dtb
+0184 omap3-igep0020.dtb
+0185 am335x-moxa-uc-8100-me-t.dtb
+0186 logicpd-som-lv-37xx-devkit.dtb
+0187 omap4-droid4-xt894.dtb
+0188 omap3-beagle.dtb
+0189 am335x-icev2.dtb
+0190 am437x-gp-evm.dtb
+0191 am335x-chiliboard.dtb
+0192 omap3-cm-t3517.dtb
+0193 omap4-duovero-parlor.dtb
+0194 am335x-base0033.dtb
+0195 omap3430-sdp.dtb
+0196 omap3-n900.dtb
+0197 omap3-overo-storm-palo43.dtb
+0198 am3517_mt_ventoux.dtb
+0199 omap3-pandora-600mhz.dtb
+0200 am335x-wega-rdk.dtb
+0201 omap3-evm-37xx.dtb
+0202 omap4-var-stk-om44.dtb
+0203 omap3-n950.dtb
+0204 omap3-overo-tobi.dtb
+0205 omap3-sbc-t3517.dtb
+0206 omap4-kc1.dtb
+0207 omap3-cm-t3730.dtb
+0208 omap3-overo-storm-tobiduo.dtb
+0209 omap3-gta04a4.dtb
+0210 am335x-bonegreen-wireless.dtb
+0211 am335x-phycore-rdk.dtb
+0212 am335x-shc.dtb
+0213 omap3-overo-palo35.dtb
+0214 omap3-overo-summit.dtb
+0215 omap3-overo-chestnut43.dtb
+0216 am335x-baltos-ir2110.dtb
+0217 omap3-overo-storm-gallop43.dtb
+0218 omap3-overo-storm-chestnut43.dtb
+0219 am335x-boneblack-wireless.dtb
+0220 omap3-sniper.dtb
+0221 logicpd-torpedo-37xx-devkit.dtb
+0222 am335x-bone.dtb
+0223 am437x-cm-t43.dtb
+0224 am437x-sk-evm.dtb
+0225 omap3-overo-storm-alto35.dtb
+0226 am335x-sbc-t335.dtb
+0227 am335x-baltos-ir5221.dtb
+0228 omap3-ldp.dtb
+0229 omap3-sbc-t3730.dtb
+0230 am335x-boneblack.dtb
+0231 omap3-beagle-xm.dtb
+0232 omap4-sdp-es23plus.dtb
+0233 omap4-var-dvk-om44.dtb
+0234 omap3-zoom3.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
+0235 omap4-panda-a4.dtb
+0236 omap3-sbc-t3530.dtb
+0237 omap3-overo-storm-palo35.dtb
+0238 omap3-cm-t3530.dtb
+0239 omap4-sdp.dtb
+0240 omap3-devkit8000-lcd43.dtb
+0241 am3517-evm.dtb
+0242 am335x-pepper.dtb
+0243 omap3-devkit8000.dtb
+0244 am335x-evmsk.dtb
+0245 omap4-panda.dtb
+0246 am335x-boneblue.dtb
+0247 am335x-sl50.dtb
+0248 omap3-igep0030.dtb
+0249 omap3-overo-tobiduo.dtb
+0250 omap3-ha-lcd.dtb
+0251 omap3-ha.dtb
+0252 am335x-bonegreen.dtb
+0253 am335x-lxm.dtb
+0254 omap3-overo-palo43.dtb
+0255 omap3-overo-alto35.dtb
+0256 am335x-baltos-ir3220.dtb
+0257 omap3-beagle-xm-ab.dtb
+0258 omap3-overo-gallop43.dtb
+0259 omap3-gta04a5.dtb
+0260 image-ls1021a-twr.dtb
+0261 image-ls1021a-iot.dtb
+0262 ls1021a-qds.dtb
+0263 ls1021a-iot.dtb
+0264 ls1021a-twr.dtb
+0265 image-fsl-ls1012a-rdb.dtb
+0266 image-fsl-ls1088a-rdb.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0267 image-fsl-ls1012a-frwy.dtb
+0268 image-traverse-ls1043s.dtb
+0269 image-fsl-ls1046a-rdb-sdk.dtb
+0270 image-fsl-ls2088a-rdb.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0090 rk3368-r88.dtb
-0091 mt6755-evb.dtb
-0091 imx6sx-udoo-neo-full.dtb
-0091 keystone-k2g-evm.dtb
-0092 at91-kizbox2.dtb
-0092 meson-gxl-s905d-p230.dtb
-0092 am574x-idk.dtb
-0092 meson-gxl-s905w-p281.dtb
-0092 imx6dl-sabresd.dtb
-0092 spear310-evb.dtb
-0092 zynq-zc702.dtb
-0092 mt8135-evbp1.dtb
-0092 omap3-overo-tobi.dtb
-0092 arm-realview-eb.dtb
-0092 rk3399-rock960.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0093 qcom-ipq4019-ap.dk04.1-c3.dtb
-0093 tegra20-medcom-wide.dtb
-0093 tegra20-harmony.dtb
-0093 meson8b-mxq.dtb
-0093 zynqmp-zc1751-xm018-dc4.dtb
-0093 uniphier-pro4-ref.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0094 sun4i-a10-inet9f-rev03.dtb
-0095 keystone-k2hk-evm.dtb
-0096 sun5i-a13-inet-98v-rev2.dtb
-0097 imx53-cx9020.dtb
-0097 xlp_fvp.dtb
-0098 sun8i-a33-q8-tablet.dtb
-0099 msm8998-mtp.dtb
-0099 zynq-zc770-xm010.dtb
-0099 exynos5422-odroidxu3-lite.dtb
-0099 rk3288-vyasa.dtb
-0100 rk3368-orion-r68-meta.dtb
-0101 at91rm9200ek.dtb
-0101 rk3228-evb.dtb
-0102 bcm47094-netgear-r8500.dtb
-0103 da850-lcdk.dtb
-0104 omap3-devkit8000-lcd70.dtb
-0104 bcm958522er.dtb
-0105 imx31-lite.dtb
-0105 omap4-sdp.dtb
-0105 sun8i-h3-nanopi-m1-plus.dtb
-0106 kirkwood-ds210.dtb
-0107 kirkwood-nas2big.dtb
-0108 zynqmp-zcu104-revA.dtb
-0108 rk3399-evb.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0109 imx25-eukrea-mbimxsd25-baseboard.dtb
-0109 tegra210-p2571.dtb
-0109 am335x-lxm.dtb
-0109 spear320-hmi.dtb
-0109 bcm97360svmb.dtb
-0110 imx6dl-icore.dtb
-0110 gemini-sl93512r.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0111 armada-388-db.dtb
-0111 omap2420-h4.dtb
-0111 exynos5250-snow.dtb
-0111 bcm963138dvt.dtb
-0111 vf610-zii-cfu1.dtb
-0111 r8a77965-m3nulcb.dtb
-0111 meson-g12b-odroid-n2.dtb
-0111 am335x-cm-t335.dtb
-0111 r8a7744-iwg20d-q7.dtb
-0111 zx296718-pcbox.dtb
-0111 ox810se-wd-mbwe.dtb
-0112 sun8i-h3-orangepi-pc-plus.dtb
-0113 kirkwood-netgear_readynas_nv+_v2.dtb
-0114 sun4i-a10-chuwi-v7-cw0825.dtb
-0115 omap3-igep0020-rev-f.dtb
-0115 spear1340-evb.dtb
-0115 imx6q-icore-mipi.dtb
-0115 at91sam9g15ek.dtb
-0115 rk3368-geekbox.dtb
-0116 hip06-d03.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0117 dove-d3plug.dtb
-0118 foundation-v8-gicv3-psci.dtb
-0118 am335x-phycore-rdk.dtb
-0118 armada-370-rd.dtb
-0119 imx6sx-nitrogen6sx.dtb
-0119 imx8qxp-mek.dtb
-0119 r8a77980-v3hsk.dtb
-0119 imx25-karo-tx25.dtb
-0119 bcm93384wvg_viper.dtb
-0119 zynq-zc770-xm012.dtb
-0119 tegra114-tn7.dtb
-0119 imx51-babbage.dtb
-0119 at91-sama5d4_ma5d4evk.dtb
-0119 bcm63268-comtrend-vr-3032u.dtb
-0119 ubnt_e100.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
-0120 pxa300-raumfeld-connector.dtb
-0120 at91-ariag25.dtb
-0120 bcm4709-netgear-r7000.dtb
-0121 bcm4709-tplink-archer-c9-v1.dtb
-0122 omap3-overo-palo43.dtb
-0122 kirkwood-ds209.dtb
-0123 atlas6-evb.dtb
-0123 stm32746g-eval.dtb
-0123 mt7623n-rfb-emmc.dtb
-0123 rv1108-elgin-r1.dtb
-0124 omap2430-sdp.dtb
-0124 sun6i-a31-colombus.dtb
-0125 nspire-cx.dtb
-0125 octeon_3xxx.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
-0126 qcom-msm8660-surf.dtb
-0126 armada-xp-openblocks-ax3-4.dtb
-0127 armada-xp-netgear-rn2120.dtb
-0128 kirkwood-net5big.dtb
-0129 kirkwood-ns2.dtb
-0130 sun6i-a31s-cs908.dtb
-0131 imx6q-gk802.dtb
-0131 r8a774a1-hihope-rzg2m.dtb
-0131 lpc3250-ea3250.dtb
-0131 sun8i-h3-mapleboard-mp130.dtb
-0132 berlin2cd-google-chromecast.dtb
-0133 qcom-apq8084-ifc6540.dtb
-0133 vexpress-v2p-ca15_a7.dtb
-0133 imx28-cfa10057.dtb
-0133 kirkwood-openrd-ultimate.dtb
-0134 armada-385-linksys-shelby.dtb
-0134 kirkwood-openrd-base.dtb
-0135 kirkwood-ts419-6281.dtb
-0136 fvp-base-revc.dtb
-0136 sun8i-h2-plus-libretech-all-h3-cc.dtb
-0137 imx6dl-mamoj.dtb
-0137 sun8i-h3-nanopi-neo-air.dtb
-0138 kirkwood-openrd-client.dtb
-0139 imx6q-b850v3.dtb
-0139 sun5i-a13-empire-electronix-d709.dtb
-0140 tegra124-nyan-blaze.dtb
-0140 versatile-pb.dtb
-0140 imx6ull-colibri-wifi-eval-v3.dtb
-0140 apm-merlin.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550']
-0141 armada-388-helios4.dtb
-0141 imx6dl-gw560x.dtb
-0141 zynq-microzed.dtb
-0141 am571x-idk.dtb
-0141 omap4-var-stk-om44.dtb
-0141 highbank.dtb
-0141 nuvoton-npcm750-evb.dtb
-0141 bcm2835-rpi-zero-w.dtb
-0141 imx6ul-opos6uldev.dtb
-0141 kirkwood-ds411slim.dtb
-0142 at91-wb45n.dtb
-0142 sun8i-h3-orangepi-zero-plus2.dtb
-0143 pxa168-aspenite.dtb
-0143 at91-sama5d2_xplained.dtb
-0143 kirkwood-is2.dtb
-0144 imx6q-sbc6x.dtb
-0144 imx27-phytec-phycard-s-rdk.dtb
-0144 bcm958305k.dtb
-0145 imx6dl-udoo.dtb
-0145 am335x-boneblack-wireless.dtb
-0145 kirkwood-topkick.dtb
-0146 s3c6410-smdk6410.dtb
-0146 pxa300-raumfeld-controller.dtb
-0146 fsl-ls2088a-rdb.dtb
+0271 image-fsl-ls1043a-rdb-sdk.dtb
+0272 fsl-ls2080a-qds.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0273 fsl-lx2160a-qds.dtb
+0274 fsl-ls1046a-qds.dtb
+0275 fsl-lx2160a-rdb.dtb
+0276 fsl-ls1043a-rdb.dtb
+0277 fsl-ls1088a-qds.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0147 imx6q-b650v3.dtb
-0147 sun8i-h2-plus-bananapi-m2-zero.dtb
-0148 imx6dl-tx6dl-comtft.dtb
-0148 zynqmp-zc1232-revA.dtb
-0148 foundation-v8-psci.dtb
-0148 imx6dl-yapp4-draco.dtb
-0148 hip04-d01.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['hisilicon,hip04-intc']
-0149 sun8i-h3-orangepi-2.dtb
-0150 armada-388-gp.dtb
-0150 arm-realview-pb1176.dtb
-0150 imx6q-cubox-i-emmc-som-v15.dtb
-0150 omap3-beagle.dtb
-0150 armada-395-gp.dtb
-0151 kirkwood-rd88f6192.dtb
-0152 kirkwood-mv88f6281gtw-ge.dtb
-0153 ste-u300.dtb
-0153 meson-gxm-khadas-vim2.dtb
-0153 imx28-ts4600.dtb
-0153 meson-g12a-x96-max.dtb
-0153 kirkwood-ds411j.dtb
-0154 imx51-ts4800.dtb
-0154 keystone-k2g-ice.dtb
-0155 bcm47081-buffalo-wzr-900dhp.dtb
-0156 sun5i-a13-q8-tablet.dtb
-0157 ste-nomadik-s8815.dtb
-0157 rk3288-firefly-reload.dtb
-0158 milbeaut-m10v-evb.dtb
-0158 imx28-cfa10055.dtb
-0158 cx92755_equinox.dtb
-0158 exynos5260-xyref5260.dtb
-0158 exynos5800-peach-pi.dtb
-0158 sun8i-h3-bananapi-m2-plus-v1.2.dtb
-0159 ocelot_pcb123.dtb
-0160 malta.dtb
-0160 sun8i-h3-libretech-all-h3-cc.dtb
-0161 am335x-pocketbeagle.dtb
-0161 rk3188-bqedison2qc.dtb
-0162 bcm47081-luxul-xwr-1200.dtb
-0163 lpc4337-ciaa.dtb
-0164 imx6q-tx6q-1020.dtb
-0164 tegra124-apalis-v1.2-eval.dtb
-0164 dlink_dsr-500n.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
-0165 am335x-evm.dtb
-0165 imx51-apf51dev.dtb
-0165 imx6q-apalis-eval.dtb
-0165 juno-r2.dtb
-0165 imx7s-colibri-eval-v3.dtb
-0165 msm8996-mtp.dtb
-0165 am335x-pepper.dtb
-0165 imx51-apf51.dtb
-0165 imx6dl-hummingboard-emmc-som-v15.dtb
-0165 rk3229-evb.dtb
-0166 thunder-88xx.dtb
-0166 rk3288-tinker-s.dtb
-0167 orion5x-lswsgl.dtb
-0168 rk3066a-mk808.dtb
-0169 imx6qp-zii-rdu2.dtb
-0169 rk3399-ficus.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0170 exynos4412-odroidx.dtb
-0170 am57xx-sbc-am57x.dtb
-0170 easy50712.dtb
-0170 imx6q-dmo-edmqmx6.dtb
-0170 rtd1295-probox2-ava.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0171 imx6q-dms-ba16.dtb
-0171 imx7s-warp.dtb
-0171 bcm4709-netgear-r8000.dtb
-0172 aspeed-bmc-opp-swift.dtb
-0173 r8a7795-es1-h3ulcb.dtb
-0173 imx6dl-hummingboard2-som-v15.dtb
-0173 r8a7795-h3ulcb-kf.dtb
-0173 at91-wb50n.dtb
-0173 bcm2835-rpi-b-plus.dtb
-0173 imx6q-wandboard-revb1.dtb
-0173 imx6dl-gw551x.dtb
-0173 bcm93384wvg.dtb
-0173 rk3288-veyron-jerry.dtb
-0174 mt6592-evb.dtb
-0174 zx296718-evb.dtb
-0174 imx6q-gw5400-a.dtb
-0174 am3517-craneboard.dtb
-0174 qcom-msm8974-lge-nexus5-hammerhead.dtb
-0174 stm32429i-eval.dtb
-0174 berlin4ct-dmp.dtb
-0175 sun6i-a31-mele-a1000g-quad.dtb
-0176 imx6q-gw54xx.dtb
-0176 spear300-evb.dtb
-0176 omega2p.dtb
-0177 ar9331_dragino_ms14.dtb
-0177 keystone-k2l-evm.dtb
-0178 omap4-duovero-parlor.dtb
-0178 sun4i-a10-gemei-g9.dtb
-0179 bcm4708-linksys-ea6500-v2.dtb
-0180 sun8i-h3-orangepi-lite.dtb
-0181 imx6ul-ccimx6ulsbcpro.dtb
-0181 sun5i-a13-utoo-p66.dtb
-0182 exynos4412-itop-elite.dtb
-0182 armada-xp-db-dxbc2.dtb
-0182 fsl-ls1028a-qds.dtb
+0278 fsl-ls1088a-rdb.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0183 vf610-zii-ssmb-dtu.dtb
-0183 am335x-baltos-ir3220.dtb
-0183 rk3288-miqi.dtb
-0184 qcom-apq8064-sony-xperia-yuga.dtb
-0184 bcm28155-ap.dtb
-0185 uniphier-pxs2-gentil.dtb
-0185 am335x-bonegreen.dtb
-0185 socfpga_stratix10_socdk.dtb
-0186 bcm2837-rpi-3-a-plus.dtb
-0186 vf610-zii-dev-rev-b.dtb
-0186 imx6dl-ts4900.dtb
-0186 rk3288-veyron-brain.dtb
-0187 at91-foxg20.dtb
-0187 imx6dl-gw5903.dtb
-0187 at91sam9rlek.dtb
-0187 px30-evb.dtb
-0188 mt6797-x20-dev.dtb
-0188 mt6580-evbp1.dtb
-0188 integratorcp.dtb
-0188 mpa1600.dtb
-0188 vf610m4-colibri.dtb
-0188 exynos3250-monk.dtb
-0188 r8a7795-es1-h3ulcb-kf.dtb
-0188 omap3430-sdp.dtb
-0188 imx7d-sdb.dtb
-0188 stih407-b2120.dtb
-0188 arm-realview-eb-11mp-bbrevd-ctrevb.dtb
-0188 socfpga_arria10_socdk_nand.dtb
-0189 hip07-d05.dtb
-0189 imx6dl-aristainetos2_7.dtb
-0189 imx6q-icore.dtb
-0189 rda8810pl-orangepi-2g-iot.dtb
-0189 bcm958623hr.dtb
-0190 imx6dl-yapp4-hydra.dtb
-0190 am335x-nano.dtb
-0190 imx6ulz-14x14-evk.dtb
-0190 kirkwood-ds411.dtb
-0191 omap3-igep0030-rev-g.dtb
-0191 imx6dl-icore-mipi.dtb
-0191 imx6dl-dfi-fs700-m60.dtb
-0191 meson-gxm-nexbox-a1.dtb
-0191 imx23-olinuxino.dtb
-0191 aspeed-bmc-opp-romulus.dtb
-0192 kirkwood-ts219-6282.dtb
-0193 xlp_gvp.dtb
-0194 suniv-f1c100s-licheepi-nano.dtb
-0195 fsl-ls1046a-qds.dtb
-0196 at91-kizbox.dtb
-0196 r8a7796-m3ulcb.dtb
-0196 at91sam9x25ek.dtb
-0196 imx6dl-sabreauto.dtb
-0196 orion5x-linkstation-lschl.dtb
-0197 imx6q-gw552x.dtb
-0197 r8a7791-porter.dtb
-0197 usb_a9263.dtb
-0197 imx28-tx28.dtb
-0197 zynqmp-zc1751-xm017-dc3.dtb
-0197 am437x-sbc-t43.dtb
-0197 uniphier-pro4-sanji.dtb
-0197 s5pv210-smdkc110.dtb
-0197 lg1312-ref.dtb
-0197 imx6dl-gw553x.dtb
-0197 r8a77470-iwg23s-sbc.dtb
-0197 tegra210-smaug.dtb
-0197 at91sam9263ek.dtb
-0197 am3517-evm.dtb
-0197 bcm97425svmb.dtb
-0198 tegra20-tec.dtb
-0198 gemini-nas4220b.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0199 bcm94709.dtb
-0200 imx6q-gw553x.dtb
-0200 bcm47189-tenda-ac9.dtb
-0201 aspeed-bmc-facebook-tiogapass.dtb
-0202 rtsm_ve-aemv8a.dtb
-0202 imx53-qsb.dtb
-0202 omap3-overo-gallop43.dtb
-0202 at91sam9g35ek.dtb
-0202 imx6dl-hummingboard2.dtb
-0202 berlin2-sony-nsz-gs7.dtb
-0203 sun8i-h3-beelink-x2.dtb
-0204 imx6dl-apf6dev.dtb
-0204 imx6q-icore-rqs.dtb
-0204 gcw0.dtb
-0204 tegra30-apalis-eval.dtb
-0204 imx6q-phytec-mira-rdk-emmc.dtb
-0204 bcm4709-asus-rt-ac87u.dtb
-0205 foundation-v8.dtb
-0205 tegra194-p2972-0000.dtb
-0205 imx50-evk.dtb
-0205 ar9331_tl_mr3020.dtb
-0205 armada-xp-linksys-mamba.dtb
-0206 imx6dl-tx6s-8034.dtb
-0206 imx27-eukrea-mbimxsd27-baseboard.dtb
-0207 socfpga_cyclone5_socrates.dtb
-0208 am335x-sl50.dtb
-0208 sun6i-a31s-sinovoip-bpi-m2.dtb
-0209 imx7d-cl-som-imx7.dtb
-0209 bcm958742k.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0210 bcm4708-netgear-r6300-v2.dtb
-0211 fsl-lx2160a-rdb.dtb
-0211 imx1-apf9328.dtb
-0211 omap3-cm-t3517.dtb
-0211 bcm958742t.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0212 am335x-base0033.dtb
-0212 imx6sx-udoo-neo-extended.dtb
-0212 dm8148-t410.dtb
-0212 imx53-tx53-x13x.dtb
-0212 bcm4708-smartrg-sr400ac.dtb
-0213 imx28-cfa10056.dtb
-0213 at91sam9261ek.dtb
-0213 omap3-overo-tobiduo.dtb
-0213 bcm958802a802x.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0214 sun8i-a33-sinlinx-sina33.dtb
-0215 sun5i-a10s-olinuxino-micro.dtb
-0216 omap3-gta04a4.dtb
-0216 r8a7745-iwg22d-sodimm.dtb
-0216 bcm2835-rpi-b-rev2.dtb
-0216 meson-gxbb-nexbox-a95x.dtb
-0216 r8a7743-sk-rzg1m.dtb
-0216 sun8i-t3-cqa3t-bv3.dtb
-0217 kirkwood-ds212j.dtb
-0218 sun5i-a10s-auxtek-t003.dtb
-0219 zynq-zturn.dtb
-0219 imx6q-hummingboard2-som-v15.dtb
-0219 rk3288-firefly.dtb
-0220 berlin2cd-valve-steamlink.dtb
-0221 dra72-evm.dtb
-0221 omap3-pandora-1ghz.dtb
-0221 imx28-duckbill-2-485.dtb
-0221 imx6q-nitrogen6_max.dtb
-0221 am335x-regor-rdk.dtb
-0221 imx6q-sabresd.dtb
-0221 exynos3250-artik5-eval.dtb
-0221 armada-370-netgear-rn104.dtb
-0222 meson-gxm-vega-s96.dtb
-0222 bcm4709-linksys-ea9200.dtb
-0223 ste-hrefprev60-tvk.dtb
-0223 imx28-duckbill.dtb
-0223 zynqmp-zcu102-rev1.0.dtb
-0223 bcm958625k.dtb
-0224 meson-gxm-q201.dtb
-0224 at91-gatwick.dtb
-0224 omap3-overo-storm-chestnut43.dtb
-0224 tegra114-roth.dtb
-0224 kirkwood-ns2mini.dtb
-0225 qcom-msm8974-sony-xperia-castor.dtb
-0225 imx6q-arm2.dtb
-0225 da850-evm.dtb
-0226 sun4i-a10-inet1.dtb
-0227 ste-hrefv60plus-stuib.dtb
-0227 sun4i-a10-pcduino.dtb
-0228 sead3.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mti,gic']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['mti,gic']
-0229 rk3288-firefly-beta.dtb
-0230 vf610-cosmic.dtb
-0230 imx28-apx4devkit.dtb
-0230 sun8i-a33-olinuxino.dtb
-0231 imx6q-novena.dtb
-0231 at91sam9m10g45ek.dtb
-0231 imx51-digi-connectcore-jsk.dtb
-0231 orion5x-maxtor-shared-storage-2.dtb
-0232 sun4i-a10-inet97fv2.dtb
-0233 sun5i-a13-olinuxino.dtb
-0234 rk3328-rock64.dtb
-0235 lpc4357-ea4357-devkit.dtb
-0236 spear600-evb.dtb
-0236 omap3-evm.dtb
-0236 keystone-k2e-evm.dtb
-0237 imx6q-apalis-ixora-v1.1.dtb
-0237 armada-385-linksys-cobra.dtb
-0237 bcm947189acdbmr.dtb
-0238 hip05-d02.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0239 imx8mq-zii-ultra-zest.dtb
-0239 omap2420-n810-wimax.dtb
-0239 fsl-ls1012a-oxalis.dtb
-0240 efm32gg-dk3750.dtb
-0240 kirkwood-netgear_readynas_duo_v2.dtb
-0241 fsl-ls1012a-rdb.dtb
-0242 imx51-zii-scu3-esb.dtb
-0242 tegra210-p3450-0000.dtb
-0242 kirkwood-nsa320.dtb
-0243 ns2-xmc.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0244 bcm21664-garnet.dtb
-0245 exynos4412-smdk4412.dtb
-0245 armada-xp-synology-ds414.dtb
-0246 sun8i-r40-bananapi-m2-ultra.dtb
-0247 sun8i-r16-parrot.dtb
-0248 rk3036-kylin.dtb
-0249 bcm47081-luxul-xap-1410.dtb
-0250 sun4i-a10-a1000.dtb
-0251 orion5x-rd88f5182-nas.dtb
-0252 xlp_rvp.dtb
-0253 omap4-panda.dtb
-0253 exynos5422-odroidhc1.dtb
-0253 bm1880-sophon-edge.dtb
-0254 imx6qp-wandboard-revd1.dtb
-0254 imx6dl-gw53xx.dtb
-0254 sun4i-a10-jesurun-q5.dtb
-0255 sun8i-h3-nanopi-neo.dtb
-0256 bcm2835-rpi-b.dtb
-0256 qcom-apq8064-cm-qs600.dtb
-0256 armada-3720-uDPU.dtb
-0256 imx6dl-colibri-eval-v3.dtb
-0256 nspire-tp.dtb
-0257 aspeed-bmc-opp-palmetto.dtb
-0258 sun8i-h3-rervision-dvk.dtb
-0259 rtd1295-mele-v9.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0260 kirkwood-ns2max.dtb
-0261 imx6ul-tx6ul-mainboard.dtb
-0261 r8a7740-armadillo800eva.dtb
-0261 hi6220-hikey.dtb
-0261 aspeed-bmc-arm-centriq2400-rep.dtb
-0262 bcm47081-buffalo-wzr-600dhp2.dtb
-0263 nspire-clp.dtb
-0264 sun8i-a23-q8-tablet.dtb
-0265 rk3368-px5-evb.dtb
-0266 qcom-ipq4019-ap.dk04.1-c1.dtb
-0266 imx27-pdk.dtb
-0266 socfpga_agilex_socdk.dtb
-0267 gemini-wbd111.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0268 kirkwood-km_fixedeth.dtb
-0269 imx6qp-phytec-mira-rdk-nand.dtb
-0269 meson-axg-s400.dtb
-0269 qcom-ipq8064-ap148.dtb
-0269 kirkwood-d2net.dtb
-0270 tegra30-colibri-eval-v3.dtb
-0270 usb_a9260.dtb
-0270 octeon_68xx.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-6880-ciu2']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-6880-ciu2']
-0271 wm8850-w70v2.dtb
-0271 s700-cubieboard7.dtb
-0271 tegra210-p2371-2180.dtb
-0271 r8a7795-es1-salvator-x.dtb
-0271 uniphier-sld8-ref.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0272 imx6ul-isiot-nand.dtb
-0272 sama5d36ek_cmp.dtb
-0272 omap3-overo-storm-alto35.dtb
-0272 at91-qil_a9260.dtb
-0272 r8a774c0-ek874.dtb
-0272 rk3036-evb.dtb
-0273 sun8i-h3-bananapi-m2-plus.dtb
-0274 imx6sl-evk.dtb
-0274 imx25-pdk.dtb
-0274 socfpga_vt.dtb
-0275 socfpga_arria5_socdk.dtb
-0276 armada-385-synology-ds116.dtb
-0276 wm8650-mid.dtb
-0276 picoxcell-pc7302-pc3x2.dtb
-0277 exynos4412-tiny4412.dtb
-0277 alpine-v2-evp.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['arm,gic-v3']
-0278 imx6q-wandboard-revd1.dtb
-0278 sun4i-a10-cubieboard.dtb
-0279 kirkwood-ds112.dtb
-0280 sun5i-a10s-r7-tv-dongle.dtb
-0281 zynq-zed.dtb
-0281 dove-sbc-a510.dtb
-0282 aspeed-bmc-arm-stardragon4800-rep2.dtb
-0283 aspeed-bmc-lenovo-hr630.dtb
-0284 r8a77970-v3msk.dtb
-0284 imx6ul-liteboard.dtb
-0284 exynos5250-smdk5250.dtb
-0284 kirkwood-goflexnet.dtb
-0285 ocelot_pcb120.dtb
-0286 qcom-ipq4019-ap.dk07.1-c1.dtb
-0286 imx6q-gw560x.dtb
-0286 sun4i-a10-marsboard.dtb
-0287 imx6q-emcon-avari.dtb
-0287 rk3399-roc-pc.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0288 sun8i-a33-inet-d978-rev2.dtb
-0289 imx6dl-hummingboard.dtb
-0289 mt7622-rfb1.dtb
-0289 imx53-m53menlo.dtb
-0289 armada-3720-db.dtb
-0289 kirkwood-dns320.dtb
-0290 meson-gxl-s805x-libretech-ac.dtb
-0290 dra72-evm-revc.dtb
-0290 kirkwood-iconnect.dtb
-0291 kirkwood-linkstation-lswxl.dtb
-0292 r7s9210-rza2mevb.dtb
-0292 imx6qp-sabresd.dtb
-0292 bcm47094-luxul-abr-4500.dtb
-0293 kirkwood-dreamplug.dtb
-0294 versatile-ab.dtb
-0294 ar9132_tl_wr1043nd_v1.dtb
-0295 r8a7795-salvator-xs.dtb
-0295 qcom-apq8060-dragonboard.dtb
-0295 tegra124-nyan-big.dtb
-0295 lg1313-ref.dtb
-0295 bcm97435svmb.dtb
-0296 orion5x-linkstation-lsgl.dtb
-0297 imx6dl-wandboard-revb1.dtb
-0297 kirkwood-pogoplug-series-4.dtb
-0298 rv1108-evb.dtb
-0299 at91-nattis-2-natte-2.dtb
-0299 sun5i-gr8-evb.dtb
-0300 imx53-m53evk.dtb
-0300 meson-gxl-s905x-khadas-vim.dtb
-0300 armada-xp-db.dtb
-0301 omap3-sniper.dtb
-0301 imx23-evk.dtb
-0301 omap3-lilly-dbb056.dtb
-0301 rk3288-veyron-minnie.dtb
-0302 wm8505-ref.dtb
-0302 imx53-mba53.dtb
-0302 sun8i-a23-gt90h-v4.dtb
-0303 tegra186-p2771-0000.dtb
-0303 kirkwood-rd88f6281-a.dtb
-0304 r8a77965-salvator-x.dtb
-0304 bcm97125cbmb.dtb
-0305 s3c2416-smdk2416.dtb
-0305 bcm47189-luxul-xap-1440.dtb
-0306 mt8173-evb.dtb
-0306 qcom-msm8974-fairphone-fp2.dtb
-0306 imx6q-marsboard.dtb
-0306 socfpga_cyclone5_socdk.dtb
-0307 exynos5250-snow-rev5.dtb
-0307 imx6sx-sdb.dtb
-0307 bcm4708-luxul-xap-1510.dtb
-0308 sun8i-a23-inet86dz.dtb
-0309 r8a7790-lager.dtb
-0309 amd-overdrive.dtb
-0309 s5pv210-smdkv210.dtb
-0309 omap3-gta04a5.dtb
-0309 imx53-ppd.dtb
-0309 vexpress-v2p-ca15-tc1.dtb
-0309 fsl-ls2080a-rdb.dtb
+0279 fsl-ls1046a-rdb-usdpaa.dtb
+0280 fsl-ls1046a-rdb-sdk.dtb
+0281 fsl-ls1046a-rdb.dtb
+0282 fsl-ls2081a-rdb.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0283 fsl-ls2080a-rdb.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0310 tegra124-apalis-eval.dtb
-0310 owl-s500-cubieboard6.dtb
-0310 armada-xp-axpwifiap.dtb
-0311 kirkwood-rs212.dtb
-0312 dra62x-j5eco-evm.dtb
-0312 imx28-sps1.dtb
-0312 exynos4210-origen.dtb
-0312 sun4i-a10-itead-iteaduino-plus.dtb
-0313 zynqmp-zc1751-xm016-dc2.dtb
-0313 omap3-cm-t3730.dtb
-0313 tegra20-colibri-iris.dtb
-0313 imx6q-var-dt6customboard.dtb
-0313 armada-370-seagate-personal-cloud-2bay.dtb
-0314 imx6q-logicpd.dtb
-0314 imx6q-dfi-fs700-m60.dtb
-0314 imx27-apf27dev.dtb
-0314 vexpress-v2p-ca5s.dtb
-0314 aks-cdu.dtb
-0314 gemini-rut1xx.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0315 r8a7795-h3ulcb.dtb
-0315 imx6q-cubox-i.dtb
-0315 rk3399-rock-pi-4.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0316 rk3288-evb-rk808.dtb
-0317 imx6dl-phytec-pbab01.dtb
-0317 exynos5410-odroidxu.dtb
-0317 gemini-dlink-dir-685.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0318 kirkwood-dns325.dtb
-0319 hip01-ca9x2.dtb
-0320 imx6q-h100.dtb
-0320 qcom-ipq4019-ap.dk01.1-c1.dtb
-0320 stm32f746-disco.dtb
-0320 omap3-ldp.dtb
-0320 stm32f469-disco.dtb
-0320 usb_a9g20.dtb
-0320 dove-d2plug.dtb
-0321 imx6ul-phytec-phyboard-segin-full.dtb
-0321 r8a7795-salvator-x.dtb
-0321 sdm845-db845c.dtb
-0321 imx53-qsrb.dtb
-0321 moxart-uc7112lx.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['moxa,moxart-ic', 'faraday,ftintc010']
-0322 ls1021a-moxa-uc-8410a.dtb
-0323 am335x-pdu001.dtb
-0323 fsl-ls1043a-rdb.dtb
-0324 imx6q-nitrogen6_som2.dtb
-0324 vexpress-v2f-1xv7-ca53x2.dtb
-0324 bcm958525er.dtb
-0325 imx6q-zii-rdu2.dtb
-0325 imx8mm-evk.dtb
-0325 rk3368-evb-act8846.dtb
-0326 spear1310-evb.dtb
-0326 tegra132-norrin.dtb
-0326 sun5i-gr8-chip-pro.dtb
-0327 exynos4412-origen.dtb
-0327 omap2420-n800.dtb
-0327 imx6dl-wandboard-revd1.dtb
-0327 aspeed-bmc-facebook-cmm.dtb
-0328 meson-gxbb-nanopi-k2.dtb
-0328 omap2420-n810.dtb
-0328 xlp_svp.dtb
-0329 meson8-minix-neo-x8.dtb
-0329 sun8i-h3-orangepi-plus.dtb
-0330 at91-sama5d4ek.dtb
-0330 mt2712-evb.dtb
-0330 axm5516-amarillo.dtb
-0330 exynos4210-universal_c210.dtb
-0330 meson-gxl-s905x-p212.dtb
-0330 arm-realview-pbx-a9.dtb
-0330 omap3-gta04a5one.dtb
-0330 bcm97362svmb.dtb
-0331 kirkwood-ds409slim.dtb
-0332 exynos7-espresso.dtb
-0332 tegra210-p2371-0000.dtb
-0332 zynq-zc706.dtb
-0332 tegra30-beaver.dtb
-0332 sun4i-a10-mk802ii.dtb
-0333 r8a7794-silk.dtb
-0333 kirkwood-ds409.dtb
-0334 juno.dtb
-0334 ls1021a-tsn.dtb
-0335 sun6i-a31-hummingbird.dtb
-0336 zynqmp-zc1751-xm015-dc1.dtb
-0336 imx6ul-14x14-evk.dtb
-0336 am335x-shc.dtb
-0336 bcm2835-rpi-zero.dtb
-0336 imx23-sansa.dtb
-0336 kirkwood-guruplug-server-plus.dtb
-0337 tegra30-cardhu-a02.dtb
-0337 imx25-eukrea-mbimxsd25-baseboard-dvi-vga.dtb
-0337 imx6q-phytec-pbab01.dtb
-0337 fsl-ls1012a-frdm.dtb
-0338 meson-gxl-s805x-p241.dtb
-0338 imx7d-colibri-emmc-eval-v3.dtb
-0338 sun5i-a13-hsg-h702.dtb
-0339 meson-gxbb-p201.dtb
-0339 qcs404-evb-1000.dtb
-0339 bcm7445-bcm97445svmb.dtb
-0340 tegra210-p2894-0050-a08.dtb
-0340 bcm47094-luxul-xwr-3100.dtb
-0341 boston.dtb
+0284 fsl-ls1012a-rdb.dtb
+0285 fsl-ls1043a-qds-sdk.dtb
+0286 fsl-ls1012a-frdm.dtb
+0287 fsl-ls1012a-frwy.dtb
+0288 traverse-ls1043s.dtb
+0289 fsl-ls1012a-qds.dtb
+0290 fsl-ls2080a-simu.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0291 fsl-ls2088a-rdb.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0292 fsl-ls1043a-rdb-usdpaa.dtb
+0293 traverse-ls1043v.dtb
+0294 fsl-ls1043a-rdb-sdk.dtb
+0295 fsl-ls1046a-qds-sdk.dtb
+0296 fsl-ls2088a-qds.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
+0297 fsl-ls1012a-2g5rdb.dtb
+0298 fsl-ls1043a-qds.dtb
+0299 ls1088ardb-dpc.dtb
+0300 ls2088ardb-dpl.dtb
+0301 ls2088ardb-dpc.dtb
+0302 ls1088ardb-dpl.dtb
+0303 sun7i-a20-bananapi.dtb
+0304 sun8i-h2-plus-orangepi-zero.dtb
+0305 sun8i-h3-beelink-x2.dtb
+0306 sun8i-h3-nanopi-neo.dtb
+0307 sun7i-a20-itead-ibox.dtb
+0308 sun8i-a23-q8-tablet.dtb
+0309 sun7i-a20-bananapro.dtb
+0310 sun8i-a23-ippo-q8h-v1.2.dtb
+0311 sun8i-h3-orangepi-pc.dtb
+0312 sun8i-a83t-cubietruck-plus.dtb
+0313 sun7i-a20-lamobo-r1.dtb
+0314 sun8i-h3-nanopi-m1.dtb
+0315 sun6i-a31-colombus.dtb
+0316 sun6i-a31-m9.dtb
+0317 sun7i-a20-cubieboard2.dtb
+0318 sun6i-a31s-sina31s.dtb
+0319 sun7i-a20-i12-tvbox.dtb
+0320 sun8i-a23-gt90h-v4.dtb
+0321 sun9i-a80-cubieboard4.dtb
+0322 sun8i-a33-ippo-q8h-v1.2.dtb
+0323 sun8i-r16-bananapi-m2m.dtb
+0324 sun7i-a20-bananapi-m1-plus.dtb
+0325 sun7i-a20-olinuxino-lime2.dtb
+0326 sun7i-a20-wexler-tab7200.dtb
+0327 sun8i-h3-bananapi-m2-plus.dtb
+0328 sun8i-h3-orangepi-pc-plus.dtb
+0329 sun8i-a33-q8-tablet.dtb
+0330 sun7i-a20-pcduino3.dtb
+0331 sun6i-a31s-yones-toptech-bs1078-v2.dtb
+0332 sun7i-a20-m3.dtb
+0333 sun7i-a20-mk808c.dtb
+0334 sun7i-a20-olinuxino-lime.dtb
+0335 sun8i-a33-ga10h-v1.1.dtb
+0336 sun8i-h2-plus-orangepi-r1.dtb
+0337 sun7i-a20-icnova-swac.dtb
+0338 sun6i-a31-i7.dtb
+0339 sun7i-a20-hummingbird.dtb
+0340 sun7i-a20-orangepi.dtb
+0341 sun6i-a31s-primo81.dtb
+0342 sun6i-a31-app4-evb1.dtb
+0343 sun8i-h3-orangepi-plus.dtb
+0344 sun8i-r16-parrot.dtb
+0345 sun8i-a83t-allwinner-h8homlet-v2.dtb
+0346 sun8i-a83t-bananapi-m3.dtb
+0347 sun8i-a33-sinlinx-sina33.dtb
+0348 sun8i-a23-evb.dtb
+0349 sun6i-a31s-sinovoip-bpi-m2.dtb
+0350 sun8i-a33-inet-d978-rev2.dtb
+0351 sun8i-h3-orangepi-lite.dtb
+0352 sun8i-h3-orangepi-plus2e.dtb
+0353 sun8i-a23-ippo-q8h-v5.dtb
+0354 sun7i-a20-orangepi-mini.dtb
+0355 sun8i-h3-nanopi-neo-air.dtb
+0356 sun6i-a31-mele-a1000g-quad.dtb
+0357 sun9i-a80-optimus.dtb
+0358 sun7i-a20-wits-pro-a20-dkt.dtb
+0359 sun6i-a31s-colorfly-e708-q1.dtb
+0360 sun6i-a31s-inet-q972.dtb
+0361 sun7i-a20-olinuxino-micro.dtb
+0362 sun7i-a20-olimex-som-evb.dtb
+0363 sun8i-a33-et-q8-v1.6.dtb
+0364 sun8i-v3s-licheepi-zero-dock.dtb
+0365 sun8i-a33-olinuxino.dtb
+0366 sun7i-a20-cubietruck.dtb
+0367 sun6i-a31s-cs908.dtb
+0368 sun7i-a20-pcduino3-nano.dtb
+0369 sun8i-h3-orangepi-2.dtb
+0370 sun6i-a31-hummingbird.dtb
+0371 sun8i-v3s-licheepi-zero.dtb
+0372 sun8i-a23-inet86dz.dtb
+0373 sun8i-h3-orangepi-one.dtb
+0374 sun8i-h3-nanopi-m1-plus.dtb
+0375 sun7i-a20-olinuxino-lime2-emmc.dtb
+0376 sun8i-a23-polaroid-mid2407pxe03.dtb
+0377 sun8i-a23-polaroid-mid2809pxe04.dtb
+0378 sun5i-gr8-evb.dtb
+0379 sun5i-a10s-auxtek-t004.dtb
+0380 sun4i-a10-chuwi-v7-cw0825.dtb
+0381 sun4i-a10-hyundai-a7hd.dtb
+0382 sun4i-a10-marsboard.dtb
+0383 sun4i-a10-inet9f-rev03.dtb
+0384 sun5i-a13-licheepi-one.dtb
+0385 sun4i-a10-hackberry.dtb
+0386 sun4i-a10-pov-protab2-ips9.dtb
+0387 sun5i-a13-difrnce-dit4350.dtb
+0388 sun4i-a10-pcduino2.dtb
+0389 sun4i-a10-gemei-g9.dtb
+0390 sun5i-a10s-r7-tv-dongle.dtb
+0391 sun4i-a10-a1000.dtb
+0392 sun4i-a10-ba10-tvbox.dtb
+0393 sun4i-a10-jesurun-q5.dtb
+0394 sun4i-a10-mk802.dtb
+0395 sun5i-a10s-auxtek-t003.dtb
+0396 sun4i-a10-pcduino.dtb
+0397 sun5i-gr8-chip-pro.dtb
+0398 sun4i-a10-mini-xplus.dtb
+0399 sun5i-a10s-wobo-i5.dtb
+0400 sun5i-a13-empire-electronix-m712.dtb
+0401 sun4i-a10-mk802ii.dtb
+0402 sun4i-a10-inet97fv2.dtb
+0403 sun5i-a13-olinuxino.dtb
+0404 sun5i-a13-olinuxino-micro.dtb
+0405 sun4i-a10-inet1.dtb
+0406 sun5i-r8-chip.dtb
+0407 sun5i-a13-empire-electronix-d709.dtb
+0408 sun5i-a13-utoo-p66.dtb
+0409 sun5i-a13-q8-tablet.dtb
+0410 sun4i-a10-cubieboard.dtb
+0411 sun4i-a10-itead-iteaduino-plus.dtb
+0412 sun4i-a10-olinuxino-lime.dtb
+0413 sun5i-a13-hsg-h702.dtb
+0414 sun5i-a10s-mk802.dtb
+0415 sun5i-a10s-olinuxino-micro.dtb
+0416 sun4i-a10-dserve-dsrv9703c.dtb
+0417 sun5i-a13-inet-98v-rev2.dtb
+0418 sun50i-a64-nanopi-a64.dtb
+0419 sun50i-h5-orangepi-prime.dtb
+0420 sun50i-a64-orangepi-win.dtb
+0421 sun50i-a64-pine64-plus.dtb
+0422 sun50i-a64-sopine-baseboard.dtb
+0423 sun50i-h5-orangepi-pc2.dtb
+0424 sun50i-a64-bananapi-m64.dtb
+0425 sun50i-h5-nanopi-neo2.dtb
+0426 sun50i-a64-olinuxino.dtb
+0427 sun50i-h5-nanopi-neo-plus2.dtb
+0428 sun50i-h5-orangepi-zero-plus2.dtb
+0429 sun50i-h5-orangepi-zero-plus.dtb
+0430 sun50i-a64-pine64.dtb
+0431 image-tegra20-trimslice.dtb
+0432 tegra20-medcom-wide.dtb
+0433 tegra20-tec.dtb
+0434 tegra20-ventana.dtb
+0435 tegra20-iris-512.dtb
+0436 tegra20-trimslice.dtb
+0437 tegra20-paz00.dtb
+0438 tegra20-plutux.dtb
+0439 tegra20-harmony.dtb
+0440 tegra20-seaboard.dtb
+0441 image-bcm47094-phicomm-k3.dtb
+0442 image-bcm47081-tplink-archer-c5-v2.dtb
+0443 image-bcm4708-linksys-ea6500-v2.dtb
+0444 image-bcm47081-asus-rt-n18u.dtb
+0445 image-bcm4708-smartrg-sr400ac.dtb
+0446 image-bcm4708-netgear-r6250.dtb
+0447 image-bcm4708-netgear-r6300-v2.dtb
+0448 image-bcm4709-netgear-r7900.dtb
+0449 image-bcm4708-buffalo-wzr-1750dhp.dtb
+0450 image-bcm4708-asus-rt-ac68u.dtb
+0451 image-bcm4709-asus-rt-ac87u.dtb
+0452 image-bcm47081-buffalo-wzr-900dhp.dtb
+0453 image-bcm4709-netgear-r8000.dtb
+0454 image-bcm4709-netgear-r7000.dtb
+0455 image-bcm47094-dlink-dir-885l.dtb
+0456 image-bcm4709-buffalo-wxr-1900dhp.dtb
+0457 image-bcm4709-tplink-archer-c9-v1.dtb
+0458 image-bcm47081-buffalo-wzr-600dhp2.dtb
+0459 image-bcm4708-asus-rt-ac56u.dtb
+0460 image-bcm47189-tenda-ac9.dtb
+0461 bcm4709-netgear-r8000.dtb
+0462 bcm4708-linksys-ea6300-v1.dtb
+0463 bcm47094-luxul-xbr-4500.dtb
+0464 bcm94708.dtb
+0465 bcm47081-buffalo-wzr-600dhp2.dtb
+0466 bcm4708-netgear-r6300-v2.dtb
+0467 bcm94709.dtb
+0468 bcm47094-luxul-xap-1610.dtb
+0469 bcm47094-luxul-xwr-3100.dtb
+0470 bcm4709-asus-rt-ac87u.dtb
+0471 bcm4709-netgear-r7000.dtb
+0472 bcm4709-netgear-r7900.dtb
+0473 bcm47094-dlink-dir-885l.dtb
+0474 bcm947189acdbmr.dtb
+0475 bcm953012hr.dtb
+0476 bcm47081-luxul-xwr-1200.dtb
+0477 bcm4708-netgear-r6250.dtb
+0478 bcm4708-buffalo-wzr-1750dhp.dtb
+0479 bcm47081-buffalo-wzr-900dhp.dtb
+0480 bcm47081-luxul-xap-1410.dtb
+0481 bcm4708-luxul-xap-1510.dtb
+0482 bcm4708-smartrg-sr400ac.dtb
+0483 bcm4709-tplink-archer-c9-v1.dtb
+0484 bcm953012er.dtb
+0485 bcm47094-netgear-r8500.dtb
+0486 bcm953012k.dtb
+0487 bcm47189-luxul-xap-810.dtb
+0488 bcm4708-linksys-ea6500-v2.dtb
+0489 bcm47094-linksys-panamera.dtb
+0490 bcm4709-buffalo-wxr-1900dhp.dtb
+0491 bcm47081-tplink-archer-c5-v2.dtb
+0492 bcm4708-asus-rt-ac68u.dtb
+0493 bcm4709-linksys-ea9200.dtb
+0494 bcm47094-luxul-xwr-3150-v1.dtb
+0495 bcm47094-phicomm-k3.dtb
+0496 bcm4708-luxul-xwc-1000.dtb
+0497 bcm47189-tenda-ac9.dtb
+0498 bcm47081-asus-rt-n18u.dtb
+0499 bcm47094-luxul-abr-4500.dtb
+0500 bcm47189-luxul-xap-1440.dtb
+0501 bcm47094-luxul-xwc-2000.dtb
+0502 bcm4708-asus-rt-ac56u.dtb
+0503 image-pistachio_marduk.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0504 pistachio_marduk.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+0505 image-at91-sama5d3_xplained.dtb
+0506 image-wb50n.dtb
+0507 image-at91-sama5d2_ptc_ek.dtb
+0508 image-at91-sama5d4_xplained.dtb
+0509 image-at91-sama5d27_som1_ek.dtb
+0510 image-at91-sama5d2_xplained.dtb
+0511 at91-sama5d2_ptc_ek.dtb
+0512 at91-sama5d3_xplained.dtb
+0513 at91-sama5d4_xplained.dtb
+0514 at91-vinco.dtb
+0515 sama5d36ek_cmp.dtb
+0516 wb50n.dtb
+0517 sama5d36ek.dtb
+0518 at91-sama5d2_xplained.dtb
+0519 at91-tse850-3.dtb
+0520 at91-sama5d4_ma5d4evk.dtb
+0521 at91-sama5d4ek.dtb
+0522 sama5d34ek.dtb
+0523 sama5d35ek.dtb
+0524 at91-sama5d27_som1_ek.dtb
+0525 sama5d31ek.dtb
+0526 sama5d33ek.dtb
+0527 at91-kizbox2.dtb
+0528 image-at91sam9g20ek.dtb
+0529 image-lmu5000.dtb
+0530 image-ethernut5.dtb
+0531 image-tny_a9263.dtb
+0532 image-tny_a9g20.dtb
+0533 image-usb_a9g20.dtb
+0534 image-usb_a9260.dtb
+0535 image-at91sam9g25ek.dtb
+0536 image-tny_a9260.dtb
+0537 image-at91sam9263ek.dtb
+0538 image-at91sam9x25ek.dtb
+0539 image-usb_a9263.dtb
+0540 image-at91sam9g35ek.dtb
+0541 image-at91sam9x35ek.dtb
+0542 image-at91sam9g15ek.dtb
+0543 image-at91sam9g20ek_2mmc.dtb
+0544 image-wb45n.dtb
+0545 image-at91sam9m10g45ek.dtb
+0546 wb45n.dtb
+0547 mpa1600.dtb
+0548 lmu5000.dtb
+0549 evk-pro3.dtb
+0550 at91sam9263ek.dtb
+0551 aks-cdu.dtb
+0552 at91sam9m10g45ek.dtb
+0553 tny_a9g20.dtb
+0554 usb_a9260.dtb
+0555 at91sam9g35ek.dtb
+0556 at91-qil_a9260.dtb
+0557 at91sam9260ek.dtb
+0558 at91sam9g25ek.dtb
+0559 at91sam9rlek.dtb
+0560 pm9g45.dtb
+0561 at91-ariettag25.dtb
+0562 at91sam9261ek.dtb
+0563 usb_a9263.dtb
+0564 at91rm9200ek.dtb
+0565 at91-kizboxmini.dtb
+0566 at91sam9x35ek.dtb
+0567 at91sam9g20ek.dtb
+0568 at91-kizbox.dtb
+0569 at91-sam9_l9260.dtb
+0570 at91sam9g15ek.dtb
+0571 at91-ariag25.dtb
+0572 at91sam9n12ek.dtb
+0573 at91-cosino_mega2560.dtb
+0574 usb_a9g20_lpw.dtb
+0575 at91-foxg20.dtb
+0576 ethernut5.dtb
+0577 at91-q5xr5.dtb
+0578 tny_a9260.dtb
+0579 tny_a9263.dtb
+0580 usb_a9g20.dtb
+0581 at91sam9x25ek.dtb
+0582 at91sam9g20ek_2mmc.dtb
+0583 animeo_ip.dtb
+0584 image-qcom-ipq8065-r7800.dtb
+0585 image-qcom-ipq8064-wg2600hp.dtb
+0586 image-qcom-ipq8064-ap161.dtb
+0587 image-qcom-ipq8065-nbg6817.dtb
+0588 image-qcom-ipq8064-c2600.dtb
+0589 image-qcom-ipq8064-vr2600v.dtb
+0590 image-qcom-ipq8064-ea8500.dtb
+0591 image-qcom-ipq8064-ap148.dtb
+0592 image-qcom-ipq8064-r7500v2.dtb
+0593 image-qcom-ipq8064-r7500.dtb
+0594 image-qcom-ipq8064-d7800.dtb
+0595 image-qcom-ipq8064-wpq864.dtb
+0596 image-qcom-ipq8064-db149.dtb
+0597 image-qcom-ipq8064-wxr-2533dhp.dtb
+0598 qcom-ipq8064-wg2600hp.dtb
+0599 qcom-ipq8064-wpq864.dtb
+0600 qcom-apq8064-ifc6410.dtb
+0601 qcom-apq8064-sony-xperia-yuga.dtb
+0602 qcom-ipq8064-db149.dtb
+0603 qcom-ipq8064-wxr-2533dhp.dtb
+0604 qcom-ipq8064-r7500v2.dtb
+0605 qcom-ipq8064-d7800.dtb
+0606 qcom-apq8084-ifc6540.dtb
+0607 qcom-apq8064-cm-qs600.dtb
+0608 qcom-apq8060-dragonboard.dtb
+0609 qcom-ipq8065-nbg6817.dtb
+0610 qcom-msm8660-surf.dtb
+0611 qcom-msm8960-cdp.dtb
+0612 qcom-msm8974-lge-nexus5-hammerhead.dtb
+0613 qcom-mdm9615-wp8548-mangoh-green.dtb
+0614 qcom-ipq8064-ea8500.dtb
+0615 qcom-ipq8064-ap161.dtb
+0616 qcom-apq8084-mtp.dtb
+0617 qcom-ipq8065-r7800.dtb
+0618 qcom-ipq8064-c2600.dtb
+0619 qcom-ipq8064-r7500.dtb
+0620 qcom-apq8064-asus-nexus7-flo.dtb
+0621 qcom-ipq4019-ap.dk01.1-c1.dtb
+0622 qcom-apq8074-dragonboard.dtb
+0623 qcom-apq8064-arrow-sd-600eval.dtb
+0624 qcom-msm8974-sony-xperia-honami.dtb
+0625 qcom-ipq8064-ap148.dtb
+0626 image-RT-N15.dtb
+0627 image-AR670W.dtb
+0628 image-WLI-TX4-AG300N.dtb
+0629 image-F5D8235_V1.dtb
+0630 image-AR725W.dtb
+0631 image-DAP-1522-A1.dtb
+0632 image-V11STFE.dtb
+0633 image-WZR-AGL300NH.dtb
+0634 image-WRTNODE.dtb
+0635 image-HC5861.dtb
+0636 image-HC5761.dtb
+0637 image-WHR-300HP2.dtb
+0638 image-C108.dtb
+0639 image-EX3700.dtb
+0640 image-WN-AC733GR3.dtb
+0641 image-YOUKU-YK1.dtb
+0642 image-TINY-AC.dtb
+0643 image-DWR-922-E2.dtb
+0644 image-MLWG2.dtb
+0645 image-WRH-300CR.dtb
+0646 image-kn_rc.dtb
+0647 image-ZBT-WA05.dtb
+0648 image-DIR-810L.dtb
+0649 image-RT-N12-PLUS.dtb
+0650 image-WT3020-8M.dtb
+0651 image-RT-AC51U.dtb
+0652 image-WHR-600D.dtb
+0653 image-WE1026-5G-16M.dtb
+0654 image-DCH-M225.dtb
+0655 image-ZTE-Q7.dtb
+0656 image-MT7620a_MT7610e.dtb
+0657 image-Y1.dtb
+0658 image-U35WF.dtb
+0659 image-HC5661.dtb
+0660 image-R36M-E4G.dtb
+0661 image-WN-AC1167GR.dtb
+0662 image-kn_rf.dtb
+0663 image-E1700.dtb
+0664 image-ArcherC50.dtb
+0665 image-DIR-510L.dtb
+0666 image-DWR-116-A1.dtb
+0667 image-MIWIFI-MINI.dtb
+0668 image-HDRM200.dtb
+0669 image-ZBT-CPE102.dtb
+0670 image-MLW221.dtb
+0671 image-U25AWF-H1.dtb
+0672 image-ZBT-WE826-32M.dtb
+0673 image-ZBT-WE826-16M.dtb
+0674 image-Y1S.dtb
+0675 image-WMR-300.dtb
+0676 image-MT7620a.dtb
+0677 image-NA930.dtb
+0678 image-DWR-921-C1.dtb
+0679 image-DWR-118-A1.dtb
+0680 image-PSG1218A.dtb
+0681 image-MT7620a_V22SG.dtb
+0682 image-ArcherC20v1.dtb
+0683 image-ArcherMR200.dtb
+0684 image-CS-QR10.dtb
+0685 image-ZBT-WR8305RT.dtb
+0686 image-TUBE-E4G.dtb
+0687 image-PSG1218B.dtb
+0688 image-DB-WRT01.dtb
+0689 image-MT7620a_MT7530.dtb
+0690 image-K2G.dtb
+0691 image-RT-N14U.dtb
+0692 image-RP-N53.dtb
+0693 image-kng_rc.dtb
+0694 image-LR-25G001.dtb
+0695 image-MZK-750DHP.dtb
+0696 image-PSG1208.dtb
+0697 image-CF-WR800N.dtb
+0698 image-BOCCO.dtb
+0699 image-DWR-118-A2.dtb
+0700 image-ZBT-APE522II.dtb
+0701 image-GL-MT300A.dtb
+0702 image-D240.dtb
+0703 image-WHR-1166D.dtb
+0704 image-ArcherC20i.dtb
+0705 image-AI-BR100.dtb
+0706 image-MZK-EX300NP.dtb
+0707 image-WD03.dtb
+0708 image-ZBT-WE826-E.dtb
+0709 image-OY-0001.dtb
+0710 image-MZK-EX750NP.dtb
+0711 image-MicroWRT.dtb
+0712 image-ArcherC2-v1.dtb
+0713 image-ZBT-WE2026.dtb
+0714 image-VAR11N-300.dtb
+0715 image-GL-MT750.dtb
+0716 image-GL-MT300N.dtb
+0717 image-WN3000RPV3.dtb
+0718 image-BR-6478AC-V2.dtb
+0719 image-AC1200RM.dtb
+0720 image-BDCOM-WAP2100-SK.dtb
+0721 image-ArcherC50V4.dtb
+0722 image-LINKIT7688.dtb
+0723 image-PBR-D1.dtb
+0724 image-ki_rb.dtb
+0725 image-VOCORE2LITE.dtb
+0726 image-WRTNODE2P.dtb
+0727 image-W06.dtb
+0728 image-WIDORA-NEO-16M.dtb
+0729 image-WL-WN570HA1.dtb
+0730 image-VOCORE2.dtb
+0731 image-WIZFI630S.dtb
+0732 image-TL-WR840NV4.dtb
+0733 image-HLK-7628N.dtb
+0734 image-AWUSFREE1.dtb
+0735 image-RAK633.dtb
+0736 image-OMEGA2.dtb
+0737 image-WL-WN575A3.dtb
+0738 image-TL-WR902ACV3.dtb
+0739 image-TL-WR842NV5.dtb
+0740 image-R6120.dtb
+0741 image-TL-WA801NDV5.dtb
+0742 image-HC5661A.dtb
+0743 image-ArcherC20v4.dtb
+0744 image-ArcherC50V3.dtb
+0745 image-ZBT-WE1226.dtb
+0746 image-VIXMINI.dtb
+0747 image-MAC1200RV2.dtb
+0748 image-OMEGA2P.dtb
+0749 image-XIAOMI-MIR4A-100M.dtb
+0750 image-TL-WR841NV13.dtb
+0751 image-TL-WR802NV4.dtb
+0752 image-WRTNODE2R.dtb
+0753 image-GL-MT300N-V2.dtb
+0754 image-HC5861B.dtb
+0755 image-SKW92A.dtb
+0756 image-DUZUN-DM06.dtb
+0757 image-MIWIFI-NANO.dtb
+0758 image-MT7628.dtb
+0759 image-TL-MR3420V5.dtb
+0760 image-TL-MR3020V3.dtb
+0761 image-WIDORA-NEO-32M.dtb
+0762 image-U7628-01-128M-16M.dtb
+0763 image-WR1000.dtb
+0764 image-WCR-1166DS.dtb
+0765 image-TOTOLINK-LR1200.dtb
+0766 image-TL-WR840NV5.dtb
+0767 image-WMDR-143N.dtb
+0768 image-TEW-692GR.dtb
+0769 image-CY-SWR1100.dtb
+0770 image-RT-N56U.dtb
+0771 image-TEW-691GR.dtb
+0772 image-WLR-6000.dtb
+0773 image-BR-6475ND.dtb
+0774 image-F9K1109V1.dtb
+0775 image-DIR-645.dtb
+0776 image-HPM.dtb
+0777 image-CreativeBox-v1.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
-0342 pxa300-raumfeld-speaker-m.dtb
-0342 orion5x-lacie-d2-network.dtb
-0343 rda8810pl-orangepi-i96.dtb
-0343 imx6q-tx6q-1010-comtft.dtb
-0343 am335x-evmsk.dtb
-0343 armada-8040-mcbin.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['marvell,cp110-icu-nsr']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0344 socfpga_cyclone5_de0_nano_soc.dtb
-0345 dra7-evm.dtb
-0345 meson-gxm-rbox-pro.dtb
-0345 am335x-bone.dtb
-0345 zx296702-ad1.dtb
-0345 zynqmp-zcu111-revA.dtb
-0345 imx28-cfa10037.dtb
-0345 bcm47094-phicomm-k3.dtb
-0346 imx6dl-icore-rqs.dtb
-0346 qcom-mdm9615-wp8548-mangoh-green.dtb
-0346 vf500-colibri-eval-v3.dtb
-0346 at91-vinco.dtb
-0346 am3874-iceboard.dtb
-0346 ste-hrefprev60-stuib.dtb
-0346 hi3519-demb.dtb
-0346 bcm958622hr.dtb
-0347 rk3188-px3-evb.dtb
-0348 xlp_evp.dtb
-0349 imx6qp-nitrogen6_som2.dtb
-0349 exynos5422-odroidxu4.dtb
-0349 alphascale-asm9260-devkit.dtb
-0349 at91-sama5d2_ptc_ek.dtb
-0349 omap5-igep0050.dtb
-0349 omap3-overo-storm-palo43.dtb
-0349 imx6dl-sabrelite.dtb
-0349 imx50-kobo-aura.dtb
-0349 kirkwood-sheevaplug.dtb
-0350 msm8916-mtp.dtb
-0350 arm-realview-pba8.dtb
-0350 am437x-gp-evm.dtb
-0350 atlas7-evb.dtb
-0350 rt2880_eval.dtb
-0351 rk3288-r89.dtb
-0352 bcm3368-netgear-cvg834g.dtb
-0352 r8a77965-m3nulcb-kf.dtb
-0352 imx7d-zii-rpu2.dtb
-0352 imx28-evk.dtb
-0352 armada-xp-lenovo-ix4-300d.dtb
-0353 pxa300-raumfeld-speaker-s.dtb
-0353 rk3399-rockpro64.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0354 kirkwood-linkstation-lsqvl.dtb
-0355 husky.dtb
-0355 imx6qp-sabreauto.dtb
-0355 bcm97420c.dtb
-0356 qcom-msm8974-sony-xperia-amami.dtb
-0356 exynos5250-spring.dtb
-0356 ar9331_dpt_module.dtb
-0356 s5pv210-aquila.dtb
-0356 intel-ixp43x-gateworks-gw2358.dtb
-0356 bcm988312hr.dtb
-0357 imx6q-evi.dtb
-0357 imx8mq-zii-ultra-rmb3.dtb
-0357 sun6i-a31s-sina31s.dtb
-0358 rk3288-veyron-mickey.dtb
-0359 kirkwood-iomega_ix2_200.dtb
-0360 sun8i-a33-ga10h-v1.1.dtb
-0361 armada-370-db.dtb
-0362 exynos4412-odroidu3.dtb
-0362 zynqmp-zc1254-revA.dtb
-0362 imx35-eukrea-mbimxsd35-baseboard.dtb
-0362 stm32mp157c-ed1.dtb
-0362 qcom-msm8974-samsung-klte.dtb
-0362 imx7d-sbc-imx7.dtb
-0362 socfpga_cyclone5_mcvevk.dtb
-0363 exynos4210-smdkv310.dtb
-0363 kirkwood-net2big.dtb
-0364 dlink_dsr-1000n.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0778 image-QUAD-E4G.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0779 image-RBM33G.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0780 image-WN-AX1167GR.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0781 image-MIR3P.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0782 image-Telco-Electronics-X1.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0783 image-R6350.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0784 image-RBM11G.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0785 image-EW1200.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0786 image-DIR-860L-B1.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0787 image-WITI-512M.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0788 image-RE6500.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0789 image-YOUKU-YK2.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0790 image-GB-PC1.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0791 image-Timecloud.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0792 image-WSR-600.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0793 image-ZBT-WG3526-16M.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0794 image-Newifi-D1.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0795 image-HC5962.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0796 image-UBNT-ERX.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0797 image-WR1201.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0798 image-ZBT-WE3526.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0799 image-WR1200JS.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0800 image-R6220.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0801 image-WRC-1167GHBK2-S.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0802 image-U7621-06-256M-16M.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0803 image-RB750Gr3.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0804 image-AP-MT7621A-V60.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0805 image-SK-WB8.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0806 image-WSR-1166.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0807 image-K2P.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0808 image-MT7621.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0809 image-W2914NSV2.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0810 image-11ACNAS.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0811 image-WF-2881.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0812 image-UBNT-ERX-SFP.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0813 image-GB-PC2.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0814 image-WITI-256M.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0815 image-WRC-1900GST.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0816 image-ZBT-WE1326.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0817 image-U7621-06-512M-64M.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0818 image-VR500.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0819 image-GHL-R-001.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0820 image-FIREWRT.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0821 image-WRC-2533GST.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0822 image-EX6150.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0823 image-Newifi-D2.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0824 image-PBR-M1.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0825 image-ZBT-WG3526-32M.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0826 image-WNDR3700V5.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0827 image-MIR3G.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0828 image-WN-GX300GR.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0829 image-RT-AC57U.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0830 image-ZBT-WG2626.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0831 image-RE350.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0832 image-SAP-G3200U3.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['ns16550a']
+0833 image-MOFI3500-3GN.dtb
+0834 image-WL-330N3G.dtb
+0835 image-HLKRM04.dtb
+0836 image-UR-336UN.dtb
+0837 image-TEW-638APB-V2.dtb
+0838 image-DIR-300-B1.dtb
+0839 image-ESR-9753.dtb
+0840 image-WIZARD8800.dtb
+0841 image-FREESTATION5.dtb
+0842 image-BROADWAY.dtb
+0843 image-3G-6200NL.dtb
+0844 image-ALL0256N-8M.dtb
+0845 image-NBG-419N.dtb
+0846 image-WNCE2001.dtb
+0847 image-RT5350F-OLINUXINO.dtb
+0848 image-PWH2004.dtb
+0849 image-NIXCORE-16M.dtb
+0850 image-SL-R7205.dtb
+0851 image-MZK-WDPR.dtb
+0852 image-MPRA1.dtb
+0853 image-FONERA20N.dtb
+0854 image-IP2202.dtb
+0855 image-MPRA2.dtb
+0856 image-RUT5XX.dtb
+0857 image-VOCORE-8M.dtb
+0858 image-3G300M.dtb
+0859 image-A5-V11.dtb
+0860 image-VOCORE-16M.dtb
+0861 image-ASL26555-16M.dtb
+0862 image-HW550-3G.dtb
+0863 image-3G-6200N.dtb
+0864 image-RT5350F-OLINUXINO-EVB.dtb
+0865 image-WT1520-8M.dtb
+0866 image-kn.dtb
+0867 image-JHR-N805R.dtb
+0868 image-DIR-620-D1.dtb
+0869 image-AWAPN2403.dtb
+0870 image-AWM002-EVB-4M.dtb
+0871 image-F5D8235_V2.dtb
+0872 image-DIR-615-D.dtb
+0873 image-JHR-N926R.dtb
+0874 image-RT-N10-PLUS.dtb
+0875 image-PSR-680W.dtb
+0876 image-X5.dtb
+0877 image-NBG-419N2.dtb
+0878 image-WR512-3GN-8M.dtb
+0879 image-DIR-610-A1.dtb
+0880 image-WCR150GN.dtb
+0881 image-MZK-W300NH2.dtb
+0882 image-BC2.dtb
+0883 image-M2M.dtb
+0884 image-PX-4885-8M.dtb
+0885 image-JHR-N825R.dtb
+0886 image-HG255D.dtb
+0887 image-PX-4885-4M.dtb
+0888 image-NW718.dtb
+0889 image-X8.dtb
+0890 image-XDXRN502J.dtb
+0891 image-WIZFI630A.dtb
+0892 image-ATP-52B.dtb
+0893 image-WHR-G300N.dtb
+0894 image-WL-330N.dtb
+0895 image-AIR3GII.dtb
+0896 image-W502U.dtb
+0897 image-RT-G32-B1.dtb
+0898 image-MR-102N.dtb
+0899 image-W150M.dtb
+0900 image-ZL5900V2.dtb
+0901 image-DIR-320-B1.dtb
+0902 image-M3.dtb
+0903 image-WL-351.dtb
+0904 image-ASL26555-8M.dtb
+0905 image-NCS601W.dtb
+0906 image-DIR-300-B7.dtb
+0907 image-DIR-620-A1.dtb
+0908 image-DIR-600-B1.dtb
+0909 image-ALL5003.dtb
+0910 image-V22RW-2X2.dtb
+0911 image-NIXCORE-8M.dtb
+0912 image-DWR-512-B.dtb
+0913 image-TEW-714TRU.dtb
+0914 image-W306R_V20.dtb
+0915 image-DAP-1350.dtb
+0916 image-MZK-DP150N.dtb
+0917 image-UR-326N4G.dtb
+0918 image-M4-4M.dtb
+0919 image-DCS-930L-B1.dtb
+0920 image-WR6202.dtb
+0921 image-MINIEMBWIFI.dtb
+0922 image-AWM002-EVB-8M.dtb
+0923 image-ALL0256N-4M.dtb
+0924 image-3G150B.dtb
+0925 image-ALL5002.dtb
+0926 image-WR512-3GN-4M.dtb
+0927 image-HT-TM02.dtb
+0928 image-DCS-930.dtb
+0929 image-F7C027.dtb
+0930 image-CARAMBOLA.dtb
+0931 image-kn_st.dtb
+0932 image-WT1520-4M.dtb
+0933 image-D105.dtb
+0934 image-RT-N13U.dtb
+0935 image-MINIEMBPLUG.dtb
+0936 image-DIR-615-H1.dtb
+0937 image-M4-8M.dtb
+0938 wd_mybooklive-kernel.bin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0939 image-wd-mybooklive.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0940 netgear_wndap660-kernel.bin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0941 netgear_wndap620-kernel.bin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0942 meraki_mx60-kernel.bin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0943 image-netgear-wndr4700.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0944 image-netgear-wndap660.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0945 image-meraki-mr24.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0946 meraki_mr24-kernel.bin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0947 image-netgear-wndap620.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0948 image-meraki-mx60.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0949 netgear_wndr4700-kernel.bin.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['apm,uic-apm82181', 'ibm,uic']
+0950 image-red-15w-rev1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+0951 image-tl-wdr4900-v1.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+0952 image-p2020rdb.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+0953 image-hiveap-330.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+0954 image-ws-ap3710i.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+0955 image-panda.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['fsl,mpic']
+0956 octeon_3xxx.dtb
 >>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
-0365 fsl-ls1012a-qds.dtb
-0366 aspeed-ast2500-evb.dtb
-0367 imx6ul-tx6ul-0010.dtb
-0367 omap3-n9.dtb
-0367 imx6q-pistachio.dtb
-0367 imx28-apf28.dtb
-0367 zynqmp-zcu102-revA.dtb
-0367 evk-pro3.dtb
-0367 kirkwood-ds110jv10.dtb
-0368 bcm47094-linksys-panamera.dtb
-0369 rt3883_eval.dtb
-0370 meson-gxl-s905x-hwacom-amazetv.dtb
-0370 imx7ulp-evk.dtb
-0370 armada-388-clearfog.dtb
-0370 tegra20-trimslice.dtb
-0370 s900-bubblegum-96.dtb
-0370 hi3620-hi4511.dtb
-0370 qcom-apq8064-asus-nexus7-flo.dtb
-0370 imx28-duckbill-2.dtb
-0370 ethernut5.dtb
-0370 fsl-ls1028a-rdb.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0371 omap3-n900.dtb
-0371 imx6q-udoo.dtb
-0371 sun4i-a10-mk802.dtb
-0372 meson-gxbb-vega-s95-pro.dtb
-0372 sun6i-a31s-inet-q972.dtb
-0373 emev2-kzm9d.dtb
-0373 da850-enbw-cmc.dtb
-0374 stm32h743i-eval.dtb
-0374 omap4-panda-es.dtb
-0374 zynqmp-zcu100-revC.dtb
-0374 mt6795-evb.dtb
-0374 am335x-boneblack.dtb
-0374 armada-370-seagate-nas-2bay.dtb
-0375 sun4i-a10-hackberry.dtb
-0376 bcm6358-neufbox4-sercomm.dtb
-0376 stm32f769-disco.dtb
-0376 imx28-eukrea-mbmx283lc.dtb
-0376 imx6q-nitrogen6x.dtb
-0376 socfpga_arria10_socdk_qspi.dtb
-0377 bcm4708-asus-rt-ac56u.dtb
-0378 fsl-ls1043a-qds.dtb
-0379 tegra20-seaboard.dtb
-0379 omap3-overo-storm-summit.dtb
-0379 sun8i-a23-ippo-q8h-v1.2.dtb
-0380 sun6i-a31-m9.dtb
-0381 omap3-overo-storm-tobi.dtb
-0381 imx6q-mccmon6.dtb
-0381 ns2-svk.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-3860-ciu']
+0957 octeon_68xx.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-6880-ciu2']
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['cavium,octeon-6880-ciu2']
+0958 image-qcom-ipq4019-fritzrepeater-1200.dtb
+0959 image-qcom-ipq4019-a62.dtb
+0960 image-qcom-ipq4018-ap120c-ac.dtb
+0961 image-qcom-ipq4018-ens620ext.dtb
+0962 image-qcom-ipq4029-mr33.dtb
+0963 image-qcom-ipq4029-gl-b1300.dtb
+0964 image-qcom-ipq4018-rt-ac58u.dtb
+0965 image-qcom-ipq4019-ap.dk01.1-c1.dtb
+0966 image-qcom-ipq4019-linksys_ea8300.dtb
+0967 image-qcom-ipq4018-jalapeno.dtb
+0968 image-qcom-ipq4028-wpj428.dtb
+0969 image-qcom-ipq4018-eap1300.dtb
+0970 image-qcom-ipq4018-wre6606.dtb
+0971 image-qcom-ipq4018-ex6100v2.dtb
+0972 image-qcom-ipq4019-fritzbox-7530.dtb
+0973 image-qcom-ipq4019-qxwlan-e2600ac-c1.dtb
+0974 image-qcom-ipq4019-qxwlan-e2600ac-c2.dtb
+0975 image-qcom-ipq4019-fritzrepeater-3000.dtb
+0976 image-qcom-ipq4018-a42.dtb
+0977 image-qcom-ipq4018-nbg6617.dtb
+0978 image-qcom-ipq4018-ex6150v2.dtb
+0979 image-qcom-ipq4018-fritz4040.dtb
+0980 image-qcom-ipq4018-ea6350v3.dtb
+0981 image-qcom-ipq4019-map-ac2200.dtb
+0982 image-qcom-ipq4019-ap.dk04.1-c1.dtb
+0983 qcom-apq8064-ifc6410.dtb
+0984 qcom-apq8064-sony-xperia-yuga.dtb
+0985 qcom-ipq4019-a62.dtb
+0986 qcom-ipq4018-ex6100v2.dtb
+0987 qcom-ipq4018-wre6606.dtb
+0988 qcom-ipq4018-ap120c-ac.dtb
+0989 qcom-ipq4018-ens620ext.dtb
+0990 qcom-ipq4018-nbg6617.dtb
+0991 qcom-ipq4029-gl-b1300.dtb
+0992 qcom-apq8084-ifc6540.dtb
+0993 qcom-apq8064-cm-qs600.dtb
+0994 qcom-apq8060-dragonboard.dtb
+0995 qcom-ipq4018-a42.dtb
+0996 qcom-ipq4018-fritz4040.dtb
+0997 qcom-ipq4019-fritzrepeater-1200.dtb
+0998 qcom-ipq4019-map-ac2200.dtb
+0999 qcom-ipq4018-jalapeno.dtb
+1000 qcom-msm8660-surf.dtb
+1001 qcom-ipq4019-fritzbox-7530.dtb
+1002 qcom-msm8960-cdp.dtb
+1003 qcom-ipq4018-ea6350v3.dtb
+1004 qcom-msm8974-lge-nexus5-hammerhead.dtb
+1005 qcom-mdm9615-wp8548-mangoh-green.dtb
+1006 qcom-ipq4019-qxwlan-e2600ac-c1.dtb
+1007 qcom-ipq4018-rt-ac58u.dtb
+1008 qcom-apq8084-mtp.dtb
+1009 qcom-ipq4019-ap.dk04.1-c1.dtb
+1010 qcom-ipq4028-wpj428.dtb
+1011 qcom-ipq4019-fritzrepeater-3000.dtb
+1012 qcom-ipq4018-eap1300.dtb
+1013 qcom-apq8064-asus-nexus7-flo.dtb
+1014 qcom-ipq4019-ap.dk01.1-c1.dtb
+1015 qcom-apq8074-dragonboard.dtb
+1016 qcom-ipq4019-linksys_ea8300.dtb
+1017 qcom-ipq4019-qxwlan-e2600ac-c2.dtb
+1018 qcom-ipq4029-mr33.dtb
+1019 qcom-apq8064-arrow-sd-600eval.dtb
+1020 qcom-ipq4018-ex6150v2.dtb
+1021 qcom-msm8974-sony-xperia-honami.dtb
+1022 qcom-ipq8064-ap148.dtb
+1023 image-armada-388-rd.dtb
+1024 image-armada-385-turris-omnia.dtb
+1025 image-armada-385-linksys-shelby.dtb
+1026 image-armada-385-db-ap.dtb
+1027 image-armada-385-linksys-venom.dtb
+1028 image-armada-370-rd.dtb
+1029 image-armada-xp-gp.dtb
+1030 image-armada-385-linksys-caiman.dtb
+1031 image-armada-xp-openblocks-ax3-4.dtb
+1032 image-armada-370-db.dtb
+1033 image-armada-370-mirabox.dtb
+1034 image-armada-388-clearfog-base.dtb
+1035 image-armada-xp-linksys-mamba.dtb
+1036 image-armada-385-linksys-rango.dtb
+1037 image-armada-385-linksys-cobra.dtb
+1038 image-armada-xp-db.dtb
+1039 image-armada-388-clearfog-pro.dtb
+1040 armada-370-db.dtb
+1041 armada-370-dlink-dns327l.dtb
+1042 armada-xp-db.dtb
+1043 armada-388-db.dtb
+1044 armada-370-mirabox.dtb
+1045 armada-xp-matrix.dtb
+1046 armada-370-seagate-personal-cloud-2bay.dtb
+1047 armada-385-synology-ds116.dtb
+1048 armada-385-linksys-cobra.dtb
+1049 armada-388-clearfog-base.dtb
+1050 armada-370-rd.dtb
+1051 armada-388-rd.dtb
+1052 armada-370-seagate-personal-cloud.dtb
+1053 armada-370-seagate-nas-2bay.dtb
+1054 armada-385-linksys-shelby.dtb
+1055 armada-xp-db-dxbc2.dtb
+1056 armada-388-clearfog.dtb
+1057 armada-xp-openblocks-ax3-4.dtb
+1058 armada-388-clearfog-pro.dtb
+1059 armada-xp-gp.dtb
+1060 armada-xp-linksys-mamba.dtb
+1061 armada-388-gp.dtb
+1062 armada-385-turris-omnia.dtb
+1063 armada-370-synology-ds213j.dtb
+1064 armada-xp-axpwifiap.dtb
+1065 armada-xp-synology-ds414.dtb
+1066 armada-xp-db-xc3-24g4xg.dtb
+1067 armada-xp-lenovo-ix4-300d.dtb
+1068 armada-370-netgear-rn102.dtb
+1069 armada-385-db-ap.dtb
+1070 armada-385-linksys-caiman.dtb
+1071 armada-370-seagate-nas-4bay.dtb
+1072 armada-385-linksys-rango.dtb
+1073 armada-370-netgear-rn104.dtb
+1074 armada-xp-netgear-rn2120.dtb
+1075 image-armada-7040-db.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1076 image-armada-8040-db.dtb
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
 >>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0382 logicpd-torpedo-37xx-devkit.dtb
-0382 sp9860g-1h10.dtb
-0382 zynq-cc108.dtb
-0382 imx6dl-nit6xlite.dtb
-0382 r8a7796-salvator-xs.dtb
-0382 r8a7790-stout.dtb
-0382 omap3-overo-summit.dtb
-0382 fsl-ls2080a-qds.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0383 sun6i-a31s-colorfly-e708-q1.dtb
-0384 at91-sama5d3_xplained.dtb
-0384 omap5-cm-t54.dtb
-0384 omap3-overo-alto35.dtb
-0384 arm-realview-eb-a9mp-bbrevd.dtb
-0384 arm-realview-eb-bbrevd.dtb
-0384 sama5d31ek.dtb
-0384 pxa300-raumfeld-speaker-l.dtb
-0384 omap3-ha.dtb
-0384 sdm845-mtp.dtb
-0384 sun8i-h3-nanopi-m1.dtb
-0385 sun9i-a80-optimus.dtb
-0386 rt3052_eval.dtb
-0387 imx27-apf27.dtb
-0387 omap3-devkit8000-lcd43.dtb
-0387 imx6q-tx6q-1010.dtb
-0387 gemini-sq201.dtb
+1077 image-armada-8040-mcbin.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1078 armada-8040-mcbin.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1079 armada-3720-db.dtb
+1080 armada-8080-db.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1081 armada-7040-db.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1082 armada-3720-espressobin.dtb
+1083 armada-8040-db.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1084 image-armada-3720-espressobin-v7.dtb
+1085 image-armada-3720-espressobin-emmc.dtb
+1086 image-armada-3720-db.dtb
+1087 image-armada-3720-espressobin-v7-emmc.dtb
+1088 image-armada-3720-espressobin.dtb
+1089 armada-8040-mcbin.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1090 armada-3720-db.dtb
+1091 armada-8080-db.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1092 armada-7040-db.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1093 armada-3720-espressobin.dtb
+1094 armada-8040-db.dtb
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+>>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
+1095 image-ct-6373.dtb
+1096 image-hg556a-b.dtb
+1097 image-rta1025w.dtb
+1098 image-bcm96338W.dtb
+1099 image-p870hw-51a-v2.dtb
+1100 image-agpf-s0.dtb
+1101 image-ad1018-nor.dtb
+1102 image-dsl-274xb-c.dtb
+1103 image-livebox-blue-5g.dtb
+1104 image-dsl-275xb-d.dtb
+1105 image-gw6200.dtb
+1106 image-usr9108.dtb
+1107 image-dgnd3700v1.dtb
+1108 image-av4202n.dtb
+1109 image-ar-5315u.dtb
+1110 image-bcm96358VW.dtb
+1111 image-rta1320.dtb
+1112 image-bcm96368MVNgr.dtb
+1113 image-nb4-fxc-r1.dtb
+1114 image-fast2704v2.dtb
+1115 image-spw303v.dtb
+1116 image-fast2704n.dtb
+1117 image-magic.dtb
+1118 image-dg834g_v4.dtb
+1119 image-vg50.dtb
+1120 image-a226g.dtb
+1121 image-bcm96348GW.dtb
+1122 image-hg556a-a.dtb
+1123 image-rg100a.dtb
+1124 image-dsl-2640u.dtb
+1125 image-rta770bw.dtb
+1126 image-bcm963269bhr.dtb
+1127 image-dsl-2650u.dtb
+1128 image-nb4-ser-r0.dtb
+1129 image-a4001n.dtb
+1130 image-bcm96348GW-11.dtb
+1131 image-r5010unv2.dtb
+1132 image-vh4032n.dtb
+1133 image-rta770w.dtb
+1134 image-ct536plus.dtb
+1135 image-cpva642.dtb
+1136 image-dsl-2640b-b.dtb
+1137 image-hg622.dtb
+1138 image-f5d7633.dtb
+1139 image-vr-3025un.dtb
+1140 image-a226m.dtb
+1141 image-fast2604.dtb
+1142 image-bcm96328avng.dtb
+1143 image-dva-g3810bn_tl.dtb
+1144 image-r1000h.dtb
+1145 image-vr-3026e.dtb
+1146 image-homehub2a.dtb
+1147 image-fast2404.dtb
+1148 image-ar1004g.dtb
+1149 image-evg2000.dtb
+1150 image-hg556a-c.dtb
+1151 image-bcm96358VW2.dtb
+1152 image-bcm96345GW2.dtb
+1153 image-nb6-ser-r0.dtb
+1154 image-bcm96348R.dtb
+1155 image-dg834gtpn.dtb
+1156 image-bcm963268bu_p300.dtb
+1157 image-cvg834g.dtb
+1158 image-ar-5387un.dtb
+1159 image-v2500v-bb.dtb
+1160 image-td-w8900gb.dtb
+1161 image-vr-3025u.dtb
+1162 image-fast2504n.dtb
+1163 image-v2110.dtb
+1164 image-dsl-274xb-f.dtb
+1165 image-sr102.dtb
+1166 image-hg520v.dtb
+1167 image-spw500v.dtb
+1168 image-dv-201amr.dtb
+1169 image-ar-5381u.dtb
+1170 image-bcm96318ref_p300.dtb
+1171 image-bcm96348GW-10.dtb
+1172 image-hg553.dtb
+1173 image-a4001n1.dtb
+1174 image-bcm96338GW.dtb
+1175 image-bcm963281TAN.dtb
+1176 image-gw6000.dtb
+1177 image-hg655b.dtb
+1178 image-bcm96318ref.dtb
+1179 image-cpva502plus.dtb
+1180 image-a226m-fwb.dtb
+1181 image-ct-5365.dtb
+1182 image-bcm96368MVWG.dtb
+1183 image-wap-5813n.dtb
+1184 image-ct-6373.dtb
+1185 image-hg556a-b.dtb
+1186 image-rta1025w.dtb
+1187 image-bcm96338W.dtb
+1188 image-p870hw-51a-v2.dtb
+1189 image-agpf-s0.dtb
+1190 image-ad1018-nor.dtb
+1191 image-dsl-274xb-c.dtb
+1192 image-livebox-blue-5g.dtb
+1193 image-dsl-275xb-d.dtb
+1194 image-gw6200.dtb
+1195 image-usr9108.dtb
+1196 image-dgnd3700v1.dtb
+1197 image-av4202n.dtb
+1198 image-ar-5315u.dtb
+1199 image-bcm96358VW.dtb
+1200 image-rta1320.dtb
+1201 image-bcm96368MVNgr.dtb
+1202 image-nb4-fxc-r1.dtb
+1203 image-fast2704v2.dtb
+1204 image-spw303v.dtb
+1205 image-fast2704n.dtb
+1206 image-magic.dtb
+1207 image-dg834g_v4.dtb
+1208 image-vg50.dtb
+1209 image-a226g.dtb
+1210 image-bcm96348GW.dtb
+1211 image-hg556a-a.dtb
+1212 image-rg100a.dtb
+1213 image-dsl-2640u.dtb
+1214 image-rta770bw.dtb
+1215 image-bcm963269bhr.dtb
+1216 image-dsl-2650u.dtb
+1217 image-nb4-ser-r0.dtb
+1218 image-a4001n.dtb
+1219 image-bcm96348GW-11.dtb
+1220 image-r5010unv2.dtb
+1221 image-vh4032n.dtb
+1222 image-rta770w.dtb
+1223 image-ct536plus.dtb
+1224 image-cpva642.dtb
+1225 image-dsl-2640b-b.dtb
+1226 image-hg622.dtb
+1227 image-f5d7633.dtb
+1228 image-vr-3025un.dtb
+1229 image-a226m.dtb
+1230 image-fast2604.dtb
+1231 image-bcm96328avng.dtb
+1232 image-dva-g3810bn_tl.dtb
+1233 image-r1000h.dtb
+1234 image-vr-3026e.dtb
+1235 image-homehub2a.dtb
+1236 image-fast2404.dtb
+1237 image-ar1004g.dtb
+1238 image-evg2000.dtb
+1239 image-hg556a-c.dtb
+1240 image-bcm96358VW2.dtb
+1241 image-bcm96345GW2.dtb
+1242 image-nb6-ser-r0.dtb
+1243 image-bcm96348R.dtb
+1244 image-dg834gtpn.dtb
+1245 image-bcm963268bu_p300.dtb
+1246 image-cvg834g.dtb
+1247 image-ar-5387un.dtb
+1248 image-v2500v-bb.dtb
+1249 image-td-w8900gb.dtb
+1250 image-vr-3025u.dtb
+1251 image-fast2504n.dtb
+1252 image-v2110.dtb
+1253 image-dsl-274xb-f.dtb
+1254 image-sr102.dtb
+1255 image-hg520v.dtb
+1256 image-spw500v.dtb
+1257 image-dv-201amr.dtb
+1258 image-ar-5381u.dtb
+1259 image-bcm96318ref_p300.dtb
+1260 image-bcm96348GW-10.dtb
+1261 image-hg553.dtb
+1262 image-a4001n1.dtb
+1263 image-bcm96338GW.dtb
+1264 image-bcm963281TAN.dtb
+1265 image-gw6000.dtb
+1266 image-hg655b.dtb
+1267 image-bcm96318ref.dtb
+1268 image-cpva502plus.dtb
+1269 image-a226m-fwb.dtb
+1270 image-ct-5365.dtb
+1271 image-bcm96368MVWG.dtb
+1272 image-wap-5813n.dtb
+1273 image-ar9331_tplink_tl-wr710n-v1.dtb
+1274 image-ar9344_tplink_tl-wdr3600-v1.dtb
+1275 image-qca9558_devolo_dvl1750x.dtb
+1276 image-ar9342_ubnt_nanobeam-ac.dtb
+1277 image-qca9563_phicomm_k2t.dtb
+1278 image-ar7242_buffalo_bhr-4grv.dtb
+1279 image-qca9533_comfast_cf-e110n-v2.dtb
+1280 image-ar9344_ocedo_raccoon.dtb
+1281 image-ar7161_dlink_dir-825-b1.dtb
+1282 image-qca9563_nec_wg800hp.dtb
+1283 image-qca9563_elecom_wrc-300ghbk2-i.dtb
+1284 image-qca9558_ocedo_ursus.dtb
+1285 image-ar9331_etactica_eg200.dtb
+1286 image-qca9531_glinet_gl-x750.dtb
+1287 image-qca9531_tplink_tl-wr810n-v1.dtb
+1288 image-ar9342_ubnt_nanostation-ac-loco.dtb
+1289 image-qca9531_comfast_cf-e5.dtb
+1290 image-qca9558_tplink_re350k-v1.dtb
+1291 image-ar9344_dlink_dir-825-c1.dtb
+1292 image-ar7241_ubnt_rocket-m.dtb
+1293 image-qca9558_tplink_tl-wdr4900-v2.dtb
+1294 image-qca9533_tplink_cpe220-v3.dtb
+1295 image-ar7161_netgear_wndr3700v2.dtb
+1296 image-ar7161_jjplus_ja76pf2.dtb
+1297 image-ar9344_wd_mynet-n750.dtb
+1298 image-qca9561_xiaomi_mi-router-4q.dtb
+1299 image-qca9563_tplink_re450-v2.dtb
+1300 image-ar7241_tplink_tl-wr842n-v1.dtb
+1301 image-qca9561_tplink_archer-c58-v1.dtb
+1302 image-qca9558_devolo_dvl1750i.dtb
+1303 image-ar9330_glinet_gl-ar150.dtb
+1304 image-qca9563_nec_wg1200cr.dtb
+1305 image-qca9533_tplink_cpe210-v3.dtb
+1306 image-ar9344_tplink_tl-wdr4300-v1-il.dtb
+1307 image-qca9533_ubnt_acb-isp.dtb
+1308 image-ar9342_ubnt_nanostation-ac.dtb
+1309 image-ar9132_tplink_tl-wr1043nd-v1.dtb
+1310 image-ar1022_iodata_wn-ag300dgr.dtb
+1311 image-qca9557_iodata_wn-ac1167dgr.dtb
+1312 image-qca9533_tplink_tl-wr842n-v3.dtb
+1313 image-ar9342_ubnt_nanostation-m-xw.dtb
+1314 image-ar7161_netgear_wndr3700.dtb
+1315 image-qca9563_yuncore_a782.dtb
+1316 image-ar7242_buffalo_wzr-hp-g302h-a1a0.dtb
+1317 image-qca9563_tplink_archer-c7-v4.dtb
+1318 image-ar7241_ubnt_unifi.dtb
+1319 image-ar9344_dlink_dir-835-a1.dtb
+1320 image-qca9557_iodata_wn-ac1600dgr2.dtb
+1321 image-qca9558_ocedo_koala.dtb
+1322 image-ar9331_pisen_wmm003n.dtb
+1323 image-qca9563_ubnt_unifiac-mesh.dtb
+1324 image-qca9533_tplink_cpe210-v2.dtb
+1325 image-ar7161_netgear_wndr3800.dtb
+1326 image-qca9561_tplink_archer-c60-v2.dtb
+1327 image-qca9561_tplink_archer-c25-v1.dtb
+1328 image-qca9558_devolo_dvl1200e.dtb
+1329 image-qca9558_netgear_ex6400.dtb
+1330 image-ar7241_ubnt_nanostation-m.dtb
+1331 image-qca9557_iodata_wn-ac1600dgr.dtb
+1332 image-qca9558_librerouter_librerouter-v1.dtb
+1333 image-ar9344_comfast_cf-e120a-v3.dtb
+1334 image-ar7241_ubnt_bullet-m.dtb
+1335 image-ar9342_iodata_etg3-r.dtb
+1336 image-qca9563_elecom_wrc-1750ghbk2-i.dtb
+1337 image-ar7242_avm_fritz300e.dtb
+1338 image-qca9557_buffalo_bhr-4grv2.dtb
+1339 image-ar7161_ubnt_routerstation.dtb
+1340 image-ar7242_tplink_tl-wr2543-v1.dtb
+1341 image-qca9531_tplink_archer-d50-v1.dtb
+1342 image-qca9563_ubnt_unifiac-lr.dtb
+1343 image-ar9341_tplink_tl-wr842n-v2.dtb
+1344 image-qca9561_tplink_archer-c60-v1.dtb
+1345 image-ar7161_ubnt_routerstation-pro.dtb
+1346 image-ar9344_pcs_cr5000.dtb
+1347 image-qca9563_tplink_archer-c6-v2.dtb
+1348 image-qca9561_tplink_archer-c59-v1.dtb
+1349 image-qca9558_engenius_epg5000.dtb
+1350 image-qca9558_engenius_ecb1750.dtb
+1351 image-qca9558_tplink_archer-c7-v2.dtb
+1352 image-qca9558_tplink_tl-wr1043nd-v3.dtb
+1353 image-qca9558_netgear_ex7300.dtb
+1354 image-ar7161_aruba_ap-105.dtb
+1355 image-qca9563_rosinson_wr818.dtb
+1356 image-ar9341_pcs_cr3000.dtb
+1357 image-qca9561_avm_fritz4020.dtb
+1358 image-qca9563_tplink_archer-a7-v5.dtb
+1359 image-ar9344_wd_mynet-wifi-rangeextender.dtb
+1360 image-ar9342_ubnt_lap-120.dtb
+1361 image-qca9563_tplink_archer-c7-v5.dtb
+1362 image-qca9558_devolo_dvl1200i.dtb
+1363 image-ar7161_buffalo_wzr-hp-ag300h.dtb
+1364 image-qca9533_tplink_tl-wr810n-v2.dtb
+1365 image-qca9531_engenius_ews511ap.dtb
+1366 image-qca9563_ubnt_unifiac-mesh-pro.dtb
+1367 image-ar9344_pcs_cap324.dtb
+1368 image-qca9558_tplink_tl-wr1043nd-v2.dtb
+1369 image-qca9563_tplink_tl-wr1043n-v5.dtb
+1370 image-ar9331_embeddedwireless_dorin.dtb
+1371 image-ar9344_zbtlink_zbt-wd323.dtb
+1372 image-qca9563_ubnt_unifiac-lite.dtb
+1373 image-qca9563_tplink_tl-wr1043nd-v4.dtb
+1374 image-qca9563_tplink_archer-c2-v3.dtb
+1375 image-qca9563_yuncore_xd4200.dtb
+1376 image-qca9531_glinet_gl-ar300m-lite.dtb
+1377 image-ar9344_winchannel_wb2000.dtb
+1378 image-qca9558_tplink_archer-c5-v1.dtb
+1379 image-qca9558_devolo_dvl1750c.dtb
+1380 image-ar7242_buffalo_wzr-hp-g450h.dtb
+1381 image-ar9342_ubnt_bullet-m-xw.dtb
+1382 image-qca9558_devolo_dvl1750e.dtb
+1383 image-qca9563_ubnt_unifiac-pro.dtb
+1384 image-qca9558_tplink_archer-c7-v1.dtb
+1385 image-ar9331_8dev_carambola2.dtb
+1386 image-qca9558_openmesh_om5p-ac-v2.dtb
+1387 image-ar7241_ubnt_airrouter.dtb
+1388 image-qca9531_yuncore_a770.dtb
+1389 image-qca9563_dlink_dir-859-a1.dtb
+1390 image-ar9344_tplink_tl-wdr4300-v1.dtb
+1391 image-ar9330_pqi_air-pen.dtb
+1392 image-ar7241_tplink_tl-mr3220-v1.dtb
+1393 image-ar9331_tplink_tl-wr703n.dtb
+1394 image-ar7240_tplink_tl-wr941-v4.dtb
+1395 image-ar7240_tplink_tl-wr841-v5.dtb
+1396 image-qca9558_tplink_tl-wr941n-v7-cn.dtb
+1397 image-ar7240_on_n150r.dtb
+1398 image-ar7240_tplink_tl-wr743nd-v1.dtb
+1399 image-ar7240_netgear_wnr612-v2.dtb
+1400 image-qca9533_tplink_tl-wr841-v10.dtb
+1401 image-qca9533_tplink_tl-wr841-v11.dtb
+1402 image-ar7240_buffalo_whr-g301n.dtb
+1403 image-ar7240_tplink_tl-wr740n-v3.dtb
+1404 image-ar9341_tplink_tl-wr841-v8.dtb
+1405 image-ar7240_tplink_tl-wr741-v1.dtb
+1406 image-ar7240_tplink_tl-wr740n-v1.dtb
+1407 image-ar9132_tplink_tl-wa901nd-v2.dtb
+1408 image-ar7241_tplink_tl-mr3420-v1.dtb
+1409 image-ar9331_tplink_tl-wr740n-v4.dtb
+1410 image-ar7241_tplink_tl-wr841-v7.dtb
+1411 image-ar9331_tplink_tl-mr3040-v2.dtb
+1412 image-ar9331_tplink_tl-mr3020-v1.dtb
+1413 image-ar9331_tplink_tl-wr741nd-v4.dtb
+1414 image-qca9533_tplink_tl-wr841-v9.dtb
+1415 image-ar9132_tplink_tl-wr941-v2.dtb
+1416 image-ar9331_tplink_tl-mr10u.dtb
+1417 image-qca9533_tplink_tl-wr841-v12.dtb
+1418 image-imx6q-gw551x.dtb
+1419 image-imx6dl-hummingboard.dtb
+1420 image-imx6dl-wandboard.dtb
+1421 image-imx6dl-cubox-i.dtb
+1422 image-imx6dl-gw553x.dtb
+1423 image-imx6q-gw53xx.dtb
+1424 image-imx6q-gw553x.dtb
+1425 image-imx6q-apalis-ixora-v1.1.dtb
+1426 image-imx6q-gw552x.dtb
+1427 image-imx6q-gw5904.dtb
+1428 image-imx6dl-gw551x.dtb
+1429 image-imx6dl-gw54xx.dtb
+1430 image-imx6dl-gw52xx.dtb
+1431 image-imx6q-gw51xx.dtb
+1432 image-imx6q-apalis-eval.dtb
+1433 image-imx6q-apalis-ixora.dtb
+1434 image-imx6q-gw5400-a.dtb
+1435 image-imx6dl-gw552x.dtb
+1436 image-imx6q-gw52xx.dtb
+1437 image-imx6q-cubox-i.dtb
+1438 image-imx6q-gw54xx.dtb
+1439 image-imx6dl-gw51xx.dtb
+1440 image-imx6dl-gw53xx.dtb
+1441 image-imx6dl-gw5904.dtb
+1442 image-imx6q-hummingboard.dtb
+1443 imx6ul-opos6uldev.dtb
+1444 imx6dl-colibri-eval-v3.dtb
+1445 imx6q-tx6q-1020.dtb
+1446 imx6dl-savageboard.dtb
+1447 imx6sx-udoo-neo-extended.dtb
+1448 imx6q-gw52xx.dtb
+1449 imx6q-gw51xx.dtb
+1450 imx6dl-nitrogen6x.dtb
+1451 imx6dl-ts4900.dtb
+1452 imx6dl-gw551x.dtb
+1453 imx6q-zii-rdu2.dtb
+1454 imx6q-tx6q-1020-comtft.dtb
+1455 imx6dl-riotboard.dtb
+1456 imx6q-nitrogen6x.dtb
+1457 imx6q-gw5903.dtb
+1458 imx6q-rex-pro.dtb
+1459 imx6dl-tx6u-811x.dtb
+1460 imx6dl-phytec-pbab01.dtb
+1461 imx6q-icore.dtb
+1462 imx6sl-warp.dtb
+1463 imx6ul-geam.dtb
+1464 imx6q-dfi-fs700-m60.dtb
+1465 imx6q-gw5904.dtb
+1466 imx6dl-icore.dtb
+1467 imx6q-apf6dev.dtb
+1468 imx6q-tx6q-11x0-mb7.dtb
+1469 imx6dl-tx6u-8033.dtb
+1470 imx6q-gw54xx.dtb
+1471 imx6sx-sdb-reva.dtb
+1472 imx6ul-tx6ul-0010.dtb
+1473 imx6ul-tx6ul-mainboard.dtb
+1474 imx6q-gw560x.dtb
+1475 imx6sx-sdb.dtb
+1476 imx6dl-tx6dl-comtft.dtb
+1477 imx6q-ts4900.dtb
+1478 imx6q-apalis-ixora.dtb
+1479 imx6dl-gw53xx.dtb
+1480 imx6q-hummingboard.dtb
+1481 imx6dl-tx6u-801x.dtb
+1482 imx6sl-evk.dtb
+1483 imx6q-tx6q-1010-comtft.dtb
+1484 imx6dl-sabrelite.dtb
+1485 imx6dl-icore-rqs.dtb
+1486 imx6dl-tx6s-8034.dtb
+1487 imx6sx-sdb-sai.dtb
+1488 imx6qp-sabreauto.dtb
+1489 imx6q-apalis-eval.dtb
+1490 imx6dl-udoo.dtb
+1491 imx6q-sabresd.dtb
+1492 imx6dl-apf6dev.dtb
+1493 imx6qp-nitrogen6_som2.dtb
+1494 imx6dl-rex-basic.dtb
+1495 imx6q-gw553x.dtb
+1496 imx6dl-gw5903.dtb
+1497 imx6ull-14x14-evk.dtb
+1498 imx6ul-14x14-evk.dtb
+1499 imx6dl-wandboard-revb1.dtb
+1500 imx6dl-tx6u-81xx-mb7.dtb
+1501 imx6q-tx6q-1036.dtb
+1502 imx6dl-nit6xlite.dtb
+1503 imx6q-wandboard.dtb
+1504 imx6ul-pico-hobbit.dtb
+1505 imx6dl-sabreauto.dtb
+1506 imx6q-tx6q-1010.dtb
+1507 imx6q-gw53xx.dtb
+1508 imx6dl-hummingboard.dtb
+1509 imx6dl-aristainetos2_7.dtb
+1510 imx6q-udoo.dtb
+1511 imx6q-wandboard-revb1.dtb
+1512 imx6q-gw552x.dtb
+1513 imx6dl-tx6s-8035.dtb
+1514 imx6dl-gw553x.dtb
+1515 imx6dl-dfi-fs700-m60.dtb
+1516 imx6q-gw5400-a.dtb
+1517 imx6qp-zii-rdu2.dtb
+1518 imx6q-gk802.dtb
+1519 imx6q-sabrelite.dtb
+1520 imx6sx-udoo-neo-basic.dtb
+1521 imx6q-novena.dtb
+1522 imx6q-h100.dtb
+1523 imx6q-sbc6x.dtb
+1524 imx6dl-wandboard.dtb
+1525 imx6q-dmo-edmqmx6.dtb
+1526 imx6q-savageboard.dtb
+1527 imx6ul-isiot-emmc.dtb
+1528 imx6q-nitrogen6_max.dtb
+1529 imx6ul-tx6ul-0011.dtb
+1530 imx6q-cm-fx6.dtb
+1531 imx6q-cubox-i.dtb
+1532 imx6q-evi.dtb
+1533 imx6q-icore-ofcap12.dtb
+1534 imx6q-b650v3.dtb
+1535 imx6q-mccmon6.dtb
+1536 imx6q-marsboard.dtb
+1537 imx6q-tbs2910.dtb
+1538 imx6q-arm2.dtb
+1539 imx6q-apalis-ixora-v1.1.dtb
+1540 imx6sx-sabreauto.dtb
+1541 imx6q-sabreauto.dtb
+1542 imx6dl-gw54xx.dtb
+1543 imx6ul-isiot-nand.dtb
+1544 imx6dl-gw52xx.dtb
+1545 imx6q-b850v3.dtb
+1546 imx6dl-gw560x.dtb
+1547 imx6ul-liteboard.dtb
+1548 imx6dl-sabresd.dtb
+1549 imx6dl-gw552x.dtb
+1550 imx6q-b450v3.dtb
+1551 imx6dl-gw5904.dtb
+1552 imx6q-phytec-pbab01.dtb
+1553 imx6qp-sabresd.dtb
+1554 imx6q-tx6q-1110.dtb
+1555 imx6dl-cubox-i.dtb
+1556 imx6sx-nitrogen6sx.dtb
+1557 imx6q-utilite-pro.dtb
+1558 imx6q-icore-rqs.dtb
+1559 imx6q-nitrogen6_som2.dtb
+1560 imx6dl-aristainetos_7.dtb
+1561 imx6q-icore-ofcap10.dtb
+1562 imx6q-gw551x.dtb
+1563 imx6sx-udoo-neo-full.dtb
+1564 imx6dl-gw51xx.dtb
+1565 imx6qp-nitrogen6_max.dtb
+1566 imx6dl-aristainetos2_4.dtb
+1567 imx6dl-aristainetos_4.dtb
+1568 image-kirkwood-iconnect.dtb
+1569 image-kirkwood-pogoplug-series-4.dtb
+1570 image-kirkwood-iomega_ix2_200.dtb
+1571 image-kirkwood-on100.dtb
+1572 image-kirkwood-pogo_e02.dtb
+1573 image-kirkwood-dockstar.dtb
+1574 image-kirkwood-ib62x0.dtb
+1575 image-kirkwood-goflexhome.dtb
+1576 image-kirkwood-linksys-viper.dtb
+1577 image-kirkwood-nsa325.dtb
+1578 image-kirkwood-goflexnet.dtb
+1579 image-kirkwood-linksys-audi.dtb
+1580 image-kirkwood-nsa310b.dtb
+1581 kirkwood-mplcec4.dtb
+1582 kirkwood-ds209.dtb
+1583 kirkwood-iconnect.dtb
+1584 kirkwood-ds212.dtb
+1585 kirkwood-ts219-6282.dtb
+1586 kirkwood-dns320.dtb
+1587 kirkwood-linksys-viper.dtb
+1588 kirkwood-lsxhl.dtb
+1589 kirkwood-openrd-client.dtb
+1590 kirkwood-d2net.dtb
+1591 kirkwood-iomega_ix2_200.dtb
+1592 kirkwood-sheevaplug-esata.dtb
+1593 kirkwood-net2big.dtb
+1594 kirkwood-laplug.dtb
+1595 kirkwood-ds409slim.dtb
+1596 kirkwood-goflexhome.dtb
+1597 kirkwood-netgear_readynas_nv+_v2.dtb
+1598 kirkwood-linkstation-lswvl.dtb
+1599 kirkwood-nsa310b.dtb
+1600 kirkwood-dockstar.dtb
+1601 kirkwood-openblocks_a6.dtb
+1602 kirkwood-ds411.dtb
+1603 kirkwood-rs212.dtb
+1604 kirkwood-lschlv2.dtb
+1605 kirkwood-openblocks_a7.dtb
+1606 kirkwood-rs411.dtb
+1607 kirkwood-dreamplug.dtb
+1608 kirkwood-t5325.dtb
+1609 kirkwood-dir665.dtb
+1610 kirkwood-topkick.dtb
+1611 kirkwood-rd88f6281-z0.dtb
+1612 kirkwood-ds210.dtb
+1613 kirkwood-ds409.dtb
+1614 kirkwood-linkstation-lswxl.dtb
+1615 kirkwood-nsa325.dtb
+1616 kirkwood-rd88f6281-a.dtb
+1617 kirkwood-nsa320.dtb
+1618 kirkwood-mv88f6281gtw-ge.dtb
+1619 kirkwood-linksys-audi.dtb
+1620 kirkwood-linkstation-lswsxl.dtb
+1621 kirkwood-cloudbox.dtb
+1622 kirkwood-sheevaplug.dtb
+1623 kirkwood-openrd-ultimate.dtb
+1624 kirkwood-linkstation-lsqvl.dtb
+1625 kirkwood-db-88f6281.dtb
+1626 kirkwood-goflexnet.dtb
+1627 kirkwood-ns2lite.dtb
+1628 kirkwood-nsa310.dtb
+1629 kirkwood-ts419-6282.dtb
+1630 kirkwood-blackarmor-nas220.dtb
+1631 kirkwood-b3.dtb
+1632 kirkwood-nsa310a.dtb
+1633 kirkwood-ns2max.dtb
+1634 kirkwood-ib62x0.dtb
+1635 kirkwood-pogo_e02.dtb
+1636 kirkwood-ds411j.dtb
+1637 kirkwood-rs409.dtb
+1638 kirkwood-openrd-base.dtb
+1639 kirkwood-ds212j.dtb
+1640 kirkwood-ds112.dtb
+1641 kirkwood-ns2mini.dtb
+1642 kirkwood-linkstation-lsvl.dtb
+1643 kirkwood-rd88f6192.dtb
+1644 kirkwood-dns325.dtb
+1645 kirkwood-ns2.dtb
+1646 kirkwood-ds111.dtb
+1647 kirkwood-pogoplug-series-4.dtb
+1648 kirkwood-guruplug-server-plus.dtb
+1649 kirkwood-ds110jv10.dtb
+1650 kirkwood-nas2big.dtb
+1651 kirkwood-ds109.dtb
+1652 kirkwood-ts419-6281.dtb
+1653 kirkwood-ts219-6281.dtb
+1654 kirkwood-on100.dtb
+1655 kirkwood-ds411slim.dtb
+1656 kirkwood-km_kirkwood.dtb
+1657 kirkwood-netgear_readynas_duo_v2.dtb
+1658 kirkwood-db-88f6282.dtb
+1659 kirkwood-net5big.dtb
+1660 kirkwood-is2.dtb
+1661 image-mt7622-rfb1.dtb
+1662 mt7622-rfb1.dtb
+1663 mt6755-evb.dtb
+1664 mt6797-evb.dtb
+1665 mt2712-evb.dtb
+1666 mt8173-evb.dtb
+1667 mt6795-evb.dtb
+1668 image-mt7623a-unielec-u7623-02-emmc-512M.dtb
+1669 image-mt7623n-bananapi-bpi-r2.dtb
+1670 mt6592-evb.dtb
+1671 mt7623a-unielec-u7623-02-emmc-512M.dtb
+1672 mt2701-evb.dtb
+1673 mt7623n-rfb-nand.dtb
+1674 mt8127-moose.dtb
+1675 mt6589-aquaris5.dtb
+1676 mt7623n-bananapi-bpi-r2.dtb
+1677 mt6580-evbp1.dtb
+1678 mt7623a-rfb-emmc.dtb
+1679 mt8135-evbp1.dtb
+1680 image-gemini-nas4220b.dtb
 >>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0388 kirkwood-pogo_e02.dtb
-0389 meson8b-odroidc1.dtb
-0389 kirkwood-nsa310.dtb
-0390 imx6ul-tx6ul-0011.dtb
-0390 r8a77970-eagle.dtb
-0390 imx28-duckbill-2-enocean.dtb
-0390 kirkwood-mplcec4.dtb
-0391 juno-r1.dtb
-0391 sun5i-a10s-mk802.dtb
-0392 imx28-eukrea-mbmx287lc.dtb
-0392 s5pv210-goni.dtb
-0392 am335x-sancloud-bbe.dtb
-0392 imx53-tx53-x03x.dtb
-0392 logicpd-som-lv-37xx-devkit.dtb
-0392 am335x-baltos-ir2110.dtb
-0392 169445.dtb
-0393 bcm97346dbsmb.dtb
-0394 k3-am654-base-board.dtb
-0394 at91sam9g25ek.dtb
-0394 imx6q-tbs2910.dtb
-0394 imx7d-pico-hobbit.dtb
-0394 aspeed-bmc-quanta-q71l.dtb
-0395 kirkwood-rd88f6281-z0.dtb
-0396 omap4-kc1.dtb
-0396 am437x-cm-t43.dtb
-0396 kirkwood-sheevaplug-esata.dtb
-0397 mt8183-evb.dtb
-0397 imx6q-tx6q-1020-comtft.dtb
-0397 meson-gxl-s905w-tx3-mini.dtb
-0397 sun8i-v40-bananapi-m2-berry.dtb
-0398 vf610-colibri-eval-v3.dtb
-0398 imx35-pdk.dtb
-0398 armada-388-clearfog-base.dtb
-0398 omap3-sbc-t3530.dtb
-0398 bcm4709-buffalo-wxr-1900dhp.dtb
-0399 aspeed-bmc-opp-zaius.dtb
-0400 tegra114-dalmore.dtb
-0400 imx6q-cm-fx6.dtb
-0400 rk3066a-rayeager.dtb
-0401 imx6q-gw5904.dtb
-0401 ox820-cloudengines-pogoplug-series-3.dtb
-0402 bcm94708.dtb
-0403 imx6dl-eckelmann-ci4x10.dtb
-0403 at91sam9g20ek_2mmc.dtb
-0403 imx6q-gw53xx.dtb
-0403 at91-tse850-3.dtb
-0403 r9a06g032-rzn1d400-db.dtb
-0404 bcm53340-ubnt-unifi-switch8.dtb
-0405 am335x-moxa-uc-2101.dtb
-0405 sun4i-a10-olinuxino-lime.dtb
-0406 tango4-vantage-1172.dtb
-0406 vf610-bk4.dtb
-0406 aspeed-bmc-inspur-fp5280g2.dtb
-0407 imx6dl-nitrogen6x.dtb
-0407 da850-lego-ev3.dtb
-0408 imx6dl-aristainetos2_4.dtb
-0408 lpc4357-myd-lpc4357.dtb
-0409 meson-gxl-s905d-p231.dtb
-0409 tny_a9263.dtb
-0409 exynos5420-smdk5420.dtb
-0409 omap4-droid4-xt894.dtb
-0409 mt6589-aquaris5.dtb
-0409 arm-realview-eb-a9mp.dtb
-0409 tegra124-venice2.dtb
-0409 am335x-moxa-uc-8100-me-t.dtb
-0409 rk3288-evb-act8846.dtb
-0410 arm-realview-eb-11mp-bbrevd.dtb
-0410 omap3-zoom3.dtb
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
->>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['ti,omap3-gpio']
-0411 sun4i-a10-mini-xplus.dtb
-0412 imx28-cfa10058.dtb
-0412 at91-ariettag25.dtb
-0412 ep7211-edb7211.dtb
-0412 exynos5250-arndale.dtb
-0412 socfpga_cyclone5_sodia.dtb
-0413 sun8i-a23-polaroid-mid2809pxe04.dtb
-0414 sun8i-a23-polaroid-mid2407pxe03.dtb
-0415 aspeed-bmc-portwell-neptune.dtb
-0416 imx6q-hummingboard.dtb
-0416 armada-375-db.dtb
-0417 kirkwood-cloudbox.dtb
-0418 exynos5420-arndale-octa.dtb
-0418 am57xx-cl-som-am57x.dtb
-0418 dove-dove-db.dtb
-0419 ste-hrefv60plus-tvk.dtb
-0419 bcm911360k.dtb
-0420 r8a7778-bockw.dtb
-0420 kirkwood-ts419-6282.dtb
-0421 tegra20-ventana.dtb
-0421 r7s72100-rskrza1.dtb
-0421 imx6q-hummingboard2.dtb
-0421 imx8mq-librem5-devkit.dtb
-0421 imx6dl-gw52xx.dtb
-0421 bcm47081-asus-rt-n18u.dtb
-0422 sun8i-v3s-licheepi-zero-dock.dtb
-0423 at91-dvk_som60.dtb
-0423 kirkwood-rs411.dtb
-0424 omap3-ha-lcd.dtb
-0424 omap3-thunder.dtb
-0424 omap3-gta04a3.dtb
-0424 mmp2-brownstone.dtb
-0424 meson-gxm-q200.dtb
-0424 rk3399-firefly.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0425 rk3399-sapphire-excavator.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0426 am335x-boneblue.dtb
-0426 stih418-b2199.dtb
-0426 at91-kizboxmini.dtb
-0426 exynos5410-smdk5410.dtb
-0426 prima2-evb.dtb
-0426 msm8994-angler-rev-101.dtb
-0426 zynqmp-zcu106-revA.dtb
-0426 qcom-apq8074-dragonboard.dtb
-0426 meson-gxl-s905x-libretech-cc.dtb
-0426 kirkwood-linkstation-lswsxl.dtb
-0427 aspeed-bmc-opp-lanyang.dtb
-0428 meson-g12a-u200.dtb
-0428 at91sam9x35ek.dtb
-0428 xenvm-4.2.dtb
-0428 imx6q-icore-ofcap12.dtb
-0428 rk3328-evb.dtb
-0429 imx28-m28evk.dtb
-0429 aspeed-bmc-microsoft-olympus.dtb
-0430 imx1-ads.dtb
-0430 tegra30-cardhu-a04.dtb
-0430 mt7620a_eval.dtb
-0431 r8a7744-iwg20d-q7-dbcm-ca.dtb
-0431 zynqmp-zcu102-revB.dtb
-0431 armada-370-seagate-nas-4bay.dtb
-0432 imx8mq-evk.dtb
-0432 rk3066a-bqcurie2.dtb
-0433 imx28-cfa10049.dtb
-0433 fsl-ls1088a-rdb.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0434 fsl-ls1012a-frwy.dtb
-0435 omap3-igep0020.dtb
-0435 gemini-dlink-dns-313.dtb
+1681 image-gemini-dlink-dns-313.dtb
 >>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
-0436 orion5x-netgear-wnr854t.dtb
-0437 r8a7792-wheat.dtb
-0437 qcom-apq8084-mtp.dtb
-0437 tegra124-jetson-tk1.dtb
-0437 r8a7791-koelsch.dtb
-0437 imx28-m28cu3.dtb
-0437 sun6i-a31-app4-evb1.dtb
-0438 omap3-overo-storm-tobiduo.dtb
-0438 sun5i-a10s-auxtek-t004.dtb
-0439 msm8992-bullhead-rev-101.dtb
-0439 imx6dl-hummingboard2-emmc-som-v15.dtb
-0439 imx6qp-tx6qp-8037.dtb
-0439 imx6q-gw5903.dtb
-0439 aspeed-bmc-opp-witherspoon.dtb
-0440 omap3-overo-storm-palo35.dtb
-0440 meson8m2-mxiii-plus.dtb
-0440 r8a774a1-hihope-rzg2m-ex.dtb
-0440 sh73a0-kzm9g.dtb
-0440 imx6dl-wandboard.dtb
-0440 nexys4ddr.dtb
-0441 armada-385-db-88f6820-amc.dtb
-0441 sun4i-a10-pcduino2.dtb
-0442 rtd1295-zidoo-x9s.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0443 fsl-ls2088a-qds.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0444 imx6q-apf6dev.dtb
-0444 vf610m4-cosmic.dtb
-0444 bcm953012k.dtb
-0445 r8a77995-draak.dtb
-0445 r8a7792-blanche.dtb
-0445 rk3328-roc-cc.dtb
-0446 imx6q-ts4900.dtb
-0446 stm32mp157a-avenger96.dtb
-0446 imx6q-dhcom-pdk2.dtb
-0446 am437x-sk-evm.dtb
-0446 imx6q-icore-ofcap10.dtb
-0446 rk3066a-marsboard.dtb
-0447 ci20.dtb
-0447 ls1021a-twr.dtb
-0448 kirkwood-linkstation-lswvl.dtb
-0449 bcm4708-luxul-xwc-1000.dtb
-0450 s3c6410-mini6410.dtb
-0450 r8a77965-salvator-xs.dtb
-0450 rk3399-orangepi.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0451 kirkwood-blackarmor-nas220.dtb
-0452 armada-388-clearfog-pro.dtb
-0452 am335x-baltos-ir5221.dtb
-0452 aspeed-bmc-intel-s2600wf.dtb
-0453 fsl-ls1046a-rdb.dtb
-0454 hisi-x5hd2-dkb.dtb
-0454 omap3-overo-storm-gallop43.dtb
-0454 ste-nomadik-nhk15.dtb
-0454 omap5-uevm.dtb
-0454 am335x-icev2.dtb
-0454 bcm2836-rpi-2-b.dtb
-0454 ls1021a-qds.dtb
-0455 sun6i-a31s-yones-toptech-bs1078-v2.dtb
-0456 armada-xp-gp.dtb
-0457 fsl-ls1088a-qds.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['fsl,ns16550', 'ns16550a']
-0458 uniphier-ld6b-ref.dtb
->>>> ERROR <<<< 'NoneType' object has no attribute 'data'
-0459 imx28-apf28dev.dtb
-0459 armada-385-linksys-rango.dtb
-0459 imx7d-meerkat96.dtb
-0459 rk3399-sapphire.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['rockchip,rk3399-uart', 'snps,dw-apb-uart']
-0460 imx7d-nitrogen7.dtb
-0460 sun5i-a13-empire-electronix-m712.dtb
-0461 imx6ull-colibri-eval-v3.dtb
-0461 imx6q-utilite-pro.dtb
-0461 berlin4ct-stb.dtb
-0462 sun4i-a10-ba10-tvbox.dtb
-0463 tegra30-apalis-v1.1-eval.dtb
-0463 imx6dl-phytec-mira-rdk-nand.dtb
-0463 ipq8074-hk01.dtb
-0463 socfpga_cyclone5_vining_fpga.dtb
-0464 pistachio_marduk.dtb
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
->>>> ERROR <<<< check INTERRUPT CELLS of the interrupt parent of ['snps,dw-apb-uart']
-0465 tny_a9260.dtb
-0465 armada-388-rd.dtb
-0465 uniphier-pro4-ace.dtb
-0465 imx6dl-cubox-i-som-v15.dtb
-0465 exynos4412-odroidx2.dtb
-0465 sun9i-a80-cubieboard4.dtb
-0466 bcm47094-dlink-dir-885l.dtb
-0467 foundation-v8-gicv3.dtb
-0467 kirkwood-db-88f6281.dtb
-0468 kirkwood-linkstation-lsvl.dtb
-0469 qcom-msm8974-sony-xperia-honami.dtb
-0469 imx6dl-hummingboard-som-v15.dtb
-0469 sun5i-a13-difrnce-dit4350.dtb
-0470 omap3-devkit8000.dtb
-0470 kirkwood-nsa325.dtb
-0471 kirkwood-lschlv2.dtb
-0472 berlin2q-marvell-dmp.dtb
-0473 omap3-sbc-t3730.dtb
-0473 imx7d-colibri-eval-v3.dtb
-0473 armada-370-seagate-personal-cloud.dtb
-0474 am43x-epos-evm.dtb
-0474 zynq-zybo.dtb
-0474 sun8i-h2-plus-orangepi-r1.dtb
-0475 sun8i-h3-orangepi-plus2e.dtb
-0476 bcm953012hr.dtb
-0477 pm9g45.dtb
-0477 pxa300-raumfeld-speaker-one.dtb
-0477 armada-385-db-ap.dtb
-0477 wm8750-apc8750.dtb
-0477 omap3-overo-chestnut43.dtb
-0477 imx6sx-udoo-neo-basic.dtb
-0477 omap5-sbc-t54.dtb
-0477 sun8i-a23-evb.dtb
-0478 r8a7793-gose.dtb
-0478 s5pv210-torbreck.dtb
-0478 apq8016-sbc.dtb
-0478 kirkwood-ds111.dtb
-0479 kirkwood-openblocks_a6.dtb
-0480 tny_a9g20.dtb
-0480 r8a77990-ebisu.dtb
-0480 bcm23550-sparrow.dtb
-0481 bcm9ejtagprb.dtb
-0481 at91sam9g20ek.dtb
-0481 imx6sll-evk.dtb
-0481 meson-gxbb-vega-s95-telos.dtb
-0481 mt7622-bananapi-bpi-r64.dtb
-0481 imx6q-savageboard.dtb
-0481 imx6ul-isiot-emmc.dtb
-0481 armada-3720-espressobin.dtb
-0481 imx31-bug.dtb
-0481 sun8i-v3s-licheepi-zero.dtb
-0482 kirkwood-dir665.dtb
-0483 uniphier-pxs2-vodka.dtb
-0483 bcm4708-asus-rt-ac68u.dtb
+1682 image-gemini-sq201.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1683 image-gemini-dlink-dir-685.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1684 gemini-dlink-dir-685.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1685 gemini-dlink-dns-313.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1686 gemini-wbd111.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1687 gemini-nas4220b.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1688 gemini-sq201.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1689 gemini-rut1xx.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1690 gemini-wbd222.dtb
+>>>> ERROR <<<< update COMPATIBLE_INTERRUPTS_INDEX for ['faraday,ftintc010']
+1691 image-zynq-zc702.dtb
+1692 image-zynq-zybo.dtb
+1693 image-zynq-zybo-z7.dtb
+1694 image-zynq-zed.dtb
+1695 vexpress-v2p-ca15-tc1.dtb
+1696 zynq-zc706.dtb
+1697 vexpress-v2p-ca5s.dtb
+1698 vexpress-v2p-ca9.dtb
+1699 vexpress-v2p-ca15_a7.dtb
+1700 zynq-zc702.dtb
+1701 zynq-zybo.dtb
+1702 zynq-parallella.dtb
+1703 zynq-microzed.dtb
+1704 zynq-zed.dtb
+1705 zynq-zybo-z7.dtb
 save as ns16550a-statistics.txt

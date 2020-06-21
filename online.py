@@ -117,10 +117,13 @@ def find_prepare(target_dir, image_list):
 
 def find_rootfs(target_dir, image_list):
     c, c1 = 0, 0
+
     for k, v in image_list.items():
         log = os.path.join(target_dir, v['log'])
         status = 0
         reason = None
+        output = False
+        counter = 0
         with open(log) as f:
             for line in f:
                 if line.find('Unpacking initramfs') != -1:
@@ -129,12 +132,29 @@ def find_rootfs(target_dir, image_list):
                     reason = 'flag_unset'
                 elif line.find('CPU clock: 0.000 MHz') != -1:
                     reason = 'zero_rate'
+                elif line.find('Data bus error') != -1:
+                    reason = 'data_bus_error'
+                elif line.find('Failed to get CPU node') != -1:
+                    reason = 'failed_cpu_node'
+                elif line.find('Failed to find ralink,rt3050-sysc node') != -1:
+                    reason = 'failed_sysc_node'
+                if line.find('tracing - [') != -1:
+                    output = True
+                if line.find('SoC Type: Ralink RT3052 id:0 rev:0') != -1:
+                    counter += 1
         if status == 1:
             c += 1
             image_list[k]['rootfs'] = True
         else:
             if reason is not None:
                 image_list[k]['failed_rootfs'] = reason
+                c1 += 1
+            elif not output and image_list[k]['prepare']:
+                image_list[k]['failed_rootfs'] = 'no_output'
+                print(k)
+                c1 += 1
+            elif counter > 1:
+                image_list[k]['failed_rootfs'] = 'repeating'
                 c1 += 1
             image_list[k]['rootfs'] = False
     return c, c1
@@ -170,6 +190,9 @@ def find_shell(target_dir, image_list):
                 if line.find('platform pinctrl: function \'uartlite\' not supported') != -1:
                     status = 0
                     reason = 'serial_failure'
+                if line.find('Unable to handle kernel NULL pointer dereference at virtual address 00000200') != -1:
+                    print('orion_nand_bug found which should be in the find_user_space')
+                    status = 0
         if status > 0:
             c += 1
             image_list[k]['shell'] = True

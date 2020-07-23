@@ -1,2 +1,0 @@
-cd /root/esv-latest && ./salamander upload -f /root/images/4955bd2cf046edc2acb3321aa4e7c4f2c6c1b7a8.bin -l http://archive.openwrt.org/releases/19.07.1/targets/ath79/generic/openwrt-19.07.1-ath79-generic-ubnt_bullet-m-squashfs-sysupgrade.bin -nc -to 210 -del
-cd /root/esv-latest && ./salamander upload -f /root/images/9a6b285a4a366026e7f008b45d9061ade4205893.bin -l http://archive.openwrt.org/releases/19.07.0/targets/ath79/generic/openwrt-19.07.0-ath79-generic-ubnt_bullet-m-squashfs-sysupgrade.bin -nc -to 210 -del

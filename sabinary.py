@@ -62,7 +62,7 @@ def generate_commands(args):
         if 'url' in firmware:
             command += ' -l {}'.format(firmware['url'])
         command += ' -nc'
-        command += ' -to 210'
+        # command += ' -to 210'
         command += ' -del'
         print(command)
 

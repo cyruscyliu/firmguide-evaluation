@@ -1,0 +1,1 @@
+cd /root/esv-latest && ./salamander upload -f /root/images/f7f81de7efd330a6fadbd12db343969899d341c0.bin -l http://archive.openwrt.org/releases/18.06.5/targets/ramips/rt305x/openwrt-18.06.5-ramips-rt305x-air3gii-initramfs-kernel.bin -nc -to 150 -del

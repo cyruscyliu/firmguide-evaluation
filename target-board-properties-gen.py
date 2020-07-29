@@ -1,5 +1,8 @@
 #!/usr/bin/python
+import os
 import json
+
+from usntest import usntest_run
 
 
 target_board_properties = {}
@@ -26,6 +29,30 @@ with open('insights/supp_range_subtarget') as f:
 
         if target not in target_board_properties:
             target_board_properties[target] = {'subtarget': []}
+
+        dtbd1 = os.path.join('openwrt-dtb-only/release/19.07.1/targets', '{}/{}'.format(target, subtarget))
+        dtbd2 = os.path.join('openwrt-dtb-only/release/17.01.6/targets', '{}/{}'.format(target, subtarget))
+
+        dtbd = None
+        if os.path.exists(dtbd2):
+            dtbd = dtbd2
+        if os.path.exists(dtbd1):
+            dtbd = dtbd2
+        if dt and dtbd is None:
+            print('[-] handle {}/{} serial/smp in the future'.format(target, subtarget))
+
+        if dtbd is not None:
+            dtb = None
+            for root, ds, fs in os.walk(dtbd):
+                for f in fs:
+                    dtb = os.path.join(root, f)
+            if dtb is None:
+                print('[-] there is no dtb in {}'.format(dtbd))
+                continue
+            a, b, c = usntest_run(dtb)
+            target_board_properties[target]['serial'] = a
+            target_board_properties[target]['smp'] = b
+            target_board_properties[target]['intc'] = c
 
         target_board_properties[target]['subtarget'].append(subtarget)
         target_board_properties[target]['board'] = board

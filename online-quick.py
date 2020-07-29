@@ -18,7 +18,7 @@ def online(argv):
 
     table = PrettyTable()
     table.field_names = [
-        'TARGET', 'SUBTARGET', 'FORMAT', 'KERNEL_EXTRACTED', 'MATCH',
+        'TARGET', 'SUBTARGET', 'SUM', 'FORMAT', 'KERNEL_EXTRACTED', 'MATCH',
         'PREPARE', 'ROOTFS', 'USER_SPACE', 'SHELL', 'TIME'
     ]
 
@@ -38,7 +38,7 @@ def online(argv):
             boot_user_space = find_user_space(target_dir, image_list)
             boot_shell, failed_shell = find_shell(target_dir, image_list)
             time = find_time(target_dir, image_list)
-            line = [target, subtarget, unpack_format, unpack_kernel_extracted,
+            line = [target, subtarget, len(image_list), unpack_format, unpack_kernel_extracted,
                     match, prepare, '{}({})'.format(boot_rootfs, failed_rootfs),
                     boot_user_space, '{}({})'.format(boot_shell, failed_shell),
                     '{:.2f}'.format(time)]

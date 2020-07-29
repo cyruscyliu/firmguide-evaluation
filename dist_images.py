@@ -8,7 +8,7 @@ def dist(args):
     if args.database_type == 'text':
         db = DatabaseText('firmware.text')
     else:
-        db = DatabaseFirmadyne('firmware.firmadyne.91600')
+        db = DatabaseFirmadyne('firmware.firmadyne')
 
     distribution = {}
     for firmware in db.get_firmware():

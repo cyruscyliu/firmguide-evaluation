@@ -54,11 +54,12 @@
         "board": "mach-at91",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-18.06.7",
+        "serial": false,
+        "smp": false,
         "subtarget": [
             "legacy",
-            "sam9x",
-            "sama5",
             "sama5d2",
             "sama5d3",
             "sama5d4"
@@ -83,9 +84,7 @@
         "endian": "b",
         "revision": "openwrt-19.07.1",
         "subtarget": [
-            "generic",
-            "nand",
-            "tiny"
+            "nand"
         ],
         "version": "4.14"
     },
@@ -117,7 +116,10 @@
         "board": "mach-bcm",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": true,
+        "smp": false,
         "subtarget": [
             "generic"
         ],
@@ -128,7 +130,10 @@
         "board": "mach-bcm2708",
         "dt": false,
         "endian": "l",
+        "intc": null,
         "revision": "archive-14.07",
+        "serial": true,
+        "smp": false,
         "subtarget": [
             "bcm2708",
             "bcm2709",
@@ -155,7 +160,10 @@
         "board": "bcm63xx",
         "dt": true,
         "endian": "b",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": false,
+        "smp": false,
         "subtarget": [
             "generic",
             "smp"
@@ -202,7 +210,6 @@
         "endian": "l",
         "revision": "openwrt-17.01.7",
         "subtarget": [
-            "generic",
             "raidsonic",
             "wiligear"
         ],
@@ -213,29 +220,27 @@
         "board": "mach-imx",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": false,
+        "smp": false,
         "subtarget": [
             "generic"
         ],
         "version": "4.14"
     },
     "ipq40xx": {
-        "arch": "arm",
-        "board": "mach-qcom",
-        "dt": true,
-        "endian": "l",
-        "revision": "openwrt-19.07.1",
-        "subtarget": [
-            "generic"
-        ],
-        "version": "4.14"
+        "subtarget": []
     },
     "ipq806x": {
         "arch": "arm",
         "board": "mach-qcom",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": false,
+        "smp": false,
         "subtarget": [
             "generic"
         ],
@@ -258,7 +263,10 @@
         "board": "mach-mvebu",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": true,
+        "smp": false,
         "subtarget": [
             "generic"
         ],
@@ -269,9 +277,11 @@
         "board": "lantiq",
         "dt": true,
         "endian": "b",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": false,
+        "smp": false,
         "subtarget": [
-            "ase",
             "falcon",
             "xrx200",
             "xway",
@@ -284,15 +294,16 @@
         "board": "mach-imx",
         "dt": true,
         "endian": "l",
-        "revision": "openwrt-19.07.1",
+        "intc": null,
+        "revision": "openwrt-18.06.7",
+        "serial": true,
+        "smp": false,
         "subtarget": [
             "32b",
             "64b",
-            "armv7",
-            "armv8_32b",
-            "armv8_64b"
+            "armv8_32b"
         ],
-        "version": "4.14"
+        "version": "4.9"
     },
     "malta": {
         "arch": "mips",
@@ -301,7 +312,6 @@
         "endian": "l",
         "revision": "openwrt-19.07.1",
         "subtarget": [
-            "be",
             "be64",
             "le",
             "le64"
@@ -324,24 +334,25 @@
         "board": "mach-mediatek",
         "dt": true,
         "endian": "l",
-        "revision": "openwrt-19.07.1",
+        "intc": null,
+        "revision": "openwrt-17.01.7",
+        "serial": false,
+        "smp": false,
         "subtarget": [
-            "generic",
-            "mt7622",
-            "mt7623"
+            "generic"
         ],
-        "version": "4.14"
+        "version": "4.4"
     },
     "mvebu": {
         "arch": "arm",
         "board": "mach-mvebu",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-17.01.7",
+        "serial": true,
+        "smp": false,
         "subtarget": [
-            "cortexa53",
-            "cortexa72",
-            "cortexa9",
             "generic"
         ],
         "version": "4.4"
@@ -351,7 +362,10 @@
         "board": "mach-mxs",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": false,
+        "smp": false,
         "subtarget": [
             "generic"
         ],
@@ -374,7 +388,10 @@
         "board": "cavium-octeon",
         "dt": true,
         "endian": "b",
+        "intc": false,
         "revision": "openwrt-19.07.1",
+        "serial": true,
+        "smp": false,
         "subtarget": [
             "generic"
         ],
@@ -385,7 +402,10 @@
         "board": "mach-omap2",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": false,
+        "smp": false,
         "subtarget": [
             "generic"
         ],
@@ -419,37 +439,33 @@
         "board": "mach-oxnas",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": true,
+        "smp": false,
         "subtarget": [
             "generic",
-            "ox810se",
-            "ox820"
+            "ox810se"
         ],
         "version": "4.14"
     },
     "pistachio": {
-        "arch": "mips",
-        "board": "pistachio",
-        "dt": true,
-        "endian": "l",
-        "revision": "openwrt-19.07.1",
-        "subtarget": [
-            "generic"
-        ],
-        "version": "4.14"
+        "subtarget": []
     },
     "ramips": {
         "arch": "mips",
         "board": "ralink",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": true,
+        "smp": false,
         "subtarget": [
             "mt7620",
             "mt7621",
             "mt7628",
             "mt7688",
-            "mt76x8",
             "rt288x",
             "rt305x",
             "rt3883"
@@ -479,40 +495,24 @@
         "version": "3.18"
     },
     "samsung": {
-        "arch": "arm",
-        "board": "mach-s5pv210",
-        "dt": true,
-        "endian": "l",
-        "revision": "openwrt-19.07.1",
-        "subtarget": [
-            "s5pv210"
-        ],
-        "version": "4.14"
+        "subtarget": []
     },
     "sunxi": {
         "arch": "arm",
         "board": "mach-sunxi",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-17.01.7",
+        "serial": true,
+        "smp": false,
         "subtarget": [
-            "cortexa53",
-            "cortexa7",
-            "cortexa8",
             "generic"
         ],
         "version": "4.4"
     },
     "tegra": {
-        "arch": "arm",
-        "board": "mach-tegra",
-        "dt": true,
-        "endian": "l",
-        "revision": "openwrt-19.07.1",
-        "subtarget": [
-            "generic"
-        ],
-        "version": "4.14"
+        "subtarget": []
     },
     "xburst": {
         "arch": "mips",
@@ -533,7 +533,10 @@
         "board": "mach-zynq",
         "dt": true,
         "endian": "l",
+        "intc": null,
         "revision": "openwrt-19.07.1",
+        "serial": false,
+        "smp": false,
         "subtarget": [
             "generic"
         ],

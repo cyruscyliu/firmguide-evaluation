@@ -33,7 +33,7 @@ def generate_commands(args):
         if 'url' in firmware:
             url = firmware['url']
             _, target, _ = parse_openwrt_url(url)
-            if target in mapping:
+            if target in mapping and 'arch' in mapping[target]:
                 archm = mapping[target]['arch']
                 endianm = mapping[target]['endian']
 
@@ -62,7 +62,7 @@ def generate_commands(args):
         if 'url' in firmware:
             command += ' -l {}'.format(firmware['url'])
         command += ' -nc'
-        # command += ' -to 210'
+        # command += ' -to 120'
         command += ' -del'
         print(command)
 

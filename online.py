@@ -15,11 +15,6 @@ def find_arch(target_dir, image_list):
     for k, v in image_list.items():
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         image_list[k]['arch'] = profile['basics']['architecture'] + 'e' + profile['basics']['endian']
-        now = ' '.join(line.split()[:2])
-        try:
-            now = datetime.datetime.strptime(now, '%Y-%m-%d %H:%M:%S,%f')
-        except ValueError:
-            continue
 
 
 def find_size(target_dir, image_list):
@@ -117,6 +112,8 @@ def find_prepare(target_dir, image_list):
             image_list[k]['prepare'] = True
         else:
             image_list[k]['prepare'] = False
+            if image_list[k]['match']:
+                print('[-] BUT PREPARE FAILED {}'.format(log))
     return c
 
 
@@ -145,8 +142,11 @@ def find_rootfs(target_dir, image_list):
                     reason = 'failed_sysc_node'
                 if line.find('tracing - [') != -1:
                     output = True
-                if line.find('SoC Type: Ralink RT3052 id:0 rev:0') != -1:
+                if line.find('SoC Type: Ralink RT3052 id:0 rev:0') != -1 or \
+                        line.find('CPU0 revision is: 00019700 (MIPS 74Kc)') != -1:
                     counter += 1
+                if line.find('Kernel bug detected') != -1:
+                    reason = 'unknown_bug'
         if status == 1:
             c += 1
             image_list[k]['rootfs'] = True
@@ -286,7 +286,7 @@ def online(argv):
             table.add_row(line)
             find_size(target_dir, image_list)
             find_type(target_dir, image_list)
-            find_version(target_dir, image_list)
+            # find_version(target_dir, image_list)
             find_arch(target_dir, image_list)
             yaml.safe_dump(image_list, open('commandb/{}_{}.yaml'.format(target, subtarget), 'w'))
 

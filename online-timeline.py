@@ -20,6 +20,7 @@ def __find_now(line):
 def find_timeline(target_dir, log):
     status = 0 # IDEL
     timeline = {}
+    shell = None
     with open(log) as f:
         for line in f:
             if status == 0 and line.find('- unpack -') != -1:
@@ -55,20 +56,26 @@ def find_timeline(target_dir, log):
             elif status == 8 and line.find('source at') != -1:
                 timeline[status] = __find_now(line)
 
+            if line.find('Welcome to Buildroot') != -1:
+                shell = __find_now(line)
+
     timeline_list = []
     for i in range(1, 9):
         if i not in timeline:
-            timeline_list.append(None)
-            # timeline_list.append(timeline_list[i - 2])
+            timeline_list.append(timeline_list[i - 2])
         else:
             timeline_list.append((timeline[i] - timeline[1]).total_seconds())
-    return timeline_list[1:]
 
-    # timeline_list_diff = []
-    # for i in range(0, len(timeline_list) - 1):
-    #     timeline_list_diff.append(timeline_list[i + 1] - timeline_list[i])
+    timeline_list_diff = []
+    for i in range(0, len(timeline_list) - 1):
+        timeline_list_diff.append(timeline_list[i + 1] - timeline_list[i])
 
-    # return timeline_list_diff
+    if shell is not None:
+        timeline_list_diff.append((shell - timeline[4]).total_seconds())
+    else:
+        timeline_list_diff.append(None)
+
+    return timeline_list_diff
 
 
 def online(argv):
@@ -77,7 +84,7 @@ def online(argv):
     table = PrettyTable()
     table.field_names = [
         'IMAGE', 'UNPACK', 'MSEARCH', 'PREPARE', 'TRACE',
-        'LOAD_TRACE', 'USERLEVEL', 'SUMMARY'
+        'LOAD_TRACE', 'USERLEVEL', 'SUMMARY', 'SHELL'
     ]
 
     for target, v in results.items():
@@ -90,6 +97,8 @@ def online(argv):
             for k, v in image_list.items():
                 log = os.path.join(target_dir, v['log'])
                 timeline = find_timeline(target_dir, log)
+                if timeline[3] == .0 or timeline[-1] is None:
+                    continue
                 table.add_row([os.path.basename(log)] + timeline)
 
     if args.json:

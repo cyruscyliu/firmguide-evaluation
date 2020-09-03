@@ -1,0 +1,880 @@
+00d52908c153f56e30d75e7a6f151d8808e742d8.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 00d52908c153f56e30d75e7a6f151d8808e742d8.bin.log,
+  match: true, prepare: true, profile: 00d52908c153f56e30d75e7a6f151d8808e742d8.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 00d52908c153f56e30d75e7a6f151d8808e742d8.bin.trace,
+  type: 6, user_space: false, version: null}
+023c415a8d6f4a0aefae8cc2368759f7e79cc028.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 023c415a8d6f4a0aefae8cc2368759f7e79cc028.bin.log,
+  match: true, prepare: true, profile: 023c415a8d6f4a0aefae8cc2368759f7e79cc028.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: 023c415a8d6f4a0aefae8cc2368759f7e79cc028.bin.trace,
+  type: 6, user_space: false, version: null}
+02482b58c44844b90f6b8223deda02c7c38e2538.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 02482b58c44844b90f6b8223deda02c7c38e2538.bin.log, match: false, prepare: false,
+  profile: 02482b58c44844b90f6b8223deda02c7c38e2538.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6160384, trace: 02482b58c44844b90f6b8223deda02c7c38e2538.bin.trace,
+  type: 6, user_space: false, version: null}
+040ccc40382b5b7b17f8268cda9730f0a73f279d.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 040ccc40382b5b7b17f8268cda9730f0a73f279d.bin.log, match: true, prepare: true,
+  profile: 040ccc40382b5b7b17f8268cda9730f0a73f279d.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 212.90100002288818, trace: 040ccc40382b5b7b17f8268cda9730f0a73f279d.bin.trace,
+  type: 3, user_space: true, version: null}
+06d1469d0758c93306da7a0f5be940298101aa78.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 06d1469d0758c93306da7a0f5be940298101aa78.bin.log,
+  match: true, prepare: true, profile: 06d1469d0758c93306da7a0f5be940298101aa78.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: 06d1469d0758c93306da7a0f5be940298101aa78.bin.trace,
+  type: 6, user_space: false, version: null}
+06d840e8367a3793ca73a8022c0ebaa29c986e88.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 06d840e8367a3793ca73a8022c0ebaa29c986e88.bin.log,
+  match: true, prepare: true, profile: 06d840e8367a3793ca73a8022c0ebaa29c986e88.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: 06d840e8367a3793ca73a8022c0ebaa29c986e88.bin.trace,
+  type: 6, user_space: false, version: null}
+0740bdadc0722e16a53099058de6530a2b83cc89.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 0740bdadc0722e16a53099058de6530a2b83cc89.bin.log,
+  match: true, prepare: true, profile: 0740bdadc0722e16a53099058de6530a2b83cc89.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4456448, trace: 0740bdadc0722e16a53099058de6530a2b83cc89.bin.trace,
+  type: 6, user_space: false, version: null}
+097471bb46ed0f0fbe4757140178e62a903a9ca0.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 097471bb46ed0f0fbe4757140178e62a903a9ca0.bin.log,
+  match: true, prepare: true, profile: 097471bb46ed0f0fbe4757140178e62a903a9ca0.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: 097471bb46ed0f0fbe4757140178e62a903a9ca0.bin.trace,
+  type: 6, user_space: false, version: null}
+0bd2d19a3f892e277c3f61573dd064ddf948ad72.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 0bd2d19a3f892e277c3f61573dd064ddf948ad72.bin.log,
+  match: true, prepare: true, profile: 0bd2d19a3f892e277c3f61573dd064ddf948ad72.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6815744, trace: 0bd2d19a3f892e277c3f61573dd064ddf948ad72.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}
+0c7d0f5f38503fb70b481d6a96b2932647cc27b5.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 0c7d0f5f38503fb70b481d6a96b2932647cc27b5.bin.log,
+  match: true, prepare: true, profile: 0c7d0f5f38503fb70b481d6a96b2932647cc27b5.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6815744, trace: 0c7d0f5f38503fb70b481d6a96b2932647cc27b5.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}
+135775fe04edd5e13819d6933aff7fe871b5f7ea.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 135775fe04edd5e13819d6933aff7fe871b5f7ea.bin.log, match: true, prepare: true,
+  profile: 135775fe04edd5e13819d6933aff7fe871b5f7ea.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 2062.5059990882874, trace: 135775fe04edd5e13819d6933aff7fe871b5f7ea.bin.trace,
+  type: 3, user_space: true, version: null}
+16a4db49a448e3b1081cbbc1d45d297c1c9d10cc.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 16a4db49a448e3b1081cbbc1d45d297c1c9d10cc.bin.log, match: true, prepare: true,
+  profile: 16a4db49a448e3b1081cbbc1d45d297c1c9d10cc.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 3339.3459992408752, trace: 16a4db49a448e3b1081cbbc1d45d297c1c9d10cc.bin.trace,
+  type: 3, user_space: true, version: null}
+17450c95c9956dbc9858d930826a8de94d59cad5.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 17450c95c9956dbc9858d930826a8de94d59cad5.bin.log, match: true, prepare: true,
+  profile: 17450c95c9956dbc9858d930826a8de94d59cad5.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 782.3529996871948, trace: 17450c95c9956dbc9858d930826a8de94d59cad5.bin.trace,
+  type: 3, user_space: true, version: null}
+18f3b2151c7d0897c51130e797b3fb6727cd2f53.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 18f3b2151c7d0897c51130e797b3fb6727cd2f53.bin.log,
+  match: true, prepare: true, profile: 18f3b2151c7d0897c51130e797b3fb6727cd2f53.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 18f3b2151c7d0897c51130e797b3fb6727cd2f53.bin.trace,
+  type: 6, user_space: false, version: null}
+19422eb2005dfe5dc65b2363409ec9383cbffaf3.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 19422eb2005dfe5dc65b2363409ec9383cbffaf3.bin.log,
+  match: true, prepare: true, profile: 19422eb2005dfe5dc65b2363409ec9383cbffaf3.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 19422eb2005dfe5dc65b2363409ec9383cbffaf3.bin.trace,
+  type: 6, user_space: false, version: null}
+1bd4b3648fcf2f574c1f2e694618360b265b2dc8.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 1bd4b3648fcf2f574c1f2e694618360b265b2dc8.bin.log,
+  match: true, prepare: true, profile: 1bd4b3648fcf2f574c1f2e694618360b265b2dc8.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4456448, trace: 1bd4b3648fcf2f574c1f2e694618360b265b2dc8.bin.trace,
+  type: 6, user_space: false, version: null}
+1c08804d32809552fc79c5ee59e17351309f1b4f.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 1c08804d32809552fc79c5ee59e17351309f1b4f.bin.log, match: false, prepare: false,
+  profile: 1c08804d32809552fc79c5ee59e17351309f1b4f.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2883584, trace: 1c08804d32809552fc79c5ee59e17351309f1b4f.bin.trace,
+  type: 6, user_space: false, version: null}
+1d808f153c913c9ec6e491c561c7ce4a826e25d7.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 1d808f153c913c9ec6e491c561c7ce4a826e25d7.bin.log,
+  match: true, prepare: true, profile: 1d808f153c913c9ec6e491c561c7ce4a826e25d7.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 1d808f153c913c9ec6e491c561c7ce4a826e25d7.bin.trace,
+  type: 6, user_space: false, version: null}
+217b006664693c88ace99dad188e376d40fecd9a.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 217b006664693c88ace99dad188e376d40fecd9a.bin.log,
+  match: true, prepare: true, profile: 217b006664693c88ace99dad188e376d40fecd9a.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 217b006664693c88ace99dad188e376d40fecd9a.bin.trace,
+  type: 6, user_space: false, version: null}
+241ab24b1d0e9745939780a4dc89de971212f4ec.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 241ab24b1d0e9745939780a4dc89de971212f4ec.bin.log,
+  match: true, prepare: true, profile: 241ab24b1d0e9745939780a4dc89de971212f4ec.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 241ab24b1d0e9745939780a4dc89de971212f4ec.bin.trace,
+  type: 6, user_space: false, version: null}
+278a494b4a543f4a48dbb56d7ce226a23a3fbcc3.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 278a494b4a543f4a48dbb56d7ce226a23a3fbcc3.bin.log, match: true, prepare: true,
+  profile: 278a494b4a543f4a48dbb56d7ce226a23a3fbcc3.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3932160, time: 2916.159998893738, trace: 278a494b4a543f4a48dbb56d7ce226a23a3fbcc3.bin.trace,
+  type: 3, user_space: true, version: 3.18.23}
+27a4f7ed608d0ce3e53790eeed16a5341a2c9930.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 27a4f7ed608d0ce3e53790eeed16a5341a2c9930.bin.log,
+  match: true, prepare: true, profile: 27a4f7ed608d0ce3e53790eeed16a5341a2c9930.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: 27a4f7ed608d0ce3e53790eeed16a5341a2c9930.bin.trace,
+  type: 6, user_space: false, version: null}
+2a27744013693377c6454c965e7e902d7ab5aad7.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 2a27744013693377c6454c965e7e902d7ab5aad7.bin.log,
+  match: true, prepare: true, profile: 2a27744013693377c6454c965e7e902d7ab5aad7.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: 2a27744013693377c6454c965e7e902d7ab5aad7.bin.trace,
+  type: 6, user_space: false, version: null}
+2b212b171b6a1228e0f92a486cf9318e4b394fc4.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 2b212b171b6a1228e0f92a486cf9318e4b394fc4.bin.log,
+  match: true, prepare: true, profile: 2b212b171b6a1228e0f92a486cf9318e4b394fc4.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 2b212b171b6a1228e0f92a486cf9318e4b394fc4.bin.trace,
+  type: 6, user_space: false, version: null}
+2b38a390ba53209a1fa4c6aed8489c14774db4c9.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 2b38a390ba53209a1fa4c6aed8489c14774db4c9.bin.log, match: true, prepare: true,
+  profile: 2b38a390ba53209a1fa4c6aed8489c14774db4c9.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3670016, time: 2132.1389989852905, trace: 2b38a390ba53209a1fa4c6aed8489c14774db4c9.bin.trace,
+  type: 3, user_space: true, version: 3.18.20}
+2da316ecd86805554842c2d55d2d2a27c21ca94c.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 2da316ecd86805554842c2d55d2d2a27c21ca94c.bin.log,
+  match: true, prepare: true, profile: 2da316ecd86805554842c2d55d2d2a27c21ca94c.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 2da316ecd86805554842c2d55d2d2a27c21ca94c.bin.trace,
+  type: 6, user_space: false, version: null}
+2da39a873a89312a9860cfe8785691944da6c00a.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 2da39a873a89312a9860cfe8785691944da6c00a.bin.log, match: true, prepare: true,
+  profile: 2da39a873a89312a9860cfe8785691944da6c00a.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3932160, time: 1492.35999917984, trace: 2da39a873a89312a9860cfe8785691944da6c00a.bin.trace,
+  type: 3, user_space: true, version: 3.18.23}
+38066306369891a5d4589dd881948cf52083403a.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 38066306369891a5d4589dd881948cf52083403a.bin.log, match: false, prepare: false,
+  profile: 38066306369891a5d4589dd881948cf52083403a.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2883584, trace: 38066306369891a5d4589dd881948cf52083403a.bin.trace,
+  type: 6, user_space: false, version: null}
+398f38bdafe190b6e1e18bb6f5c0a40c074561e2.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 398f38bdafe190b6e1e18bb6f5c0a40c074561e2.bin.log, match: true, prepare: true,
+  profile: 398f38bdafe190b6e1e18bb6f5c0a40c074561e2.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 141.61700010299683, trace: 398f38bdafe190b6e1e18bb6f5c0a40c074561e2.bin.trace,
+  type: 3, user_space: true, version: null}
+3b3cd93c25561a57deab67dbd35c4d91f6662e3d.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 3b3cd93c25561a57deab67dbd35c4d91f6662e3d.bin.log,
+  match: true, prepare: true, profile: 3b3cd93c25561a57deab67dbd35c4d91f6662e3d.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: 3b3cd93c25561a57deab67dbd35c4d91f6662e3d.bin.trace,
+  type: 6, user_space: false, version: null}
+3c7775a30fc4aff97709005449cbebe2e1912908.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 3c7775a30fc4aff97709005449cbebe2e1912908.bin.log,
+  match: true, prepare: true, profile: 3c7775a30fc4aff97709005449cbebe2e1912908.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 3c7775a30fc4aff97709005449cbebe2e1912908.bin.trace,
+  type: 6, user_space: false, version: null}
+3c83643442d7286b37b5817567c97fb6e70c64c9.bin: {arch: armel, format: false, kernel_extracted: false,
+  log: 3c83643442d7286b37b5817567c97fb6e70c64c9.bin.log, match: false, prepare: false,
+  profile: 3c83643442d7286b37b5817567c97fb6e70c64c9.bin.profile.yaml, rootfs: false,
+  shell: false, size: 545712, trace: 3c83643442d7286b37b5817567c97fb6e70c64c9.bin.trace,
+  type: null, user_space: false, version: null}
+3d3caf535226ab5ab64dc2df42914755dd270ac6.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 3d3caf535226ab5ab64dc2df42914755dd270ac6.bin.log,
+  match: true, prepare: true, profile: 3d3caf535226ab5ab64dc2df42914755dd270ac6.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6553600, trace: 3d3caf535226ab5ab64dc2df42914755dd270ac6.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+3e446d4704a00cd2181781e829688d2b14b2d812.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 3e446d4704a00cd2181781e829688d2b14b2d812.bin.log, match: false, prepare: false,
+  profile: 3e446d4704a00cd2181781e829688d2b14b2d812.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6422528, trace: 3e446d4704a00cd2181781e829688d2b14b2d812.bin.trace,
+  type: 6, user_space: false, version: null}
+3e80b03a55c704c51defad101cfe54a8865ebe24.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 3e80b03a55c704c51defad101cfe54a8865ebe24.bin.log,
+  match: true, prepare: true, profile: 3e80b03a55c704c51defad101cfe54a8865ebe24.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 3e80b03a55c704c51defad101cfe54a8865ebe24.bin.trace,
+  type: 6, user_space: false, version: null}
+3fac5d5f62107f7b4d8abe362c38aa27ac7709a5.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 3fac5d5f62107f7b4d8abe362c38aa27ac7709a5.bin.log,
+  match: true, prepare: true, profile: 3fac5d5f62107f7b4d8abe362c38aa27ac7709a5.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 3fac5d5f62107f7b4d8abe362c38aa27ac7709a5.bin.trace,
+  type: 6, user_space: false, version: null}
+404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin.log, match: true, prepare: true,
+  profile: 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3670016, time: 3125.3639991283417, trace: 404b62b1d28d82b6420d28c2de39d55e7019b6d4.bin.trace,
+  type: 3, user_space: true, version: 3.18.20}
+456194f9caadab6e21fbd236b03765102c2b2d53.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 456194f9caadab6e21fbd236b03765102c2b2d53.bin.log, match: true, prepare: true,
+  profile: 456194f9caadab6e21fbd236b03765102c2b2d53.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1847.2809991836548, trace: 456194f9caadab6e21fbd236b03765102c2b2d53.bin.trace,
+  type: 3, user_space: true, version: null}
+46319abb493b282f8630016c0138eb79692ce15c.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 46319abb493b282f8630016c0138eb79692ce15c.bin.log, match: true, prepare: true,
+  profile: 46319abb493b282f8630016c0138eb79692ce15c.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 640.418999671936, trace: 46319abb493b282f8630016c0138eb79692ce15c.bin.trace,
+  type: 3, user_space: true, version: null}
+46f940b4457a857635fd829d896ca67e18b0b5f4.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 46f940b4457a857635fd829d896ca67e18b0b5f4.bin.log,
+  match: true, prepare: true, profile: 46f940b4457a857635fd829d896ca67e18b0b5f4.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 46f940b4457a857635fd829d896ca67e18b0b5f4.bin.trace,
+  type: 6, user_space: false, version: null}
+4ef332bde8e7fd7db65f4187a8c73f28b6f84c6b.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 4ef332bde8e7fd7db65f4187a8c73f28b6f84c6b.bin.log, match: true, prepare: true,
+  profile: 4ef332bde8e7fd7db65f4187a8c73f28b6f84c6b.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 568.8339998722076, trace: 4ef332bde8e7fd7db65f4187a8c73f28b6f84c6b.bin.trace,
+  type: 3, user_space: true, version: null}
+50d31e6bbef608a8019b46722140d7c5a006f5ae.bin: {arch: armel, format: false, kernel_extracted: false,
+  log: 50d31e6bbef608a8019b46722140d7c5a006f5ae.bin.log, match: false, prepare: false,
+  profile: 50d31e6bbef608a8019b46722140d7c5a006f5ae.bin.profile.yaml, rootfs: false,
+  shell: false, size: 550144, trace: 50d31e6bbef608a8019b46722140d7c5a006f5ae.bin.trace,
+  type: null, user_space: false, version: null}
+51e1c24363a1eb1b93a3aefcf4c199dbe37a08b7.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 51e1c24363a1eb1b93a3aefcf4c199dbe37a08b7.bin.log,
+  match: true, prepare: true, profile: 51e1c24363a1eb1b93a3aefcf4c199dbe37a08b7.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: 51e1c24363a1eb1b93a3aefcf4c199dbe37a08b7.bin.trace,
+  type: 6, user_space: false, version: null}
+51f7037d079cd75c8d763a74904486ac2cda1a6e.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 51f7037d079cd75c8d763a74904486ac2cda1a6e.bin.log,
+  match: true, prepare: true, profile: 51f7037d079cd75c8d763a74904486ac2cda1a6e.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 51f7037d079cd75c8d763a74904486ac2cda1a6e.bin.trace,
+  type: 6, user_space: false, version: null}
+53b40a850aa0c65199e0465bca880f6a6d4b9485.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 53b40a850aa0c65199e0465bca880f6a6d4b9485.bin.log,
+  match: true, prepare: true, profile: 53b40a850aa0c65199e0465bca880f6a6d4b9485.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 53b40a850aa0c65199e0465bca880f6a6d4b9485.bin.trace,
+  type: 6, user_space: false, version: null}
+56c0b9d2a111c6433b9fee285d0254a8fdd9437c.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 56c0b9d2a111c6433b9fee285d0254a8fdd9437c.bin.log, match: true, prepare: true,
+  profile: 56c0b9d2a111c6433b9fee285d0254a8fdd9437c.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 3268.1719992160797, trace: 56c0b9d2a111c6433b9fee285d0254a8fdd9437c.bin.trace,
+  type: 3, user_space: true, version: null}
+578657c5486007e78cebec178fd3a7731d8375ea.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 578657c5486007e78cebec178fd3a7731d8375ea.bin.log,
+  match: true, prepare: true, profile: 578657c5486007e78cebec178fd3a7731d8375ea.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3670016, trace: 578657c5486007e78cebec178fd3a7731d8375ea.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+59c9d65c1a012d8c30cdb380b4cc9e3fa9cc319e.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 59c9d65c1a012d8c30cdb380b4cc9e3fa9cc319e.bin.log,
+  match: true, prepare: true, profile: 59c9d65c1a012d8c30cdb380b4cc9e3fa9cc319e.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 59c9d65c1a012d8c30cdb380b4cc9e3fa9cc319e.bin.trace,
+  type: 6, user_space: false, version: null}
+5aa122991eb84599f4ffd8cf34ba76d81d63e2e5.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 5aa122991eb84599f4ffd8cf34ba76d81d63e2e5.bin.log,
+  match: true, prepare: true, profile: 5aa122991eb84599f4ffd8cf34ba76d81d63e2e5.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: 5aa122991eb84599f4ffd8cf34ba76d81d63e2e5.bin.trace,
+  type: 6, user_space: false, version: null}
+5ab3ad507afe0f18b4288c1deda9b3898db3c4c8.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 5ab3ad507afe0f18b4288c1deda9b3898db3c4c8.bin.log, match: true, prepare: true,
+  profile: 5ab3ad507afe0f18b4288c1deda9b3898db3c4c8.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 1704.915999174118, trace: 5ab3ad507afe0f18b4288c1deda9b3898db3c4c8.bin.trace,
+  type: 3, user_space: true, version: null}
+5b875534aaeaeb2a5cda78ff49b63a15c1d1dc3e.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 5b875534aaeaeb2a5cda78ff49b63a15c1d1dc3e.bin.log,
+  match: true, prepare: true, profile: 5b875534aaeaeb2a5cda78ff49b63a15c1d1dc3e.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 5b875534aaeaeb2a5cda78ff49b63a15c1d1dc3e.bin.trace,
+  type: 6, user_space: false, version: null}
+5d4efa40bbd5075f5c6992f056e4037827ca116d.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 5d4efa40bbd5075f5c6992f056e4037827ca116d.bin.log, match: true, prepare: true,
+  profile: 5d4efa40bbd5075f5c6992f056e4037827ca116d.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1139.722999572754, trace: 5d4efa40bbd5075f5c6992f056e4037827ca116d.bin.trace,
+  type: 3, user_space: true, version: null}
+605add2b184605a68b749a911ade5549ab487418.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 605add2b184605a68b749a911ade5549ab487418.bin.log,
+  match: true, prepare: true, profile: 605add2b184605a68b749a911ade5549ab487418.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 605add2b184605a68b749a911ade5549ab487418.bin.trace,
+  type: 6, user_space: false, version: null}
+62771d14b82e554a95d048af99866c404acb196f.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 62771d14b82e554a95d048af99866c404acb196f.bin.log, match: true, prepare: true,
+  profile: 62771d14b82e554a95d048af99866c404acb196f.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 70.29100012779236, trace: 62771d14b82e554a95d048af99866c404acb196f.bin.trace,
+  type: 3, user_space: true, version: null}
+65afbbef2dd0310957aedf50bcc98d90961d10a6.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 65afbbef2dd0310957aedf50bcc98d90961d10a6.bin.log, match: true, prepare: true,
+  profile: 65afbbef2dd0310957aedf50bcc98d90961d10a6.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 711.4389996528625, trace: 65afbbef2dd0310957aedf50bcc98d90961d10a6.bin.trace,
+  type: 3, user_space: true, version: null}
+66992bf50d50739f91f50b8e0f4ad01197e3a3b6.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 66992bf50d50739f91f50b8e0f4ad01197e3a3b6.bin.log,
+  match: true, prepare: true, profile: 66992bf50d50739f91f50b8e0f4ad01197e3a3b6.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3932160, trace: 66992bf50d50739f91f50b8e0f4ad01197e3a3b6.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}
+67181c9510d31a53c1021d409e35cb9b81e198df.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 67181c9510d31a53c1021d409e35cb9b81e198df.bin.log,
+  match: true, prepare: true, profile: 67181c9510d31a53c1021d409e35cb9b81e198df.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 67181c9510d31a53c1021d409e35cb9b81e198df.bin.trace,
+  type: 6, user_space: false, version: null}
+67ec3edcccec406ff7be15949faed15075127f08.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 67ec3edcccec406ff7be15949faed15075127f08.bin.log, match: true, prepare: true,
+  profile: 67ec3edcccec406ff7be15949faed15075127f08.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1068.1479995250702, trace: 67ec3edcccec406ff7be15949faed15075127f08.bin.trace,
+  type: 3, user_space: true, version: null}
+6992e7bc3b3edbe9c4134f9cd3886c529a662064.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 6992e7bc3b3edbe9c4134f9cd3886c529a662064.bin.log,
+  match: true, prepare: true, profile: 6992e7bc3b3edbe9c4134f9cd3886c529a662064.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: 6992e7bc3b3edbe9c4134f9cd3886c529a662064.bin.trace,
+  type: 6, user_space: false, version: null}
+6a486329f7458c7b3ed9524bffeb32abe9d4f992.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 6a486329f7458c7b3ed9524bffeb32abe9d4f992.bin.log,
+  match: true, prepare: true, profile: 6a486329f7458c7b3ed9524bffeb32abe9d4f992.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: 6a486329f7458c7b3ed9524bffeb32abe9d4f992.bin.trace,
+  type: 6, user_space: false, version: null}
+6b6385ae3faf9b99ec2a290a5fb153752de395de.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 6b6385ae3faf9b99ec2a290a5fb153752de395de.bin.log, match: true, prepare: true,
+  profile: 6b6385ae3faf9b99ec2a290a5fb153752de395de.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3932160, time: 2985.8329989910126, trace: 6b6385ae3faf9b99ec2a290a5fb153752de395de.bin.trace,
+  type: 3, user_space: true, version: 3.18.23}
+6c5a891123f73e3578b6befd7f0baeaab69789b1.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 6c5a891123f73e3578b6befd7f0baeaab69789b1.bin.log,
+  match: true, prepare: true, profile: 6c5a891123f73e3578b6befd7f0baeaab69789b1.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: 6c5a891123f73e3578b6befd7f0baeaab69789b1.bin.trace,
+  type: 6, user_space: false, version: null}
+6cc32cfac52ae498e5b7fa8fcef11c3abaefc5eb.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 6cc32cfac52ae498e5b7fa8fcef11c3abaefc5eb.bin.log, match: true, prepare: true,
+  profile: 6cc32cfac52ae498e5b7fa8fcef11c3abaefc5eb.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 497.5629999637604, trace: 6cc32cfac52ae498e5b7fa8fcef11c3abaefc5eb.bin.trace,
+  type: 3, user_space: true, version: null}
+6cfe1f41d71881027d3ce9d181e6df14ea42934b.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 6cfe1f41d71881027d3ce9d181e6df14ea42934b.bin.log, match: false, prepare: false,
+  profile: 6cfe1f41d71881027d3ce9d181e6df14ea42934b.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6160384, trace: 6cfe1f41d71881027d3ce9d181e6df14ea42934b.bin.trace,
+  type: 6, user_space: false, version: null}
+6fadec62b0c81501461d7da68e2a5a014c01775d.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 6fadec62b0c81501461d7da68e2a5a014c01775d.bin.log, match: true, prepare: true,
+  profile: 6fadec62b0c81501461d7da68e2a5a014c01775d.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1918.9679992198944, trace: 6fadec62b0c81501461d7da68e2a5a014c01775d.bin.trace,
+  type: 3, user_space: true, version: null}
+6fdfd97aa0ec51efc68283637cbb348a8ec46660.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 6fdfd97aa0ec51efc68283637cbb348a8ec46660.bin.log,
+  match: true, prepare: true, profile: 6fdfd97aa0ec51efc68283637cbb348a8ec46660.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 6fdfd97aa0ec51efc68283637cbb348a8ec46660.bin.trace,
+  type: 6, user_space: false, version: null}
+72beaf861fb6edd6a8b459a20bcd2e173eedf949.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 72beaf861fb6edd6a8b459a20bcd2e173eedf949.bin.log,
+  match: true, prepare: true, profile: 72beaf861fb6edd6a8b459a20bcd2e173eedf949.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: 72beaf861fb6edd6a8b459a20bcd2e173eedf949.bin.trace,
+  type: 6, user_space: false, version: null}
+75311445a18a95a5b01b3a67350b910393985dfb.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 75311445a18a95a5b01b3a67350b910393985dfb.bin.log, match: false, prepare: false,
+  profile: 75311445a18a95a5b01b3a67350b910393985dfb.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2752512, trace: 75311445a18a95a5b01b3a67350b910393985dfb.bin.trace,
+  type: 6, user_space: false, version: null}
+76a69891480147a53b65b6255f394ca763170211.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 76a69891480147a53b65b6255f394ca763170211.bin.log, match: true, prepare: true,
+  profile: 76a69891480147a53b65b6255f394ca763170211.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 426.8220000267029, trace: 76a69891480147a53b65b6255f394ca763170211.bin.trace,
+  type: 3, user_space: true, version: null}
+773b40e8bb909c343767288f4b8d6950c03f7fda.bin: {arch: armel, format: false, kernel_extracted: false,
+  log: 773b40e8bb909c343767288f4b8d6950c03f7fda.bin.log, match: false, prepare: false,
+  profile: 773b40e8bb909c343767288f4b8d6950c03f7fda.bin.profile.yaml, rootfs: false,
+  shell: false, size: 545676, trace: 773b40e8bb909c343767288f4b8d6950c03f7fda.bin.trace,
+  type: null, user_space: false, version: null}
+78c20fd88972f66a58f07d06a339ee09380604be.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 78c20fd88972f66a58f07d06a339ee09380604be.bin.log,
+  match: true, prepare: true, profile: 78c20fd88972f66a58f07d06a339ee09380604be.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6553600, trace: 78c20fd88972f66a58f07d06a339ee09380604be.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+78d9068f07894eba005b3bebdb7f8efe0ebfba22.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 78d9068f07894eba005b3bebdb7f8efe0ebfba22.bin.log,
+  match: true, prepare: true, profile: 78d9068f07894eba005b3bebdb7f8efe0ebfba22.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: 78d9068f07894eba005b3bebdb7f8efe0ebfba22.bin.trace,
+  type: 6, user_space: false, version: null}
+79af05d86ff8494594dc7e02050d06c027ded68f.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 79af05d86ff8494594dc7e02050d06c027ded68f.bin.log, match: false, prepare: false,
+  profile: 79af05d86ff8494594dc7e02050d06c027ded68f.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6160384, trace: 79af05d86ff8494594dc7e02050d06c027ded68f.bin.trace,
+  type: 6, user_space: false, version: null}
+7a5229840d8af7d25d9cd4e1cc4685e53722fc76.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 7a5229840d8af7d25d9cd4e1cc4685e53722fc76.bin.log,
+  match: true, prepare: true, profile: 7a5229840d8af7d25d9cd4e1cc4685e53722fc76.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 7a5229840d8af7d25d9cd4e1cc4685e53722fc76.bin.trace,
+  type: 6, user_space: false, version: null}
+7d102efc425e3aa16569b8d40370d90ff3263232.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 7d102efc425e3aa16569b8d40370d90ff3263232.bin.log, match: true, prepare: true,
+  profile: 7d102efc425e3aa16569b8d40370d90ff3263232.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 3409.5679993629456, trace: 7d102efc425e3aa16569b8d40370d90ff3263232.bin.trace,
+  type: 3, user_space: true, version: null}
+7d1d1bdfc1013a00bdfe435f4ba88cf682708f3c.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 7d1d1bdfc1013a00bdfe435f4ba88cf682708f3c.bin.log,
+  match: true, prepare: true, profile: 7d1d1bdfc1013a00bdfe435f4ba88cf682708f3c.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 7d1d1bdfc1013a00bdfe435f4ba88cf682708f3c.bin.trace,
+  type: 6, user_space: false, version: null}
+7d6d0fe21fff510002b1fbaa4bf205871741abf8.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 7d6d0fe21fff510002b1fbaa4bf205871741abf8.bin.log,
+  match: true, prepare: true, profile: 7d6d0fe21fff510002b1fbaa4bf205871741abf8.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 7d6d0fe21fff510002b1fbaa4bf205871741abf8.bin.trace,
+  type: 6, user_space: false, version: null}
+7d80ef16c0d68334796857ffef5728f65c0d69ab.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 7d80ef16c0d68334796857ffef5728f65c0d69ab.bin.log,
+  match: true, prepare: true, profile: 7d80ef16c0d68334796857ffef5728f65c0d69ab.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 7d80ef16c0d68334796857ffef5728f65c0d69ab.bin.trace,
+  type: 6, user_space: false, version: null}
+7d817eced066d55ba5b29131cd715ab25197b10f.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 7d817eced066d55ba5b29131cd715ab25197b10f.bin.log,
+  match: true, prepare: true, profile: 7d817eced066d55ba5b29131cd715ab25197b10f.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 7d817eced066d55ba5b29131cd715ab25197b10f.bin.trace,
+  type: 6, user_space: false, version: null}
+80102ede0b2e67963ecfe03398756d95cdf32728.bin: {arch: armel, format: false, kernel_extracted: false,
+  log: 80102ede0b2e67963ecfe03398756d95cdf32728.bin.log, match: false, prepare: false,
+  profile: 80102ede0b2e67963ecfe03398756d95cdf32728.bin.profile.yaml, rootfs: false,
+  shell: false, size: 545676, trace: 80102ede0b2e67963ecfe03398756d95cdf32728.bin.trace,
+  type: null, user_space: false, version: null}
+806368ffd1e27688d472fe4ec70adf2fa6121d77.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 806368ffd1e27688d472fe4ec70adf2fa6121d77.bin.log,
+  match: true, prepare: true, profile: 806368ffd1e27688d472fe4ec70adf2fa6121d77.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: 806368ffd1e27688d472fe4ec70adf2fa6121d77.bin.trace,
+  type: 6, user_space: false, version: null}
+83bc9b49ada30943ad099a80ea2508093d5f3ab1.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 83bc9b49ada30943ad099a80ea2508093d5f3ab1.bin.log, match: false, prepare: false,
+  profile: 83bc9b49ada30943ad099a80ea2508093d5f3ab1.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2752512, trace: 83bc9b49ada30943ad099a80ea2508093d5f3ab1.bin.trace,
+  type: 6, user_space: false, version: null}
+851adb4e3ef670064a9c20e6b8451eb69736e706.bin: {arch: armel, format: false, kernel_extracted: false,
+  log: 851adb4e3ef670064a9c20e6b8451eb69736e706.bin.log, match: false, prepare: false,
+  profile: 851adb4e3ef670064a9c20e6b8451eb69736e706.bin.profile.yaml, rootfs: false,
+  shell: false, size: 545680, trace: 851adb4e3ef670064a9c20e6b8451eb69736e706.bin.trace,
+  type: null, user_space: false, version: null}
+85ca24ebf9a9f4122b2c69be320f7ef5f164cec4.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 85ca24ebf9a9f4122b2c69be320f7ef5f164cec4.bin.log,
+  match: true, prepare: true, profile: 85ca24ebf9a9f4122b2c69be320f7ef5f164cec4.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: 85ca24ebf9a9f4122b2c69be320f7ef5f164cec4.bin.trace,
+  type: 6, user_space: false, version: null}
+89f52f61efd6a9bbf2195bfff4605700099b7b3d.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 89f52f61efd6a9bbf2195bfff4605700099b7b3d.bin.log,
+  match: true, prepare: true, profile: 89f52f61efd6a9bbf2195bfff4605700099b7b3d.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6684672, trace: 89f52f61efd6a9bbf2195bfff4605700099b7b3d.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+8c17554fa037945bdbd294f1708cb447a9706473.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 8c17554fa037945bdbd294f1708cb447a9706473.bin.log, match: true, prepare: true,
+  profile: 8c17554fa037945bdbd294f1708cb447a9706473.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1990.404999256134, trace: 8c17554fa037945bdbd294f1708cb447a9706473.bin.trace,
+  type: 3, user_space: true, version: null}
+8c958e52b5db93a6f56a4c8f3fb7f3cdb30c4e67.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 8c958e52b5db93a6f56a4c8f3fb7f3cdb30c4e67.bin.log,
+  match: true, prepare: true, profile: 8c958e52b5db93a6f56a4c8f3fb7f3cdb30c4e67.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 8c958e52b5db93a6f56a4c8f3fb7f3cdb30c4e67.bin.trace,
+  type: 6, user_space: false, version: null}
+8cccf72f3f76261af367f7dada2421cdf70c4977.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 8cccf72f3f76261af367f7dada2421cdf70c4977.bin.log,
+  match: true, prepare: true, profile: 8cccf72f3f76261af367f7dada2421cdf70c4977.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 8cccf72f3f76261af367f7dada2421cdf70c4977.bin.trace,
+  type: 6, user_space: false, version: null}
+8e191240e220054cb534f9e428630aad8d2e9c94.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 8e191240e220054cb534f9e428630aad8d2e9c94.bin.log, match: false, prepare: false,
+  profile: 8e191240e220054cb534f9e428630aad8d2e9c94.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2752512, trace: 8e191240e220054cb534f9e428630aad8d2e9c94.bin.trace,
+  type: 6, user_space: false, version: null}
+8e9252fa14ed0c6f632bb8f27dd7b313300f4bb0.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 8e9252fa14ed0c6f632bb8f27dd7b313300f4bb0.bin.log,
+  match: true, prepare: true, profile: 8e9252fa14ed0c6f632bb8f27dd7b313300f4bb0.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: 8e9252fa14ed0c6f632bb8f27dd7b313300f4bb0.bin.trace,
+  type: 6, user_space: false, version: null}
+8ee64050c4395d130bd147897a497b04523f5bf1.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 8ee64050c4395d130bd147897a497b04523f5bf1.bin.log, match: true, prepare: true,
+  profile: 8ee64050c4395d130bd147897a497b04523f5bf1.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 2561.2019987106323, trace: 8ee64050c4395d130bd147897a497b04523f5bf1.bin.trace,
+  type: 3, user_space: true, version: null}
+906fd45c3f7801c095a6302d80644acbd53b99c0.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 906fd45c3f7801c095a6302d80644acbd53b99c0.bin.log, match: true, prepare: true,
+  profile: 906fd45c3f7801c095a6302d80644acbd53b99c0.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 2846.4949989318848, trace: 906fd45c3f7801c095a6302d80644acbd53b99c0.bin.trace,
+  type: 3, user_space: true, version: null}
+90be6bfe838c00615d14de3167874bdb67095111.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 90be6bfe838c00615d14de3167874bdb67095111.bin.log,
+  match: true, prepare: true, profile: 90be6bfe838c00615d14de3167874bdb67095111.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3670016, trace: 90be6bfe838c00615d14de3167874bdb67095111.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+93c0bf2adeef35a2501b475d73fe0dc154893ccb.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 93c0bf2adeef35a2501b475d73fe0dc154893ccb.bin.log, match: false, prepare: false,
+  profile: 93c0bf2adeef35a2501b475d73fe0dc154893ccb.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6422528, trace: 93c0bf2adeef35a2501b475d73fe0dc154893ccb.bin.trace,
+  type: 6, user_space: false, version: null}
+94a3d19113a8a77033d5e1d7bdf4879ff6a8ff18.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 94a3d19113a8a77033d5e1d7bdf4879ff6a8ff18.bin.log, match: true, prepare: true,
+  profile: 94a3d19113a8a77033d5e1d7bdf4879ff6a8ff18.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1211.1989994049072, trace: 94a3d19113a8a77033d5e1d7bdf4879ff6a8ff18.bin.trace,
+  type: 3, user_space: true, version: null}
+95483e6f102fa1f462eeda09ed945325e5b1bfb9.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 95483e6f102fa1f462eeda09ed945325e5b1bfb9.bin.log, match: true, prepare: true,
+  profile: 95483e6f102fa1f462eeda09ed945325e5b1bfb9.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3932160, time: 1422.60799908638, trace: 95483e6f102fa1f462eeda09ed945325e5b1bfb9.bin.trace,
+  type: 3, user_space: true, version: 3.18.23}
+9549047bfba60d6f5a6c5b8be0894558f47a2267.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 9549047bfba60d6f5a6c5b8be0894558f47a2267.bin.log, match: true, prepare: true,
+  profile: 9549047bfba60d6f5a6c5b8be0894558f47a2267.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 2202.7829990386963, trace: 9549047bfba60d6f5a6c5b8be0894558f47a2267.bin.trace,
+  type: 3, user_space: true, version: null}
+967ca6f706b69baaea6162b99a6d897cafb8a318.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 967ca6f706b69baaea6162b99a6d897cafb8a318.bin.log, match: false, prepare: false,
+  profile: 967ca6f706b69baaea6162b99a6d897cafb8a318.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6160384, trace: 967ca6f706b69baaea6162b99a6d897cafb8a318.bin.trace,
+  type: 6, user_space: false, version: null}
+99fc77ab359b8acdab7f2766ca2e481bad022714.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: 99fc77ab359b8acdab7f2766ca2e481bad022714.bin.log, match: false, prepare: false,
+  profile: 99fc77ab359b8acdab7f2766ca2e481bad022714.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2883584, trace: 99fc77ab359b8acdab7f2766ca2e481bad022714.bin.trace,
+  type: 6, user_space: false, version: null}
+9af6f7fe2d313f9a1ac60f848c0b9e2e85264ce7.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 9af6f7fe2d313f9a1ac60f848c0b9e2e85264ce7.bin.log,
+  match: true, prepare: true, profile: 9af6f7fe2d313f9a1ac60f848c0b9e2e85264ce7.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3932160, trace: 9af6f7fe2d313f9a1ac60f848c0b9e2e85264ce7.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}
+9d0daa2854aa623d946abd951b59f7dccd019591.bin: {arch: armel, format: false, kernel_extracted: false,
+  log: 9d0daa2854aa623d946abd951b59f7dccd019591.bin.log, match: false, prepare: false,
+  profile: 9d0daa2854aa623d946abd951b59f7dccd019591.bin.profile.yaml, rootfs: false,
+  shell: false, size: 550144, trace: 9d0daa2854aa623d946abd951b59f7dccd019591.bin.trace,
+  type: null, user_space: false, version: null}
+9d7e1bd07a976af3becc333e838b20018983cbfe.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: 9d7e1bd07a976af3becc333e838b20018983cbfe.bin.log, match: true, prepare: true,
+  profile: 9d7e1bd07a976af3becc333e838b20018983cbfe.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 853.5119996070862, trace: 9d7e1bd07a976af3becc333e838b20018983cbfe.bin.trace,
+  type: 3, user_space: true, version: null}
+9dfe5a33327450b219d6bbb873281be083f7c491.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: 9dfe5a33327450b219d6bbb873281be083f7c491.bin.log,
+  match: true, prepare: true, profile: 9dfe5a33327450b219d6bbb873281be083f7c491.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: 9dfe5a33327450b219d6bbb873281be083f7c491.bin.trace,
+  type: 6, user_space: false, version: null}
+a1bfe2e9085d665073706ab1ac9b1b22daea6dda.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: a1bfe2e9085d665073706ab1ac9b1b22daea6dda.bin.log,
+  match: true, prepare: true, profile: a1bfe2e9085d665073706ab1ac9b1b22daea6dda.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: a1bfe2e9085d665073706ab1ac9b1b22daea6dda.bin.trace,
+  type: 6, user_space: false, version: null}
+a225ad28ceaf279326debef55c4f4b2e22338a60.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: a225ad28ceaf279326debef55c4f4b2e22338a60.bin.log,
+  match: true, prepare: true, profile: a225ad28ceaf279326debef55c4f4b2e22338a60.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3670016, trace: a225ad28ceaf279326debef55c4f4b2e22338a60.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+a22cf03e4322009f51e388fa9dfd51112a5a6c51.bin: {arch: armel, format: false, kernel_extracted: false,
+  log: a22cf03e4322009f51e388fa9dfd51112a5a6c51.bin.log, match: false, prepare: false,
+  profile: a22cf03e4322009f51e388fa9dfd51112a5a6c51.bin.profile.yaml, rootfs: false,
+  shell: false, size: 545676, trace: a22cf03e4322009f51e388fa9dfd51112a5a6c51.bin.trace,
+  type: null, user_space: false, version: null}
+a8a659c598a79e7d37101470952bfca1ccc16f7e.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: a8a659c598a79e7d37101470952bfca1ccc16f7e.bin.log, match: true, prepare: true,
+  profile: a8a659c598a79e7d37101470952bfca1ccc16f7e.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3670016, time: 3055.757998943329, trace: a8a659c598a79e7d37101470952bfca1ccc16f7e.bin.trace,
+  type: 3, user_space: true, version: 3.18.20}
+a8bd052607d4d9c984a76c5b43c2db37b00c0c2b.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: a8bd052607d4d9c984a76c5b43c2db37b00c0c2b.bin.log, match: false, prepare: false,
+  profile: a8bd052607d4d9c984a76c5b43c2db37b00c0c2b.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6160384, trace: a8bd052607d4d9c984a76c5b43c2db37b00c0c2b.bin.trace,
+  type: 6, user_space: false, version: null}
+aa4d8cd12dda64a72c55dc6cf45b5d827da177d6.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: aa4d8cd12dda64a72c55dc6cf45b5d827da177d6.bin.log,
+  match: true, prepare: true, profile: aa4d8cd12dda64a72c55dc6cf45b5d827da177d6.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: aa4d8cd12dda64a72c55dc6cf45b5d827da177d6.bin.trace,
+  type: 6, user_space: false, version: null}
+aab40943f4b920a29a6d7a60620af0d350cecf11.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: aab40943f4b920a29a6d7a60620af0d350cecf11.bin.log, match: true, prepare: true,
+  profile: aab40943f4b920a29a6d7a60620af0d350cecf11.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 2489.5889987945557, trace: aab40943f4b920a29a6d7a60620af0d350cecf11.bin.trace,
+  type: 3, user_space: true, version: null}
+ae02b026ba867266ee08b6dd4731bc5423962a5c.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: ae02b026ba867266ee08b6dd4731bc5423962a5c.bin.log,
+  match: true, prepare: true, profile: ae02b026ba867266ee08b6dd4731bc5423962a5c.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: ae02b026ba867266ee08b6dd4731bc5423962a5c.bin.trace,
+  type: 6, user_space: false, version: null}
+ae9dd5e099f899f7317ab1965b2a4728809a24aa.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: ae9dd5e099f899f7317ab1965b2a4728809a24aa.bin.log,
+  match: true, prepare: true, profile: ae9dd5e099f899f7317ab1965b2a4728809a24aa.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: ae9dd5e099f899f7317ab1965b2a4728809a24aa.bin.trace,
+  type: 6, user_space: false, version: null}
+af1534ff286b9b6f6d1e65dba8ffcea6fbbb9189.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: af1534ff286b9b6f6d1e65dba8ffcea6fbbb9189.bin.log, match: false, prepare: false,
+  profile: af1534ff286b9b6f6d1e65dba8ffcea6fbbb9189.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6160384, trace: af1534ff286b9b6f6d1e65dba8ffcea6fbbb9189.bin.trace,
+  type: 6, user_space: false, version: null}
+af572440de21006a9ffefb38c6e34d09ab7c0b44.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: af572440de21006a9ffefb38c6e34d09ab7c0b44.bin.log,
+  match: true, prepare: true, profile: af572440de21006a9ffefb38c6e34d09ab7c0b44.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: af572440de21006a9ffefb38c6e34d09ab7c0b44.bin.trace,
+  type: 6, user_space: false, version: null}
+b08ec6ae227ed194131483396ce119b4f0368b46.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: b08ec6ae227ed194131483396ce119b4f0368b46.bin.log,
+  match: true, prepare: true, profile: b08ec6ae227ed194131483396ce119b4f0368b46.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4456448, trace: b08ec6ae227ed194131483396ce119b4f0368b46.bin.trace,
+  type: 6, user_space: false, version: null}
+b46835edfcddf9738df1f93ff5a0ab5e334921e9.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: b46835edfcddf9738df1f93ff5a0ab5e334921e9.bin.log, match: true, prepare: true,
+  profile: b46835edfcddf9738df1f93ff5a0ab5e334921e9.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 925.1449995040894, trace: b46835edfcddf9738df1f93ff5a0ab5e334921e9.bin.trace,
+  type: 3, user_space: true, version: null}
+b4ad87b383962f199a9f3c47a75cc07e503cbef4.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: b4ad87b383962f199a9f3c47a75cc07e503cbef4.bin.log, match: true, prepare: true,
+  profile: b4ad87b383962f199a9f3c47a75cc07e503cbef4.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 2775.254998922348, trace: b4ad87b383962f199a9f3c47a75cc07e503cbef4.bin.trace,
+  type: 3, user_space: true, version: null}
+b54d3aebed4c8dbe85a954cb16fb254e7198eb86.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: b54d3aebed4c8dbe85a954cb16fb254e7198eb86.bin.log,
+  match: true, prepare: true, profile: b54d3aebed4c8dbe85a954cb16fb254e7198eb86.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3932160, trace: b54d3aebed4c8dbe85a954cb16fb254e7198eb86.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}
+b77b98da8253e614507cbcc045b09ba755273ab0.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: b77b98da8253e614507cbcc045b09ba755273ab0.bin.log,
+  match: true, prepare: true, profile: b77b98da8253e614507cbcc045b09ba755273ab0.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: b77b98da8253e614507cbcc045b09ba755273ab0.bin.trace,
+  type: 6, user_space: false, version: null}
+b90f001d2610a0985a739d7c609f38dcc022b15c.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: b90f001d2610a0985a739d7c609f38dcc022b15c.bin.log, match: false, prepare: false,
+  profile: b90f001d2610a0985a739d7c609f38dcc022b15c.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2752512, trace: b90f001d2610a0985a739d7c609f38dcc022b15c.bin.trace,
+  type: 6, user_space: false, version: null}
+b99e16346937eb46097bf152c8c5f0e51a5e1b03.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: b99e16346937eb46097bf152c8c5f0e51a5e1b03.bin.log,
+  match: true, prepare: true, profile: b99e16346937eb46097bf152c8c5f0e51a5e1b03.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: b99e16346937eb46097bf152c8c5f0e51a5e1b03.bin.trace,
+  type: 6, user_space: false, version: null}
+bb3629a9bf9d3168db1d49e28cf8c88d887b71f5.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: bb3629a9bf9d3168db1d49e28cf8c88d887b71f5.bin.log,
+  match: true, prepare: true, profile: bb3629a9bf9d3168db1d49e28cf8c88d887b71f5.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4456448, trace: bb3629a9bf9d3168db1d49e28cf8c88d887b71f5.bin.trace,
+  type: 6, user_space: false, version: null}
+bb4f981f073da715fb636e2a423dcab247fed3a1.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: bb4f981f073da715fb636e2a423dcab247fed3a1.bin.log, match: false, prepare: false,
+  profile: bb4f981f073da715fb636e2a423dcab247fed3a1.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6422528, trace: bb4f981f073da715fb636e2a423dcab247fed3a1.bin.trace,
+  type: 6, user_space: false, version: null}
+bdb0c2c7bcfc9578e08ebf377556ba7154df9b02.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: bdb0c2c7bcfc9578e08ebf377556ba7154df9b02.bin.log,
+  match: true, prepare: true, profile: bdb0c2c7bcfc9578e08ebf377556ba7154df9b02.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: bdb0c2c7bcfc9578e08ebf377556ba7154df9b02.bin.trace,
+  type: 6, user_space: false, version: null}
+c0d6580291e90617c3e889673c89d24c70e85623.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: c0d6580291e90617c3e889673c89d24c70e85623.bin.log, match: false, prepare: false,
+  profile: c0d6580291e90617c3e889673c89d24c70e85623.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2752512, trace: c0d6580291e90617c3e889673c89d24c70e85623.bin.trace,
+  type: 6, user_space: false, version: null}
+c26dc2a05137749a6081f610b16c7e289c419c35.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: c26dc2a05137749a6081f610b16c7e289c419c35.bin.log, match: true, prepare: true,
+  profile: c26dc2a05137749a6081f610b16c7e289c419c35.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1282.3129992485046, trace: c26dc2a05137749a6081f610b16c7e289c419c35.bin.trace,
+  type: 3, user_space: true, version: null}
+c2c0a7254df8210d4b99b8271c4eceab6bc1bbd7.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: c2c0a7254df8210d4b99b8271c4eceab6bc1bbd7.bin.log,
+  match: true, prepare: true, profile: c2c0a7254df8210d4b99b8271c4eceab6bc1bbd7.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: c2c0a7254df8210d4b99b8271c4eceab6bc1bbd7.bin.trace,
+  type: 6, user_space: false, version: null}
+c68d1a20d5ab66d23743e0015292db8592181b9d.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: c68d1a20d5ab66d23743e0015292db8592181b9d.bin.log, match: true, prepare: true,
+  profile: c68d1a20d5ab66d23743e0015292db8592181b9d.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 2632.733998775482, trace: c68d1a20d5ab66d23743e0015292db8592181b9d.bin.trace,
+  type: 3, user_space: true, version: null}
+c6f4b2c35c34b6a6bcd480f992992e457ed7ee62.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: c6f4b2c35c34b6a6bcd480f992992e457ed7ee62.bin.log, match: true, prepare: true,
+  profile: c6f4b2c35c34b6a6bcd480f992992e457ed7ee62.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1563.3879992961884, trace: c6f4b2c35c34b6a6bcd480f992992e457ed7ee62.bin.trace,
+  type: 3, user_space: true, version: null}
+c839f02194b470e8e0986c91b93fa4b729c58b9d.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: c839f02194b470e8e0986c91b93fa4b729c58b9d.bin.log, match: true, prepare: true,
+  profile: c839f02194b470e8e0986c91b93fa4b729c58b9d.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 1775.6569991111755, trace: c839f02194b470e8e0986c91b93fa4b729c58b9d.bin.trace,
+  type: 3, user_space: true, version: null}
+c8e9981257eab3c36a8fc75f771ed2aa4750f475.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: c8e9981257eab3c36a8fc75f771ed2aa4750f475.bin.log, match: true, prepare: true,
+  profile: c8e9981257eab3c36a8fc75f771ed2aa4750f475.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 355.7149999141693, trace: c8e9981257eab3c36a8fc75f771ed2aa4750f475.bin.trace,
+  type: 3, user_space: true, version: null}
+ca5d3f26a4bfa8c1f9fa3a47a3e0ed85c4d1e262.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: ca5d3f26a4bfa8c1f9fa3a47a3e0ed85c4d1e262.bin.log, match: false, prepare: false,
+  profile: ca5d3f26a4bfa8c1f9fa3a47a3e0ed85c4d1e262.bin.profile.yaml, rootfs: false,
+  shell: false, size: 6160384, trace: ca5d3f26a4bfa8c1f9fa3a47a3e0ed85c4d1e262.bin.trace,
+  type: 6, user_space: false, version: null}
+cb1eb226f64a2f8f7355cd58b787d2fa626e5764.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: cb1eb226f64a2f8f7355cd58b787d2fa626e5764.bin.log,
+  match: true, prepare: true, profile: cb1eb226f64a2f8f7355cd58b787d2fa626e5764.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: cb1eb226f64a2f8f7355cd58b787d2fa626e5764.bin.trace,
+  type: 6, user_space: false, version: null}
+cb9a0e1993663f194f3511948453562219ff7c4f.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: cb9a0e1993663f194f3511948453562219ff7c4f.bin.log,
+  match: true, prepare: true, profile: cb9a0e1993663f194f3511948453562219ff7c4f.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: cb9a0e1993663f194f3511948453562219ff7c4f.bin.trace,
+  type: 6, user_space: false, version: null}
+cc0e0a378047d25a2c733fc1158e6ef5c10db9f9.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: cc0e0a378047d25a2c733fc1158e6ef5c10db9f9.bin.log,
+  match: true, prepare: true, profile: cc0e0a378047d25a2c733fc1158e6ef5c10db9f9.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: cc0e0a378047d25a2c733fc1158e6ef5c10db9f9.bin.trace,
+  type: 6, user_space: false, version: null}
+ce9ec12ca2e42f9b22ba4f27da78ee877936c360.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: ce9ec12ca2e42f9b22ba4f27da78ee877936c360.bin.log,
+  match: true, prepare: true, profile: ce9ec12ca2e42f9b22ba4f27da78ee877936c360.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: ce9ec12ca2e42f9b22ba4f27da78ee877936c360.bin.trace,
+  type: 6, user_space: false, version: null}
+cef03db94a92d5b614c151c7077cc5ad42dde6e4.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: cef03db94a92d5b614c151c7077cc5ad42dde6e4.bin.log, match: true, prepare: true,
+  profile: cef03db94a92d5b614c151c7077cc5ad42dde6e4.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 2273.6399989128113, trace: cef03db94a92d5b614c151c7077cc5ad42dde6e4.bin.trace,
+  type: 3, user_space: true, version: null}
+d2b5d115640898bf11d5a17a91ec240cae7c3f13.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: d2b5d115640898bf11d5a17a91ec240cae7c3f13.bin.log,
+  match: true, prepare: true, profile: d2b5d115640898bf11d5a17a91ec240cae7c3f13.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: d2b5d115640898bf11d5a17a91ec240cae7c3f13.bin.trace,
+  type: 6, user_space: false, version: null}
+d2fa40257101c9a4c4dcc78795d5feee4e3d85a3.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: d2fa40257101c9a4c4dcc78795d5feee4e3d85a3.bin.log,
+  match: true, prepare: true, profile: d2fa40257101c9a4c4dcc78795d5feee4e3d85a3.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: d2fa40257101c9a4c4dcc78795d5feee4e3d85a3.bin.trace,
+  type: 6, user_space: false, version: null}
+d302925b6378e90dd6c1a65b3728e94801c824c5.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: d302925b6378e90dd6c1a65b3728e94801c824c5.bin.log,
+  match: true, prepare: true, profile: d302925b6378e90dd6c1a65b3728e94801c824c5.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7471104, trace: d302925b6378e90dd6c1a65b3728e94801c824c5.bin.trace,
+  type: 6, user_space: false, version: null}
+d3200ceb108ed8f36ca5a8bdeeef2dac07ce9b27.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: d3200ceb108ed8f36ca5a8bdeeef2dac07ce9b27.bin.log,
+  match: true, prepare: true, profile: d3200ceb108ed8f36ca5a8bdeeef2dac07ce9b27.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: d3200ceb108ed8f36ca5a8bdeeef2dac07ce9b27.bin.trace,
+  type: 6, user_space: false, version: null}
+d9ed70a1803c6a4f694f9fabb229768f3199a782.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: d9ed70a1803c6a4f694f9fabb229768f3199a782.bin.log, match: false, prepare: false,
+  profile: d9ed70a1803c6a4f694f9fabb229768f3199a782.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2752512, trace: d9ed70a1803c6a4f694f9fabb229768f3199a782.bin.trace,
+  type: 6, user_space: false, version: null}
+de089af98a33610c3383f347bf277babb0cf10a1.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: de089af98a33610c3383f347bf277babb0cf10a1.bin.log,
+  match: true, prepare: true, profile: de089af98a33610c3383f347bf277babb0cf10a1.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: de089af98a33610c3383f347bf277babb0cf10a1.bin.trace,
+  type: 6, user_space: false, version: null}
+e0e904681eedc45dffb4be437a5a09ef517e255c.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e0e904681eedc45dffb4be437a5a09ef517e255c.bin.log,
+  match: true, prepare: true, profile: e0e904681eedc45dffb4be437a5a09ef517e255c.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: e0e904681eedc45dffb4be437a5a09ef517e255c.bin.trace,
+  type: 6, user_space: false, version: null}
+e12b40441bf9759e81879b8372e073dd32aee548.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e12b40441bf9759e81879b8372e073dd32aee548.bin.log,
+  match: true, prepare: true, profile: e12b40441bf9759e81879b8372e073dd32aee548.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: e12b40441bf9759e81879b8372e073dd32aee548.bin.trace,
+  type: 6, user_space: false, version: null}
+e1e8c0cde328b68d24df044f4c335e0955e22fdf.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: e1e8c0cde328b68d24df044f4c335e0955e22fdf.bin.log, match: true, prepare: true,
+  profile: e1e8c0cde328b68d24df044f4c335e0955e22fdf.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 2417.1349987983704, trace: e1e8c0cde328b68d24df044f4c335e0955e22fdf.bin.trace,
+  type: 3, user_space: true, version: null}
+e1f324bba84b4e4cedeacde26b6fb548675193ef.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e1f324bba84b4e4cedeacde26b6fb548675193ef.bin.log,
+  match: true, prepare: true, profile: e1f324bba84b4e4cedeacde26b6fb548675193ef.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: e1f324bba84b4e4cedeacde26b6fb548675193ef.bin.trace,
+  type: 6, user_space: false, version: null}
+e355bdfe26898a404370f611813441a33502ffbd.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: e355bdfe26898a404370f611813441a33502ffbd.bin.log, match: true, prepare: true,
+  profile: e355bdfe26898a404370f611813441a33502ffbd.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 2704.1109988689423, trace: e355bdfe26898a404370f611813441a33502ffbd.bin.trace,
+  type: 3, user_space: true, version: null}
+e364e96ce9edaeab94ccd750cca20e03fcabad54.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: e364e96ce9edaeab94ccd750cca20e03fcabad54.bin.log, match: true, prepare: true,
+  profile: e364e96ce9edaeab94ccd750cca20e03fcabad54.bin.profile.yaml, rootfs: true,
+  shell: true, size: 3670016, time: 1633.9949991703033, trace: e364e96ce9edaeab94ccd750cca20e03fcabad54.bin.trace,
+  type: 3, user_space: true, version: 3.18.20}
+e4268e4b46d6826780a9227569f7992a6ba03dcf.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e4268e4b46d6826780a9227569f7992a6ba03dcf.bin.log,
+  match: true, prepare: true, profile: e4268e4b46d6826780a9227569f7992a6ba03dcf.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: e4268e4b46d6826780a9227569f7992a6ba03dcf.bin.trace,
+  type: 6, user_space: false, version: null}
+e481e8e949bdb47af9d649c82acbc7b79f7d081f.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e481e8e949bdb47af9d649c82acbc7b79f7d081f.bin.log,
+  match: true, prepare: true, profile: e481e8e949bdb47af9d649c82acbc7b79f7d081f.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: e481e8e949bdb47af9d649c82acbc7b79f7d081f.bin.trace,
+  type: 6, user_space: false, version: null}
+e54f6db853f5030bf9fa26bfd27b1cad2d24435f.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e54f6db853f5030bf9fa26bfd27b1cad2d24435f.bin.log,
+  match: true, prepare: true, profile: e54f6db853f5030bf9fa26bfd27b1cad2d24435f.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: e54f6db853f5030bf9fa26bfd27b1cad2d24435f.bin.trace,
+  type: 6, user_space: false, version: null}
+e5768849c15ba91cac4b3719e24964857d4ded42.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e5768849c15ba91cac4b3719e24964857d4ded42.bin.log,
+  match: true, prepare: true, profile: e5768849c15ba91cac4b3719e24964857d4ded42.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: e5768849c15ba91cac4b3719e24964857d4ded42.bin.trace,
+  type: 6, user_space: false, version: null}
+e5a20ba348f4a27b0d9d6f3b55d7803ef2195200.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: e5a20ba348f4a27b0d9d6f3b55d7803ef2195200.bin.log,
+  match: true, prepare: true, profile: e5a20ba348f4a27b0d9d6f3b55d7803ef2195200.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3670016, trace: e5a20ba348f4a27b0d9d6f3b55d7803ef2195200.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+ebaee0e59e72fe45a71c45b721c7c8e76dc3623b.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: ebaee0e59e72fe45a71c45b721c7c8e76dc3623b.bin.log,
+  match: true, prepare: true, profile: ebaee0e59e72fe45a71c45b721c7c8e76dc3623b.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: ebaee0e59e72fe45a71c45b721c7c8e76dc3623b.bin.trace,
+  type: 6, user_space: false, version: null}
+ebb499ffc0780c3546fa4364ffff8257da01cf9a.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: ebb499ffc0780c3546fa4364ffff8257da01cf9a.bin.log,
+  match: true, prepare: true, profile: ebb499ffc0780c3546fa4364ffff8257da01cf9a.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: ebb499ffc0780c3546fa4364ffff8257da01cf9a.bin.trace,
+  type: 6, user_space: false, version: null}
+ec427fd1305aa6626ca93a382ea685c1f51cbc1e.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: ec427fd1305aa6626ca93a382ea685c1f51cbc1e.bin.log,
+  match: true, prepare: true, profile: ec427fd1305aa6626ca93a382ea685c1f51cbc1e.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7208960, trace: ec427fd1305aa6626ca93a382ea685c1f51cbc1e.bin.trace,
+  type: 6, user_space: false, version: null}
+ed6f6eab37158b1809d3351bb205a757a0ff5e3c.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: ed6f6eab37158b1809d3351bb205a757a0ff5e3c.bin.log, match: true, prepare: true,
+  profile: ed6f6eab37158b1809d3351bb205a757a0ff5e3c.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 996.9899995326996, trace: ed6f6eab37158b1809d3351bb205a757a0ff5e3c.bin.trace,
+  type: 3, user_space: true, version: null}
+f003dbf9d5cad3d800fbea2889034ff8e0c368b7.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f003dbf9d5cad3d800fbea2889034ff8e0c368b7.bin.log,
+  match: true, prepare: true, profile: f003dbf9d5cad3d800fbea2889034ff8e0c368b7.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7340032, trace: f003dbf9d5cad3d800fbea2889034ff8e0c368b7.bin.trace,
+  type: 6, user_space: false, version: null}
+f0aeff4dae46add05fde3db822ddfc96d267f7eb.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f0aeff4dae46add05fde3db822ddfc96d267f7eb.bin.log,
+  match: true, prepare: true, profile: f0aeff4dae46add05fde3db822ddfc96d267f7eb.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6815744, trace: f0aeff4dae46add05fde3db822ddfc96d267f7eb.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}
+f18f08b07194f678b3b7c8ebe05f3b4646e8b82b.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f18f08b07194f678b3b7c8ebe05f3b4646e8b82b.bin.log,
+  match: true, prepare: true, profile: f18f08b07194f678b3b7c8ebe05f3b4646e8b82b.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: f18f08b07194f678b3b7c8ebe05f3b4646e8b82b.bin.trace,
+  type: 6, user_space: false, version: null}
+f2c59b4779b6df8bef5ba0963fb76555b537e3a1.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f2c59b4779b6df8bef5ba0963fb76555b537e3a1.bin.log,
+  match: true, prepare: true, profile: f2c59b4779b6df8bef5ba0963fb76555b537e3a1.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4456448, trace: f2c59b4779b6df8bef5ba0963fb76555b537e3a1.bin.trace,
+  type: 6, user_space: false, version: null}
+f32512c6b7a999b7ad629c6e0bfbd1a5d79fb765.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f32512c6b7a999b7ad629c6e0bfbd1a5d79fb765.bin.log,
+  match: true, prepare: true, profile: f32512c6b7a999b7ad629c6e0bfbd1a5d79fb765.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: f32512c6b7a999b7ad629c6e0bfbd1a5d79fb765.bin.trace,
+  type: 6, user_space: false, version: null}
+f4ea3ce1242095e1c7956e22a9fa24523d4e2a9b.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f4ea3ce1242095e1c7956e22a9fa24523d4e2a9b.bin.log,
+  match: true, prepare: true, profile: f4ea3ce1242095e1c7956e22a9fa24523d4e2a9b.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6946816, trace: f4ea3ce1242095e1c7956e22a9fa24523d4e2a9b.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}
+f59f400e51a3353b02375e4f153a8a7cd2c6525c.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: f59f400e51a3353b02375e4f153a8a7cd2c6525c.bin.log, match: true, prepare: true,
+  profile: f59f400e51a3353b02375e4f153a8a7cd2c6525c.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 1352.888999223709, trace: f59f400e51a3353b02375e4f153a8a7cd2c6525c.bin.trace,
+  type: 3, user_space: true, version: null}
+f643cebb0e4474c3761b08e82947e5306271abdc.bin: {arch: armel, format: true, kernel_extracted: false,
+  log: f643cebb0e4474c3761b08e82947e5306271abdc.bin.log, match: false, prepare: false,
+  profile: f643cebb0e4474c3761b08e82947e5306271abdc.bin.profile.yaml, rootfs: false,
+  shell: false, size: 2752512, trace: f643cebb0e4474c3761b08e82947e5306271abdc.bin.trace,
+  type: 6, user_space: false, version: null}
+f6d258502f54f52ecdbdcd3e2d6477b937d666a5.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f6d258502f54f52ecdbdcd3e2d6477b937d666a5.bin.log,
+  match: true, prepare: true, profile: f6d258502f54f52ecdbdcd3e2d6477b937d666a5.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: f6d258502f54f52ecdbdcd3e2d6477b937d666a5.bin.trace,
+  type: 6, user_space: false, version: null}
+f9f63a25b61d1b8af6509b8ee4cbc0c1d9b220ab.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: f9f63a25b61d1b8af6509b8ee4cbc0c1d9b220ab.bin.log,
+  match: true, prepare: true, profile: f9f63a25b61d1b8af6509b8ee4cbc0c1d9b220ab.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: f9f63a25b61d1b8af6509b8ee4cbc0c1d9b220ab.bin.trace,
+  type: 6, user_space: false, version: null}
+fa1a915343290668d591aea1972244668d0a11d8.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: fa1a915343290668d591aea1972244668d0a11d8.bin.log,
+  match: true, prepare: true, profile: fa1a915343290668d591aea1972244668d0a11d8.bin.profile.yaml,
+  rootfs: false, shell: false, size: 6553600, trace: fa1a915343290668d591aea1972244668d0a11d8.bin.trace,
+  type: 6, user_space: false, version: 3.18.20}
+fb906b681692e9c0bf215b59f1ec392f55f59c0e.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: fb906b681692e9c0bf215b59f1ec392f55f59c0e.bin.log, match: true, prepare: true,
+  profile: fb906b681692e9c0bf215b59f1ec392f55f59c0e.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 3197.1039991378784, trace: fb906b681692e9c0bf215b59f1ec392f55f59c0e.bin.trace,
+  type: 3, user_space: true, version: null}
+fc44524dd8fd8e5f7d9a13027a85a25f97231a3b.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: fc44524dd8fd8e5f7d9a13027a85a25f97231a3b.bin.log, match: true, prepare: true,
+  profile: fc44524dd8fd8e5f7d9a13027a85a25f97231a3b.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4194304, time: 284.67399978637695, trace: fc44524dd8fd8e5f7d9a13027a85a25f97231a3b.bin.trace,
+  type: 3, user_space: true, version: null}
+fc46f7a48a51a8e7aa588e2fa62ece84693affdd.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: fc46f7a48a51a8e7aa588e2fa62ece84693affdd.bin.log,
+  match: true, prepare: true, profile: fc46f7a48a51a8e7aa588e2fa62ece84693affdd.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4063232, trace: fc46f7a48a51a8e7aa588e2fa62ece84693affdd.bin.trace,
+  type: 6, user_space: false, version: null}
+fcc7bde8509f4bd8c6ce12ccb68b10c906224192.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: fcc7bde8509f4bd8c6ce12ccb68b10c906224192.bin.log,
+  match: true, prepare: true, profile: fcc7bde8509f4bd8c6ce12ccb68b10c906224192.bin.profile.yaml,
+  rootfs: false, shell: false, size: 7077888, trace: fcc7bde8509f4bd8c6ce12ccb68b10c906224192.bin.trace,
+  type: 6, user_space: false, version: null}
+fd7e46b629e5060fc01c248041f3216b03143912.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: fd7e46b629e5060fc01c248041f3216b03143912.bin.log,
+  match: true, prepare: true, profile: fd7e46b629e5060fc01c248041f3216b03143912.bin.profile.yaml,
+  rootfs: false, shell: false, size: 4194304, trace: fd7e46b629e5060fc01c248041f3216b03143912.bin.trace,
+  type: 6, user_space: false, version: null}
+ff3c5bfdd72a2f71fc1620bce068e8a21d117562.bin: {arch: armel, format: true, kernel_extracted: true,
+  log: ff3c5bfdd72a2f71fc1620bce068e8a21d117562.bin.log, match: true, prepare: true,
+  profile: ff3c5bfdd72a2f71fc1620bce068e8a21d117562.bin.profile.yaml, rootfs: true,
+  shell: true, size: 4063232, time: 2345.0519988536835, trace: ff3c5bfdd72a2f71fc1620bce068e8a21d117562.bin.trace,
+  type: 3, user_space: true, version: null}
+ff5f54fc8bf02f8850402441d96fd4c741f88026.bin: {arch: armel, failed_rootfs: flag_unset,
+  format: true, kernel_extracted: true, log: ff5f54fc8bf02f8850402441d96fd4c741f88026.bin.log,
+  match: true, prepare: true, profile: ff5f54fc8bf02f8850402441d96fd4c741f88026.bin.profile.yaml,
+  rootfs: false, shell: false, size: 3932160, trace: ff5f54fc8bf02f8850402441d96fd4c741f88026.bin.trace,
+  type: 6, user_space: false, version: 3.18.23}

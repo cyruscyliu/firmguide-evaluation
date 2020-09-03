@@ -92,7 +92,7 @@ def find_match(target_dir, image_list):
         else:
             image_list[k]['match'] = False
             if image_list[k]['kernel_extracted']:
-                image_list[k]['match'] = True
+                print('[-] BUT MATCH FAILED {}'.format(log))
     return c
 
 
@@ -136,8 +136,8 @@ def find_rootfs(target_dir, image_list):
                     reason = 'zero_rate'
                 elif line.find('Data bus error') != -1:
                     reason = 'data_bus_error'
-                elif line.find('Failed to get CPU node') != -1:
-                    reason = 'failed_cpu_node'
+                elif line.find('OF: fdt: Error -11 processing FDT') != -1:
+                    reason = 'failed_to_process_fdt'
                 elif line.find('Failed to find ralink,rt3050-sysc node') != -1:
                     reason = 'failed_sysc_node'
                 if line.find('tracing - [') != -1:
@@ -286,7 +286,7 @@ def online(argv):
             table.add_row(line)
             find_size(target_dir, image_list)
             find_type(target_dir, image_list)
-            # find_version(target_dir, image_list)
+            find_version(target_dir, image_list)
             find_arch(target_dir, image_list)
             yaml.safe_dump(image_list, open('commandb/{}_{}.yaml'.format(target, subtarget), 'w'))
 

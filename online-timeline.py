@@ -96,6 +96,7 @@ def online(argv):
             image_list = gen_image_list(target, subtarget, target_dir)
             for k, v in image_list.items():
                 log = os.path.join(target_dir, v['log'])
+                print(log)
                 timeline = find_timeline(target_dir, log)
                 if timeline[3] == .0 or timeline[-1] is None:
                     continue

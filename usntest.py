@@ -23,9 +23,7 @@ def usntest_run(path_to_dtb):
     s_smp = False
     cpus = find_flatten_cpu_in_fdt(dts)
     if cpus is not None:
-        if len(cpus) == 1:
-            return s_supported, s_smp, None
-        else:
+        if len(cpus) > 1:
             s_smp = True
 
     # test intc model

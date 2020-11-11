@@ -37,9 +37,9 @@ with open('insights/supp_range_subtarget') as f:
         if os.path.exists(dtbd2):
             dtbd = dtbd2
         if os.path.exists(dtbd1):
-            dtbd = dtbd2
+            dtbd = dtbd1
         if dt and dtbd is None:
-            print('[-] handle {}/{} serial/smp in the future'.format(target, subtarget))
+            print('[-] handle {}/{} serial/smp/intc in the future'.format(target, subtarget))
 
         if dtbd is not None:
             dtb = None
@@ -49,10 +49,13 @@ with open('insights/supp_range_subtarget') as f:
             if dtb is None:
                 print('[-] there is no dtb in {}'.format(dtbd))
                 continue
-            a, b, c = usntest_run(dtb)
-            target_board_properties[target]['serial'] = a
-            target_board_properties[target]['smp'] = b
-            target_board_properties[target]['intc'] = c
+            try:
+                a, b, c = usntest_run(dtb)
+                target_board_properties[target]['serial'] = a
+                target_board_properties[target]['smp'] = b
+                target_board_properties[target]['intc'] = c
+            except AttributeError:
+                pass
 
         target_board_properties[target]['subtarget'].append(subtarget)
         target_board_properties[target]['board'] = board

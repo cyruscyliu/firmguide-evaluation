@@ -11,6 +11,7 @@ BUILD = '/root/build-latest'
 
 
 summary = {}
+compatible_table = {}
 
 
 def check_version(target, subtarget, target_dir):
@@ -35,6 +36,11 @@ def check_compatible(target, subtarget, target_dir):
         dts = load_dtb(path_to_dtb)
         compatible = find_compatible_in_fdt(dts)
         summary['{}/{}'.format(target, subtarget)]['machines'].extend(compatible)
+        for cmptb in compatible[:-1]:
+            if cmptb not in compatible_table:
+                compatible_table[cmptb] = 1
+            else:
+                compatible_table[cmptb] += 1
 
     summary['{}/{}'.format(target, subtarget)]['machines'] = \
             list(set(summary['{}/{}'.format(target, subtarget)]['machines']))
@@ -61,3 +67,4 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     online_robustness(args)
+    print(compatible_table)

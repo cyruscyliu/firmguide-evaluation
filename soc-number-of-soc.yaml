@@ -1,0 +1,26 @@
+intc:
+  arm,arm11mp-gic: {number_of_soc: 1} #
+  arm,cortex-a7-gic: {number_of_soc: 1}
+  arm,cortex-a9-gic: {number_of_soc: 20} #
+  marvell,orion-bridge-intc: {number_of_soc: 14} #
+  marvell,orion-intc: {number_of_soc: 14} #
+  mti,cpu-interrupt-controller: {number_of_soc: 206} #
+  plxtech,nas782x-rps: {number_of_soc: 1}
+  qca,ar7100-cpu-intc: {number_of_soc: 113}
+  qca,ar7100-misc-intc: {number_of_soc: 9}
+  qca,ar7240-misc-intc: {number_of_soc: 104} #
+  qca,ar9340-intc: {number_of_soc: 87}
+  ralink,rt3050-intc@ralink,rt2880-intc: {number_of_soc: 126} #
+  ralink,rt3352-intc@ralink,rt2880-intc: {number_of_soc: 8} #
+  ralink,rt5350-intc@ralink,rt2880-intc: {number_of_soc: 72} #
+timer:
+  arm,arm11mp-twd-timer: {number_of_soc: 1} #
+  arm,armv7-timer: {number_of_soc: 1}
+  arm,cortex-a9-global-timer: {number_of_soc: 20} #
+  arm,cortex-a9-twd-timer: {number_of_soc: 20} #
+  marvell,orion-timer: {number_of_soc: 14} #
+  plxtech,nas782x-rps-timer: {number_of_soc: 1} #
+  ralink,rt3050-timer@ralink,rt2880-timer: {number_of_soc: 126} #
+  ralink,rt3352-timer@ralink,rt2880-timer: {number_of_soc: 8} #
+  ralink,rt5350-systick@ralink,cevt-systick: {number_of_soc: 72}
+  ralink,rt5350-timer@ralink,rt2880-timer: {number_of_soc: 72} #

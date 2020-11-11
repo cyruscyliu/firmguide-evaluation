@@ -62,7 +62,7 @@ def frequency(args):
     table.title = 'target/board summary on {}'.format(INPUT)
     table.field_names = [
         'target', 'subtarget',
-        'arch', 'board', 'dt', 'smp', 'uart', 'nvram',
+        'arch', 'board', 'dt', 'smp', 'gic', 'uart', 'nvram',
         'count', 'portion', 'sum', 'subportion', 'subsum']
     for target, v in summary.items():
         sum1 = v['count']
@@ -74,12 +74,12 @@ def frequency(args):
                 table.add_row([
                     target, subtarget,
                     mapping[target]['arch'], mapping[target]['board'], mapping[target]['dt'],
-                    mapping[target]['smp'], mapping[target]['serial'], 'unk',
+                    mapping[target]['smp'], mapping[target]['intc'], mapping[target]['serial'], 'unk',
                     c, p2, sum2, p1, sum1])
-            except KeyError:
+            except KeyError as e:
                 table.add_row([
                     target, subtarget,
-                    'unk', 'unk', 'unk', 'unk', 'unk', 'unk',
+                    'unk', 'unk', 'unk', 'unk', 'unk', 'unk', 'unk',
                     c, p2, sum2, p1, sum1])
 
     if args.json:

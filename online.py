@@ -11,14 +11,26 @@ from offline import find_kernel_version2
 BUILD = '/root/build-latest'
 
 
+def skip(target_dir, v):
+    profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
+    path_to_dtb = profile['components']['path_to_dtb']
+    if path_to_dtb is None:
+        return True
+    return False
+
+
 def find_arch(target_dir, image_list):
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         image_list[k]['arch'] = profile['basics']['architecture'] + 'e' + profile['basics']['endian']
 
 
 def find_size(target_dir, image_list):
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         image_list[k]['size'] = os.path.getsize(profile['components']['path_to_raw'])
 
@@ -26,6 +38,8 @@ def find_size(target_dir, image_list):
 def find_version(target_dir, image_list):
     print('>>>>>>>> FIND KERNEL VERSION ...')
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         version = None
         if 'path_to_kernel' in profile['components']:
@@ -39,6 +53,8 @@ def find_version(target_dir, image_list):
 
 def find_type(target_dir, image_list):
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         image_list[k]['type'] = profile['components']['type']
 
@@ -46,6 +62,8 @@ def find_type(target_dir, image_list):
 def find_format(target_dir, image_list):
     c = 0
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         if profile['components']['supported']:
             c += 1
@@ -58,6 +76,8 @@ def find_format(target_dir, image_list):
 def find_kernel_extracted(target_dir, image_list):
     c = 0
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         if profile['components']['path_to_kernel'] is not None:
             c += 1
@@ -70,6 +90,8 @@ def find_kernel_extracted(target_dir, image_list):
 def find_match(target_dir, image_list):
     c = 0
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         log = os.path.join(target_dir, v['log'])
         status = 0
         with open(log) as f:
@@ -99,6 +121,8 @@ def find_match(target_dir, image_list):
 def find_prepare(target_dir, image_list):
     c = 0
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         log = os.path.join(target_dir, v['log'])
         status = 0
         with open(log) as f:
@@ -121,6 +145,8 @@ def find_rootfs(target_dir, image_list):
     c, c1 = 0, 0
 
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         log = os.path.join(target_dir, v['log'])
         status = 0
         reason = None
@@ -168,6 +194,8 @@ def find_rootfs(target_dir, image_list):
 def find_user_space(target_dir, image_list):
     c = 0
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         if profile['runtime']['user_mode']:
             c += 1
@@ -180,6 +208,8 @@ def find_user_space(target_dir, image_list):
 def find_shell(target_dir, image_list):
     c, c1 = 0, 0
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         log = os.path.join(target_dir, v['log'])
         status = 0
         reason = None
@@ -215,6 +245,8 @@ def find_time(target_dir, image_list):
     t = 0
     c = 0
     for k, v in image_list.items():
+        if skip(target_dir, v):
+            continue
         log = os.path.join(target_dir, v['log'])
         start, end = None, None
         with open(log) as f:

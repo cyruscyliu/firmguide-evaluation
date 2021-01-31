@@ -17,10 +17,12 @@ BUILD = '/root/build-latest'
 summary = {}
 
 def soc_statistics(target_dir, image_list):
+    skipped = 0
     for k, v in image_list.items():
         profile = yaml.safe_load(open(os.path.join(target_dir, v['profile'])))
         path_to_dtb = profile['components']['path_to_dtb']
         if path_to_dtb is None:
+            skipped += 1
             continue
         dts = load_dtb(path_to_dtb)
         compatible = find_compatible_in_fdt(dts)
@@ -41,6 +43,7 @@ def soc_statistics(target_dir, image_list):
             summary[compatible_str]['images'] = {}
         summary[compatible_str]['images'][k] = v
         summary[compatible_str]['target_dir'] = target_dir
+    print('[-] Skip {} images'.format(skipped))
 
 
 def soc(argv):
@@ -61,6 +64,7 @@ def soc(argv):
             print('[-] Handling {}/{}'.format(target, subtarget))
             target_dir = os.path.join(BUILD, vv['hash'])
             image_list = gen_image_list(target, subtarget, target_dir)
+            print('[-] Generating {} images'.format(len(image_list)))
             soc_statistics(target_dir, image_list)
     with open('soc-statistics.yaml', 'w') as f:
         yaml.safe_dump(summary, f)

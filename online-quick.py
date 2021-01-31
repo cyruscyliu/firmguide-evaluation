@@ -29,6 +29,7 @@ def online(argv):
                     continue
             target_dir = os.path.join(BUILD, vv['hash'])
             image_list = gen_image_list(target, subtarget, target_dir)
+            print('[-] Generating {} images'.format(len(image_list)))
             unpack_format = find_format(target_dir, image_list)
             unpack_kernel_extracted = \
                 find_kernel_extracted(target_dir, image_list)

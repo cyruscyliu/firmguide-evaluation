@@ -59,7 +59,7 @@ def second_success_rate_of_soc():
         'FORMAT', 'KERNEL_EXTRACTED',
         'ROOTFS', 'USER_SPACE', 'SHELL', 'TIME'
     ]
-    soc_statistics = yaml.safe_load(open('soc-statistics.yaml'))
+    soc_statistics = yaml.safe_load(open('soc-latest-statistics.yaml'))
     for soc, statistics in soc_statistics.items():
         image_list = statistics['images']
         target_dir = statistics['target_dir']
@@ -81,9 +81,9 @@ def second_success_rate_of_soc():
 
 
 if __name__ == '__main__':
-    if not os.path.exists('soc-statistics.yaml'):
-        print('[-] error: please run ./soc.py first')
+    if not os.path.exists('soc-latest-statistics.yaml'):
+        print('[-] error: please run ./soc-latest.py first')
         exit()
-    list_all_peripheral_models()
+    # list_all_peripheral_models()
     # first_number_of_soc()
     second_success_rate_of_soc()

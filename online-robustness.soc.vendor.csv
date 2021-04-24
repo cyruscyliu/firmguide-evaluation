@@ -1,0 +1,118 @@
+soc,count
+Atheros AR7161,36
+Atheros AR7241,20
+Atheros AR7242,24
+Atheros AR9330,4
+Atheros AR9331,24
+Atheros AR9341,10
+Atheros AR9342,24
+Atheros AR9344,70
+Broadcom BCM4708A0,241
+Broadcom BCM4709A0,128
+Broadcom BCM47189,19
+Qualcomm Atheros QCA9531,22
+Qualcomm Atheros QCA9533,41
+Qualcomm Atheros QCA9557,64
+Qualcomm Atheros QCA9558,54
+Qualcomm Atheros QCA9560,16
+Qualcomm Atheros QCA9561,18
+Qualcomm Atheros QCA9563,114
+Ralink RT3050,1164
+Ralink RT3052,1815
+Ralink RT3352,173
+Ralink RT5350,1632
+marvell 88f6192,20
+marvell 88f6281,226
+marvell 88f6282,102
+plx nas7820,149
+vendor,count
+7links,80
+8devices,49
+airlive,45
+akitio,31
+alfa,45
+allnet,180
+alpha,90
+arc,45
+argus,45
+aruba,4
+asiarf,151
+asus,311
+awb,45
+aximcom,44
+aztech,45
+belkin,90
+buffalo,170
+cisco,20
+cloud engines,54
+comfast,12
+d-link,745
+devolo,24
+edimax,98
+elecom,12
+embedded wireless,4
+engenius,57
+etactica,4
+evaluation board,124
+gl.inet,12
+hame,90
+hauppauge,49
+hilink,45
+hootoo,44
+huawei,73
+i-o data,20
+intenso,44
+iomega,39
+jcg,177
+jjplus,4
+la,68
+librerouter,4
+linksys,65
+mitrastar technology corp.,37
+mofi,45
+nec,8
+netcore,49
+netgear,213
+nexaira,45
+nexx,88
+nixcorex1,76
+ocedo,12
+olimex,88
+omnima,85
+openmesh,4
+petatel,45
+phicomm,6
+pisen,6
+planex,148
+pogoplug,74
+poray,270
+powercloud,12
+prolink,45
+raidsonic,34
+ralink,45
+rosinson,4
+seagate,99
+shuttle,7
+sitecom,80
+skyline,45
+smartrg,22
+sparklan,45
+teltonika,45
+tenda,205
+tp-link,229
+trendnet,56
+ubiquiti,80
+upvel,78
+ur-326n4g,5
+ur-336un,3
+vocore,85
+wansview,45
+western digital,8
+winchannel,4
+wiznet,42
+xdx,45
+xiaomi,4
+yuncore,18
+zbt,4
+zorlik,18
+zyxel,141

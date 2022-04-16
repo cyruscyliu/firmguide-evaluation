@@ -1,3 +1,0 @@
-cd /root/esv-latest && ./salamander upload -f /root/images/03e939a7d37fe4fa35cf695b2be2f4bc579d2e26.bin -l http://archive.openwrt.org/releases/18.06.1/targets/ramips/rt305x/openwrt-18.06.1-ramips-rt305x-jhr-n926r-initramfs-kernel.bin -nc -del
-cd /root/esv-latest && ./salamander upload -f /root/images/5342d1f7ed860feac3571707c4337b5cc5c1392e.bin -l http://archive.openwrt.org/releases/18.06.1/targets/ramips/rt305x/openwrt-18.06.1-ramips-rt305x-mzk-w300nh2-squashfs-sysupgrade.bin -nc -del
-cd /root/esv-latest && ./salamander upload -f /root/images/c166249e72bf8540bfcfad7d15256a4e5adc49f9.bin -l http://archive.openwrt.org/releases/18.06.1/targets/ramips/rt305x/openwrt-18.06.1-ramips-rt305x-jhr-n825r-initramfs-kernel.bin -nc -del

@@ -1,0 +1,1 @@
+cd /root/esv-latest && ./salamander upload -f /root/images/3f071bc350e40e5baefcfa6a9d0146f39c2a3c1b.bin -l http://archive.openwrt.org/releases/19.07.0/targets/ath79/generic/openwrt-19.07.0-ath79-generic-devolo_dvl1200i-initramfs-kernel.bin -nc -del

@@ -1,22 +1,21 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import os
 import json
 import argparse
 
-from firmware import DatabaseText, DatabaseFirmadyne
-from frequency import parse_openwrt_url
+from images.firmware import DatabaseText, DatabaseFirmadyne, parse_openwrt_url
 
 mapping = json.load(open('target-board-properties.json'))
 
 FIRMWARE_BINARY = '/root/images'
-SALAMANDER = '/root/esv-latest'
+FIRMGUIDE = '/root/esv-latest'
 
 
 def generate_commands(args):
     if args.database_type == 'text':
-        db = DatabaseText('firmware.text')
+        db = DatabaseText('images/firmware.text')
     else:
-        db = DatabaseFirmadyne('firmware.firmadyne', brand='openwrt')
+        db = DatabaseFirmadyne('images/firmware.firmadyne', brand='openwrt')
 
     for firmware in db.get_firmware():
         firmware['path'] = \
@@ -53,16 +52,16 @@ def generate_commands(args):
                 comment = True
 
         if comment:
-            command = '# cd {} && ./salamander upload -f {}'.format(
-                SALAMANDER, firmware['path'])
+            command = '# cd {} && ./firmware upload -f {}'.format(
+                FIRMGUIDE, firmware['path'])
         else:
-            command = 'cd {} && ./salamander upload -f {}'.format(
-                SALAMANDER, firmware['path'])
+            command = 'cd {} && ./firmguide upload -f {}'.format(
+                FIRMGUIDE, firmware['path'])
 
         if 'url' in firmware:
             command += ' -l {}'.format(firmware['url'])
         command += ' -nc'
-        # command += ' -to 120'
+        command += ' -to 120'
         command += ' -del'
         print(command)
 

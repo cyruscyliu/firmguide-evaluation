@@ -1,4 +1,4 @@
-# FirmGuide Evaluation Guideline
+# FirmGuide Evaluation
 
 ## File list
 
